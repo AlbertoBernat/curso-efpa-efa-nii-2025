@@ -1,0 +1,9 @@
+---
+title: "Módulo 3 – Gestión de carteras"
+format: html
+sidebar: teoria
+---
+
+# Módulo 3: Gestión de carteras
+
+Contenido en preparación...

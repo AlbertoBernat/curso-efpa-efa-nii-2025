@@ -1,0 +1,127 @@
+---
+title: "Sesión 1"
+format: html
+sidebar: sesiones
+---
+
+
+
+### 🎥 Vídeo
+
+::: {style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;"}
+<iframe src="https://www.youtube.com/embed/RRSeY1DIaI0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+
+</iframe>
+:::
+
+# 🧪 Análisis de la prueba de nivel
+
+**1.** ¿Cuál de los siguientes estilos de inversión de fondos de inversión libre se enfoca en operaciones corporativas como fusiones, adquisiciones o reestructuraciones para generar beneficios?
+
+a.  Global Macro.\
+b.  [✅ Event Driven.]{style="color:green; font-weight:bold"}\
+c.  Managed Futures.\
+d.  Distressed Securities.
+
+------------------------------------------------------------------------
+
+**2.** ¿Qué quiere decir que el sistema público de pensiones es un sistema de reparto?
+
+a.  [❌ Los rendimientos generados por la gestión pública de las cotizaciones sociales...]{style="color:red; font-weight:bold"}\
+b.  [✅ Las contribuciones de la población activa van dirigidas a pagar las pensiones...]{style="color:green; font-weight:bold"}\
+c.  Las pensiones por percibir dependen de la cotización realizada y la rentabilidad...\
+d.  Las cotizaciones dependen del reparto entre comunidades autónomas...
+
+**📝 Comentario**: La respuesta correcta es **b**, porque el sistema de reparto implica que las cotizaciones actuales financian las pensiones actuales.
+
+------------------------------------------------------------------------
+
+**4.** Calcula la rentabilidad geométrica anualizada para estos flujos de caja.
+
+a.  [✅ 4,84%]{style="color:green; font-weight:bold"}\
+b.  [❌ 3,12%]{style="color:red; font-weight:bold"}\
+c.  2,83%\
+d.  3,35%
+
+**📝 Comentario**: La rentabilidad geométrica es la media compuesta de los rendimientos anuales y es la medida correcta aquí.
+
+------------------------------------------------------------------------
+
+**7.** ¿Qué caracteriza al sistema de amortización americano?
+
+a.  [✅ Solo intereses y el capital se paga al final.]{style="color:green; font-weight:bold"}\
+b.  [❌ Parte de capital y parte de intereses.]{style="color:red; font-weight:bold"}\
+c.  Pagos constantes durante toda la vida del préstamo.\
+d.  Cuotas variables según tasas de interés.
+
+**📝 Comentario**: El sistema americano se basa en pagar solo intereses y devolver el capital al final (bullet).
+
+------------------------------------------------------------------------
+
+**16.** ¿Cuál es el supuesto clave sobre la tasa de crecimiento de los dividendos en el modelo de Gordon-Shapiro?
+
+a.  [❌ Crece superior a la tasa de descuento.]{style="color:red; font-weight:bold"}\
+b.  [✅ Crece a una tasa constante inferior a la tasa de descuento.]{style="color:green; font-weight:bold"}\
+c.  Crece según beneficios netos.\
+d.  Crece igual a la tasa de descuento.
+
+**📝 Comentario**: La tasa de crecimiento debe ser constante y menor a la tasa de descuento para que el modelo funcione.
+
+------------------------------------------------------------------------
+
+**18.** En un mercado eficiente a nivel débil, ¿cuál de las siguientes técnicas tiene poca efectividad para predecir precios futuros?
+
+a.  [✅ Análisis técnico.]{style="color:green; font-weight:bold"}\
+b.  [❌ Análisis fundamental.]{style="color:red; font-weight:bold"}\
+c.  Diversificación de cartera.\
+d.  Estrategia de compra y mantenimiento.
+
+**📝 Comentario**: El análisis técnico se basa en patrones pasados, y en un mercado eficiente débil, estos ya están reflejados.
+
+------------------------------------------------------------------------
+
+**21.** ¿Cuál es la principal diferencia entre el ratio de Sharpe y el ratio de Treynor?
+
+a.  [✅ Sharpe mide riesgo total; Treynor solo sistemático.]{style="color:green; font-weight:bold"}\
+b.  [❌ Sharpe mide riesgo sistemático; Treynor riesgo total.]{style="color:red; font-weight:bold"}\
+c.  Ambos miden riesgo sistemático.\
+d.  Ambos miden riesgo total.
+
+**📝 Comentario**: Sharpe usa volatilidad total; Treynor solo beta. Son útiles según el tipo de cartera.
+
+------------------------------------------------------------------------
+
+**23.** En general, un alto ROA (Return on Assets) indica:
+
+a.  [❌ Alta rentabilidad para accionistas.]{style="color:red; font-weight:bold"}\
+b.  Mala gestión financiera.\
+c.  [✅ Alta rentabilidad de los activos.]{style="color:green; font-weight:bold"}\
+d.  Alta solvencia y liquidez.
+
+**📝 Comentario**: ROA mide el beneficio generado por cada euro invertido en activos.
+
+------------------------------------------------------------------------
+
+**24.** ¿Qué rentas están exentas para un residente fiscal en la UE en el IRNR?
+
+a.  Solo la I.\
+b.  Solo la II.\
+c.  [✅ I, II y IV.]{style="color:green; font-weight:bold"}\
+d.  [❌ II y IV.]{style="color:red; font-weight:bold"}
+
+**📝 Comentario**: I, II y IV están exentas según la normativa del IRNR para residentes en la UE.
+
+------------------------------------------------------------------------
+
+# 📊 Resumen de errores por módulo EFA
+
+| Nº  | Tema                         | Módulo EFA                          |
+|-----|------------------------------|-------------------------------------|
+| 2   | Sistema público de pensiones | Pensiones y planificación           |
+| 4   | Rentabilidad geométrica      | Gestión de carteras                 |
+| 7   | Amortización americana       | Crédito y financiación              |
+| 16  | Modelo de Gordon-Shapiro     | Análisis fundamental                |
+| 18  | Eficiencia del mercado       | Instrumentos y mercados financieros |
+| 21  | Ratio Sharpe vs Treynor      | Gestión de carteras                 |
+| 23  | ROA (Return on Assets)       | Renta variable                      |
+| 24  | Exención IRNR                | Fiscalidad de las inversiones       |

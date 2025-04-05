@@ -1,0 +1,9 @@
+---
+title: "Sesión 4"
+format: html
+sidebar: sesiones
+---
+
+# Sesión 4
+
+Contenido en preparación...

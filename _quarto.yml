@@ -1,0 +1,56 @@
+project:
+  type: website
+
+website:
+  title: "EFA Nivel II"
+  navbar:
+    background: primary
+    search: true
+    logo: efpa_logo_web_resized.png # ✅ Debe ir AQUÍ, dentro de navbar
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Sesiones"
+        href: sesiones/index.qmd
+      - text: "Teoría"
+        href: teoria/index.qmd
+
+  sidebar:
+    - id: sesiones
+      title: "Sesiones"
+      style: "docked"
+      background: light
+      contents:
+        - sesiones/index.qmd
+        - sesiones/sesion-01.qmd
+        - sesiones/sesion-02.qmd
+        - sesiones/sesion-03.qmd
+        - sesiones/sesion-04.qmd
+        - sesiones/sesion-05.qmd
+        - sesiones/sesion-06.qmd
+        - sesiones/sesion-07.qmd
+        - sesiones/sesion-08.qmd
+        - sesiones/sesion-09.qmd
+        - sesiones/sesion-10.qmd
+
+    - id: teoria
+      title: "Teoría"
+      style: "docked"
+      background: light
+      contents:
+        - teoria/index.qmd
+        - teoria/modulo-01.qmd
+        - teoria/modulo-02.qmd
+        - teoria/modulo-03.qmd
+        - teoria/modulo-04.qmd
+        - teoria/modulo-05.qmd
+        - teoria/modulo-06.qmd
+        - teoria/modulo-07.qmd
+        - teoria/modulo-08.qmd
+        - teoria/modulo-09.qmd
+        - teoria/modulo-10.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css

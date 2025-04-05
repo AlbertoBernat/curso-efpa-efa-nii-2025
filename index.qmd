@@ -1,0 +1,125 @@
+
+
+
+# Curso: Certificación EFA Nivel II — junio 2025  
+
+**Alumno/a**: Mariona  
+**Formador**: Alberto Bernat  
+**Inicio del curso**: 4 de abril de 2025  
+**Examen oficial EFPA**: 27 de junio de 2025
+
+---
+
+## 🔍 Evaluación inicial
+
+> Resultado de la prueba de nivel:  
+> ✔️ Buena base conceptual en sistema financiero y productos de inversión.  
+> ⚠️ Áreas a reforzar: cálculos financieros, análisis técnico, eficiencia de mercados.  
+
+```{.callout-note title="Objetivo principal"}
+Alcanzar la seguridad y soltura necesarias para afrontar con éxito el examen oficial de certificación EFA Nivel II (parte teórica y práctica).
+```
+
+---
+
+## 📚 Estructura y metodología
+
+- 10 sesiones de **1,5 horas** (viernes 16:00–17:30).
+- Calendario adaptado al ritmo real de aprendizaje.
+- Materiales completos para estudio y práctica.
+- Servicio de dudas permanente entre sesiones.
+- Foco en comprensión, argumentación y dominio técnico.
+
+```{.callout-tip title="Dinámica de cada sesión"}
+1. Resolución de dudas  
+2. Desarrollo de contenidos teórico-prácticos  
+3. Encargo de tareas para consolidar lo trabajado
+```
+
+---
+
+## 💻 Acceso a las sesiones
+
+Puedes acceder siempre con el siguiente enlace:
+
+```{.callout-important title="🔗 ENLACE ZOOM"}
+[Acceder a la sesión de Zoom](https://us02web.zoom.us/j/0000000000?pwd=XXXXXXXXX){.btn .btn-primary target="_blank"}
+```
+
+> El enlace es recurrente para las 10 sesiones. En caso de cambio, se avisará con antelación.
+
+---
+
+## 📅 Calendario de sesiones
+
+| Sesión | Fecha       | Contenido                                              |
+|--------|-------------|--------------------------------------------------------|
+| 1      | 4 abril     | Instrumentos y mercados financieros                   |
+| 2      | 11 abril    | Fondos y sociedades de inversión                      |
+| 3      | 18 abril    | Gestión de carteras                                   |
+| 4      | 25 abril    | Seguros                                               |
+| 5      | 2 mayo      | Pensiones y planificación de la jubilación           |
+| 6      | 9 mayo      | Inversión inmobiliaria                                |
+| 7      | 16 mayo     | Crédito y financiación                                |
+| 8      | 23 mayo     | Fiscalidad de las inversiones                         |
+| 9      | 30 mayo     | Marco regulatorio y planificación financiera         |
+| 10     | 6 junio     | Repaso general y simulacro corregido                 |
+
+---
+
+## 📌 Compromisos de trabajo
+
+### Formador
+
+- Diseñar cada sesión con enfoque personalizado.
+- Aportar materiales y recursos estructurados.
+- Hacer seguimiento individual y adaptaciones necesarias.
+- Resolver dudas en tiempo razonable entre sesiones.
+
+### Alumna
+
+- Asistencia regular a las sesiones.
+- Compromiso con las tareas semanales.
+- Participación activa en clase y simulacros.
+- Comunicación honesta sobre dudas o dificultades.
+
+---
+
+## 📝 Información del examen oficial EFA Nivel II (referencia)
+
+- **Parte 1 – Teórica**:  
+  40 preguntas tipo test (sin penalización).  
+  Mínimo 70% de aciertos (28/40). Duración: 1h 30min.
+
+- **Parte 2 – Práctica**:  
+  Casos con desarrollo, se evalúa razonamiento. Duración: 1h.
+
+> Es imprescindible aprobar ambas partes por separado.
+
+---
+
+## 📆 Convocatorias oficiales EFA Nivel II – 2025
+
+A continuación se detallan las fechas publicadas por EFPA España para la realización del examen parcial Nivel II en 2025:
+
+| Convocatoria | Fecha              | Modalidad |
+|--------------|--------------------|-----------|
+| 2ª           | 27 junio 2025      | Online    |
+| 3ª           | 26 septiembre 2025 | Online    |
+| 4ª           | 19 diciembre 2025  | Online    |
+
+> Todas las convocatorias se realizan en modalidad **online** y requieren inscripción previa. El aforo es limitado.
+
+---
+
+## 📎 Guía oficial de certificación EFPA (PDF)
+
+<iframe src="https://www.efpa.es/descargas/documentos/GUIA_DE_CERTIFICACION_EFA.pdf" width="100%" height="800px">
+Este navegador no soporta la visualización embebida de PDFs. Puedes [descargar la guía aquí](https://www.efpa.es/descargas/documentos/GUIA_DE_CERTIFICACION_EFA.pdf).
+</iframe>
+
+---
+
+```{.callout-note title="Cierre"}
+Con este enfoque personalizado, cada sesión contribuirá a tu preparación integral y segura para el examen oficial de junio. ¡Vamos a por ello!
+```

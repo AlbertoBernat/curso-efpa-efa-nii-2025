@@ -1,0 +1,9 @@
+---
+title: "Sesión 8"
+format: html
+sidebar: sesiones
+---
+
+# Sesión 8
+
+Contenido en preparación...

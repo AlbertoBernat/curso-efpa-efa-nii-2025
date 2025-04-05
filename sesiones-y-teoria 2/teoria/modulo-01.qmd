@@ -1,0 +1,9 @@
+---
+title: "Módulo 1 – Instrumentos y mercados financieros"
+format: html
+sidebar: teoria
+---
+
+# Módulo 1: Instrumentos y mercados financieros
+
+Contenido en preparación...

@@ -1,0 +1,9 @@
+---
+title: "Sesiones"
+format: html
+sidebar: sesiones
+---
+
+# Sesiones del curso
+
+Selecciona una sesión desde el menú lateral.

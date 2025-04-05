@@ -1,0 +1,21 @@
+---
+title: "Certificación EFA Nivel II"
+format: html
+page-layout: full
+---
+
+# European Financial Advisor – Nivel II
+
+![](img/efpa-logo.jpg){width=300px style='margin-bottom: 2em;'}
+
+![Certificación EFA](https://www.efpa.es/media/1287/efpa_certificaciones.jpg)
+
+Bienvenida al curso de preparación para la **Certificación EFA Nivel II**, una acreditación europea que reconoce la competencia profesional para asesorar, gestionar y planificar financieramente a clientes individuales en banca personal, privada o como asesor independiente.
+
+Este curso está diseñado para acompañarte en el proceso de preparación hacia el **examen oficial de EFPA España**, trabajando los contenidos teóricos y prácticos de forma progresiva, con enfoque personalizado y materiales actualizados.
+
+> La certificación EFA es uno de los referentes europeos en cualificación de asesores financieros. Está reconocida por la CNMV y cumple con los requisitos de MiFID II.
+
+---
+
+[Comenzar el curso](index.qmd){.btn .btn-primary}
