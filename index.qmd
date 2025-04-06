@@ -18,7 +18,7 @@ Este curso arranca el **4 de abril de 2025** y se desarrolla a lo largo de **10 
 
 -   La **guía oficial** de certificación EFPA embebida.
 -   Las **notas técnicas** organizadas por módulos.
--   Ejercicios de tipo test, **casos prácticos** y **fórmulas financieras** esenciales.
+-   **Ejercicios** de tipo **test, casos** prácticos **y fórmulas** financieras esenciales.
 
 📌 Aunque el enfoque esté en el **Nivel II**, **no podemos dejar de lado el Nivel I**. Muchos de los conceptos que se trabajan en el examen se apoyan en conocimientos previos. Por eso, en nuestras sesiones también repasaremos los contenidos clave del Nivel I y los integraremos en los módulos que lo requieran.
 
