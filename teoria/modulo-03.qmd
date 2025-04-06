@@ -7,3 +7,84 @@ sidebar: teoria
 # Módulo 3: Gestión de carteras
 
 Contenido en preparación...
+
+# A. Eficiencia de los mercados
+
+## A.1 Concepto de mercado eficiente
+
+El concepto de mercado eficiente es el fundamento de toda la teoría financiera moderna, no sólo por su utilidad para comprender el comportamiento de los mercados, sino también para afrontar las dudas y anomalías que se dan en la práctica y que deben tenerse en cuenta ante cualquier estrategia financiera.
+
+La eficiencia de los mercados puede entenderse desde dos perspectivas:
+
+### Perspectiva funcional u operacional
+
+- **Flexibilidad**: No existen costes de gestión ni de transacción ni impuestos asociados a la posesión o transmisión de títulos.
+- **Libertad**: No hay restricciones de entrada ni salida para los participantes del mercado.
+- **Estabilidad**: No hay fluctuaciones bruscas en los tipos de interés ni en los precios.
+- **Homogeneidad**: Los activos financieros son totalmente homogéneos e infinitamente divisibles.
+
+### Perspectiva informativa
+
+- **Transparencia**: Toda la información relevante es pública y conocida por todos los participantes, que reaccionan de forma inmediata ajustando los precios.
+- **Amplitud**: Existen numerosos inversores, sin que ninguno tenga suficiente peso como para alterar los precios por sí solo.
+
+📌 En estas condiciones ideales, el precio actual sería la mejor estimación del precio futuro, ya que incorpora toda la información relevante disponible. Como la nueva información es imprevisible, también lo serían los movimientos de los precios. Este comportamiento aleatorio de los precios es lo que se conoce como **camino aleatorio** (*random walk*).
+
+---
+
+## A.2 Formas de eficiencia del mercado
+
+Existen tres hipótesis o niveles de eficiencia del mercado, según el tipo de información que se considera ya reflejada en los precios:
+
+- **Hipótesis débil**: Los precios recogen toda la información pasada (series históricas de precios).
+- **Hipótesis semifuerte**: Los precios recogen la información histórica y toda la información pública disponible (noticias, balances, etc.).
+- **Hipótesis fuerte**: Los precios recogen toda la información, incluyendo la pública y también la privada o privilegiada.
+
+### Consecuencias:
+
+- En los tres niveles, el **análisis técnico no sería útil**, al estar basada en patrones históricos.
+- En la **eficiencia semifuerte**, el **análisis fundamental también dejaría de tener utilidad**, ya que la información pública ya estaría recogida en los precios.
+- En la **eficiencia fuerte**, ni siquiera el uso de información privilegiada (**insider trading**) generaría beneficios.
+
+---
+
+### Cuadro 1. Niveles de eficiencia del mercado
+
+| **Nivel de eficiencia**     | **Los precios reflejan...**                                    | **Consecuencia**                                |
+|-----------------------------|------------------------------------------------------------------|--------------------------------------------------|
+| **Débil**                   | Toda la información del pasado                                  | ❌ El análisis técnico no sirve                  |
+| **Intermedio o semifuerte** | Información histórica + toda la información pública disponible  | ❌ El análisis fundamental no sirve              |
+| **Fuerte**                  | Información histórica, pública y también privada o privilegiada | ❌ El *insider trading* no genera beneficios     |
+
+> 📌 **Importante**: Estos niveles son acumulativos. La hipótesis semifuerte incluye la débil, y la fuerte incluye a ambas. Por tanto, **no se debe interpretar que si no sirve un análisis, sí servirá el otro**.
+
+---
+
+## A.3 Consecuencias de la eficiencia del mercado
+
+Si el mercado es completamente eficiente, los precios ya reflejan toda la información disponible. En ese caso:
+
+- La **mejor estrategia sería la gestión pasiva**, que consiste en replicar un índice representativo del mercado.
+- Esta gestión minimiza los **costes de rotación**, **análisis** y **comisiones**.
+
+Sin embargo, en la práctica, los mercados **no siempre son completamente eficientes** debido a:
+
+- Retrasos en la incorporación de la información a los precios.
+- Información incompleta o sesgada.
+- Comportamientos no racionales de algunos inversores.
+- Costes de gestión, transacción e impuestos.
+- Barreras legales u operativas que afectan a ciertos participantes.
+
+➡️ En estos casos, puede tener sentido una **gestión activa**, que busque batir al mercado mediante análisis y selección de títulos. Pero esta estrategia solo será rentable **si los costes asociados no superan los beneficios obtenidos** —especialmente importante para el pequeño inversor.
+
+---
+
+## 🧠 Resumen
+
+- Un mercado eficiente es aquel en el que los precios se ajustan rápida y exactamente tras la aparición de nueva información.
+- Existen tres hipótesis de eficiencia:
+  - **Débil**: los precios reflejan la información histórica.
+  - **Semifuerte**: los precios reflejan la información histórica y pública.
+  - **Fuerte**: los precios reflejan toda la información, incluso la privilegiada.
+- Aunque los mercados tienden a ser eficientes, existen imperfecciones que pueden justificar la **gestión activa** en determinados contextos.
+

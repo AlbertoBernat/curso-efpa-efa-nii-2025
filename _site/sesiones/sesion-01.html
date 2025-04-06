@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -239,17 +268,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="análisis-de-la-prueba-de-nivel" class="level1">
 <h1>🧪 Análisis de la prueba de nivel</h1>
-<p><strong>1.</strong> ¿Cuál de los siguientes estilos de inversión de fondos de inversión libre se enfoca en operaciones corporativas como fusiones, adquisiciones o reestructuraciones para generar beneficios?</p>
-<ol type="a">
-<li>Global Macro.<br>
-</li>
-<li><span style="color:green; font-weight:bold">✅ Event Driven.</span><br>
-</li>
-<li>Managed Futures.<br>
-</li>
-<li>Distressed Securities.</li>
-</ol>
-<hr>
 <p><strong>2.</strong> ¿Qué quiere decir que el sistema público de pensiones es un sistema de reparto?</p>
 <ol type="a">
 <li><span style="color:red; font-weight:bold">❌ Los rendimientos generados por la gestión pública de las cotizaciones sociales…</span><br>
@@ -261,6 +279,32 @@ ul.task-list li input[type="checkbox"] {
 <li>Las cotizaciones dependen del reparto entre comunidades autónomas…</li>
 </ol>
 <p><strong>📝 Comentario</strong>: La respuesta correcta es <strong>b</strong>, porque el sistema de reparto implica que las cotizaciones actuales financian las pensiones actuales.</p>
+<p>🏛️ Los tres pilares del sistema de previsión</p>
+<p>Para garantizar la suficiencia de ingresos en la jubilación, los sistemas modernos de previsión se estructuran en <strong>tres pilares complementarios</strong>. Todos ellos, salvo el sistema público, funcionan con <strong>capitalización individual o colectiva</strong>, lo que significa que el dinero se invierte y acumula para el futuro.</p>
+<p>1️⃣ Primer pilar – Sistema público</p>
+<ul>
+<li>Gestionado por el Estado (en España, la Seguridad Social).</li>
+<li><strong>Sistema de reparto</strong>.</li>
+<li>No hay cuentas individuales ni acumulación de capital.</li>
+<li>Financiado con cotizaciones sociales y, en ocasiones, impuestos.</li>
+</ul>
+<p>2️⃣ Segundo pilar – Previsión profesional o colectiva</p>
+<ul>
+<li>Planes de empresa o de empleo promovidos por el empleador.</li>
+<li>Basado en <strong>capitalización colectiva o individual</strong>.</li>
+<li>Aportaciones conjuntas del trabajador y la empresa.</li>
+<li>Complementan el sistema público.</li>
+</ul>
+<p>3️⃣ Tercer pilar – Ahorro individual</p>
+<ul>
+<li>Iniciativa personal (planes de pensiones, PIAS, seguros de ahorro…).</li>
+<li>Basado en <strong>capitalización individual</strong>.</li>
+<li>Voluntario y flexible.</li>
+<li>Rentabilidad dependiente del producto contratado.</li>
+</ul>
+<p>📌 Conclusión</p>
+<p>El <strong>único sistema de reparto</strong> es el <strong>primer pilar</strong> (el sistema público de pensiones). Los <strong>pilares segundo y tercero</strong> son <strong>sistemas de capitalización</strong>, donde el dinero aportado se invierte y acumula a lo largo del tiempo.</p>
+<p>👉 Por eso, de cara a una jubilación suficiente, <strong>la planificación financiera personal cobra cada vez más importancia</strong>.</p>
 <hr>
 <p><strong>4.</strong> Calcula la rentabilidad geométrica anualizada para estos flujos de caja.</p>
 <ol type="a">
@@ -272,7 +316,36 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>3,35%</li>
 </ol>
-<p><strong>📝 Comentario</strong>: La rentabilidad geométrica es la media compuesta de los rendimientos anuales y es la medida correcta aquí.</p>
+<p><strong>📝 Comentario</strong>: La rentabilidad geométrica es la <strong>media compuesta de las rentabilidades periódicas</strong> y es la medida adecuada cuando se quiere conocer la <strong>tasa de crecimiento constante equivalente</strong> de una inversión a lo largo del tiempo.</p>
+<hr>
+<p>🔧 <strong>Fórmulas</strong>:</p>
+<p>📌 Si se nos dan <strong>rentabilidades simples</strong> por periodo (por ejemplo, anuales), usamos la fórmula:</p>
+<p><span class="math display">\[
+r_g = \left( \prod_{i=1}^{n} (1 + r_i) \right)^{1/n} - 1
+\]</span></p>
+<p>📌 Si en cambio tenemos el <strong>valor final</strong>, el <strong>valor inicial</strong> y el <strong>número de periodos</strong>, aplicamos:</p>
+<p><span class="math display">\[
+r_g = \left( \frac{VF}{VI} \right)^{1/n} - 1
+\]</span></p>
+<p>Si se nos proporcionan <strong>varios valores (de compra y valor final) por periodo</strong> (por ejemplo, una serie de rendimientos anuales), aplicamos:</p>
+<p><span class="math display">\[r_g = \left( \prod_{i=1}^{n} \frac{VF_i}{VI_i} \right)^{1/n} - 1\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(VF\)</span> es el valor final,</li>
+<li><span class="math inline">\(VI\)</span> es el valor inicial,</li>
+<li><span class="math inline">\(n\)</span> el número de periodos.</li>
+</ul>
+<p>💡 La TGR es especialmente útil porque no considera ni entradas ni salidas intermedias de flujos de caja (desembolso inicial único y rescate único).</p>
+<hr>
+<p>💬 La rentabilidad geométrica <strong>es más precisa que la aritmética</strong> porque <strong>tiene en cuenta el efecto de la capitalización compuesta</strong>. Por eso se prefiere cuando trabajamos con porcentajes de rentabilidad acumulada.</p>
+<p>🧠 Además, al comparar la rentabilidad geométrica con la <strong>tasa interna de rentabilidad (TIR)</strong> se puede evaluar si el inversor ha tomado <strong>buenas decisiones de inversión y desinversión</strong>.</p>
+<p>🔁 Mientras que la <strong>geométrica</strong> mide el rendimiento de la cartera (gestión del fondo), la <strong>TIR</strong> incorpora los flujos reales del inversor (aportaciones y retiradas) y refleja su rentabilidad personal.</p>
+<p>📊 En resumen:</p>
+<ul>
+<li><span class="math inline">\(r_g\)</span> = rentabilidad del <strong>gestor</strong> (qué hizo el fondo).</li>
+<li>TIR = rentabilidad del <strong>inversor</strong> (considera cuándo entró y salió del fondo).</li>
+</ul>
+<p>⚠️ Confundirlas puede llevar a malinterpretar si una inversión ha sido rentable o no desde el punto de vista del partícipe.</p>
 <hr>
 <p><strong>7.</strong> ¿Qué caracteriza al sistema de amortización americano?</p>
 <ol type="a">
@@ -285,6 +358,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Cuotas variables según tasas de interés.</li>
 </ol>
 <p><strong>📝 Comentario</strong>: El sistema americano se basa en pagar solo intereses y devolver el capital al final (bullet).</p>
+<p>📌 Es habitual en <strong>bonos y obligaciones</strong>, ya que permite al emisor no tener que amortizar el principal durante la vida del producto, lo que mejora su gestión de liquidez.</p>
 <hr>
 <p><strong>16.</strong> ¿Cuál es el supuesto clave sobre la tasa de crecimiento de los dividendos en el modelo de Gordon-Shapiro?</p>
 <ol type="a">
@@ -297,10 +371,45 @@ ul.task-list li input[type="checkbox"] {
 <li>Crece igual a la tasa de descuento.</li>
 </ol>
 <p><strong>📝 Comentario</strong>: La tasa de crecimiento debe ser constante y menor a la tasa de descuento para que el modelo funcione.</p>
+<p><strong>Modelo de Gordon-Shapiro</strong>: condiciones de validez</p>
+<p>El modelo de Gordon-Shapiro se utiliza para valorar una acción en función de sus dividendos futuros esperados bajo un crecimiento constante. Su fórmula es:</p>
+<p><span class="math inline">\(P_0 = \dfrac{D_1}{k - g}\)</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(P_0\)</span> es el <strong>precio teórico</strong> de la acción hoy,<br>
+</li>
+<li><span class="math inline">\(D_1\)</span> es el <strong>dividendo esperado</strong> en el próximo periodo,<br>
+</li>
+<li><span class="math inline">\(k\)</span> es la <strong>tasa de descuento</strong> (rentabilidad exigida),<br>
+</li>
+<li><span class="math inline">\(g\)</span> es la <strong>tasa constante de crecimiento</strong> de los dividendos.</li>
+</ul>
+<p>📌 <strong>Condición fundamental: <span class="math inline">\(k &gt; g\)</span></strong></p>
+<p>Para que el modelo tenga sentido financiero, es necesario que la <strong>tasa de descuento sea mayor que la tasa de crecimiento de los dividendos</strong>. Si no se cumple esta condición:</p>
+<ul>
+<li><p>Si <span class="math inline">\(k = g\)</span>, el denominador sería cero:<br>
+<span class="math inline">\(P_0 = \dfrac{D_1}{0} \rightarrow P_0 \to \infty\)</span><br>
+❌ El precio sería <strong>infinito</strong>, lo cual no es realista.</p></li>
+<li><p>Si <span class="math inline">\(k &lt; g\)</span>, el precio sería negativo:<br>
+<span class="math inline">\(P_0 = \dfrac{D_1}{k - g} \Rightarrow P_0 &lt; 0\)</span><br>
+❌ No tiene sentido que el valor de una acción sea <strong>negativo</strong>.</p></li>
+</ul>
+<p>Además, el <strong>dividendo esperado <span class="math inline">\(D_1\)</span> debe ser positivo</strong>. Si no hay dividendo, el modelo tampoco puede aplicarse.</p>
+<p>✅ <strong>Resumen</strong></p>
+<ul>
+<li>El modelo <strong>solo es válido si</strong>:
+<ul>
+<li><span class="math inline">\(k &gt; g\)</span><br>
+</li>
+<li><span class="math inline">\(D_1 &gt; 0\)</span></li>
+</ul></li>
+<li>Esto asegura que el valor de la acción sea <strong>positivo y finito</strong>.</li>
+<li>Es un modelo apropiado para <strong>empresas maduras</strong> con dividendos regulares y estables.</li>
+</ul>
 <hr>
 <p><strong>18.</strong> En un mercado eficiente a nivel débil, ¿cuál de las siguientes técnicas tiene poca efectividad para predecir precios futuros?</p>
 <ol type="a">
-<li><span style="color:green; font-weight:bold">✅ Análisis técnico.</span><br>
+<li><span style="color:green; font-weight:bold">✅ <strong>Análisis técnico.</strong></span><br>
 </li>
 <li><span style="color:red; font-weight:bold">❌ Análisis fundamental.</span><br>
 </li>
@@ -308,7 +417,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>Estrategia de compra y mantenimiento.</li>
 </ol>
-<p><strong>📝 Comentario</strong>: El análisis técnico se basa en patrones pasados, y en un mercado eficiente débil, estos ya están reflejados.</p>
+<p><strong>📝 Comentario</strong>:<br>
+En un mercado eficiente a nivel <strong>débil</strong>, se considera que los precios ya reflejan <strong>toda la información histórica</strong>, como las series de precios pasadas. Por tanto, <strong>el análisis técnico</strong>, que se basa precisamente en estudiar patrones de comportamiento pasados, <strong>pierde efectividad como herramienta predictiva</strong>, ya que esa información ya está incorporada en los precios actuales.</p>
+<blockquote class="blockquote">
+<p><em>“En las tres hipótesis, sería inútil el análisis técnico.”</em></p>
+</blockquote>
+<p>✔ En cambio, el <strong>análisis fundamental</strong> todavía podría tener utilidad en este nivel de eficiencia, ya que trabaja con información pública actual que <strong>aún podría no estar reflejada en los precios</strong>.</p>
+<p><strong>📌 Conclusión</strong>:<br>
+- La <strong>respuesta correcta es la opción a</strong>, ya que el análisis técnico <strong>no es útil en mercados con eficiencia débil</strong>.</p>
 <hr>
 <p><strong>21.</strong> ¿Cuál es la principal diferencia entre el ratio de Sharpe y el ratio de Treynor?</p>
 <ol type="a">
@@ -320,7 +436,15 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>Ambos miden riesgo total.</li>
 </ol>
-<p><strong>📝 Comentario</strong>: Sharpe usa volatilidad total; Treynor solo beta. Son útiles según el tipo de cartera.</p>
+<p><strong>📝 Comentario</strong>:<br>
+La principal diferencia entre ambos ratios está en la <strong>medida del riesgo que utilizan</strong>:</p>
+<ul>
+<li>El <strong>ratio de Sharpe</strong> utiliza la <strong>volatilidad total</strong> de la cartera como medida de riesgo. Por tanto, evalúa el rendimiento ajustado por el <strong>riesgo total</strong> (sistemático + no sistemático).</li>
+<li>El <strong>ratio de Treynor</strong>, en cambio, utiliza el <strong>coeficiente beta</strong> como medida de riesgo. Es decir, mide el rendimiento ajustado únicamente por el <strong>riesgo sistemático</strong>, suponiendo que la cartera está bien diversificada.</li>
+</ul>
+<p>➡️ Por eso, <strong>Sharpe es más útil para comparar carteras no diversificadas</strong>, mientras que <strong>Treynor se aplica mejor a carteras bien diversificadas</strong>.</p>
+<p><strong>📌 Conclusión</strong>:<br>
+- La <strong>respuesta correcta</strong> es la opción <strong>a</strong>, porque Sharpe mide riesgo total y Treynor riesgo sistemático.</p>
 <hr>
 <p><strong>23.</strong> En general, un alto ROA (Return on Assets) indica:</p>
 <ol type="a">
@@ -332,19 +456,55 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>Alta solvencia y liquidez.</li>
 </ol>
-<p><strong>📝 Comentario</strong>: ROA mide el beneficio generado por cada euro invertido en activos.</p>
+<p><strong>📝 Comentario</strong>:<br>
+El <strong>ROA (Return on Assets)</strong> mide la <strong>rentabilidad económica</strong> de la empresa, es decir, la capacidad que tiene para <strong>generar beneficios a partir de todos sus activos</strong>, sin importar cómo estén financiados (fondos propios o deuda).</p>
+<p>La diferencia fundamental entre el <strong>ROE (Return on Equity)</strong> y el <strong>ROA (Return on Assets)</strong> radica en el tipo de rentabilidad que cada uno mide y para quién es relevante:</p>
+<ul>
+<li><p>El <strong>ROE</strong> se calcula como:</p>
+<p><span class="math display">\[\text{ROE} = \dfrac{\text{BDI}}{\text{Fondos propios medios}}\]</span></p>
+<p>Por tanto, indica la <strong>rentabilidad obtenida por los accionistas</strong> sobre el capital que han invertido en la empresa. Es la <strong>rentabilidad financiera</strong>, y cuanto mayor sea, más atractivo será invertir en esa compañía.</p></li>
+<li><p>El <strong>ROA</strong> se calcula como:</p>
+<p><span class="math display">\[\text{ROA} = \dfrac{\text{EBIT}}{\text{Activo total medio}}\]</span></p>
+<p>Mide la <strong>eficiencia con la que la empresa utiliza todos sus activos (propios y ajenos)</strong> para generar beneficios antes de intereses e impuestos. Es la <strong>rentabilidad económica</strong>, útil para comparar empresas independientemente de cómo estén financiadas.</p></li>
+</ul>
+<p>Por tanto, un ROA alto indica que la empresa está <strong>utilizando eficientemente sus activos para generar beneficios</strong> antes de intereses e impuestos. No mide la rentabilidad para los accionistas (eso lo hace el ROE), ni tiene relación directa con la liquidez o la solvencia.</p>
+<p>📌 <strong>Diferencia con el ROE</strong>:</p>
+<ul>
+<li><strong>ROE</strong> ➜ mide la rentabilidad de los fondos propios ➜ interesa al accionista.</li>
+<li><strong>ROA</strong> ➜ mide la rentabilidad de todos los activos ➜ interesa al analista o gestor.</li>
+</ul>
 <hr>
-<p><strong>24.</strong> ¿Qué rentas están exentas para un residente fiscal en la UE en el IRNR?</p>
+<p><strong>24.</strong> Indique cuál o cuáles de las siguientes rentas, obtenidas por un inversor persona física con residencia fiscal en la Unión Europea, estará exenta de gravamen en el Impuesto sobre la Renta de no Residentes (IRNR):</p>
+<p>I. Un dividendo distribuido por una empresa española cotizada en la bolsa de Madrid.<br>
+II. Intereses de un bono del Estado.<br>
+III. Ingresos por el alquiler de un piso en Madrid.<br>
+IV. Un cupón cobrado en la fecha de vencimiento de unas obligaciones de IBERDROLA que cotizan en el mercado AIAF de renta fija.</p>
 <ol type="a">
-<li>Solo la I.<br>
+<li>Sólo la I.<br>
 </li>
-<li>Solo la II.<br>
+<li>Sólo la II.<br>
 </li>
 <li><span style="color:green; font-weight:bold">✅ I, II y IV.</span><br>
 </li>
-<li><span style="color:red; font-weight:bold">❌ II y IV.</span></li>
+<li>II y IV.</li>
 </ol>
-<p><strong>📝 Comentario</strong>: I, II y IV están exentas según la normativa del IRNR para residentes en la UE.</p>
+<p><strong>📝 Comentario</strong>:<br>
+Según el régimen general del <strong>IRNR</strong>, están exentas de gravamen determinadas rentas obtenidas por personas físicas con residencia fiscal en otro país de la Unión Europea, <strong>siempre que no actúen mediante establecimiento permanente en España</strong>.</p>
+<p>Se consideran <strong>rentas exentas</strong>:</p>
+<ul>
+<li><p>✅ <strong>Dividendos</strong> distribuidos por entidades residentes en España, cuando el perceptor reside en otro Estado miembro de la UE.<br>
+&gt; <em>“Los dividendos y participaciones en beneficios obtenidos por residentes en otro Estado miembro de la Unión Europea…”</em><br>
+<a href="https://sede.agenciatributaria.gob.es/Sede/eu_es/ayuda/manuales-videos-folletos/manuales-practicos/manual-tributacion-no-residentes/capitulo-03-tributacion-rentas-comunes-nr/otros-rendimientos/rendimientos-capital-mobiliario.html">Fuente: Agencia Tributaria – Rendimientos del capital mobiliario</a></p></li>
+<li><p>✅ <strong>Intereses de la deuda pública</strong> española.<br>
+&gt; <em>“Los rendimientos derivados de la Deuda Pública.”</em><br>
+<a href="https://sede.agenciatributaria.gob.es/Sede/eu_es/ayuda/manuales-videos-folletos/manuales-practicos/manual-tributacion-no-residentes/capitulo-03-tributacion-rentas-comunes-nr/otros-rendimientos/rendimientos-capital-mobiliario.html">Fuente: Agencia Tributaria – Rendimientos del capital mobiliario</a></p></li>
+<li><p>✅ <strong>Cupones de valores de renta fija</strong> cotizados en mercados organizados como el AIAF.<br>
+&gt; <em>“Los intereses y ganancias patrimoniales derivadas de bienes muebles obtenidos por residentes en otro Estado miembro de la Unión Europea…”</em><br>
+<a href="https://sede.agenciatributaria.gob.es/Sede/no-residentes/irnr-sin-establecimiento-permanente/rentas-exentas-irnr-sin-establecimiento-permanente.html">Fuente: Agencia Tributaria – Rentas exentas IRNR</a></p></li>
+</ul>
+<p>❌ En cambio, los <strong>ingresos procedentes del alquiler de inmuebles situados en territorio español</strong> <strong>sí están sujetos a IRNR</strong>. No están exentos salvo que se canalicen mediante establecimiento permanente.</p>
+<p><strong>✅ Conclusión</strong>:<br>
+La respuesta correcta es la opción <strong>c.&nbsp;I, II y IV</strong>, porque son rentas exentas de gravamen en el IRNR para personas físicas residentes en la UE, según normativa vigente.</p>
 <hr>
 </section>
 <section id="resumen-de-errores-por-módulo-efa" class="level1">
