@@ -104,7 +104,6 @@ donde:
 
 💡 La TGR es especialmente útil porque no considera ni entradas ni salidas intermedias de flujos de caja (desembolso inicial único y rescate único).
 
----
 
 💬 La rentabilidad geométrica **es más precisa que la aritmética** porque **tiene en cuenta el efecto de la capitalización compuesta**. Por eso se prefiere cuando trabajamos con porcentajes de rentabilidad acumulada.
 
