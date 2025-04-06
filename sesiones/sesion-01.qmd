@@ -73,7 +73,7 @@ d.  3,35%
 
 **📝 Comentario**: La rentabilidad geométrica es la **media compuesta de las rentabilidades periódicas** y es la medida adecuada cuando se quiere conocer la **tasa de crecimiento constante equivalente** de una inversión a lo largo del tiempo.
 
----
+
 
 🔧 **Fórmulas**:
 
