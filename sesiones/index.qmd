@@ -1,9 +1,59 @@
 ---
-title: "Sesiones"
+title: "Sesiones del curso"
 format: html
 sidebar: sesiones
 ---
 
-# Sesiones del curso
+## 📹 Acceso a las sesiones en directo
 
-Selecciona una sesión desde el menú lateral.
+Este es tu curso personalizado de preparación para la certificación **EFPA European Financial Advisor (EFA), Nivel II**. A lo largo de las próximas semanas, realizaremos **10 sesiones semanales en directo**, en las que combinaremos repaso teórico, resolución de preguntas tipo test y casos prácticos para asegurarnos de que dominas todos los temas.
+
+::: {style="border: 2px solid #003865; border-radius: 12px; padding: 1.5rem; background-color: #f0f4fa; margin-bottom: 2rem; text-align: center;"}
+<h2 style="color: #003865;">
+
+🔗 Sesiones en Zoom
+
+</h2>
+
+<p style="font-size: 1.1rem;">
+
+Todos los viernes · 16:00 h (hora de Madrid)<br> ID de reunión: <strong>984 9640 1803</strong>
+
+</p>
+
+<a href="https://zoom.us/j/98496401803" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background-color: #003865; color: white; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Entrar a la sesión de Zoom</a><br><br>
+
+📅 <a href="https://zoom.us/meeting/tJwpfu-srjoiGtfFXcLoW3-lA_u3Akz5BhyA/ics?icsToken=DHkifrwfdWoZVkUNvQAALAAAAPFvz182p99SvarxGveoAj3JbbuWPy31aN4_JYr2DWAm7ooCsfb7dBUUXQnixDemQKwKCoQm82k4aYHv1DAwMDAwMQ&meetingMasterEventId=96sVN-aQQYy2i57MYEyhew" target="_blank">Importar al calendario (.ics)</a>
+:::
+
+## 📚 Contenidos
+
+En nuestras sesiones semanales abordaremos de manera detallada los principales temas de la certificación EFA, con una **especial atención a los contenidos correspondientes al Nivel II**; repasaremos conceptos teóricos, resolveremos preguntas tipo test y analizaremos casos prácticos.
+
+## 📅 Calendario y acceso a las grabación de las sesiones
+
+A continuación puedes ver el cronograma completo de las sesiones. Cada sesión quedará grabada en este espacio (barra de contenidos a la izquierda) e irá enlazada a su correspondiente análisis o material complementario a medida que avance el curso. El objetivo es que puedas seguir el contenido de manera flexible y que tengas acceso al material siempre que lo necesites.
+
+| Sesión | Fecha | Tema | Enlace |
+|----|----|----|----|
+| 1 | 4 abril | Instrumentos y mercados financieros | [Ir a la sesión](sesion-01.qmd) |
+| 2 | 11 abril | Fondos y sociedades de inversión | [Ir a la sesión](sesion-02.qmd) |
+| 3 | 18 abril | Gestión de carteras | [Ir a la sesión](sesion-03.qmd) |
+| 4 | 25 abril | Seguros | [Ir a la sesión](sesion-04.qmd) |
+| 5 | 2 mayo | Pensiones y planificación de la jubilación | [Ir a la sesión](sesion-05.qmd) |
+| 6 | 9 mayo | Inversión inmobiliaria | [Ir a la sesión](sesion-06.qmd) |
+| 7 | 16 mayo | Crédito y financiación | [Ir a la sesión](sesion-07.qmd) |
+| 8 | 23 mayo | Fiscalidad de las inversiones | [Ir a la sesión](sesion-08.qmd) |
+| 9 | 30 mayo | Marco regulatorio y planificación financiera | [Ir a la sesión](sesion-09.qmd) |
+| 10 | 6 junio | Repaso general y simulacro corregido | [Ir a la sesión](sesion-10.qmd) |
+
+## 🎯 Objetivos del curso
+
+Este plan está diseñado para que puedas:
+
+-   Consolidar los conocimientos necesarios para superar el examen EFA Nivel II.
+-   Practicar con preguntas tipo test y casos prácticos reales, similares a los del examen.
+-   Resolver dudas en directo y repasar con los vídeos.
+-   Sentirte preparada y segura para el día del examen.
+
+> **Si necesitas reorganizar alguna sesión o acceder a material adicional, lo comentaremos cada semana en directo, y podrás acceder a los recursos a través de los enlaces de cada sesión.**

@@ -7,3 +7,58 @@ sidebar: teoria
 # Módulos teóricos del curso
 
 Selecciona un módulo desde el menú lateral.
+
+## 📘 Introducción a la teoría
+
+Este apartado contiene **notas técnicas organizadas por módulos**, siguiendo la estructura oficial del programa de certificación **EFA – European Financial Advisor**.
+
+Aunque este curso está orientado a preparar el **examen parcial de Nivel II**, conviene recordar que dicha prueba forma parte del examen completo y **no se excluye totalmente la materia del Nivel I**, ya que muchos contenidos del segundo nivel se apoyan directamente en fundamentos del primero.
+
+Por ello, en este espacio abordaremos de forma sintética y clara los **10 módulos del temario oficial**, priorizando aquellos que son objeto de evaluación en el Nivel II, pero **sin perder de vista la coherencia global del programa**.
+
+---
+
+## 📄 Guía oficial de la certificación EFA
+
+Puedes consultar a continuación el documento oficial publicado por EFPA, que recoge información relevante sobre estructura del examen, requisitos de inscripción, criterios de evaluación y normativa aplicable:
+
+<iframe src="https://drive.google.com/file/d/1OGjRLRyfcG7Gf7xM1tFNL1ktauQxQlY_/preview" 
+        width="100%" height="600px" allow="autoplay">
+</iframe>
+
+---
+
+## 🧭 Estructura del examen parcial de Nivel II
+
+El examen se realiza en **dos partes obligatorias**:
+
+- **Parte 1: Test**
+  - 40 preguntas tipo test.
+  - Duración: **90 minutos**.
+  - Aprobado: mínimo **28 aciertos** (70%).
+  - **Sin penalización** por errores o respuestas en blanco.
+
+- **Parte 2: Supuesto práctico**
+  - Resolución de ejercicios sobre contenidos del temario.
+  - Duración: **60 minutos**.
+  - Se valorará tanto la respuesta final como el **razonamiento empleado**.
+
+✅ **Ambas partes deben superarse** para acceder a la certificación oficial.
+
+---
+
+## 📝 Requisitos y documentación
+
+Para presentarse al examen de Nivel II es necesario cumplir lo siguiente:
+
+- Tener **la certificación EIP** en vigor o **titulaciones reconocidas por CNMV**.
+- Acreditar **experiencia profesional** mínima:
+  - **6 meses** si se ha cursado formación en un centro acreditado.
+  - **1 año** en caso contrario.
+- Aportar:
+  - Copia de la titulación académica.
+  - CV actualizado.
+  - Certificados o acreditaciones pertinentes.
+- No haber sido sancionado ni tener antecedentes penales relacionados.
+
+💰 **Coste del examen**: **193,60 € (IVA incluido)**.

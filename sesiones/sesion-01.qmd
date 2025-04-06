@@ -2,6 +2,7 @@
 title: "Sesión 1"
 format: html
 sidebar: sesiones
+toc: true
 ---
 
 

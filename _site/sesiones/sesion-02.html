@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
@@ -53,25 +53,54 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -79,14 +108,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../efpa_logo_web.jpg" alt="" class="navbar-logo">
+    <img src="../efpa_logo_web_resized.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">EFA Nivel II</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -111,11 +140,11 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sesiones/sesion-02.html">Sesión 2</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -129,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../sesiones/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sesiones</span></a>
+ <span class="menu-text">Sesiones del curso</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -197,7 +226,42 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#rentas-financieras" id="toc-rentas-financieras" class="nav-link active" data-scroll-target="#rentas-financieras">Rentas financieras</a>
+  <ul class="collapse">
+  <li><a href="#concepto" id="toc-concepto" class="nav-link" data-scroll-target="#concepto">Concepto</a></li>
+  </ul></li>
+  <li><a href="#renta-fija" id="toc-renta-fija" class="nav-link" data-scroll-target="#renta-fija">Renta Fija</a>
+  <ul class="collapse">
+  <li><a href="#concepto-1" id="toc-concepto-1" class="nav-link" data-scroll-target="#concepto-1">Concepto</a></li>
+  <li><a href="#estructura-del-mercado-de-deuda-pública" id="toc-estructura-del-mercado-de-deuda-pública" class="nav-link" data-scroll-target="#estructura-del-mercado-de-deuda-pública">Estructura del mercado de deuda pública</a></li>
+  <li><a href="#mercado-de-renta-fija-privada" id="toc-mercado-de-renta-fija-privada" class="nav-link" data-scroll-target="#mercado-de-renta-fija-privada">Mercado de renta fija privada</a></li>
+  <li><a href="#rating" id="toc-rating" class="nav-link" data-scroll-target="#rating">Rating</a></li>
+  <li><a href="#otros-riesgos-asociados-a-la-renta-fija" id="toc-otros-riesgos-asociados-a-la-renta-fija" class="nav-link" data-scroll-target="#otros-riesgos-asociados-a-la-renta-fija">Otros riesgos asociados a la renta fija</a></li>
+  <li><a href="#relación-precio-tir-principios-de-malkiel" id="toc-relación-precio-tir-principios-de-malkiel" class="nav-link" data-scroll-target="#relación-precio-tir-principios-de-malkiel">Relación precio-TIR: principios de Malkiel</a></li>
+  <li><a href="#curva-y-estructura-temporal-de-los-tipos-de-interés-etti" id="toc-curva-y-estructura-temporal-de-los-tipos-de-interés-etti" class="nav-link" data-scroll-target="#curva-y-estructura-temporal-de-los-tipos-de-interés-etti">Curva y estructura temporal de los tipos de interés (ETTI)</a></li>
+  <li><a href="#medición-y-gestión-del-riesgo-de-tipo-de-interés" id="toc-medición-y-gestión-del-riesgo-de-tipo-de-interés" class="nav-link" data-scroll-target="#medición-y-gestión-del-riesgo-de-tipo-de-interés">Medición y gestión del riesgo de tipo de interés</a></li>
+  </ul></li>
+  <li><a href="#valoración-de-activos-de-renta-fija-a-corto-y-a-largo-plazo" id="toc-valoración-de-activos-de-renta-fija-a-corto-y-a-largo-plazo" class="nav-link" data-scroll-target="#valoración-de-activos-de-renta-fija-a-corto-y-a-largo-plazo">Valoración de activos de renta fija a corto y a largo plazo</a>
+  <ul class="collapse">
+  <li><a href="#resumen" id="toc-resumen" class="nav-link" data-scroll-target="#resumen">Resumen</a></li>
+  <li><a href="#cálculos" id="toc-cálculos" class="nav-link" data-scroll-target="#cálculos">Cálculos</a></li>
+  <li><a href="#ejemplos-de-valoración" id="toc-ejemplos-de-valoración" class="nav-link" data-scroll-target="#ejemplos-de-valoración">Ejemplos de valoración</a></li>
+  </ul></li>
+  <li><a href="#fiscalidad-de-los-rendimientos-de-renta-fija" id="toc-fiscalidad-de-los-rendimientos-de-renta-fija" class="nav-link" data-scroll-target="#fiscalidad-de-los-rendimientos-de-renta-fija">🧾 Fiscalidad de los rendimientos de renta fija</a>
+  <ul class="collapse">
+  <li><a href="#gravamen-de-la-base-liquidable-del-ahorro" id="toc-gravamen-de-la-base-liquidable-del-ahorro" class="nav-link" data-scroll-target="#gravamen-de-la-base-liquidable-del-ahorro">💰 Gravamen de la base liquidable del ahorro</a></li>
+  <li><a href="#cálculo-de-la-cuota-íntegra-del-ahorro" id="toc-cálculo-de-la-cuota-íntegra-del-ahorro" class="nav-link" data-scroll-target="#cálculo-de-la-cuota-íntegra-del-ahorro">🧮 Cálculo de la cuota íntegra del ahorro</a></li>
+  </ul></li>
+  <li><a href="#preguntas-tipo-test" id="toc-preguntas-tipo-test" class="nav-link" data-scroll-target="#preguntas-tipo-test">Preguntas tipo test</a></li>
+  <li><a href="#caso-práctico-efpa" id="toc-caso-práctico-efpa" class="nav-link" data-scroll-target="#caso-práctico-efpa">Caso práctico EFPA</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -220,9 +284,1869 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="sesión-2" class="level1">
-<h1>Sesión 2</h1>
-<p>Contenido en preparación…</p>
+<section id="rentas-financieras" class="level2">
+<h2 class="anchored" data-anchor-id="rentas-financieras">Rentas financieras</h2>
+<section id="concepto" class="level3">
+<h3 class="anchored" data-anchor-id="concepto">Concepto</h3>
+<p>Se aplica la <strong>herramienta</strong> del interés compuesto a la <strong>valoración de conjuntos de capitales financieros</strong>; más concretamente, por la <strong>amplia utilización</strong> que el mercado hace de ellas, se estudian las rentas financieras, al considerar que gran parte de las <strong>operaciones financieras están utilizando pagos o cobros periódicos en el tiempo</strong>, haciendo <strong>especial hincapié</strong> en los aspectos que afectan a su clasificación y a la valoración de <strong>rentas constantes</strong>.</p>
+<p><strong>Objetivos</strong></p>
+<ul>
+<li><p><strong>Situar el flujo</strong> de cobros o pagos de una renta financiera <strong>en un diagrama temporal</strong> y clasificarlo</p></li>
+<li><p><strong>Calcular el valor actual y final</strong> de rentas constantes y variables</p></li>
+</ul>
+<p>Las <strong>rentas financieras son conjuntos de capitales financieros que involucran pagos o cobros periódicos en el tiempo</strong>. Estas rentas son ampliamente utilizadas en el mercado financiero y se basan en pagos o cobros periódicos, lo cual justifica su estudio y análisis.</p>
+<p>La renta financiera está compuesta por dos <strong>elementos principales</strong>:</p>
+<ul>
+<li><p><strong>Términos</strong> de la renta: Estos son los distintos capitales financieros o pagos que componen la renta. Cada término representa una <strong>cantidad específica de dinero que se paga o se recibe</strong> en un determinado período de tiempo. Los términos pueden ser iguales o diferentes entre sí, dependiendo de la naturaleza de la renta. Por ejemplo, en una renta fija, los términos suelen ser iguales, mientras que en una renta variable pueden variar en cantidad.</p></li>
+<li><p><strong>Periodo</strong> de la renta: Es el plazo constante que separa dos términos consecutivos en la secuencia de pagos o cobros de la renta. Este período puede ser <strong>mensual, trimestral, anual</strong> u otra unidad de tiempo, dependiendo de cómo se haya establecido la frecuencia de los pagos o cobros de la renta. Es importante que el período sea constante para poder calcular de manera precisa el valor y la valoración de la renta.</p></li>
+</ul>
+<p>Las rentas <strong>pueden ser clasificadas</strong> de acuerdo a diferentes criterios. Los principales son:</p>
+<ol type="1">
+<li>Según la <strong>cuantía de los términos</strong> de la renta:</li>
+</ol>
+<ul>
+<li>Renta <strong>constante</strong>: cuando las cuantías de todos los términos son iguales.</li>
+<li>Renta <strong>variable</strong>: cuando las cuantías de los términos no son iguales.</li>
+</ul>
+<ol start="2" type="1">
+<li>Según el <strong>número de términos</strong> de la renta:</li>
+</ol>
+<ul>
+<li>Renta <strong>temporal</strong>: cuando el número de términos es finito.</li>
+<li>Renta <strong>perpetua</strong>: cuando el número de términos es infinito.</li>
+</ul>
+<ol start="3" type="1">
+<li>Según el <strong>periodo de la renta</strong>:</li>
+</ol>
+<ul>
+<li>Renta <strong>mensual, trimestral, anual,</strong> etc.</li>
+</ul>
+<ol start="4" type="1">
+<li>Según el <strong>inicio del primer periodo</strong> de la renta:</li>
+</ol>
+<ul>
+<li>Renta <strong>inmediata</strong>: cuando el inicio del primer periodo de la renta coincide con el instante inicial de valoración.</li>
+<li>Renta <strong>diferida</strong>: cuando el inicio del primer periodo de la renta es posterior al instante inicial de valoración.</li>
+</ul>
+<ol start="5" type="1">
+<li>Según el <strong>instante en que se hace efectiva la cuantía dentro de cada periodo</strong>:</li>
+</ol>
+<ul>
+<li>Renta <strong>postpagable</strong> o vencida: cuando la cuantía se hace efectiva al final de cada periodo.</li>
+<li>Renta <strong>prepagable</strong> o anticipada: cuando la cuantía se hace efectiva al inicio de cada periodo.</li>
+</ul>
+<p>Al <strong>clasificar</strong> una renta nos interesará sobre todo identificar entre <strong>dos categorías</strong> principales:</p>
+<ol type="1">
+<li><p><strong>Renta constante</strong>: En este tipo de renta, los pagos o cobros (términos) tienen un <strong>monto constante en cada periodo</strong>. La renta más típica sería un préstamo hipotecario concedido por el método de amortización francés (cuota constante).</p></li>
+<li><p><strong>Renta variable</strong>: En este caso, <strong>los pagos o cobros varían en cada periodo</strong>. Un ejemplo típico es el método de Gordon-Shapiro se utiliza para estimar el valor intrínseco de una acción en función de los dividendos esperados y las tasas de crecimiento.</p></li>
+</ol>
+<p>Para comprender mejor una renta financiera, es útil representar el flujo de cobros o pagos en un diagrama temporal. Este diagrama muestra el eje horizontal como el tiempo y el eje vertical como el monto de los cobros o pagos.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="sesion-02_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Por ejemplo, una renta mensual de 500 euros durante un período de tiempo específico. En el diagrama temporal, los pagos se representan mediante líneas horizontales paralelas.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="sesion-02_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Por ejemplo, una renta que comienza con un pago de 1.000 euros y experimenta cambios en cada periodo, ya sea en aumento o disminución. En el diagrama temporal, los pagos se representan mediante líneas que varían en cada periodo.</p>
+<p>Además de clasificar las rentas financieras, es <strong>fundamental calcular su valor</strong> actual y final <strong>en el contexto del interés compuesto.</strong></p>
+<ul>
+<li><p>El <strong>valor actual</strong> de una renta constante representa la <strong>suma de los pagos descontados en el momento presente</strong>, considerando una tasa de interés adecuada.</p></li>
+<li><p>El <strong>valor final</strong> de una renta constante se refiere al <strong>monto acumulado al final de la serie de pagos</strong>. Estos cálculos se realizan utilizando fórmulas específicas que tienen en cuenta la tasa de interés, el monto de los pagos y el número de periodos.</p></li>
+</ul>
+<p>Para calcular el valor de una renta y aplicar el concepto de <strong>interés compuesto, es habitual trabajar con tipos nominales y efectivos expresados en diferentes frecuencias (mensual, trimestral, anual)</strong>. Es fundamental en este sentido <strong>utilizar el tipo de interés correspondiente a la frecuencia de los cobros y pagos asociados a la renta</strong>, a fin de obtener una valoración precisa y realista. Es decir, que debemos de reflejar adecuadamente la renta en función del periodo en el que se producen los flujos de caja (términos mensuales, por ejemplo) y el período del tipo de interés a aplicar (tendrá que ser mensual en este caso), asegurando así una evaluación precisa y acorde a la situación.</p>
+<p>El valor actual representa la suma de los pagos descontados al presente, teniendo en cuenta una tasa de interés adecuada.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>La fórmula general para calcular el <strong>valor actual de una renta constante</strong> es:</p>
+<p><span class="math display">\[V_0=c\cdot\frac{1-\left(1+i\right)^{-n}}{i}\]</span></p>
+<p>Donde,</p>
+<ul>
+<li><p><span class="math inline">\(V_0\)</span>, es el valor actual.</p></li>
+<li><p><span class="math inline">\(C\)</span>, es cuota o cuantía.</p></li>
+<li><p><span class="math inline">\(i\)</span>, es el tipo de interés.</p></li>
+<li><p><span class="math inline">\(n\)</span>, es el tiempo transcurrido.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>Por otro lado, el valor final de una renta constante se refiere al monto acumulado al final de la serie de pagos.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>La fórmula para calcular el <strong>valor final de una renta constante</strong> es: <span class="math display">\[V_f=c\cdot\frac{\left(1+i\right)^{n}-1}{i}\]</span></p>
+<p>Donde,</p>
+<ul>
+<li><p><span class="math inline">\(V_f\)</span>, es el valor final.</p></li>
+<li><p><span class="math inline">\(C\)</span>, es cuota o cuantía.</p></li>
+<li><p><span class="math inline">\(i\)</span>, es el tipo de interés.</p></li>
+<li><p><span class="math inline">\(n\)</span>, es el tiempo transcurrido.</p></li>
+</ul>
+<p>Estas fórmulas son fundamentales para calcular el valor actual y final de una renta constante, lo cual permite evaluar la rentabilidad y viabilidad de operaciones financieras que involucran flujos de pagos o cobros periódicos en el tiempo.</p>
+</div>
+</div>
+</div>
+<p>Las fórmulas presentadas anteriormente son para calcular rentas postpagables, es decir, en las que los pagos se realizan al final de cada período. Sin embargo, es posible <strong>convertir una renta prepagable</strong>, en la que los pagos se realizan al inicio de cada período, <strong>en una renta postpagable cambiando el momento de los pagos</strong>.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Para una renta constante prepagable, el valor actual se calcula utilizando la fórmula:</p>
+<p><span class="math display">\[V_0=c\cdot\frac{1-\left(1+i\right)^{-n}}{i}\cdot(1+i)^n\]</span></p>
+<p>Y, el valor final:</p>
+<p><span class="math display">\[V_f=c\cdot\frac{\left(1+i\right)^{n}-1}{i}\cdot(1+i)^n\]</span></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>La diferencia entre ambas fórmulas (perpagables y postpagables) radica en la presencia del factor</strong> <span class="math inline">\((1 + i)^n\)</span> en la fórmula de la renta prepagable. Este factor tiene en cuenta los pagos anticipados realizados al inicio de cada período, lo cual afecta el valor actual de la renta.</p>
+</div>
+</div>
+</div>
+<p>Es importante entender la diferencia entre estos dos tipos de rentas para poder aplicar las fórmulas correctamente.</p>
+<p>Por ejemplo, una <strong>renta postpagable se aplica a un préstamo</strong> en el cual se efectúan pagos periódicos después de cada período. En contraste, una <strong>renta prepagable se relaciona con un contrato de alquiler</strong> en el que se realizan pagos anticipados para asegurar el derecho de disfrute de la propiedad en períodos futuros.</p>
+</section>
+</section>
+<section id="renta-fija" class="level2">
+<h2 class="anchored" data-anchor-id="renta-fija">Renta Fija</h2>
+<section id="concepto-1" class="level3">
+<h3 class="anchored" data-anchor-id="concepto-1">Concepto</h3>
+<p>Un activo de renta fija es un valor que <strong>representa una deuda para el emisor</strong> y que tiene una retribución que se fija, generalmente, por adelantado.</p>
+<p>Un activo de renta fija es, por lo tanto, un valor que representa el derecho a recibir pagos periódicos o al final de la operación, prefijados y regulares en el futuro.</p>
+<p>El emisor de un bono debe seleccionar <strong>las condiciones</strong> (fecha de emisión, fecha de vencimiento, tipo de interés, periodicidad de pago, etc.) que <strong>una vez fijadas no se pueden modificar. Por ese motivo este tipo de activos reciben el nombre de renta fija.</strong></p>
+<p>Los <strong>elementos característicos</strong> de un título de renta fija son los siguientes:</p>
+<ol type="1">
+<li><p><strong>Tipo de emisor</strong>: es aquel que obtiene la financiación del mercado y asume la obligación de pagar los cupones y devolver el principal. Puede ser público (administraciones públicas) o privado (bancos y empresas).</p></li>
+<li><p><strong>Valor Nominal</strong> (VN): Monto de la deuda contraída por el emisor con el suscriptor, comprador o tenedor del título.</p></li>
+<li><p><strong>Precio de emisión</strong> (Pe): Precio al que se emite y suscribe el título en el mercado primario.</p></li>
+<li><p><strong>Número de títulos emitidos</strong> (N): Unidades en las que se divide el empréstito.</p></li>
+<li><p><strong>Importe de la emisión</strong> (VN x N): Valor total de la emisión calculado multiplicando el valor nominal por el número de títulos emitidos.</p></li>
+<li><p><strong>Fecha de emisión</strong>: Fecha en la que se emite y pone en circulación el título de renta fija.</p></li>
+<li><p><strong>Fecha de vencimiento</strong>: Fecha en la que finaliza la vida del título y se debe devolver el valor nominal.</p></li>
+<li><p><strong>Cupón</strong>: Pago periódico de interés que se calcula como un porcentaje del valor nominal del título.</p></li>
+<li><p><strong>Frecuencia de pago</strong>: Periodo en el que se realiza el pago del cupón, que puede ser anual, semestral, al vencimiento, entre otros.</p></li>
+<li><p><strong>Amortización</strong>: Monto devuelto por el emisor al vencimiento o en fechas preestablecidas, generalmente como un porcentaje del valor nominal.</p></li>
+<li><p><strong>Rating</strong>: Calificación crediticia asignada al emisor o a la emisión de renta fija, que indica su calidad crediticia y nivel de riesgo.</p></li>
+<li><p><strong>Vencimiento</strong>: fecha en que se termina de repagar la totalidad de la deuda. En este momento el bono cesa.</p></li>
+<li><p><strong>Bono cupón cero</strong>: son aquellos instrumentos, emitidos al descuento, que no generan flujos intermedios (no pagan cupones). El rendimiento es el obtenido por la diferencia entre el precio de compra y el de venta o amortización del título.</p></li>
+<li><p><strong>TIR</strong>: rendimiento del instrumento a priori, que <strong>dependerá de las condiciones de mercado</strong>. No confundir con el cupón con la TIR, ya que el primero es fijo y la segunda dependerá del precio al que se adquiera el título.</p></li>
+<li><p><strong>TRE</strong>: Tasa de Rentabilidad Efectiva o <strong>rendimiento real obtenido después de realizar la inversión</strong>. Se calcula teniendo en cuenta los flujos de efectivo reales que se generan durante la vida de la inversión, incluyendo los ingresos y los desembolsos de efectivo. La rentabilidad efectiva refleja el rendimiento real de la inversión, <strong>teniendo en cuenta cualquier variación en los flujos de efectivo y las tasas de interés</strong>.</p></li>
+</ol>
+<p>Estos elementos son importantes para comprender y evaluar los títulos de renta fija en términos de su emisor, valor, precio, pagos de intereses, fechas y riesgo crediticio.</p>
+<p><strong>Según el vencimiento del activo</strong>, los títulos de renta fija se pueden clasificar en dos categorías:</p>
+<ol type="1">
+<li><p><strong>Activos monetarios</strong>: Son aquellos activos de renta fija cuyo <strong>vencimiento</strong> en el momento de la emisión se sitúa generalmente <strong>en torno a los dieciocho meses o en plazos inferiores</strong>. Estos activos suelen tener un plazo de vencimiento corto y se utilizan para cubrir necesidades de financiamiento a corto plazo. Ejemplos de activos monetarios son las Letras del Tesoro y los Pagarés de empresa.</p></li>
+<li><p><strong>Activos del mercado de capitales</strong>: Son activos de renta fija cuyo <strong>vencimiento</strong> en el momento de la emisión es <strong>superior a los dieciocho meses</strong>. Estos activos se emiten en plazos más largos y suelen formar parte del mercado de capitales. Los plazos típicos para estos activos son 3, 5, 10, 15, 20 y 30 años. Ejemplos de activos del mercado de capitales son los Bonos y Obligaciones del Estado.</p></li>
+</ol>
+<p>La clasificación <strong>según el tipo de interés</strong> sería:</p>
+<p>Activos con interés <strong>implícito</strong>:</p>
+<ul>
+<li>Activos <strong>al descuento</strong>: Son activos en los que el interés o rendimiento se obtiene a partir del diferencial entre el precio de suscripción o compra y el precio de venta o amortización. En estos activos, la amortización se realiza al valor nominal. Los ejemplos típicos son las Letras del Tesoro, los Pagarés de Empresa y los Bonos Cupón Cero (STRIPS).</li>
+</ul>
+<p>Activos con interés <strong>implícito y explícito</strong>:</p>
+<ul>
+<li><p>Los intereses explícitos que devenga un activo de renta fija se denominan cupones.</p></li>
+<li><p>Activos <strong>con prima de emisión</strong>: Son activos en los que el interés total se compone tanto del diferencial de amortización o venta menos la suscripción o compra, como del pago de cupones periódicos. Estos activos <strong>se emiten a un precio inferior al valor nominal</strong> (<strong>bajo par</strong>).</p></li>
+<li><p>Activos <strong>con prima de reembolso</strong>: Son activos de interés explícito en los que el valor de reembolso es superior al valor nominal. Además de los cupones periódicos, al vencimiento <strong>el inversor recibirá un monto superior al valor nominal (amortización sobre par)</strong>.</p></li>
+</ul>
+</section>
+<section id="estructura-del-mercado-de-deuda-pública" class="level3">
+<h3 class="anchored" data-anchor-id="estructura-del-mercado-de-deuda-pública">Estructura del mercado de deuda pública</h3>
+<section id="activos-que-se-negocian" class="level4">
+<h4 class="anchored" data-anchor-id="activos-que-se-negocian">Activos que se negocian</h4>
+<p><strong>Letras del Tesoro</strong></p>
+<ul>
+<li><p>Títulos a corto plazo.</p></li>
+<li><p>Emitidos al descuento.</p></li>
+<li><p>Representados por anotaciones en cuenta en la Central de Anotaciones de BdE.</p></li>
+<li><p>La rentabilidad es la diferencia entre el valor nominal y el precio de adquisición pagado por el inversor.</p></li>
+<li><p>Procedimiento de emisión mediante subasta española.</p></li>
+</ul>
+<p><strong>Bonos y obligaciones del estado</strong></p>
+<ul>
+<li><p>Títulos a largo plazo. Bonos a 3 y 5 años y Obligaciones a 10, 15 y 30 años.</p></li>
+<li><p>Representados por anotaciones en cuenta en la Central de Anotaciones de BdE.</p></li>
+<li><p>Pagan cupones anuales siendo reembolsables a vencimiento por su valor nominal.</p></li>
+<li><p>Procedimiento de emisión mediante subasta española.</p></li>
+</ul>
+</section>
+<section id="miembros-del-mercado" class="level4">
+<h4 class="anchored" data-anchor-id="miembros-del-mercado">Miembros del mercado</h4>
+<p><strong>El Tesoro</strong></p>
+<ul>
+<li><p>Cubrir las necesidades de endeudamiento del Estado al menor coste posible.</p></li>
+<li><p>Mantener un adecuado grado de liquidez en el mercado.</p></li>
+<li><p>Ofrecer a los inversores instrumentos financieros atractivos.</p></li>
+</ul>
+<p><strong>Banco de España</strong></p>
+<ul>
+<li><p>Agente financiero de la deuda pública.</p></li>
+<li><p>Gestiona la Central de Anotaciones.</p></li>
+<li><p>Supervisa el funcionamiento y la transparencia del mercado de Deuda Pública.</p></li>
+</ul>
+<p><strong>Entidades Gestoras</strong></p>
+<ul>
+<li><p>Llevan las cuentas de quienes no están autorizados a operar directamente a través de la central de Anotaciones.</p></li>
+<li><p>Salvo que sean agencias de valores, pueden ser Titular de Cuenta.</p></li>
+<li><p>Realizan funciones registrales, de compensación y liquidación y de custodia en relación al mercado de deuda pública.</p></li>
+</ul>
+<p><strong>Creadores de mercado</strong></p>
+<ul>
+<li><p>Entidades financieras cuyo objetivo es favorecer la liquidez del mercado secundario.</p></li>
+<li><p>Cotizan sistemáticamente precios de compra y de venta y operan con unos volúmenes mínimos.</p></li>
+</ul>
+</section>
+<section id="mercado-primario-procedimiento-de-emisión-de-los-valores-del-tesoro" class="level4">
+<h4 class="anchored" data-anchor-id="mercado-primario-procedimiento-de-emisión-de-los-valores-del-tesoro">Mercado primario: procedimiento de emisión de los valores del Tesoro</h4>
+<p>El Tesoro español puede emitir Letras del Tesoro, Bonos y Obligaciones del Estado mediante dos métodos: sindicación u oferta pública.</p>
+</section>
+<section id="mercado-secundario" class="level4">
+<h4 class="anchored" data-anchor-id="mercado-secundario">Mercado secundario</h4>
+<p>La negociación en el mercado secundario se puede realizar a través de varios sistemas</p>
+</section>
+</section>
+<section id="mercado-de-renta-fija-privada" class="level3">
+<h3 class="anchored" data-anchor-id="mercado-de-renta-fija-privada">Mercado de renta fija privada</h3>
+<p>En el mercado de renta fija privada se utilizan diferentes instrumentos, como:</p>
+<ul>
+<li>Pagarés de empresa</li>
+<li>Bonos convertibles</li>
+<li>Acciones preferentes</li>
+<li>Fondos de titulización de activos</li>
+</ul>
+</section>
+<section id="rating" class="level3">
+<h3 class="anchored" data-anchor-id="rating">Rating</h3>
+<p>El <strong>rating o solvencia crediticia</strong> conocido también como el <strong>riesgo de crédito (o de contraparte)</strong>, se mide como la posibilidad de que el emisor de un bono no pueda hacer frente a los pagos de los cupones o del principal</p>
+<p>Po lo tanto a través del rating podremos <strong>valorar el nivel de solvencia de un emisor y sus perspectivas futuras de pago</strong>. El rating proporciona un indicador de <strong>referencia del riesgo crediticio</strong> que soporta el inversor. Esta calificación se realiza por empresas independientes especializadas en el análisis de riesgos, siendo las principales Moody ́s, Standard and Poor ́s y Fitch.</p>
+<p>Por lo general, <strong>cuanto mejor sea la calificación crediticia (rating) de un emisor o de una emisión, menor será la prima de riesgo del bono y, por lo tanto, menor será su rentabilidad exigida</strong>.</p>
+</section>
+<section id="otros-riesgos-asociados-a-la-renta-fija" class="level3">
+<h3 class="anchored" data-anchor-id="otros-riesgos-asociados-a-la-renta-fija">Otros riesgos asociados a la renta fija</h3>
+<p>La <strong>denominación de “renta fija” puede ser engañosa</strong>, ya que puede dar la impresión de que la rentabilidad está preestablecida y garantizada. Sin embargo, en realidad, lo que es fijo en una inversión de renta fija es el conocimiento previo de los montos, las fechas en que el emisor pagará los cupones y la devolución del principal. Sin embargo, debido a <strong>la variación de los tipos de interés en el mercado, el precio de un título de renta fija puede fluctuar al igual que cualquier otro activo financiero, subiendo o bajando</strong>.</p>
+<p>Los riesgos potenciales asociados a la renta fija son:</p>
+<p>• <strong>Riesgo de precio</strong></p>
+<p>• <strong>Riesgo de reinversión</strong></p>
+<p>• Riesgo de crédito</p>
+<p>• Riesgo de inflación</p>
+<p>• Riesgo de tipo de cambio</p>
+<p>• Riesgo de amortización anticipada</p>
+<p>• Riesgo de liquidez</p>
+<p>En esta parte <strong>nos centraremos en los dos primeros, entendidos como el riesgo de tipo de interés</strong>:</p>
+<ul>
+<li><p>El <strong>riesgo de precio es la principal fuente de incertidumbre</strong> a la que se enfrenta un inversor en productos de renta fija. Todos los productos de renta fija están sujetos a este riesgo.Ya que <strong>cuando el tipo de interés de mercado sube, el precio del bono baja.Y, viceversa</strong>, cuando el tipo de interés de mercado baja, el precio del bono sube.</p></li>
+<li><p>El <strong>riesgo de reinversión</strong> aparece en aquellos activos de renta fija con rendimiento explícito y se refiere al hecho de que durante el transcurso de la vida de un bono, se asume la <strong>incertidumbre sobre la reinversión del importe cobrado del cupón</strong>. El cupón se reinvertirá en otro producto de renta fija que tendrá, muy probablemente, un tipo de interés superior o inferior al del producto en su momento inicial.</p></li>
+</ul>
+</section>
+<section id="relación-precio-tir-principios-de-malkiel" class="level3">
+<h3 class="anchored" data-anchor-id="relación-precio-tir-principios-de-malkiel">Relación precio-TIR: principios de Malkiel</h3>
+<p>La relación precio-TIR sigue los principios de Malkiel, que incluyen:</p>
+<ul>
+<li>El valor de un activo de renta fija varía en sentido inverso a su rentabilidad.</li>
+<li>Los activos con menor cupón experimentan mayores cambios de valor.</li>
+<li>Un incremento de la TIR supone una caída de precio inferior a la caída provocada por una disminución de la TIR.</li>
+</ul>
+</section>
+<section id="curva-y-estructura-temporal-de-los-tipos-de-interés-etti" class="level3">
+<h3 class="anchored" data-anchor-id="curva-y-estructura-temporal-de-los-tipos-de-interés-etti">Curva y estructura temporal de los tipos de interés (ETTI)</h3>
+<p>La curva de tipos de interés es una herramienta importante en el mercado financiero que proporciona información sobre las rentabilidades de los activos de renta fija en relación con sus vencimientos. La curva se representa gráficamente trazando los rendimientos de los bonos con diferentes vencimientos. La estructura temporal de los tipos de interés, por su parte, muestra los rendimientos de los bonos cupón cero y se utiliza para analizar la relación entre los tipos de interés y los vencimientos.</p>
+<p>El perfil de la curva de tipos de interés, o de un tramo de ella, puede ser plano, creciente o decreciente. Un perfil plano indica que los rendimientos son similares para todos los vencimientos, mientras que un perfil creciente indica que los rendimientos aumentan a medida que aumenta el vencimiento. Por el contrario, un perfil decreciente indica que los rendimientos disminuyen a medida que aumenta el vencimiento.</p>
+<p>Es importante tener en cuenta que si hay cambios en las expectativas o variables relevantes, las curvas de tipos de interés se desplazan y modifican su perfil. Por ejemplo, si se espera que la inflación aumente, esto puede provocar un aumento en los tipos de interés a largo plazo y una pendiente más pronunciada en la curva. En general, la curva de tipos de interés es una herramienta valiosa para los inversores y analistas financieros que buscan entender las tendencias del mercado y tomar decisiones informadas sobre sus inversiones.</p>
+<section id="teorías-explicativas-de-la-etti" class="level4">
+<h4 class="anchored" data-anchor-id="teorías-explicativas-de-la-etti">Teorías explicativas de la ETTI</h4>
+<p>La curva de tipos de interés muestra las rentabilidades de los activos de renta fija en relación con sus vencimientos. Existen diferentes teorías que explican cómo se forma la curva. La Teoría de la Preferencia por la Liquidez establece que la curva debe ser creciente, ya que los inversores prefieren invertir a corto plazo para poder convertir en liquidez los activos si es necesario. La Teoría de las Expectativas del Mercado indica que la curva se forma en función de las expectativas de los inversores sobre cómo evolucionarán los tipos de interés en el futuro. Finalmente, la Teoría del Hábitat Preferido sintetiza estas teorías y establece que la oferta y la demanda de activos financieros debe ajustar sus plazos según el “hábitat” en el que se encuentren, existiendo primas para aquellos vencimientos donde hay una demanda insuficiente. En general, estas teorías son útiles para entender las tendencias del mercado y tomar decisiones informadas sobre las inversiones.</p>
+<p>Un desarrollo más amplio de las teorías explicativas de la estructura temporal de los tipos de interés (ETTI) sería:</p>
+<ul>
+<li><p>De la <strong>Teoría de la Preferencia por la liquidez</strong>, se infiere que la curva de rendimientos de una inversión será siempre creciente en función del tiempo, ya que en principio un inversor preferirá invertir a corto plazo que a largo plazo, al poder conseguir convertir antes en liquidez los activos si así le fuera necesario.</p></li>
+<li><p>La <strong>Teoría de las Expectativas del Mercado</strong>, enuncia que la ETTI se forma de manera exclusiva en función de las expectativas que tienen los potenciales inversores en relación a cómo van a evolucionar los tipos de interés en el futuro. Por tanto, la curva sería creciente cuando se espere que los tipos vayan a subir debido a que haya por ejemplo una elevada inflación, y sería descendente cuando la expectativa fuera de bajada de la inflación.</p></li>
+<li><p>La <strong>Teoría del Hábitat Preferido</strong>, por su parte ha tratado de sintetizar estas teorías, estableciendo que el equilibrio de mercado obliga a que la oferta y la demanda de activos financieros debe ajustar sus plazos en cada momento, según el “hábitat” en el que nos encontremos, existiendo primas para aquellos vencimientos donde hay una demanda insuficiente, de tal manera que dichas primas serían las que inducirían a los inversores al abandono de sus hábitats preferidos, pasando de largo a corto plazo o viceversa.</p></li>
+</ul>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Ejemplo ETTI
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Si las cotizaciones actuales de los bonos cupón cero a 3,5 y 10 años es del 100% y sus valores de reembolso son: 115,76%, 127,63% y 162,89% respectivamente, ¿cuál será el perfil que adopte la ETTI?</p>
+<!-- -->
+<ol type="a">
+<li><p>Positiva.</p></li>
+<li><p>Negativa.</p></li>
+<li><p>Plana.</p></li>
+<li><p>Exponencial.</p></li>
+</ol>
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Para saber que el perfil adoptará la ETTI simplemente deberemos calcular el valor que toma la TIR de los 3 bonos cupón cero referidos y, ordenalos en función de su plazo de vencimiento. De forma que si el precio de un bono cupón cero viene dado por:</p>
+<p><span class="math display">\[P_0(\%)=\frac{Reembolso(\%)}{(1+TIR)^{n}}\]</span></p>
+<p><strong>BONO 1</strong></p>
+<p><span class="math display">\[100=\frac{115,76}{(1+TIR)^{3}}=&gt;TIR=5\%\]</span></p>
+<p><strong>BONO 2</strong></p>
+<p><span class="math display">\[100=\frac{127,63}{(1+TIR)^{5}}=&gt;TIR=5\%\]</span></p>
+<p><strong>BONO 3</strong></p>
+<p><span class="math display">\[100=\frac{162,89}{(1+TIR)^{10}}=&gt;TIR=5\%\]</span></p>
+<p>luego, el perfil que adoptará la ETTI será plano ya que para los tres bonos la tasa interna de rentabilidad <strong>(TIR) a, 5 y 10 años es igual al 5%</strong>.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="medición-y-gestión-del-riesgo-de-tipo-de-interés" class="level3">
+<h3 class="anchored" data-anchor-id="medición-y-gestión-del-riesgo-de-tipo-de-interés">Medición y gestión del riesgo de tipo de interés</h3>
+<section id="sensibilidad" class="level4">
+<h4 class="anchored" data-anchor-id="sensibilidad">Sensibilidad</h4>
+<p>La sensibilidad es una <strong>herramienta</strong> valiosa para determinar cómo se comportará el precio de un bono ante pequeñas variaciones en la TIR. Es por tanto, una medida de riesgo en la gestión de activos de renta fija. Esta medida <strong>nos indica cuán “sensible” es el precio del bono (en términos absolutos, viene dada en unidades monetarias) a las fluctuaciones absolutas que se producen en los tipos de interés</strong>.</p>
+<ul>
+<li><p>En <strong>escenarios de tipos de interés bajos</strong>, un bono con una <strong>sensibilidad mayor experimentará un aumento de precio más significativo</strong> si se produce una variación en la TIR.</p></li>
+<li><p>Por otro lado, en <strong>escenarios de tipos de interés altos</strong>, un bono con una <strong>sensibilidad menor experimentará una disminución de precio menor</strong> si hay una variación en la TIR.</p></li>
+</ul>
+<p>Sin embargo, como la sensibilidad refleja las variaciones de los precios en términos absolutos, <strong>no es adecuada para comparar bonos con diferentes precios y características</strong>. En este caso, se requiere un análisis de la duración de los bonos.</p>
+<p>Para hallar la sensibilidad (o sensibilidad absoluta) ante cambios en el precio, calcularemos lo siguiente:</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol type="1">
+<li>La Duración de Macaulay</li>
+</ol>
+<p><span class="math display">\[D=\frac{\sum_{t=1}^{n}\frac{F_t\cdot t}{\left(1+r\right)^t}}{P}\]</span></p>
+<ol start="2" type="1">
+<li>La Duración corregida</li>
+</ol>
+<p><span class="math display">\[D_{corregida}=\frac{D}{\left(1+TIR\right)} \]</span></p>
+<ol start="3" type="1">
+<li>La propia sensibilidad</li>
+</ol>
+<p><span class="math display">\[S= Duracion\,corregida \cdot \frac{Precio\,entero}{100}\]</span></p>
+<p>Podemos usar la sensibilidad como una aproximación lineal del nuevo valor de un bono (<span class="math inline">\(P_1\)</span>) ante una variación absoluta de la TIR (<span class="math inline">\(\Delta TIR\)</span>) es:</p>
+<p><span class="math display">\[P_1\simeq P_0 + ((-S)\cdot\Delta TIR)\]</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="duración" class="level4">
+<h4 class="anchored" data-anchor-id="duración">Duración</h4>
+<p>La <strong>duración de Macaulay</strong> es una de las características más importantes que definen un bono. Los gestores de renta fija suelen utilizar esta medida debido a sus propiedades, ya que <strong>permite establecer relaciones fundamentales entre</strong> la estructura de un bono, <strong>su TIR y su precio</strong>.</p>
+<p>La duración es la media de los periodos de pago de los flujos de un bono ponderados por el peso que representa el valor actual de los mismos en el precio del bono.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Duración de Macaulay (o simplemente Duración)</p>
+<p><span class="math display">\[D=\frac{\sum_{t=1}^{n}\frac{F_t\cdot t}{\left(1+r\right)^t}}{P_0}\]</span></p>
+<p>Donde,</p>
+<ul>
+<li><p><span class="math inline">\(D\)</span>, Duración de Macaulay expresada en años.</p></li>
+<li><p><span class="math inline">\(F_t\)</span>, Flujos a percibir por la tenencia de un bono (cupón y principal).</p></li>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio entero de un bono o valor actual del mismo (<span class="math inline">\(V_0\)</span>).</p></li>
+<li><p><span class="math inline">\(r\)</span>, es la TIR.</p></li>
+<li><p><span class="math inline">\(t\)</span>, es el tiempo hasta el vencimiento de cada uno de los flujos del bono.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>Es por lo tanto, una media ponderada de la vida de un bono, es decir, la “vida media” del bono. La duración <strong>se expresa</strong> en unidades temporales, <strong>normalmente en años</strong>.</p>
+</section>
+<section id="propiedades-de-la-duración" class="level4">
+<h4 class="anchored" data-anchor-id="propiedades-de-la-duración">Propiedades de la Duración</h4>
+<p>De la expresión general para el cálculo de la duración, se puede deducir que <strong>un bono cupón cero (un solo flujo en la fecha de vencimiento) tiene una duración igual a su vencimiento</strong>.</p>
+<p>La duración <strong>puede definirse también como una medida de la sensibilidad relativa de un bono</strong>. Es decir, relaciona las variaciones relativas del precio con las variaciones relativas de la TIR.</p>
+<p>De forma que también podemos deducir que:</p>
+<ul>
+<li><p>Ante previsiones de <strong>subidas en los tipos de interés</strong>, será <strong>más interesante</strong> para el inversor en renta fija invertir en <strong>bonos con una duración pequeña</strong>.</p></li>
+<li><p>Ante previsiones de <strong>bajadas en los tipos de interés</strong>, será <strong>más interesante</strong> para el inversor en renta fija invertir en <strong>bonos con más duración</strong>.</p></li>
+</ul>
+<p>Si relacionamos la duración con el vencimiento de un bono, manteniendo constante la estructura de los flujos y la TIR, podemos afirmar que en general: a <strong>mayor plazo de amortización, mayor duración</strong>.</p>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Con una <strong>excepción</strong>: y es que para bonos bajo la par con vencimientos largos, el incremento de la duración a medida que aumenta el plazo de amortización, presenta un punto de inflexión a partir del cual se invierte la tendencia inicial.</p>
+</div>
+</div>
+</div>
+<p>De la relación entre la duración y la TIR, podemos deducir que: <strong>cuando aumenta la TIR, disminuye la duración.</strong></p>
+<p>De la relación entre la duración y la periodicidad de los cupones podemos extraer la siguiente propiedad: <strong>a mayor frecuencia en el pago de cupones menor duración</strong>. Ya que al aumentar la frecuencia en el pago de cupones disminuye la importancia relativa del último flujo, ya que el aumento de la frecuencia incrementa el valor actual de los cupones. Por lo tanto, este efecto se traduce en una disminución de la duración.</p>
+<p>De la relación entre la duración y el paso del tiempo, y siempre que la TIR permanezca constante, se derivan dos propiedades muy importantes. La primera es:</p>
+<ul>
+<li><p><strong>Con el transcurso del tiempo</strong>, los plazos de los flujos del bono se hacen más pequeños y, por lo tanto, <strong>la duración también disminuye</strong>.</p></li>
+<li><p>A <strong>medida que disminuye la vida pendiente de un bono</strong>, también <strong>disminuye su duración</strong>.</p></li>
+</ul>
+</section>
+<section id="duración-corregida-o-modificada" class="level4">
+<h4 class="anchored" data-anchor-id="duración-corregida-o-modificada">Duración corregida o modificada</h4>
+<p>Hemos visto, dos medidas que relacionan las variaciones del precio de un bono con las variaciones de su TIR:</p>
+<ul>
+<li><p>La <strong>sensibilidad</strong>, donde la <strong>relación</strong> se da a través <strong>de magnitudes</strong> <strong>absolutas</strong>, con lo que existe el problema de comparar entre diferentes bonos.</p></li>
+<li><p>La <strong>duración</strong>, donde la <strong>relación</strong> se realiza a través <strong>de magnitudes relativas</strong>, con lo que es posible la comparación para diferentes bonos.</p></li>
+</ul>
+<p>En este caso, la problemática se produce en la interpretación económica de las magnitudes. Recordemos que la duración relaciona la variación relativa del precio con la variación relativa de la TIR, pero esta última, no tiene una fácil interpretación económica. Para relacionar los dos problemas, recurriremos al cálculo de la duración corregida, o duración modificada.</p>
+<p>Matemáticamente su expresión es:</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Duración corregida expresada en años</p>
+<p><span class="math display">\[D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}=\frac{D}{\left(1+TIR\right)} \]</span></p>
+<ul>
+<li>Si la queremos expresada en porcentaje</li>
+</ul>
+<p><span class="math display">\[D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}\cdot\frac{1}{100}\]</span></p>
+</div>
+</div>
+</div>
+<p>Cuando hablamos de <strong>volatilidad de los bonos u obligaciones</strong> nos estamos refiriendo a la sensibilidad de su precio de mercado con relación a los cambios que se produzcan en el tipo de interés de mercado (su rendimiento). Así que l<strong>a podemos definir como la variación que se produce en el precio del bono con respecto a un incremento (o decremento) de cien puntos básicos (1%) de su rendimiento (TIR) hasta el vencimiento</strong>.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Duración corregida para estimar el efecto en precio de variaciones en la TIR</p>
+<p><span class="math display">\[\frac{\Delta P}{P}\simeq  \frac{P_1-P_0}{P_0}\simeq \left(-D_{corregida}\right)\cdot\Delta TIR\]</span></p>
+<p>Alternativamente, la Duración corregida para estimar el efecto en precio de variaciones en la TIR la podemos expresar como,</p>
+<p><span class="math display">\[P_1\simeq P_0\cdot\left[1+((-D_{corregida})\cdot\Delta TIR)\right]\]</span></p>
+<p>Donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_1\)</span>, es el precio estimado del bono ante una variación de la TIR.</p></li>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio actual del bono .</p></li>
+<li><p><span class="math inline">\(D_{corregida}\)</span>, es la duración corregida.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>Concretando, el precio de los bonos está inversamente relacionado a su rendimiento; <strong>la duración modificada actúa como un multiplicador dado que cuanto más grande sea, mayor será el impacto en el precio de los bonos ante un cambio de los tipos de interés</strong>; y, por último, para una duración modificada determinada, cuánto mayores sean las variaciones en el tipo de interés, mayor será el porcentaje de cambio en el precio.</p>
+</section>
+<section id="inmunización" class="level4">
+<h4 class="anchored" data-anchor-id="inmunización">Inmunización</h4>
+<p>El riesgo de tipo de interés es uno de los mayores riesgos a los que se enfrenta un inversor en renta fija, debido a su impacto en el precio y la reinversión de los cupones. Una subida de los tipos de interés reduce el valor del activo, mientras que una bajada de los tipos de interés implica una reinversión de los cupones a tipos más bajos. <strong>Los activos con rendimiento implícito no están expuestos al riesgo de reinversión.</strong></p>
+<p>El horizonte temporal de la inversión es el factor clave que determinará si el inversor prefiere que los tipos de interés suban o bajen. <strong>Si el horizonte temporal es corto, el efecto precio domina y el inversor preferirá que los tipos de interés bajen. Si el horizonte temporal es largo, el efecto reinversión es mayor y el inversor preferirá que los tipos de interés suban.</strong></p>
+<p>Para lograr la <strong>inmunización</strong>, es importante que la duración y el horizonte temporal de la inversión estén homogeneizados. La duración de Macaulay es una medida útil para evaluar la sensibilidad de los precios de los bonos a los cambios en las tasas de interés. La inmunización <strong>se logra haciendo coincidir la duración y el horizonte temporal de la inversión</strong>, lo que garantiza una rentabilidad mínima igual a la TIR inicial del bono.</p>
+<p>Hay <strong>tres posibles situaciones</strong> al realizar una inversión:</p>
+<ul>
+<li><p>Si la <strong>duración es igual al horizonte temporal, la cartera está inmunizada</strong>.</p></li>
+<li><p>Si la <strong>duración es mayor que el horizonte temporal</strong>, el inversor deberá vender los activos al final del horizonte temporal y asumir un <strong>riesgo de precio</strong>.</p></li>
+<li><p>Si la <strong>duración es menor que el horizonte temporal</strong>, la inversión no estará inmunizada y el inversor deberá hacer una nueva inversión asumiendo el <strong>riesgo de reinversión</strong>.</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="valoración-de-activos-de-renta-fija-a-corto-y-a-largo-plazo" class="level2">
+<h2 class="anchored" data-anchor-id="valoración-de-activos-de-renta-fija-a-corto-y-a-largo-plazo">Valoración de activos de renta fija a corto y a largo plazo</h2>
+<p>La <strong>valoración de un bono</strong> se realiza mediante la <strong>actualización</strong> de los flujos futuros a las tasas de interés exigidas por el mercado.</p>
+<p>El rendimiento o la <strong>rentabilidad</strong> de un activo de renta fija <strong>se expresa anualmente</strong> a través del régimen de <strong>interés simple o</strong> del régimen de interés <strong>compuesto</strong>.</p>
+<p>El régimen de interés <strong>simple se usará</strong> básicamente para el cálculo de las rentabilidades de los activos de renta fija a más corto plazo, es decir, <strong>para vencimientos inferiores o iguales al año natural</strong> (Letras del Tesoro y Pagarés de empresa).</p>
+<p>Las <strong>bases de cálculo</strong> establecen la unidad de tiempo a la que se refiere un tipo de interés determinado. Por extensión se suele llamar base a la combinación de base y método de cálculo. Las bases más usuales son: la <strong>actual y 360 días</strong>.</p>
+<p>El régimen de <strong>interés compuesto</strong> se usará fundamentalmente <strong>a través de la TIR</strong> para expresar la rentabilidad de un activo con interés explícito. También se utilizará para el cálculo del rendimiento de activos con interés implícito y vencimientos superiores al año natural.</p>
+<p><strong>El precio de los bonos y de las obligaciones</strong> (activos de renta fija a medio y largo plazo) es igual al valor presente de sus flujos de caja (cash flows) futuros, los cupones y el principal, descontados a un tipo de interés de mercado.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 19%">
+<col style="width: 27%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Método</th>
+<th style="text-align: center;">Base</th>
+<th style="text-align: center;">Régimen de interés</th>
+<th style="text-align: center;">Tipo de interés</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Mercado monetario</td>
+<td style="text-align: center;">Hasta 1 año</td>
+<td style="text-align: center;">Actual/360</td>
+<td style="text-align: center;">Simple</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center;">Más de 1 año</td>
+<td style="text-align: center;">Actual/360</td>
+<td style="text-align: center;">Compuesto</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mercado de capitales</td>
+<td style="text-align: center;">Siempre</td>
+<td style="text-align: center;">Actual/Actual</td>
+<td style="text-align: center;">Compuesto</td>
+</tr>
+</tbody>
+</table>
+<p>Las <strong>dos formas de expresar el valor de un activo de renta fija</strong>, el valor actual y la TIR, son herramientas importantes en la valoración y análisis de inversiones en este tipo de activos.</p>
+<ul>
+<li><p><strong>Valor Actual</strong> (<span class="math inline">\(P_0\)</span>): Se determina aplicando una tasa de descuento o tasa esperada de rendimiento al flujo de efectivo esperado del activo. Este valor actual representa el precio esperado del activo.</p></li>
+<li><p><strong>Tasa Interna de Rendimiento (TIR)</strong>: Se calcula utilizando el precio de mercado del activo o su valor actual. La TIR es la tasa de retorno esperada del activo, es decir, la tasa que iguala el valor actual del flujo de efectivo del activo con su precio de mercado.</p></li>
+</ul>
+<p>Casos particulares en la valoración de un bono:</p>
+<ol type="1">
+<li><p>Cálculo del precio de un bono con pago de cupones no anuales:</p>
+<ul>
+<li><p>Se calcula el valor presente de cada cupón teniendo en cuenta el plazo y la tasa de descuento adecuada.</p></li>
+<li><p>Se suma el valor presente de los cupones y el valor presente del valor nominal para obtener el precio del bono.</p></li>
+</ul></li>
+<li><p>Cálculo del precio de un bono con pago de cupón anual en una fecha cualquiera:</p>
+<ul>
+<li><p>Se calcula el tiempo hasta la fecha de pago del cupón y se aplica la tasa de descuento correspondiente para obtener el valor presente del cupón. Deberemos tener muy en cuenta la fracción de año que falta para el pago del primer cupón.</p></li>
+<li><p>Se suma el valor presente de los cupones y el valor presente del valor nominal para obtener el precio del bono.</p></li>
+</ul></li>
+<li><p>Cálculo del precio de un bono considerándolo como una renta:</p>
+<ul>
+<li><p>Se calcula el valor presente de los flujos de efectivo generados por los cupones y el valor nominal a lo largo de la vida del bono. Podemos considerar el pago de cupones periódicos como una renta constante, y la amortización del principal, como un bono cupón cero.</p></li>
+<li><p>Se suma el valor presente de los flujos de efectivo para obtener el precio del bono.</p></li>
+</ul></li>
+<li><p>Cálculo del precio de un bono cupón cero:</p>
+<ul>
+<li><p>Se calcula el valor presente del valor nominal utilizando el mismo procedimiento (actualización de los flujos del bono), sólo que se simplifica al calcular el valor actual de un solo flujo.</p></li>
+<li><p>El precio del bono cupón cero es igual al valor presente del valor nominal.</p></li>
+</ul></li>
+<li><p>Precio ex-cupón y cupón corrido:</p>
+<ul>
+<li><p>El <strong>precio ex-cupón</strong> de un bono, es la <strong>diferencia entre el precio entero y el cupón corrido</strong> del bono. <strong>En la mayoría de los mercados</strong> secundarios de renta fija, l<strong>os activos cotizan en precio ex-cupón</strong>.</p></li>
+<li><p>El <strong>cupón corrido es el interés devengado del próximo cupón</strong>. Se calcula como una ponderación simple del próximo cupón.</p></li>
+<li><p><strong>El precio entero es lo que efectivamente vale el bono</strong> y, por lo tanto, el resultado de la actualización de los flujos del bono a la TIR de mercado.</p></li>
+</ul></li>
+</ol>
+<section id="resumen" class="level3">
+<h3 class="anchored" data-anchor-id="resumen">Resumen</h3>
+<p>La <strong>relación</strong> entre el <strong>precio</strong> de un bono, el <strong>cupón y la TIR</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 30%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Con Prima</strong></th>
+<th><strong>Emisión de Bonos</strong></th>
+<th><strong>Con Descuento</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sobre la par</td>
+<td>A la Par</td>
+<td>Bajo La par</td>
+</tr>
+<tr class="even">
+<td>Rentabilidad (-) implícita</td>
+<td>Rentabilidad = % Cupón</td>
+<td>Rentabilidad (+) implícita</td>
+</tr>
+<tr class="odd">
+<td>TIR &lt; Cupón</td>
+<td>TIR = Cupón</td>
+<td>TIR &gt; Cupón</td>
+</tr>
+<tr class="even">
+<td>P &gt; VN</td>
+<td>P = VN</td>
+<td>P &lt; VN</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>Si el <strong>precio del bono es igual a su valor nominal, la TIR será igual al cupón</strong>. Esto significa que el rendimiento del bono será igual al cupón que se paga.</p></li>
+<li><p>Si el <strong>precio del bono es mayor que su valor nominal, la TIR será menor</strong> que el cupón.</p></li>
+<li><p>Si el <strong>precio del bono es menor que su valor nominal, la TIR será mayor</strong> que el cupón.</p></li>
+</ul>
+<p>La relación entre tipos de interés del mercado y los precios de los bonos</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>TIPOS</th>
+<th>PRECIO</th>
+<th>TIR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Si ↑ t/ i</td>
+<td>↓ Precio bono</td>
+<td>↑ TIR</td>
+</tr>
+<tr class="even">
+<td>Si ↓ t/ i</td>
+<td>↑ Precio bono</td>
+<td>↓ TIR</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Para hacer la <strong>valoración</strong> de activos de renta fija, en la mayoría de casos, y especialmente cuando tengan cupón corrido, utilizamos la <strong>CALCULADORA FINCIERA CASIO FC 200V</strong></p>
+<ul>
+<li><p><strong>Precio/TIR/CC</strong> =&gt; CASIO FC 200V <strong>(función BOND)</strong></p></li>
+<li><p><strong>TRE</strong> =&gt; calculamos <strong>sin emplear ninguna función</strong> financiera</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>Descripción de los <strong>distintos precios de los bonos cuando hay cupón corrido</strong>:</p>
+<ol type="1">
+<li><p>Precio <strong>Entero</strong>: Es el precio cotizado en el mercado para un bono, incluyendo el valor del cupón corrido.</p></li>
+<li><p>Precio <strong>Sucio</strong>: También conocido como “Precio Ex cupón”, es el precio de un bono sin incluir el valor del cupón corrido. Es el precio al que se negocia el bono en el mercado secundario sin tener en cuenta los intereses acumulados.</p></li>
+<li><p>Precio <strong>Efectivo</strong>: Es el precio limpio del bono, es decir, el precio sin incluir el valor del cupón corrido.</p></li>
+</ol>
+<p><strong>Analíticamente</strong> y con los <strong>distintos nombres</strong> que podemos encontrar, tenemos:</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>NOMBRE</strong></td>
+<td><strong>COMPOSICIÓN</strong></td>
+</tr>
+<tr class="even">
+<td>Precio <strong>Entero</strong> =</td>
+<td>Precio cotización + Cupón Corrido</td>
+</tr>
+<tr class="odd">
+<td>Precio <strong>Sucio</strong> =</td>
+<td>Precio Ex cupón + Cupón Corrido</td>
+</tr>
+<tr class="even">
+<td>Precio <strong>Efectivo</strong> =</td>
+<td>Precio Limpio + Cupón Corrido</td>
+</tr>
+</tbody>
+</table>
+<p><strong>En la calculadora Casio FC 200V, las variables se definen mediante:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>VARIABLE</strong></th>
+<th><strong>TRADUCCIÓN</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PRC</td>
+<td>Precio ex cupón, limpio o de cotización</td>
+</tr>
+<tr class="even">
+<td>INT</td>
+<td>Cupón corrido</td>
+</tr>
+<tr class="odd">
+<td>CTS</td>
+<td>Precio entero, sucio o coste efectivo</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cálculos" class="level3">
+<h3 class="anchored" data-anchor-id="cálculos">Cálculos</h3>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Tipos de interés spot y forward</p>
+<ul>
+<li>Para periodos <strong>inferiores al año</strong>, capitalización <strong>simple</strong> (a 6 meses dentro de 6):</li>
+</ul>
+<p><span class="math display">\[(1+_{0}S_{12} \cdot \frac{12 }{12 })=(1+_{0}S_{6} \cdot \frac{6 }{12 })\cdot(1+f_{6,12}\cdot \frac{6 }{12 })\]</span></p>
+<ul>
+<li>Para periodos <strong>superiores al año</strong>, capitalización <strong>compuesta</strong> (a 1 año dentro de un año):</li>
+</ul>
+<p><span class="math display">\[(1+_{0}S_{2})^{2}=(1+_{0}S_{1})^1\cdot(1+f_{1,2})^1\]</span> Donde,</p>
+<ul>
+<li><p><span class="math inline">\(_{0}S_{1}\)</span>, es el tipo spot o de contado; el subíndice que aparece a la derecha nos indica el momento en que dicho interés está vigente y, el de la derecha, el número de periodos de vigencia.</p></li>
+<li><p><span class="math inline">\(f_{1,2}\)</span>, es el tipo forward obtenido a partir de los tipos spot; el subíndice nos indica el periodo en que dicho interés estará vigente.</p></li>
+</ul>
+<p><a href="https://monografia-tipos-spot-forward.netlify.app/"><strong>Ejercicios para practica los tipos de interés implícitos o forward</strong></a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Precio de un activo de Renta Fija (interés implícito)</p>
+<ul>
+<li><strong>Mercado monetario (Hasta 1 año, capitalización simple)</strong></li>
+</ul>
+<p><span class="math display">\[P_0=\frac{100}{\left(1+i\cdot\frac{Actual}{360}\right)}\]</span></p>
+<ul>
+<li><strong>Mercado monetario (Más de 1 año, capitalización compuesta)</strong></li>
+</ul>
+<p><span class="math display">\[P_0=\frac{100}{(1+i)^{Actual/360}}\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio del activo, expresado en porcentaje sobre el nominal.</p></li>
+<li><p><span class="math inline">\(i\)</span>, es el tipo de interés.</p></li>
+<li><p><span class="math inline">\(Actual\)</span>, es el número de días que ha mantenido el inversor el activo en su poder.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Precio de un activo de Renta Fija (interés explícito)</p>
+<p><span class="math display">\[P_0=\frac{C_1}{(1+TIR)}+\frac{C_2}{(1+TIR)^2}+\ ... \ +\frac{C_t}{(1+TIR)^t}\]</span></p>
+<p>Donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_o\)</span>, es el precio o valor actual</p></li>
+<li><p><span class="math inline">\(C_t\)</span>, es el cupón en el momento <span class="math inline">\(t\)</span></p></li>
+<li><p><span class="math inline">\(TIR\)</span>, es la tasa de descuento o TIR</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>La Tasa Interna de Rentabilidad (TIR) es una medida de rentabilidad a priori que estima anticipadamente el rendimiento de una inversión. Se calcula considerando los flujos de efectivo futuros y el desembolso inicial de la inversión. La TIR asume que los flujos de efectivo se reinvierten a una tasa constante y se basa en la suposición de una curva de tipos de interés plana.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Tasa de rentabilidad efectiva (TRE, o rentabilidad efectiva o a posteriori)</p>
+<p><span class="math display">\[P_f=P_0 \cdot \left(1+{TRE}\right)^t\]</span></p>
+<p>Donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_f\)</span>, es el precio final o valor final</p></li>
+<li><p><span class="math inline">\(P_o\)</span>, es el precio o valor actual</p></li>
+<li><p><span class="math inline">\(TRE\)</span>, es la rentabilidad efectiva o TRE</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>Por otro lado, la Tasa de Rentabilidad Efectiva (TRE) es el <strong>rendimiento real obtenido después de realizar la inversión</strong>. Se calcula teniendo en cuenta los flujos de efectivo reales que se generan durante la vida de la inversión, incluyendo los ingresos y los desembolsos de efectivo. La rentabilidad efectiva refleja el rendimiento real de la inversión, <strong>teniendo en cuenta cualquier variación en los flujos de efectivo y las tasas de interés</strong>.</p>
+<p><strong>Cada una de estas medidas de rentabilidad tiene su utilidad</strong> y se utiliza en diferentes etapas de la evaluación y seguimiento de una inversión de Renta Fija. <strong>La TIR es útil para estimar</strong> el rendimiento potencial de una inversión antes de realizarla, mientras que <strong>la rentabilidad efectiva proporciona una medida más precisa del rendimiento real después de la inversión</strong>.</p>
+<p>Ambas medidas son importantes para tomar decisiones informadas sobre inversiones y evaluar su desempeño ya que, <strong>en la medida en que el tipo de interés al que se podrán reinvertir los cupones no coincida con la TIR, su rentabilidad efectiva (TRE) en el vencimiento diferirá de esa TIR</strong>.</p>
+<p>El <strong>cupón corrido</strong> representa el valor proporcional del próximo pago de cupón que se paga al comprador del bono si la fecha de compra es posterior a la fecha de pago del cupón anterior.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Cálculo del cupón corrido</p>
+<p><span class="math display">\[CC=\frac{D_c}{D_t}\cdot C\]</span></p>
+<p>Donde,</p>
+<ul>
+<li><p><span class="math inline">\(CC\)</span>, es el cupón corrido.</p></li>
+<li><p><span class="math inline">\(D_{c}\)</span>, es el tiempo, en días, transcurrido desde el pago del último cupón.</p></li>
+<li><p><span class="math inline">\(D_{t}\)</span>, es el tiempo, en días, que transcurre entre el pago de dos cupones consecutivos (días totales de devengo del cupón).</p></li>
+<li><p><span class="math inline">\(C\)</span>, es el importe del cupón que se paga periódicamente.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="ejemplos-de-valoración" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplos-de-valoración">Ejemplos de valoración</h3>
+<ol type="1">
+<li>Un bono cupón cero adquirido por 88,333%, con vencimiento a 4 años. ¿Indique cuál de las siguientes afirmaciones es correcta?:</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>Su TIR es del 3,15%</p></li>
+<li><p>La TRE es del 3,15%</p></li>
+<li><p>La rentabilidad acumulada al vencimiento es del 11,667%</p></li>
+<li><p>Todas las respuestas son correctas.</p></li>
+</ol>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Calculamos la TIR del bono como un descuento en capitalización compuesta:</p>
+<p><span class="math display">\[P_0=\frac{100\ (reembolso \ del  \ 100\%)}{\left(1+TIR\right)^n}\]</span> de forma que, <span class="math display">\[88,333=\frac{100}{\left(1+TIR\right)^4}\]</span></p>
+<p>si resolvemos por la TIR, tenemos</p>
+<p><span class="math display">\[TIR=0.0315(3,15\%)\]</span></p>
+<p>En el caso de la TRE, empleamos su fórmula,</p>
+<p><span class="math display">\[C_4=C _0\cdot (1+TRE)^4\]</span> al sustitur</p>
+<p><span class="math display">\[100=88.333\cdot (1+TRE)^4\]</span> tenemos que</p>
+<p><span class="math display">\[TRE=0.0315(3,15\%)\]</span></p>
+<p><strong>La TIR coincidirá con la TRE ya que no hay flujos de caja</strong> que hayan de ser reinvertidos. De forma que el <strong>riesgo</strong>, derivado de la <strong>incertidumbre sobre el tipo de interés</strong>, al que se reinvertirán los cupones, <strong>se elimina</strong> ya que se aplica la TIR desde el inicio de la inversión y hasta el final de la misma:</p>
+<p><span class="math display">\[TIR=TRE=0.0315(3,15\%)\]</span></p>
+<p>Finalmente, calculamos la rentabilidad acumulada del periodo como:</p>
+<p><span class="math display">\[r_{\left(acumulada\:a\:vencimiento\right)}=100\%-88.333\%=11.667\%\]</span></p>
+</div>
+</div>
+</div>
+<ol start="2" type="1">
+<li>El 19 de noviembre de 2016 se compra un bono que vence, exactamente, dentro de tres años. Hemos pagado un 102,35% de su nominal, con una TIR del 4,39% y paga un cupón anual del 5,25%. Si el inversor tiene una política de reinversión de los dividendos y teniendo en cuenta el siguiente esquema de tipos de interés para depósitos a un año, ¿cuál es la tasa de rentabilidad efectiva (TRE) de esta inversión a la fecha de vencimiento?</li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Años</th>
+<th>Tipos de interés para depósitos a un año</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>19-11-17</td>
+<td>3,00%</td>
+</tr>
+<tr class="even">
+<td>19-11-18</td>
+<td>2,25%</td>
+</tr>
+<tr class="odd">
+<td>19-11-19</td>
+<td>1,25%</td>
+</tr>
+</tbody>
+</table>
+<p>a. 4,30%</p>
+<p>b. 4,42%</p>
+<p>c. 4,25%</p>
+<p>d. Ninguna de las anteriores.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Recordemos que la Tasa de Rentabilidad Efectiva (TRE) se define como aquella rentabilidad media anual que tiene en cuenta las tasas de reinversión de los ingresos de una operación, medida mediante capitalización compuesta. Y su expresión es la siguiente:</p>
+<p><span class="math display">\[V_f=V_0\left(1+i_{TRE}\right)^n\]</span></p>
+<p>De forma que necesitaremos el valor final de la inversión (que lo calculamos), el valor inicial o precio (es un dato en este caso). De manera, que para hallar cual será el valor al final de la inversión teniendo en cuenta la reinversión a los tipos que nos dan, calculamos primero todos los flujos, esto es, de las cuatro inversiones realizadas:</p>
+<p><span class="math display">\[V_f=5.25\left(1+0.03\right)\left(1+0.0225\right)+5.25\left(1+0.0225\right)+105.25\]</span> <span class="math display">\[V_f=116.14729\]</span></p>
+<p>Una vez que ya conocemos el valor final <span class="math inline">\(V_f\)</span> y el valor inicial <span class="math inline">\(V_0\)</span>, planteamos la fórmula de la TRE y resolvemos por el tipo de interés <span class="math inline">\(i_{TRE}\)</span>:</p>
+<p><span class="math display">\[V_f=V_0\left(1+i_{TRE}\right)^n\]</span></p>
+<p>Donde,</p>
+<p><span class="math display">\[i_{TRE}=\left(\frac{V_f }{V_0}\right)^{\frac{1 }{n }}-1\]</span></p>
+<p>Que al sustituir y calcular, obtenemos un resultado de:</p>
+<p><span class="math display">\[i_{TRE}=\left(\frac{116.14729}{102.35}\right)^{\frac{1}{3}}-1=0.04305(4.3\%)\]</span></p>
+</div>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Si 1 de marzo de 2025 se compró un bono con cupón del 4,25% emitido el 1 de marzo de 2024 que vence el 28 de febrero de 2028. Si en activos similares el mercado se mueve en rentabilidades del 3,50% el precio en porcentaje sobre el nominal es aproximadamente:</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>100%</p></li>
+<li><p>100,75%</p></li>
+<li><p>102,11%</p></li>
+<li><p>102.75%</p></li>
+</ol>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>En este caso nos piden calcular el precio, pero NO indica de qué precio se trata, si es el precio entero (o sucio), o por el contrario el precio excupón (o de cotización); luego eso puede generar dudas. No obstante, si nos fijamos en este caso concreto a pesar de darnos fechas concretas (y NO términos) ambos precios coinciden (PS=PL), ya que <strong>no existe cupón corrido</strong> debido a que la adquisición del título se lleva a cabo justo en el momento del pago del 1 er cupón (1).</p>
+<p>Por otra parte, hay que recordar que <strong>se coge la fecha de compra para el cálculo</strong>, y NO la fecha de emisión …ya que no se adquiere en la emisión como ya se ha comentado, sino que es adquirido justo al finalizar el primer año (comienzo del segundo año). Luego si lo resolvemos con la <strong>calculadora financiera Casio FC200V</strong> tenemos que:</p>
+<ul>
+<li><p>Función: “BOND”</p></li>
+<li><p>SET: “Annu/Date”</p></li>
+<li><p>d1 = 01032025+ EXE</p></li>
+<li><p>d2 = 28022028 + EXE</p></li>
+<li><p>RDV = 100 + EXE</p></li>
+<li><p>CPN = 4,25 + EXE</p></li>
+<li><p>PRC = 0 + EXE</p></li>
+<li><p>YLD = 3,5% + EXE</p></li>
+</ul>
+<p>Ahora, con el cursor, volvemos sobre “PRC” y pulsamos “SOLVE”.</p>
+<p>Resultado:</p>
+<ul>
+<li><p>PRC = - 102,11% (precio: excupón, o de cotización)</p></li>
+<li><p>INT = - 0,00 (cupón corrido)</p></li>
+<li><p>CTS = - 102,11% (<strong>precio entero o sucio</strong>)</p></li>
+</ul>
+</div>
+</div>
+</div>
+<ol start="4" type="1">
+<li>Sea una emisión de pagarés a 18 meses con precio de emisión de 43.937 euros y 50.000 euros de valor nominal. Si seis meses después los pagares cotizan a 45.000 euros, ¿cuál es el tipo de interés al que están cotizando los pagarés en este momento?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>9%.</p></li>
+<li><p>Menor del 9%.</p></li>
+<li><p>Superior al 9%.</p></li>
+<li><p>No puede saberse con estos datos.</p></li>
+</ol>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Con los datos del enunciado,</p>
+<ul>
+<li><p><span class="math inline">\(P_0=45000\)</span></p></li>
+<li><p><span class="math inline">\(Nominal= 50000\)</span></p></li>
+<li><p><span class="math inline">\(n=12 \ meses\)</span></p></li>
+</ul>
+<p>y la fórmula del precio de un pagaré/letra,</p>
+<p><span class="math display">\[P_o=\frac{N}{\left(1+i\cdot \frac{n}{12}\right)}\]</span> bastará con susutituir y despejar el tipo de interés implícito,</p>
+<p><span class="math display">\[45000=\frac{50000}{\left(1+x\cdot \frac{12}{12}\right)}\]</span> para obtener tipo de interés al que están cotizando los pagarés en este momento</p>
+<p><span class="math display">\[i=0.1111(11,11\%)\]</span></p>
+</div>
+</div>
+</div>
+<ol start="5" type="1">
+<li>¿Cuál es el precio de una Letra del Tesoro comprada en el mercado secundario con un tipo de interés implícito del 2,066% y faltando 225 días para su vencimiento?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>98,725%.</p></li>
+<li><p>98,505%.</p></li>
+<li><p>98,630%.</p></li>
+<li><p>98,850%.</p></li>
+</ol>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>Empleamos la fórmula del precio de una letra, en capitalización simple y base 360:</p>
+<p><span class="math display">\[P_0=\frac{100}{\left(1+i\cdot \frac{d}{360}\right)}\]</span></p>
+<p>donde al sustituir y calcular</p>
+<p><span class="math display">\[P_0=\frac{100}{\left(1+\:0.02066\cdot \frac{225}{360}\right)}\]</span> tenemos un resultado de</p>
+<p><span class="math display">\[P_0=98.725\% \]</span></p>
+</div>
+</div>
+</div>
+<ol start="6" type="1">
+<li>¿Cuál es el precio entero (precio efectivo) de un bono del Estado el día 18/12/2021, sabiendo que su cotización (precio ex cupón) es 101,275%, que paga cupones constantes anuales del 3,20% y que su vencimiento es el 31/1/2025?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>101,661%</p></li>
+<li><p>98,461%</p></li>
+<li><p>101,275%</p></li>
+<li><p>104,089%</p></li>
+</ol>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Para resolver esta pregunta hemos de calcular el cupón corrido y sumarlo a su precio de cotización (o precio ex cupón) que es conocido e igual a 101,275%. Por tanto, planteamos la fórmula del cupón corrido,</p>
+<p><span class="math display">\[CC=\frac{D_c}{D_t}\cdot C\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(CC\)</span>, es el cupón corrido.</p></li>
+<li><p><span class="math inline">\(D_{c}\)</span>, es el tiempo transcurrido desde el pago del último cupón.</p></li>
+<li><p><span class="math inline">\(D_{t}\)</span>, es el tiempo que transcurre entre el pago de dos cupones consecutivos</p></li>
+<li><p><span class="math inline">\(C\)</span>, es el importe del cupón que se paga periódicamente.</p></li>
+</ul>
+<p>Ahora debemos realizar el cálculo para conocer el tiempo (en días) que ha transcurrido desde el pago del último cupón hasta la fecha presente (18/12/2021), y para ello sabemos que la próxima fecha del cupón que se paga periódicamente es el 31/1/2022 (ya que el vencimiento es el 31/1/2025).</p>
+<p>Por tanto calculamos su diferencia, sabiendo que desde el 18/12/2021 al 31/1/2022 van 43 días más el día corriente. Es decir 44 días, luego habrán transcurrido un total de 321 días (365-44) desde que se cobrara el último cupón.</p>
+<p>Lo que implica que el cupón devengado y no cobrado es un rendimiento implícito que acumula este bono a la fecha de su valoración.</p>
+<p>Ahora sustituimos en la fórmula y calculamos,</p>
+<p><span class="math display">\[CC=\frac{321}{365}\cdot 0.032=0.02814(2.82\%)\]</span> Luego, el precio efectivo será la suma del precio ex cupón más el cupón corrido,</p>
+<p><span class="math display">\[P_{efectivo}=101.275\%+2.814\%=104.089\%\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="fiscalidad-de-los-rendimientos-de-renta-fija" class="level2">
+<h2 class="anchored" data-anchor-id="fiscalidad-de-los-rendimientos-de-renta-fija">🧾 Fiscalidad de los rendimientos de renta fija</h2>
+<p>En el caso de personas físicas, los <strong>rendimientos generados por activos de renta fija</strong>, ya sean <strong>explícitos</strong> (intereses o cupones) o <strong>implícitos</strong> (rendimiento generado en el reembolso o transmisión), se consideran <strong>rendimientos del capital mobiliario</strong> y se integran en la <strong>base imponible del ahorro</strong> del IRPF.</p>
+<ul>
+<li>Los <strong>rendimientos explícitos</strong> tributan por el importe íntegro percibido (por ejemplo, intereses o cupones).</li>
+<li>Los <strong>rendimientos implícitos</strong> tributan por la <strong>diferencia entre el valor de transmisión o reembolso y el valor de adquisición</strong>, teniendo en cuenta los gastos inherentes a la operación.</li>
+</ul>
+<p>La <strong>tributación de estos rendimientos se realiza conforme a una escala progresiva</strong> aplicable a la base liquidable del ahorro, que detallamos a continuación.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Retención en origen">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Retención en origen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Los rendimientos del capital mobiliario están sujetos a una <strong>retención a cuenta del 19 %</strong>.<br>
+<strong>Excepciones</strong>:</p>
+<ul>
+<li>En el caso de las <strong>Letras del Tesoro</strong>, no se aplica retención.</li>
+<li>En la <strong>venta de valores de renta fija antes del vencimiento</strong>, los intereses devengados (cupones corridos) sí están sujetos a retención.</li>
+</ul>
+</div>
+</div>
+<hr>
+<section id="gravamen-de-la-base-liquidable-del-ahorro" class="level3">
+<h3 class="anchored" data-anchor-id="gravamen-de-la-base-liquidable-del-ahorro">💰 Gravamen de la base liquidable del ahorro</h3>
+<p><strong>Normativa aplicable:</strong> Artículo 66.2 de la Ley del IRPF.</p>
+<p>A la <strong>base liquidable del ahorro</strong> se le aplicará la siguiente <strong>escala progresiva</strong>. Esta estructura combina <strong>cuotas fijas acumuladas</strong> con un <strong>tipo marginal</strong> sobre el exceso en cada tramo:</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Escala estatal del ahorro (IRPF)">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Escala estatal del ahorro (IRPF)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 26%">
+<col style="width: 35%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Base liquidable hasta (€)</th>
+<th>Incremento en cuota íntegra (€)</th>
+<th>Resto base liquidable del ahorro hasta (€)</th>
+<th>Tipo aplicable (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>0</td>
+<td>6.000</td>
+<td>19</td>
+</tr>
+<tr class="even">
+<td>6.000,00</td>
+<td>1.140</td>
+<td>44.000</td>
+<td>21</td>
+</tr>
+<tr class="odd">
+<td>50.000,00</td>
+<td>10.380</td>
+<td>150.000</td>
+<td>23</td>
+</tr>
+<tr class="even">
+<td>200.000,00</td>
+<td>44.880</td>
+<td>100.000</td>
+<td>27</td>
+</tr>
+<tr class="odd">
+<td>300.000,00</td>
+<td>71.880</td>
+<td>En adelante</td>
+<td>28</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="cálculo-de-la-cuota-íntegra-del-ahorro" class="level3">
+<h3 class="anchored" data-anchor-id="cálculo-de-la-cuota-íntegra-del-ahorro">🧮 Cálculo de la cuota íntegra del ahorro</h3>
+<p>El cálculo se realiza aplicando una <strong>cuota fija acumulada</strong> más un <strong>porcentaje marginal</strong> sobre el exceso dentro del tramo correspondiente.</p>
+<p><strong>Ejemplo:</strong> Si la base liquidable del ahorro es de <strong>250.000,00 €</strong>, se encuentra en el cuarto tramo, y el cálculo sería:</p>
+<p><span class="math display">\[
+\text{Cuota íntegra} = 44.880 + (250.000 - 200.000) \times 0,27
+\]</span></p>
+<p><span class="math display">\[
+\text{Cuota íntegra} = 44.880 + 50.000 \times 0,27 = 44.880 + 13.500 = 58.380
+\]</span></p>
+</section>
+</section>
+<section id="preguntas-tipo-test" class="level1">
+<h1>Preguntas tipo test</h1>
+<ol type="1">
+<li>¿Cuál será la sensibilidad de un bono a 3 años, que paga un cupón del 4,75 si la TIR es del 3%?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>3,234</li>
+<li>2,923</li>
+<li>4,809</li>
+<li>Ninguna es correcta</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p>Calculamos el Precio</p>
+<p><span class="math display">\[P_0=\frac{4.75}{\left(1+0.03\right)^{1\:}}+\frac{4.75}{\left(1+0.03\right)^{2\:}}+\frac{104.75}{\left(1+0.03\right)^{3\:}}\]</span> <span class="math display">\[P_0=104.95006\]</span></p>
+<p>Calculamos la Duración</p>
+<p><span class="math display">\[D=\frac{1\cdot \frac{4.75}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4.75}{\left(1+0.03\right)^{2\:}}+3\cdot \frac{104.75}{\left(1+0.03\right)^{3\:}}}{104.95006}\]</span> <span class="math display">\[D=2.86945\dots\]</span></p>
+<p>Calculamos la Duración Corregida</p>
+<p><span class="math display">\[D_c=\frac{\left[\frac{1\cdot \frac{4.75}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4.75}{\left(1+0.03\right)^{2\:}}+3\cdot \frac{104.75}{\left(1+0.03\right)^{3\:}}}{104.95006}\right]}{\left(1+0.03\right)}\]</span></p>
+<p><span class="math display">\[D_c=2.78587\dots\]</span></p>
+<p>Calculamos la Sensibilidad</p>
+<p><span class="math display">\[S=\frac{\left[\frac{1\cdot \frac{4.75}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4.75}{\left(1+0.03\right)^{2\:}}+3\cdot \frac{104.75}{\left(1+0.03\right)^{3\:}}}{104.95006}\right]}{\left(1+0.03\right)}\cdot \left[\frac{104.95006}{100}\right]\]</span></p>
+<p><span class="math display">\[S=2.92378\dots\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="2" type="1">
+<li>Si usted tiene una cartera de Renta Fija compuesta por 4 activos, cuyas duraciones y ponderaciones en el total de la cartera son:</li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Porcentaje</th>
+<th style="text-align: center;">Duración</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10%</td>
+<td style="text-align: center;">9,5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">7,25</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">4</td>
+</tr>
+</tbody>
+</table>
+<p>¿Cuál es aproximadamente la <strong>Duración Total de la cartera</strong>?</p>
+<ol type="a">
+<li><p>3,888</p></li>
+<li><p>4,725</p></li>
+<li><p>6,588</p></li>
+<li><p>Todas son falsas</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p>La duración total de la cartera se calcula como la suma ponderada de las duraciones individuales:</p>
+<p><span class="math display">\[ D_{\text{cartera}} = \sum_{i=1}^{n} w_i \cdot D_i \]</span></p>
+<p>Donde:<br>
+- <span class="math inline">\(w_i\)</span> es el peso del activo <span class="math inline">\(i\)</span> en la cartera (en porcentaje convertido a decimal).<br>
+- <span class="math inline">\(D_i\)</span> es la duración del activo <span class="math inline">\(i\)</span>.</p>
+<p>El cálculo sería:</p>
+<p><span class="math display">\[ D_{\text{cartera}} = (0.10 \cdot 9.5) + (0.40 \cdot 2) + (0.30 \cdot 7.25) + (0.20 \cdot 4) \]</span> <span class="math display">\[D_{\text{cartera}} = 4.725\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="3" type="1">
+<li>En el cálculo de la curva cupón cero, si contamos con letras del Tesoro a un año y rentabilidad del 1,5% y un bono a dos años con cupón del 3% y emitido a la par, ¿cuál es el tipo de interés cupón cero a dos años?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>2,02%</li>
+<li>2,52%</li>
+<li>3,02%</li>
+<li>3,52%</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Planteamos la siguiente ecuación</p>
+<p><span class="math display">\[P_0=\frac{C_1}{\left(1+r_{1}\right)^{1\:}}+\frac{C_2+N}{\left(1+r_2\right)^{2\:}}\]</span></p>
+<p>y, sustituimos los valores en la ecuación</p>
+<p><span class="math display">\[100=\frac{3}{\left(1+0.015\right)^{1\:}}+\frac{103}{\left(1+r_2\right)^{2\:}}\]</span></p>
+<p>ahora calculamos el valor presente del cupón del primer año</p>
+<p><span class="math display">\[100=2.95566+\frac{103}{\left(1+r_2\right)^{2\:}}\]</span> y, aislamos el segundo flujo</p>
+<p><span class="math display">\[100-2.95566=\frac{103}{\left(1+r_2\right)^{2\:}}\]</span> así tenemos la forma del bono cupón cero a dos años,</p>
+<p><span class="math display">\[97.04433=\frac{103}{\left(1+r_2\right)^{2\:}}\]</span></p>
+<p>de donde resolvemos por el tipo de interés</p>
+<p><span class="math display">\[r_2=0.03022(3,02%)\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="4" type="1">
+<li>¿Cuál es la duración corregida o modificada de un bono a 5 años, con una TIR del 2,75% que paga cupones al 6?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>3,77</li>
+<li>4,38</li>
+<li>4,25</li>
+<li>5</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p>Calculamos el precio</p>
+<p><span class="math display">\[P_0=\frac{6}{\left(1+0.0275\right)^{1\:}}+\frac{6}{\left(1+0.0275\right)^{2\:}}+\frac{6}{\left(1+0.0275\right)^{3\:}}+\frac{6}{\left(1+0.0275\right)^{4\:}}+\frac{106}{\left(1+0.0275\right)^{5\:}}\]</span></p>
+<p><span class="math display">\[P_0=114.99089\]</span></p>
+<p>También podemos calcular el precio como una renta,</p>
+<p><span class="math display">\[P_0=6\cdot \left(\frac{1-\left(1+0.0275\right)^{-4\:}}{0.0275}\right)+\frac{106}{\left(1+0.0275\right)^{5\:}}=114.99089\]</span></p>
+<p><span class="math display">\[P_0=114.99089\]</span></p>
+<p>Calculamos la Duración</p>
+<p><span class="math display">\[D=\frac{1\cdot \frac{6}{\left(1+0.0275\right)^{1\:}}+2\cdot \frac{6}{\left(1+0.0275\right)^{2\:}}+3\cdot \frac{6}{\left(1+0.0275\right)^{3\:}}+4\cdot \frac{6}{\left(1+0.0275\right)^{4\:}}+5\cdot \frac{106}{\left(1+0.0275\right)^{5\:}}}{114.99089}\]</span></p>
+<p><span class="math display">\[D=4.50559\]</span> Y, la Duración Corregida</p>
+<p><span class="math display">\[D_c=\frac{\frac{1\cdot \frac{6}{\left(1+0.0275\right)^{1\:}}+2\cdot \frac{6}{\left(1+0.0275\right)^{2\:}}+3\cdot \frac{6}{\left(1+0.0275\right)^{3\:}}+4\cdot \frac{6}{\left(1+0.0275\right)^{4\:}}+5\cdot \frac{106}{\left(1+0.0275\right)^{5\:}}}{114.99089}}{\left(1+0.0275\right)}\]</span> <span class="math display">\[D_c=4.38500\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="5" type="1">
+<li>¿Cuál es la duración de un bono que paga cupones del 4%, tiene vencimiento a 3 años, TIR del 5% y amortiza a la par?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>2,9.</li>
+<li>3</li>
+<li>2,88</li>
+<li>2,78</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Calculamos el precio</p>
+<p><span class="math display">\[P_0=\frac{4}{\left(1+0.05\right)^{1\:}}+\frac{4}{\left(1+0.05\right)^{2\:}}+\frac{104}{\left(1+0.05\right)^{3\:}}=97.27675\]</span></p>
+<p>Calculamos la duración</p>
+<p><span class="math display">\[D=\frac{1\cdot \frac{4}{\left(1+0.05\right)^{1\:}}+2\cdot \frac{4}{\left(1+0.05\right)^{2\:}}+3\cdot \frac{104}{\left(1+0.05\right)^{3\:}}}{97.27675}=2.88437\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="6" type="1">
+<li>Un bono a 5 años con cupón 3% anual tiene una TIR del 3%. Si su duración es de 4,635 años ¿Cuál será su cotización previsible si la TIR subiera hasta el 3,50%?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>97,50%</p></li>
+<li><p>97,68%</p></li>
+<li><p>97,75%</p></li>
+<li><p>99,50%</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Calculamos el precio</p>
+<p><span class="math display">\[P_0=\frac{3}{\left(1+0.03\right)^{1\:}}+\frac{3}{\left(1+0.03\right)^{2\:}}+\frac{3}{\left(1+0.03\right)^{3\:}}+\frac{3}{\left(1+0.03\right)^{4\:}}+\frac{103}{\left(1+0.03\right)^{5\:}}\]</span> <span class="math display">\[P_0=100\]</span> Calculamos la variación absoluta del precio, con la siguiente fórmula</p>
+<p><span class="math display">\[P_1-P_0=-S\cdot \left(TIR_1-TIR_0\right)\]</span> Donde la Sensibilidad es,</p>
+<p><span class="math display">\[S=D_c \cdot \frac{P_0}{100}\]</span> y, la Duración Corregida</p>
+<p><span class="math display">\[D_c=\frac{D}{(1+TIR_0)}\]</span></p>
+<p>Sustituimos los valores y operando,</p>
+<p>$ <span class="math display">\[P_1-100=-\left[\frac{4.635}{\left(1+0.03\right)}\cdot \frac{100}{100}\right]\cdot \left(3.5-3\right)\]</span></p>
+<p><span class="math display">\[P_1-=97.75\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="7" type="1">
+<li>Un bono de Teletónica de valor nominal 1.000 euros se ha adquirido a un precio de 100,25% y una TIR del 3,5%. Si la sensibilidad de esta inversión a un movimiento de 1 punto de los tipos de interés es del 3%, ¿qué duración tiene esta inversión?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>2,9 años</li>
+<li>3,9 años</li>
+<li>2,5 años</li>
+<li>3,09 años</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la d</strong>.</p>
+<p>De la fórmula siguiente conocemos la Sensibilidad y el Precio actual,</p>
+<p><span class="math display">\[S=D_c \cdot \frac{P_0}{100}\]</span> sustituimos</p>
+<p><span class="math display">\[3=D_c \cdot \frac{100.25}{100}\]</span> y despejamos la Duración Corregida</p>
+<p><span class="math display">\[D_c=3 \cdot \frac{100}{100.25} \]</span> y obtenemos que</p>
+<p><span class="math display">\[D_c=2.99251\]</span></p>
+<p>ahora, de la Duración Corregida</p>
+<p><span class="math display">\[D_c=\frac{D}{(1+TIR_0)}\]</span></p>
+<p>despejamos la Duración</p>
+<p><span class="math display">\[D=D_c\cdot (1+TIR_0)\]</span> calculamos</p>
+<p><span class="math display">\[D=2.99251\left(1+0.035\right)\]</span> y nos da como resultado</p>
+<p><span class="math display">\[D=3.09724785\left(\approx 3,09\%\right)\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="8" type="1">
+<li>Un cliente ha invertido 30.000€ en un bono cuya TIR desciende del 4,15% al 4% inmediatamente después de haberlo comprado. El precio inicial del bono era 100% y tenía una duración corregida o modificada de 5,23. Aproximadamente, ¿cuánto ha perdido/ganado el inversor?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>-226,30 euros.</li>
+<li>+235,35 euros.</li>
+<li>+226,30 euros.</li>
+<li>Ninguna es correcta.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p>Aplicamos la siguiente fórmula</p>
+<p><span class="math display">\[\frac{\Delta P}{P}\approx  \frac{P_1-P_0}{P_0}\approx \left(-D_{corregida}\right)\cdot\Delta TIR\]</span> Sustituimos los valores</p>
+<p><span class="math display">\[\frac{\Delta P}{P}\approx  \frac{P_1-P_0}{P_0}\approx\left[-5.23\cdot -0.0015\right]\]</span></p>
+<p>Y calculamos sobre el nominal</p>
+<p><span class="math display">\[\frac{\Delta P}{P}\approx  \frac{P_1-P_0}{P_0}\approx\left[-5.23\cdot -0.0015\right]\cdot 30000\approx235.35\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="9" type="1">
+<li>Dado dos bonos cupón cero: uno, a 4 años que cotiza hoy a 97,71% y su valor de reembolso es del 125%, el otro, es un bono cupón cero a 7 años que cotiza hoy a 101,76% y se amortiza al 152%. ¿Cuál será la pendiente de la ETTI?.</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>Creciente.</li>
+<li>Decreciente.</li>
+<li>Plana.</li>
+<li>Convexa.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la</strong> .</p>
+<p>Calculamos la TIR del primer bono (4 años)</p>
+<p><span class="math display">\[97.71=\frac{125}{\left(1+TIR_1\right)^{4\:}}\]</span> obteniedo como resultado</p>
+<p><span class="math display">\[TIR_1=0.06351(6,35\%)\]</span> Calculamos la TIR del segundo bono (7 años)</p>
+<p><span class="math display">\[101.76=\frac{152}{\left(1+TIR_2\right)^7}\]</span></p>
+<p>obteniedo como resultado</p>
+<p><span class="math display">\[TIR_2=0.05899(5,89\%)\]</span> la pendiente de la ETTI será decreciente</p>
+<p><span class="math display">\[TIR_1&gt;TIR_2\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="10" type="1">
+<li>¿Qué variación, en euros, experimentará una cartera de bonos, cuyo valor de mercado es 115%, tiene una duración igual a 4 años y una TIR del 5%, si los tipos de interés del mercado aumentan aproximadamente un 1%?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>3,381</li>
+<li>4,381</li>
+<li>2,381</li>
+<li>Todas son falsas</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la d</strong>.</p>
+<p>A partir de la siguiente fórmula, podemos calcular la variación del precio de un bono ante cambios de la TIR</p>
+<p><span class="math display">\[P_1-P_0\approx (-S)\cdot\Delta TIR\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_1\)</span>, es el precio estimado del bono ante una variación de la TIR.</p></li>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio actual del bono .</p></li>
+<li><p><span class="math inline">\(S\)</span>, es la sensibilidad o sensibilidad absoluta.</p></li>
+<li><p><span class="math inline">\(\Delta TIR\)</span>, variación porcentual de la TIR.</p></li>
+</ul>
+<p>si despejamos <span class="math inline">\(P_1\)</span>, la podemos expresar como</p>
+<p><span class="math display">\[P_1\approx P_0 + ((-S)\cdot\Delta TIR)\]</span> Si tenemos en cuenta que, debemos transformar la Duración (que nos dan como dato en el enunciado) en la Sensibilidad; usando la siguiente fórmula</p>
+<p><span class="math display">\[S=\frac{D}{\left(1+TIR\right)}\cdot\frac{P_0}{100}\]</span> de forma, que al sustituir los datos</p>
+<p><span class="math display">\[P_1\approx 115+\left[-\left(\frac{4}{\left(1+0.05\right)}\cdot \frac{115}{100}\right)\cdot +1\right]\]</span> y calculando, vemos que el precio ha caído</p>
+<p><span class="math display">\[P_1\approx 111.61904\]</span> siendo la variación negativa, que en porcentaje, es del</p>
+<p><span class="math display">\[P_1-P_0\approx 111.61904-115\approx \:-3.38096\%\]</span> Si asumimos que tanto los 115 como los 100 son valores en euros, el cálculo de la variación en euros debería ser idéntico, una caida de 3,381 euros, en función de esta premisa.</p>
+<p><strong>Conclusión</strong>: Bajo la premisa de que los valores están en euros y la omisión del signo en las respuestas implica que no representan correctamente el resultado negativo, la respuesta correcta sería: “d.&nbsp;Todas son falsas.”</p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="11" type="1">
+<li>Adquirimos un bono a tres años de vencimiento, con cupón del 4,25%, a una TIR del 3,50%. La semana siguiente los tipos se ubican en el 4% (para simplificar así se quedarán hasta el vencimiento). La tasa de rentabilidad efectiva anual que esperamos obtener al vencimiento será:</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>3,65 %</li>
+<li>3,52 %</li>
+<li>4,00 %</li>
+<li>4,24 %</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la</strong> .</p>
+<p>Calculamos el valor actual, que es nuestro precio de adquisición</p>
+<p><span class="math display">\[P_0=\frac{4.25}{\left(1+0.035\right)^{1\:}}+\frac{4.25}{\left(1+0.035\right)^{2\:}}+\frac{104.25}{\left(1+0.035\right)^{3\:}}=102.10122\]</span> Calculamos el valor final de todos los flujos de caja obtenidos por la inversión, teniendo en cuenta la reinversión de los mismos en las nuevas condiciones del mercado</p>
+<p><span class="math display">\[V_f=4.25\left(1+0.04\right)^2+4.25\left(1+0.04\right)^1+104.25=113.2668\]</span> Luego, podemos plantear la siguiente ecuación:</p>
+<p><span class="math display">\[P_0 \cdot (1 + TRE)^3 = V_f\]</span></p>
+<p>En esta expresión, el precio de adquisición del bono (<span class="math inline">\(P_0\)</span>) se capitaliza durante tres periodos a la tasa de rendimiento efectivo (<span class="math inline">\(TRE\)</span>), lo que resulta igual al valor final (<span class="math inline">\(V_f\)</span>) obtenido al vencimiento de la operación.</p>
+<p>Sustituimos los valores y resolvemos por la <span class="math inline">\(TRE\)</span></p>
+<p><span class="math display">\[102.10122 \cdot (1 + TRE)^3 = 113.2668\]</span> Obteniendo como resultado</p>
+<p><span class="math display">\[TRE=\left(\frac{113.2668}{102.10122}\right)^{\frac{1}{3}}-1=0.03519\left(\approx 3,52\%\right)\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="12" type="1">
+<li>Dado un bono con duración corregida igual a 7, con una TIR del 9% y que paga un cupón anual del 3%, ¿cuál es su duración?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>7,21 años.</li>
+<li>7,63 años.</li>
+<li>6,80 años</li>
+<li>6,42 años</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p>De la Duración Corregida</p>
+<p><span class="math display">\[D_c=\frac{D}{(1+TIR_0)}\]</span></p>
+<p>sustituimos y despejamos la duración</p>
+<p><span class="math display">\[7=\frac{D}{(1+0.09)}\]</span> y despejamos la duración</p>
+<p><span class="math display">\[D=\left(1+0.09\right)\cdot 7=7.63\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="13" type="1">
+<li>Dado un Bono del Estado a dos años, cupón anual del 3%, TIR de compra 3,5%, si lo compramos en su fecha valor de emisión, ¿Cuál es su Duración?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>2 años</li>
+<li>1,5 años</li>
+<li>1,97 años</li>
+<li>Ninguna es correcta.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Calculamos el precio entero</p>
+<p><span class="math display">\[P_0=\frac{3}{\left(1+0.035\right)^{1\:}}+\frac{103}{\left(1+0.035\right)^{2\:}}=99.05015\]</span></p>
+<p>Y calculamos la duración</p>
+<p><span class="math display">\[D=\frac{1\cdot \frac{3}{\left(1+0.035\right)^{1\:}}+2\cdot \frac{103}{\left(1+0.035\right)^{2\:}}}{99.05015}=1.97073\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="14" type="1">
+<li>Un bono de valor nominal 1.000€, precio entero 1.020€ con vencimiento dentro de tres años, cupones anuales del 4% en fecha 5 de junio. Hoy, 25 de enero, calculamos el cupón corrido y el precio ex-cupón obteniendo:</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>25,64€ y 994,36€ respectivamente.</p></li>
+<li><p>14,36€ y 1005,64€ respectivamente.</p></li>
+<li><p>26€ y 994€, respectivamente.</p></li>
+<li><p>No es posible calcularlo sin conocer la TIR del bono.</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>Calculamos el cupón corrido</p>
+<p><span class="math display">\[CC=\frac{365-131}{365}\cdot 40=25.64\]</span> Y lo restamos del precio entero</p>
+<p><span class="math display">\[P_{0,\:ex}=1020-25.64=994.36\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="15" type="1">
+<li>Un bono tiene un valor nominal de 1.000 €, paga un cupón anual del 5% y vence en 3 años. Si la TIR (Tasa Interna de Retorno) del mercado es del 4%, ¿cuál sería el precio actual del bono?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>1.000 €</li>
+<li>1.027,36 €</li>
+<li>1.040,00 €</li>
+<li>960,00 €</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p><span class="math display">\[P_0=\frac{50}{\left(1+0.04\right)^{1\:}}+\frac{50}{\left(1+0.04\right)^{2\:}}+\frac{1050}{\left(1+0.04\right)^{3\:}}=1027.75091\dots \:\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="16" type="1">
+<li>Un inversor posee un bono con un cupón anual del 4% y un valor nominal de 1.000 €. Si la Tasa Interna de Retorno (TIR) en el mercado es del 3%, ¿cómo se verá afectado el precio del bono si los tipos de interés suben al 4%?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>El precio del bono disminuirá.</li>
+<li>El precio del bono aumentará.</li>
+<li>El precio del bono se mantendrá igual.</li>
+<li>No se puede determinar sin más información.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>Cálculo del precio de un bono</p>
+<p>El precio de un bono puede calcularse usando la siguiente fórmula:</p>
+<p><span class="math display">\[
+P_0 = \frac{F_1}{(1 + r)^1} + \frac{F_2}{(1 + r)^2} + \cdots + \frac{F_n}{(1 + r)^n}
+\]</span></p>
+<p>Donde:</p>
+<ul>
+<li><span class="math inline">\(P_0\)</span> es el precio del bono hoy,</li>
+<li><span class="math inline">\(F_t\)</span> son los flujos de efectivo del bono, que consisten en los cupones (<span class="math inline">\(40 \, \text{€}\)</span> anuales) y el valor nominal (<span class="math inline">\(1.000 \, \text{€}\)</span> al vencimiento),</li>
+<li><span class="math inline">\(r\)</span> es la tasa de interés de mercado (TIR),</li>
+<li><span class="math inline">\(n\)</span> es el número de períodos.</li>
+</ul>
+<p>Datos del bono:</p>
+<ul>
+<li>Valor nominal: 1.000 €,</li>
+<li>Cupón anual: 40 € (4% de 1.000 €),</li>
+<li>TIR inicial: 3%,</li>
+<li>Duración: 2 años.</li>
+</ul>
+<p>Cálculo del precio con una TIR del 3%</p>
+<p>Con una TIR del 3%, el precio del bono se calcula como:</p>
+<p><span class="math display">\[
+P_0 = \frac{40}{(1 + 0.03)^1} + \frac{1.040}{(1 + 0.03)^2}
+\]</span></p>
+<p>Realizamos los cálculos de cada flujo:</p>
+<ul>
+<li>Año 1: <span class="math inline">\(\frac{40}{(1.03)^1} = \frac{40}{1.03} = 38.83 \, \text{€}\)</span>,</li>
+<li>Año 2: <span class="math inline">\(\frac{1.040}{(1.03)^2} = \frac{1.040}{1.0609} = 980.41 \, \text{€}\)</span>.</li>
+</ul>
+<p>Sumamos los valores obtenidos:</p>
+<p><span class="math display">\[
+P_0 = 38.83 + 980.41 = 1.019,24 \, \text{€}
+\]</span></p>
+<p>Cálculo del precio con una TIR del 4%</p>
+<p>Ahora, si los tipos de interés suben al 4%, el precio del bono será:</p>
+<p><span class="math display">\[
+P_0 = \frac{40}{(1 + 0.04)^1} + \frac{1.040}{(1 + 0.04)^2}
+\]</span></p>
+<p>Realizamos los cálculos de cada flujo:</p>
+<ul>
+<li>Año 1: <span class="math inline">\(\frac{40}{(1.04)^1} = \frac{40}{1.04} = 38.46 \, \text{€}\)</span>,</li>
+<li>Año 2: <span class="math inline">\(\frac{1.040}{(1.04)^2} = \frac{1.040}{1.0816} = 962.38 \, \text{€}\)</span>.</li>
+</ul>
+<p>Sumamos los valores obtenidos:</p>
+<p><span class="math display">\[
+P_0 = 38.46 + 962.38 = 1.000,84 \, \text{€}
+\]</span></p>
+<p>Conclusión</p>
+<p>El precio del bono con una TIR del 3% es de aproximadamente <strong>1.019,24 €</strong> y, cuando la TIR sube al 4%, el precio baja a <strong>1.000,84 €</strong>. Esto muestra cómo la subida de los tipos de interés provoca una disminución en el precio del bono.</p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="17" type="1">
+<li>Un bono que tiene un precio hoy de 97,50 pasa a tener un precio de 102,35 como consecuencia de que su TIR pasa del 5% al 4,50% ¿Cuál será la duración corregida de dicho bono?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>10,45</p></li>
+<li><p>10,00</p></li>
+<li><p>9,95</p></li>
+<li><p>10,39</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>La variación absoluta de un bono se puede calcular mediante la siguiente fórmula:</p>
+<p><span class="math display">\[
+P_1 - P_0 \approx -S \cdot \Delta TIR
+\]</span></p>
+<p>Donde:</p>
+<ul>
+<li><span class="math inline">\(P_1\)</span> es el precio final del bono (102,35),</li>
+<li><span class="math inline">\(P_0\)</span> es el precio inicial del bono (97,50),</li>
+<li><span class="math inline">\(S\)</span> es la sensibilidad del bono,</li>
+<li><span class="math inline">\(\Delta TIR\)</span> es la variación en la TIR.</li>
+</ul>
+<p>Sustituyendo los valores:</p>
+<p><span class="math display">\[
+102.35 - 97.50 = -S \cdot (-0.5)
+\]</span></p>
+<p>Lo que nos da:</p>
+<p><span class="math display">\[
+4.85 = S \cdot 0.5
+\]</span></p>
+<p>De aquí despejamos <span class="math inline">\(S\)</span> (sensibilidad):</p>
+<p><span class="math display">\[
+S = \frac{4.85}{0.5} = 9.7
+\]</span></p>
+<p>La sensibilidad es equivalente a la duración corregida multiplicada por el precio del bono entre 100. La fórmula es:</p>
+<p><span class="math display">\[
+S = \text{Duración corregida} \cdot \frac{P_0}{100}
+\]</span></p>
+<p>Sustituyendo los valores de <span class="math inline">\(S\)</span> y <span class="math inline">\(P_0\)</span>:</p>
+<p><span class="math display">\[
+9.7 = \text{Duración corregida} \cdot \frac{97.50}{100}
+\]</span></p>
+<p>Despejamos la duración corregida (<span class="math inline">\(x\)</span>):</p>
+<p><span class="math display">\[
+\text{Duración corregida} = \frac{9.7 \cdot 100}{97.50} = 9.9487
+\]</span></p>
+<p>Por lo tanto, la duración corregida es aproximadamente <strong>9,95</strong>.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="caso-práctico-efpa" class="level1">
+<h1>Caso práctico EFPA</h1>
+<p>Tienes un bono con las siguientes características:</p>
+<ul>
+<li><p>Valor nominal: 100.000 €</p></li>
+<li><p>Cupón anual: 4%</p></li>
+<li><p>Frecuencia de pago del cupón: Anual</p></li>
+<li><p>Vencimiento: 5 años</p></li>
+<li><p>Tasa de mercado actual: 3%</p></li>
+</ul>
+<ol type="1">
+<li>Calcula el precio actual del bono utilizando la tasa de mercado actual.</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>104.579 €</p></li>
+<li><p>106.335 €</p></li>
+<li><p>102.980 €</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-21" class="callout-21-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p><span class="math display">\[P_0=\frac{4}{\left(1+0.03\right)^{1\:}}+\frac{4}{\left(1+0.03\right)^{2\:}}+\frac{4}{\left(1+0.03\right)^{3\:}}+\frac{4}{\left(1+0.03\right)^{4\:}}+\frac{104}{\left(1+0.03\right)^5}\]</span> <span class="math display">\[P_0=104.57970\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="2" type="1">
+<li>Calcula la duración modificada del bono con base en la tasa de mercado actual y explica cómo afectaría un aumento de 0,5% en la tasa de mercado al precio del bono.</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>4,50 años.</p></li>
+<li><p>4,75 años.</p></li>
+<li><p>4,85 años.</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-22" class="callout-22-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p><span class="math display">\[D=\frac{1\cdot\frac{4}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4}{\left(1+0.03\right)^{2\:}}+3·\frac{4}{\left(1+0.03\right)^{3\:}}+4\cdot \frac{4}{\left(1+0.03\right)^{4\:}}+5\cdot \frac{104}{\left(1+0.03\right)^5}}{104.57970}\]</span></p>
+<p><span class="math display">\[D=4.64887\dots \]</span></p>
+<p><span class="math display">\[D_c=\frac{\left[\frac{1\cdot \frac{4}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4}{\left(1+0.03\right)^{2\:}}+3·\frac{4}{\left(1+0.03\right)^{3\:}}+4\cdot \frac{4}{\left(1+0.03\right)^{4\:}}+5\cdot \frac{104}{\left(1+0.03\right)^5}}{104.57970}\right]}{\left(1+0.03\right)}\]</span></p>
+<p><span class="math display">\[D_c=4.50419\approx 4,50\%\]</span></p>
+</div>
+</div>
+</div>
+<hr>
 
 
 </section>
@@ -271,12 +2195,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiado");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiado");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
