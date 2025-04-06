@@ -4,9 +4,6 @@ format: html
 sidebar: teoria
 ---
 
-# Módulo 3: Gestión de carteras
-
-Contenido en preparación...
 
 # A. Eficiencia de los mercados
 
