@@ -4,6 +4,1649 @@ format: html
 sidebar: teoria
 ---
 
-# Módulo 8: Fiscalidad de las inversiones
 
-Contenido en preparación...
+
+# Tema 1. Marco tributario
+
+## 1. El sistema tributario como instrumento de política económica y social
+
+::: callout-note
+## Objetivo del apartado
+
+Comprender el papel del sistema tributario como herramienta fundamental del Estado para intervenir en la economía y promover la justicia social.
+:::
+
+El sistema tributario es uno de los instrumentos más eficaces de los que dispone el Estado para intervenir en la economía. Su finalidad no se limita a financiar el gasto público, sino que también cumple funciones **económicas y sociales**.
+
+### Función económica
+
+Desde el punto de vista económico, el sistema fiscal puede utilizarse para alcanzar objetivos como el **crecimiento económico**, la **estabilidad de precios** o la **mejora del saldo exterior**. Esto se logra a través de políticas fiscales que influyen en la **demanda agregada** y en el comportamiento de los agentes económicos, corrigiendo disfunciones del mercado.
+
+### Función social
+
+En cuanto a su función social, el sistema tributario permite **redistribuir la renta** y **corregir desigualdades**, garantizando una asignación más justa de los recursos públicos. A través de una distribución equitativa de las cargas fiscales y del acceso a servicios públicos esenciales —como la **sanidad**, la **educación** o las **pensiones**—, se refuerza la cohesión social y se promueve la justicia fiscal.
+
+::: callout-important
+## ¿Este contenido es actualizable?
+
+**No.** Se trata de un contenido conceptual y teórico de carácter atemporal, aplicable en cualquier contexto normativo.
+:::
+
+## 1.1 Fiscalidad del inversor y relación entre figuras impositivas
+
+::: callout-note
+## Aplicación práctica del sistema tributario
+
+El conocimiento del sistema tributario resulta esencial para el inversor, ya que afecta directamente a la rentabilidad neta de sus decisiones financieras y patrimoniales. La planificación fiscal permite optimizar tanto los **rendimientos obtenidos** como los **costes asociados a desinversiones**, considerando la normativa aplicable en cada caso.
+:::
+
+En este contexto, los principales impuestos que afectan a la inversión y al ahorro personal en España son los siguientes:
+
+-   **IRPF**: Es el impuesto principal para las personas físicas **residentes fiscales en España**. Grava la renta obtenida con carácter general, ya sea por trabajo, capital, actividades económicas o ganancias patrimoniales derivadas de inversiones. Tiene un **carácter personal, directo y progresivo**.
+
+-   **IRNR**: El **Impuesto sobre la Renta de no Residentes** se aplica a personas físicas **y jurídicas** que no tienen su residencia fiscal en España, pero obtienen rentas de fuente española. Su tratamiento es normalmente **proporcional**, no progresivo.
+
+-   **ISD**: El **Impuesto sobre Sucesiones y Donaciones** grava las rentas o bienes percibidos **a título gratuito**, como consecuencia de una **herencia, legado o donación**. Se diferencia del IRPF, que grava operaciones realizadas a título oneroso.
+
+En cuanto a las **relaciones del ISD con otros impuestos**, debemos destacar que con respecto al IRPF existe una **incompatibilidad total**: **una misma renta no puede ser gravada simultáneamente por ambos impuestos**.
+
+Por tanto, ante situaciones en las que exista **duda sobre si un ingreso debe tributar por el ISD o por el IRPF**, la regla práctica es la siguiente:
+
+1.  Primero se verifica si el supuesto encaja en alguno de los conceptos gravados por el **ISD** (herencias, donaciones, seguros de vida, etc.).
+
+2.  Si no se puede aplicar el ISD, entonces se recurre a la normativa del **IRPF**, que funciona como un **cajón de sastre** o **mecanismo de cierre**, asumiendo la tributación de las rentas no sujetas al ISD.
+
+> ::: callout-tip
+> Esta jerarquía en la aplicación tributaria evita la doble imposición y garantiza que toda renta percibida por una persona física tenga su correspondiente tratamiento fiscal.
+> :::
+
+------------------------------------------------------------------------
+
+::: callout-note
+## Nota sobre aspectos técnicos (liquidación y obligaciones formales)
+
+Los siguientes conceptos clave del IRPF se desarrollarán en subapartados posteriores o en anexos al final del tema:
+
+-   Esquema básico de liquidación del impuesto\
+-   Funcionamiento de las retenciones, pagos a cuenta y pagos fraccionados\
+-   Régimen sancionador e infracciones tributarias\
+-   Relación del IRPF con otros impuestos (IRNR, ISD, IS)
+:::
+
+::: callout-warning
+**Estos elementos se abordarán más adelante en el tema o en anexos específicos.**
+:::
+
+------------------------------------------------------------------------
+
+
+## 2. Impuesto sobre la Renta de las Personas Físicas (IRPF)
+
+### 2.1 Fundamentos prácticos del IRPF para el asesor financiero
+
+::: callout-note
+## Objetivo del apartado
+
+Identificar los aspectos clave del IRPF que afectan directamente a la planificación y asesoramiento financiero.
+:::
+
+#### Contribuyente y residencia fiscal
+
+- Residente si:
+  - Más de **183 días** en España.
+  - Centro de intereses económicos está en España.
+  - Cónyuge e hijos menores residen en España (presunción).
+  - Funcionarios en el extranjero también se consideran residentes.
+
+#### Unidad familiar y tributación conjunta
+
+- Dos tipos:
+  1. Matrimonio e hijos.
+  2. Progenitor e hijos (sin matrimonio o separado).
+- Declaración conjunta:
+  - No amplía límites.
+  - Responsabilidad solidaria.
+  - Compensa pérdidas y ganancias.
+  - Reversible año a año.
+
+#### Obligación de declarar
+
+- Generalmente si:
+  - **> 22.000 €** de un pagador.
+  - **> 14.000 €** de varios, si el segundo supera 1.500 €.
+  - **> 1.600 €** de capital mobiliario con retención.
+  - Deducciones aplicables (vivienda, pensiones, etc.)
+
+#### Devengo y período impositivo
+
+- Año natural.
+- Devengo: 31 de diciembre.
+- Fallecimiento: solo se prorratean ciertas rentas.
+
+#### Presunción de onerosidad
+
+- Cesiones de bienes o servicios se presumen retribuidas (valor de mercado).
+
+#### Consideraciones clave
+
+> ::: callout-important
+> Si hay **título oneroso** → IRPF.\
+> Si es **gratuito** → ISD.
+:::
+
+#### Retenciones y sanciones
+
+- Retenciones en rentas de trabajo, capital, actividades.
+- Pagos fraccionados trimestrales para actividades económicas.
+- Infracciones leves, graves o muy graves.
+
+> ::: callout-warning
+> Este bloque resume lo esencial para asesores. El desarrollo técnico se trata en subapartados siguientes.
+> :::
+
+
+### 2.1 Introducción general al IRPF
+
+El IRPF es un impuesto estatal, personal y directo que grava la renta de las personas físicas de acuerdo con su capacidad económica, considerando sus circunstancias personales y familiares.
+
+Su función principal es cumplir el mandato constitucional del artículo 31 de la Constitución Española:
+
+> ::: callout-note
+> **Fundamento constitucional**
+>
+> “Todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su capacidad económica mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad que, en ningún caso, tendrá alcance confiscatorio.”
+>
+> Es decir, el impuesto no puede tener una intensidad tal que acabe anulando por completo la renta o el patrimonio del contribuyente.
+> :::
+
+Este tributo se configura como una herramienta esencial de redistribución y equidad fiscal dentro del sistema tributario español. A lo largo de los siguientes apartados se analizarán sus elementos clave: naturaleza, objeto, ámbito de aplicación, hecho imponible, base imponible y categorías de renta.
+
+------------------------------------------------------------------------
+
+### 2.2 Naturaleza, objeto y ámbito de aplicación del IRPF
+
+#### Naturaleza
+
+El IRPF es un tributo de **carácter personal y directo** que grava, de acuerdo con los principios de **igualdad**, **generalidad** y **progresividad**, la renta de las personas físicas conforme a su situación personal y familiar.
+
+-   **Personal**: Porque grava la renta de cada individuo, atendiendo a su situación concreta.\
+-   **General**: Porque afecta a la **totalidad de la renta** obtenida por el contribuyente.\
+-   **Subjetivo**: Porque tiene en cuenta sus **circunstancias personales y familiares**.
+
+#### Objeto del impuesto
+
+El objeto del IRPF es la **renta mundial del contribuyente**, entendida como la totalidad de:
+
+-   Rendimientos obtenidos.\
+-   Ganancias y pérdidas patrimoniales.\
+-   Imputaciones de renta fijadas por la Ley.
+
+Se tributa por la **capacidad económica global del residente fiscal**, independientemente del lugar de obtención de las rentas o la residencia del pagador.
+
+#### Ámbito de aplicación
+
+El IRPF se aplica en todo el **territorio nacional español**, con las siguientes particularidades:
+
+-   **Regímenes forales**: País Vasco y Navarra aplican sistemas propios en virtud del Concierto y el Convenio Económico, respectivamente.\
+-   **Especialidades fiscales**: para **Canarias, Ceuta y Melilla**, previstas en la normativa del impuesto.
+
+------------------------------------------------------------------------
+
+### 2.3 Hecho imponible
+
+Constituye el **hecho imponible** del IRPF la **obtención de renta** por parte del contribuyente. Se consideran renta los siguientes conceptos:
+
+-   **Rendimientos del trabajo**\
+-   **Rendimientos del capital**\
+-   **Rendimientos de actividades económicas**\
+-   **Ganancias y pérdidas patrimoniales**\
+-   **Imputaciones de renta establecidas por ley**
+
+> ::: callout-note
+> Estas categorías de renta son objeto de **integración y compensación** para determinar la **base imponible** del impuesto, que se analizará a continuación.
+> :::
+
+Desde el punto de vista legal, se presume que estas rentas generan **beneficio económico o capacidad contributiva**, salvo prueba en contrario.
+
+------------------------------------------------------------------------
+
+### 2.4 Concepto de base imponible
+
+La base imponible del IRPF está integrada por la renta obtenida por el contribuyente, clasificada en dos componentes:
+
+-   **Base general**\
+-   **Base del ahorro**
+
+Cada una de estas bases agrupa distintos tipos de rentas y se somete a sus propias reglas de integración y compensación.
+
+> ::: callout-tip
+> Esta estructura permite aplicar tipos de gravamen diferenciados, de forma progresiva en la base general y proporcional en la base del ahorro.
+> :::
+
+A continuación se muestra un esquema que resume visualmente la **composición y tratamiento** de ambas bases imponibles:
+
+![Esquema integración y compensación de rentas](img/integracion_compensacion_rentas.png)
+
+> ::: callout-note
+> **Lectura del gráfico**:\
+> La renta total del contribuyente se divide en distintos componentes (rendimientos, imputaciones, ganancias y pérdidas), que se integran y compensan dentro de su base correspondiente para obtener la base imponible definitiva.
+> :::
+
+------------------------------------------------------------------------
+
+> ::: callout-note
+> En los siguientes apartados se analizarán los distintos componentes de la renta del contribuyente, comenzando por los rendimientos del trabajo.
+> :::
+
+------------------------------------------------------------------------
+
+### 2.5 Rendimientos del trabajo
+
+#### Clasificación y valoración de retribuciones en especie
+
+Las retribuciones en especie son aquellas percepciones no dinerarias que el trabajador recibe como parte de su retribución. Se valoran, con carácter general, por su **valor normal en el mercado**, añadiendo el ingreso a cuenta, salvo que haya sido repercutido al perceptor.
+
+Casos específicos:
+
+-   **Uso de vivienda propiedad del pagador**: se valora aplicando un porcentaje sobre el valor catastral.\
+-   **Uso de vehículo de empresa**: se aplica un porcentaje sobre el coste de adquisición.
+
+::: callout-example
+#### Ejemplo práctico: regalo por imposición a plazo fijo
+
+Una entidad financiera entrega un equipo informático a un cliente como incentivo por realizar una imposición a plazo fijo. Este obsequio constituye un **rendimiento del capital mobiliario en especie**.
+
+Su valoración se realiza por el **valor normal en el mercado del bien entregado**, y está sujeto a ingreso a cuenta, salvo que haya sido repercutido al cliente.
+
+📎 Puedes consultar el ejemplo completo en la web oficial de la Agencia Tributaria:\
+[Valoración de rendimientos del capital mobiliario en especie](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2023/c05-rendimientos-capital-mobiliario/valoracion-rendimientos-capital-mobiliario-especie.html)
+:::
+
+------------------------------------------------------------------------
+
+#### Cálculo del rendimiento neto del trabajo personal
+
+El rendimiento neto del trabajo se determina restando al rendimiento íntegro los **gastos deducibles permitidos**, entre los cuales se incluyen:
+
+-   Cotizaciones a la Seguridad Social o mutualidades obligatorias.\
+-   Cuotas a sindicatos y colegios profesionales (hasta 500 €).\
+-   Gastos de defensa jurídica (hasta 300 €).
+
+> ::: callout-tip
+> Para más detalles sobre los gastos deducibles:\
+> [Agencia Tributaria - Gastos deducibles del trabajo](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/irpf-2021/7-cumplimentacion-irpf/7_1-rendimientos-trabajo-personal/7_1_5-rendimiento-neto-trabajo-gastos-deducibles.html)
+> :::
+
+------------------------------------------------------------------------
+
+#### Reducciones por generación en el tiempo o percepción irregular
+
+Los rendimientos del trabajo que:
+
+-   Se generen en un período superior a **dos años**, o\
+-   Sean considerados como obtenidos de forma **notoriamente irregular en el tiempo**,
+
+pueden beneficiarse de una **reducción del 30 %**, siempre que se imputen en un único ejercicio fiscal y se cumplan ciertos límites (máximo 300.000 € y sin haber aplicado la reducción en los 5 años anteriores).
+
+> ::: callout-tip
+> Para ver los supuestos, límites y ejemplos:\
+> [Agencia Tributaria - Reducciones por irregularidad](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/rendimiento-neto-trabajo-integrar-base-imponible/fase-1-determinacion-rendimiento-integro-trabajo/reducciones-aplicables-sobre-determinados-rendimientos-integros/cuadros-resumen-reducciones-sobre-determinados-integros/cuadro-resumen-reduccion-rendimientos-periodo-superior.html)
+> :::
+
+------------------------------------------------------------------------
+
+> ::: callout-warning
+> **Recuerda**: estos tratamientos pueden variar ligeramente cada ejercicio fiscal. Se recomienda siempre verificar en los manuales actualizados de la Agencia Tributaria.
+> :::
+
+### 2.6 Rendimientos del capital
+
+Los rendimientos del capital se definen como las utilidades o contraprestaciones, dinerarias o en especie, que provienen de elementos patrimoniales, bienes o derechos, cuya titularidad corresponde al contribuyente y **no se hallen afectos a actividades económicas** realizadas por él.
+
+Según el artículo 21 de la Ley del IRPF, estos rendimientos se clasifican en:
+
+-   **Rendimientos del capital inmobiliario**
+-   **Rendimientos del capital mobiliario**
+
+------------------------------------------------------------------------
+
+### 2.6.1 Rendimientos del capital inmobiliario
+
+#### Concepto
+
+Tienen esta consideración los rendimientos procedentes del **arrendamiento**, **cesión** o constitución de **derechos de uso o disfrute** sobre bienes inmuebles **no afectos a actividades económicas**. La titularidad de los bienes debe corresponder al contribuyente.
+
+📎 [Consulta el apartado oficial en AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c04-rendimientos-capital-inmobiliario.html)
+
+#### Determinación del rendimiento neto
+
+El rendimiento neto se calcula restando a los ingresos íntegros los **gastos fiscalmente deducibles**, como:
+
+-   Intereses y gastos de financiación\
+-   Tributos, tasas y recargos\
+-   Reparaciones y conservación\
+-   Amortización del inmueble\
+-   Primas de seguros y suministros
+
+> ::: callout-tip
+> 📎 Esquema oficial:\
+> [Rendimiento neto del capital inmobiliario - AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c04-rendimientos-capital-inmobiliario/rendimiento-neto-capital-inmobiliario.html)
+> :::
+
+------------------------------------------------------------------------
+
+
+
+
+### 2.6 Rendimientos del capital
+
+Los rendimientos del capital se definen como las utilidades o contraprestaciones, dinerarias o en especie, que provienen de elementos patrimoniales, bienes o derechos, cuya titularidad corresponde al contribuyente y **no se hallen afectos a actividades económicas** realizadas por él.
+
+Según el artículo 21 de la Ley del IRPF, estos rendimientos se clasifican en:
+
+- **Rendimientos del capital inmobiliario**
+- **Rendimientos del capital mobiliario**
+
+---
+
+### 2.6.1 Rendimientos del capital inmobiliario
+
+#### Concepto
+
+Tienen esta consideración los rendimientos procedentes del **arrendamiento**, **cesión** o constitución de **derechos de uso o disfrute** sobre bienes inmuebles **no afectos a actividades económicas**. La titularidad de los bienes debe corresponder al contribuyente.
+
+📎 [Consulta el apartado oficial en AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c04-rendimientos-capital-inmobiliario.html)
+
+#### Determinación del rendimiento neto
+
+El rendimiento neto se calcula restando a los ingresos íntegros los **gastos fiscalmente deducibles**, como:
+
+- Intereses y gastos de financiación  
+- Tributos, tasas y recargos  
+- Reparaciones y conservación  
+- Amortización del inmueble  
+- Primas de seguros y suministros  
+
+> ::: {.callout-tip}
+> 📎 Esquema oficial:  
+> [Rendimiento neto del capital inmobiliario - AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c04-rendimientos-capital-inmobiliario/rendimiento-neto-capital-inmobiliario.html)
+> :::
+
+---
+
+### 2.6.2 Rendimientos del capital mobiliario
+
+#### Concepto
+
+Según el artículo 25 de la Ley del IRPF, son rendimientos del capital mobiliario todas las utilidades que provengan de bienes o derechos **no inmobiliarios y no afectos a actividades económicas**, de los que sea titular el contribuyente.
+
+#### Clasificación según su origen
+
+1. **Participación en fondos propios de entidades** (dividendos, primas de emisión)  
+2. **Cesión a terceros de capitales propios** (intereses de cuentas, depósitos, bonos)  
+3. **Operaciones de capitalización y seguros de vida/invalidez**  
+4. **Otros rendimientos**: propiedad intelectual o industrial, alquileres de bienes muebles, cesión de imagen, etc.
+
+> ::: {.callout-note}
+> 📎 Esquema oficial:  
+> [Clasificación rendimientos capital mobiliario - AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c05-rendimientos-capital-mobiliario/rendimientos-capital-mobiliario-cuestiones-generales.html)
+> :::
+
+#### Integración en la base imponible
+
+Los rendimientos del capital mobiliario se integran en:
+
+- **Base del ahorro**: participación en fondos propios, cesión de capitales, seguros y rentas  
+- **Base general**: otros rendimientos (alquiler de bienes muebles, propiedad intelectual, etc.)
+
+> ::: {.callout-note}
+> 📎 Esquema gráfico:  
+> [Integración rendimientos capital mobiliario en bases - AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c05-rendimientos-capital-mobiliario.html)
+> :::
+
+---
+
+### Cuadro comparativo de rendimientos del capital
+
+| **Categoría**                         | **Origen**                                                                 | **Ejemplos**                                    | **Base imponible**           | **Tributación**            |
+|--------------------------------------|----------------------------------------------------------------------------|--------------------------------------------------|------------------------------|-----------------------------|
+| **Capital inmobiliario**             | Bienes inmuebles no afectos a actividades económicas                       | Alquiler de viviendas, locales                   | Base general                 | Escala progresiva del IRPF |
+| **Capital mobiliario (ahorro)**      | Participación en fondos propios, cesión de capitales propios, seguros      | Dividendos, intereses, seguros de vida           | Base del ahorro              | 19%-21%-23%-26%             |
+| **Capital mobiliario (general)**     | Derechos, bienes o servicios no inmobiliarios ni financieros               | Propiedad intelectual, arrendamiento de muebles  | Base general                 | Escala progresiva del IRPF |
+
+> ::: {.callout-note}
+> La integración de estos rendimientos se explica en detalle en el [Manual IRPF 2024 – Capítulos 4 y 5](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024.html).
+> :::
+
+
+::: {.callout-warning}
+## Atención
+
+Estos esquemas y clasificaciones están sujetos a **posibles modificaciones legislativas**. Se recomienda revisar anualmente el Manual del IRPF en la Sede Electrónica de la Agencia Tributaria.
+:::
+
+
+### 2.7 Ganancias y pérdidas patrimoniales
+
+
+
+#### Concepto y condiciones
+
+De acuerdo con el artículo 33.1 de la Ley del IRPF, se consideran ganancias y pérdidas patrimoniales:
+
+> “Las variaciones en el valor del patrimonio del contribuyente que se pongan de manifiesto con ocasión de cualquier alteración en la composición de aquél, salvo que por esta Ley se califiquen como rendimientos”.
+
+Para que se origine una ganancia o pérdida patrimonial deben concurrir tres requisitos:
+
+1. **Existencia de una alteración en el patrimonio** del contribuyente.  
+2. **Variación del valor del patrimonio** como consecuencia de esa alteración.  
+3. Que **no exista norma legal que lo excluya de gravamen** o lo califique como rendimiento.
+
+> ::: {.callout-note}
+> Por tanto, no existe ganancia ni pérdida si no hay una alteración efectiva (por ejemplo, plusvalías latentes), o si la operación está expresamente excluida o exenta.
+> :::
+
+---
+
+#### Ejemplos típicos en asesoramiento financiero
+
+- Venta de acciones o participaciones.
+- Reembolso de fondos de inversión.
+- Venta de derechos de suscripción preferente.
+- Transmisión de inmuebles.
+- Transacciones con criptomonedas.
+- Operaciones con futuros y opciones.
+
+También se incluyen otros supuestos menos evidentes, como reducciones de capital o adjudicaciones en disoluciones patrimoniales.
+
+---
+
+#### Casos excluidos de alteración patrimonial
+
+Según el artículo 33.2 de la Ley del IRPF, **no se considera que hay alteración en la composición del patrimonio en**:
+
+- División de la cosa común.  
+- Disolución del régimen económico matrimonial.  
+- Disolución de comunidades de bienes.  
+- Separación de comuneros.
+
+> ::: {.callout-important}
+> En estos casos, aunque haya transmisión formal, no se considera ganancia ni pérdida patrimonial a efectos del IRPF.
+> :::
+
+---
+
+#### Ganancias patrimoniales exentas
+
+Algunos supuestos están legalmente exentos:
+
+- Transmisión de vivienda habitual por mayores de 65 años.  
+- Reinversión en vivienda habitual.  
+- Donaciones a determinadas entidades.  
+- Pago de deudas tributarias con bienes del Patrimonio Histórico.  
+- Reinversión en acciones de empresas de nueva o reciente creación.
+
+> ::: {.callout-tip}
+> Puedes consultar los supuestos exentos en el [Manual del IRPF 2024 – Cap. 11](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales.html).
+> :::
+
+---
+
+#### Cálculo de las ganancias y pérdidas patrimoniales
+
+La ganancia o pérdida patrimonial se calcula, con carácter general, como la diferencia entre:
+
+- Valor de transmisión (importe obtenido menos gastos y tributos asociados a la operación), y  
+- Valor de adquisición (importe pagado más gastos y tributos de adquisición).
+
+Ganancia o pérdida patrimonial = Valor de transmisión – Valor de adquisición
+
+> ::: {.callout-note}
+> El cálculo puede requerir ajustes por amortizaciones, mejoras, transmisiones parcialmente liberadas o derechos de suscripción, tal como establece la normativa.
+> :::
+
+Consulta: [Determinación del importe – Normas generales](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/determinacion-importe-ganancias-perdidas-patrimon-generales/derivadas-transmisiones-onerosas-lucrativas/reglas-generales-calculo.html)
+
+---
+
+#### Regímenes aplicables
+
+Existen tres regímenes distintos en función de la fecha de adquisición y el uso del elemento patrimonial:
+
+1. **Régimen general**  
+   - Elementos adquiridos a partir del 1 de enero de 1995.  
+   - Cálculo estándar, sin coeficientes reductores.
+
+2. **Régimen transitorio**  
+   - Elementos adquiridos antes del 31 de diciembre de 1994.  
+   - Se permite aplicar coeficientes de abatimiento hasta 400.000 € de transmisiones por contribuyente desde 2015.
+
+3. **Régimen especial**  
+   - Aplicable a elementos afectos a actividades económicas o desafectados en los tres años anteriores a la transmisión.
+
+> ::: {.callout-tip}
+> Detalle completo en el [Régimen transitorio IRPF 2024](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/determinacion-importe-ganancias-perdidas-patrimon-generales/derivadas-transmisiones-onerosas-lucrativas/regimen-transitorio-aplicable-ganancias-patrimoniales.html)
+> :::
+
+---
+
+#### Norma antiaplicación
+
+No se computarán pérdidas cuando se transmitan valores admitidos a cotización y se recompren valores homogéneos:
+
+- Dentro de los dos meses anteriores o posteriores a la transmisión.  
+- Ya sea por el contribuyente, su cónyuge o entidades vinculadas.
+
+> ::: {.callout-warning}
+> Esta norma evita la utilización artificial de pérdidas fiscales con fines elusivos.
+> :::
+
+---
+
+#### Integración y tratamiento fiscal
+
+Las ganancias y pérdidas patrimoniales se integran según su naturaleza:
+
+- **Base del ahorro**  
+  - Transmisiones de elementos patrimoniales.  
+  - Tipos: 19 % (hasta 6.000 €), 21 %, 23 %, 26 % (>200.000 €).  
+  - Compensación: con ganancias y rendimientos del capital mobiliario (hasta 25 %).
+
+- **Base general**  
+  - Ayudas públicas, premios, subvenciones, pérdidas del juego.  
+  - Tipos progresivos.  
+  - Compensación: con pérdidas de su misma naturaleza (hasta 25 % sobre rendimientos).
+
+> ::: {.callout-note}
+> Para esquemas completos de integración y compensación: ver el [Capítulo 12 del Manual IRPF 2024](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c12-integracion-compensacion-rentas.html)
+> :::
+### 2.9 Liquidación del impuesto
+
+> **Competencias:**
+>
+> - Conocer y entender las reglas de integración y compensación de rentas en las bases imponibles general y del ahorro.  
+> - Conocer y aplicar las reducciones en las bases imponibles para obtener las bases liquidables.  
+> - Conocer y aplicar las escalas de gravamen (general y del ahorro).  
+> - Calcular la cuota íntegra, la cuota líquida y la cuota diferencial.  
+> - Comprender los conceptos de unidad familiar, devengo, declaración conjunta o individual.  
+> - Conocer las reglas de presentación, las declaraciones complementarias y los efectos de reinversión, sanciones e intereses de demora.
+
+---
+
+#### Integración y compensación de rentas
+
+La integración y compensación de rentas permite agrupar y equilibrar los distintos tipos de ingresos y pérdidas en las bases imponibles. Se distinguen dos partes:
+
+- **Base imponible general**, que incluye:
+  - Rendimientos del trabajo, del capital inmobiliario y de actividades económicas.
+  - Imputaciones de renta.
+  - Ganancias y pérdidas patrimoniales no derivadas de transmisiones.
+
+- **Base imponible del ahorro**, que incluye:
+  - Rendimientos del capital mobiliario.
+  - Ganancias y pérdidas patrimoniales derivadas de transmisiones.
+
+Cada una se integra y compensa de forma independiente, y las pérdidas solo pueden compensarse hasta un 25 % con rentas positivas del mismo tipo o durante los cuatro ejercicios siguientes.
+
+> ::: {.callout-note}
+> Puedes consultar los esquemas de integración y compensación de rentas en el  
+> [Manual IRPF 2024 – Capítulo 12](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c12-integracion-compensacion-rentas.html)
+> :::
+
+---
+
+#### Reducciones y determinación de las bases liquidables
+
+A partir de la base imponible general se aplican determinadas **reducciones**, entre ellas:
+
+- Aportaciones a sistemas de previsión social.
+- Pensiones compensatorias.
+- Aportaciones a patrimonios protegidos de personas con discapacidad.
+
+La **base liquidable del ahorro** se obtiene tras aplicar, si procede, el remanente de la reducción por pensiones compensatorias.
+
+---
+
+#### Aplicación del mínimo personal y familiar
+
+El mínimo personal y familiar es la parte de renta exenta de tributación, ya que se destina a satisfacer necesidades básicas.
+
+Incluye:
+
+- Mínimo del contribuyente: 5.550 € generales.
+- Mínimo por descendientes, ascendientes y discapacidad.
+
+Este mínimo reduce la cuota íntegra calculada.
+
+> ::: {.callout-tip}
+> Puedes consultar los importes actualizados en el  
+> [Cuadro-resumen del mínimo personal y familiar – Capítulo 14](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c14-adecuacion-impuesto-circunstancias-personales/cuadro-resumen-minimo-personal-familiar.html)
+> :::
+
+---
+
+#### Cuota íntegra
+
+- A la **base liquidable general** se le aplica una **escala progresiva de gravamen** con tramos y tipos crecientes, cedida parcialmente a las comunidades autónomas.
+- A la **base liquidable del ahorro** se le aplica una **escala fija proporcional**:
+  - 19 % hasta 6.000 €
+  - 21 % de 6.000 a 50.000 €
+  - 23 % de 50.000 a 200.000 €
+  - 26 % a partir de 200.000 €
+
+La suma de ambas cuotas (general y del ahorro) da lugar a la **cuota íntegra total**.
+
+---
+
+#### Deducciones y cuota líquida
+
+La **cuota líquida** se obtiene tras aplicar a la cuota íntegra las **deducciones** estatales y autonómicas, entre ellas:
+
+- Por donativos.
+- Por inversión en vivienda habitual (régimen transitorio).
+- Por actividades económicas.
+- Deducciones autonómicas específicas.
+
+---
+
+#### Cuota diferencial
+
+La **cuota diferencial** se calcula restando de la cuota líquida:
+
+- Las **retenciones** e ingresos a cuenta practicados.
+- Las deducciones por **doble imposición internacional**.
+- Otras deducciones previstas en la normativa.
+
+---
+
+#### Otras cuestiones relevantes
+
+- **Unidad familiar y tributación conjunta o individual**: afecta al mínimo exento y a las escalas aplicables.
+- **Devengo del impuesto**: 31 de diciembre de cada ejercicio.
+- **Obligación de declarar**: depende del tipo y cuantía de rentas obtenidas.
+
+> ::: {.callout-note}
+> Para más información y esquemas visuales, consulta el  
+> [Anexo de esquemas del Manual IRPF 2024](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/esquemas-cuadros-resumenes-incluidos-manual.html)
+> :::
+
+---
+
+
+### 2.8 Régimen de imputación de rentas
+
+> **Competencias:**
+>
+> - Conocer y entender en qué consisten los distintos regímenes de imputación de rentas.  
+> - Identificar y calcular la imputación de rentas inmobiliarias en función del valor catastral y la normativa aplicable.
+
+---
+
+#### ¿Qué son las imputaciones de renta?
+
+Según el artículo 6.2 e) de la Ley del IRPF, además de los rendimientos y las ganancias/pérdidas patrimoniales, la renta del contribuyente incluye las **imputaciones de renta establecidas por ley**.
+
+Estas imputaciones persiguen que la tributación refleje la **capacidad económica real** del contribuyente, incluso cuando no se haya producido un ingreso efectivo. Se trata de un régimen especial que complementa el sistema de cálculo del IRPF.
+
+---
+
+#### Categorías incluidas
+
+La Ley del IRPF contempla las siguientes imputaciones de renta:
+
+- Imputación de rentas inmobiliarias  
+- Régimen de atribución de rentas  
+- Transparencia fiscal internacional  
+- Cesión de derechos de imagen  
+- Socios/partícipes en entidades no residentes en jurisdicción cooperativa  
+- Ganancias patrimoniales por cambio de residencia  
+- Régimen especial de trabajadores desplazados
+
+> ::: {.callout-note}
+> En esta asignatura nos centraremos únicamente en la **imputación de rentas inmobiliarias**.  
+> Para el resto de regímenes puedes consultar el  
+> [Manual del IRPF 2024 – Capítulo 2](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c02-irpf-cuestiones-generales.html)
+> :::
+
+---
+
+#### Imputación de rentas inmobiliarias
+
+**Normativa: artículo 85 Ley del IRPF**
+
+Se imputan rentas al contribuyente por la **titularidad de bienes inmuebles urbanos** que:
+
+- No constituyan la **vivienda habitual**.
+- No generen **rendimientos del capital inmobiliario**.
+- No estén afectos a **actividades económicas**.
+- No se encuentren en construcción o fuera de uso por razones urbanísticas.
+
+También están incluidas las titularidades de derechos reales de uso o disfrute (como el usufructo o el aprovechamiento por turno).
+
+---
+
+#### Cálculo de la imputación
+
+La renta imputable se calcula aplicando un porcentaje sobre el **valor catastral**:
+
+- **2 %** del valor catastral, con carácter general.
+- **1,1 %** en los siguientes casos:
+  - Cuando el valor catastral haya sido revisado, modificado o determinado mediante valoración colectiva general en los últimos diez años.
+  - Cuando el inmueble **no tenga valor catastral asignado o notificado**: se aplica el 1,1 % sobre el **50 % del mayor** entre el precio de adquisición o el valor comprobado por la Administración.
+
+> ::: {.callout-tip}
+> Este cálculo se **proporcionaliza** al número de días del año en que el inmueble haya estado a disposición del contribuyente.
+> :::
+
+En caso de **copropiedad**, la imputación se distribuye según el porcentaje de titularidad. Si existen usufructuario y nudo propietario, la renta se imputa al usufructuario.
+
+> ::: {.callout-note}
+> Para más detalle, puedes consultar el  
+> [Esquema sobre imputación de rentas inmobiliarias – Capítulo 4](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c04-rendimientos-capital-inmobiliario/rendimientos-capital-inmobiliario/concepto-rendimientos-capital-inmobiliario.html)
+> :::
+
+---
+
+
+
+### 2.9 Liquidación del impuesto
+
+
+
+
+
+> **Competencias:**
+>
+> - Conocer y entender las reglas de integración y compensación de rentas en las bases imponibles general y del ahorro.  
+> - Conocer y aplicar las reducciones en las bases imponibles para obtener las bases liquidables.  
+> - Conocer y aplicar las escalas de gravamen (general y del ahorro).  
+> - Calcular la cuota íntegra, la cuota líquida y la cuota diferencial.  
+> - Comprender los conceptos de unidad familiar, devengo, declaración conjunta o individual.  
+> - Conocer las reglas de presentación, las declaraciones complementarias y los efectos de reinversión, sanciones e intereses de demora.
+
+---
+
+#### Integración y compensación de rentas
+
+La integración y compensación de rentas permite agrupar y equilibrar los distintos tipos de ingresos y pérdidas en las bases imponibles. Se distinguen dos partes:
+
+- **Base imponible general**, que incluye:
+  - Rendimientos del trabajo, del capital inmobiliario y de actividades económicas.
+  - Imputaciones de renta.
+  - Ganancias y pérdidas patrimoniales no derivadas de transmisiones.
+
+- **Base imponible del ahorro**, que incluye:
+  - Rendimientos del capital mobiliario.
+  - Ganancias y pérdidas patrimoniales derivadas de transmisiones.
+
+Cada una se integra y compensa de forma independiente, y las pérdidas solo pueden compensarse hasta un 25 % con rentas positivas del mismo tipo o durante los cuatro ejercicios siguientes.
+
+> ::: {.callout-note}
+> Puedes consultar los esquemas de integración y compensación de rentas en el  
+> [Manual IRPF 2024 – Capítulo 12](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c12-integracion-compensacion-rentas.html)
+> :::
+
+---
+
+#### Reducciones y determinación de las bases liquidables
+
+A partir de la base imponible general se aplican determinadas **reducciones**, entre ellas:
+
+- Aportaciones a sistemas de previsión social.
+- Pensiones compensatorias.
+- Aportaciones a patrimonios protegidos de personas con discapacidad.
+
+La **base liquidable del ahorro** se obtiene tras aplicar, si procede, el remanente de la reducción por pensiones compensatorias.
+
+---
+
+#### Aplicación del mínimo personal y familiar
+
+El mínimo personal y familiar es la parte de renta exenta de tributación, ya que se destina a satisfacer necesidades básicas.
+
+Incluye:
+
+- Mínimo del contribuyente: 5.550 € generales.
+- Mínimo por descendientes, ascendientes y discapacidad.
+
+Este mínimo reduce la cuota íntegra calculada.
+
+> ::: {.callout-tip}
+> Puedes consultar los importes actualizados en el  
+> [Cuadro-resumen del mínimo personal y familiar – Capítulo 14](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c14-adecuacion-impuesto-circunstancias-personales/cuadro-resumen-minimo-personal-familiar.html)
+> :::
+
+---
+
+#### Cuota íntegra
+
+- A la **base liquidable general** se le aplica una **escala progresiva de gravamen** con tramos y tipos crecientes, cedida parcialmente a las comunidades autónomas.
+- A la **base liquidable del ahorro** se le aplica una **escala fija proporcional**:
+  - 19 % hasta 6.000 €
+  - 21 % de 6.000 a 50.000 €
+  - 23 % de 50.000 a 200.000 €
+  - 26 % a partir de 200.000 €
+
+La suma de ambas cuotas (general y del ahorro) da lugar a la **cuota íntegra total**.
+
+---
+
+#### Deducciones y cuota líquida
+
+La **cuota líquida** se obtiene tras aplicar a la cuota íntegra las **deducciones** estatales y autonómicas, entre ellas:
+
+- Por donativos.
+- Por inversión en vivienda habitual (régimen transitorio).
+- Por actividades económicas.
+- Deducciones autonómicas específicas.
+
+---
+
+#### Cuota diferencial
+
+La **cuota diferencial** se calcula restando de la cuota líquida:
+
+- Las **retenciones** e ingresos a cuenta practicados.
+- Las deducciones por **doble imposición internacional**.
+- Otras deducciones previstas en la normativa.
+
+---
+
+#### Otras cuestiones relevantes
+
+- **Unidad familiar y tributación conjunta o individual**: afecta al mínimo exento y a las escalas aplicables.
+- **Devengo del impuesto**: 31 de diciembre de cada ejercicio.
+- **Obligación de declarar**: depende del tipo y cuantía de rentas obtenidas.
+
+> ::: {.callout-note}
+> Para más información y esquemas visuales, consulta el  
+> [Anexo de esquemas del Manual IRPF 2024](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/esquemas-cuadros-resumenes-incluidos-manual.html)
+> :::
+
+---
+
+
+## 3. Impuesto sobre Sociedades (IS)
+
+::: callout-note
+## Objetivos del apartado
+
+- Conocer el ámbito de aplicación del IS y su relación con otros impuestos: IRPF, IRNR e ISD.  
+- Entender la estructura básica del impuesto, su base imponible y los principales ajustes fiscales.  
+- Aplicar el régimen general de tributación, con atención a deducciones, bonificaciones y mecanismos para evitar la doble imposición.
+:::
+
+### 3.1 Ámbito de aplicación y relación con otros impuestos
+
+El IS es un impuesto **directo, personal y proporcional**, que grava la renta de las entidades residentes en territorio español.
+
+Se aplica a:
+
+- **Sociedades mercantiles y civiles con objeto mercantil**
+- **Cooperativas, asociaciones y fundaciones**
+- **Entidades parcialmente exentas** (por ejemplo, ONG)
+- **Sociedades de inversión y otras figuras especiales**
+
+> ::: callout-important
+> El IS se diferencia del IRPF, que grava a personas físicas, y del IRNR, que afecta a personas o entidades **no residentes** con rentas de fuente española.
+:::
+
+Las **herencias y donaciones de empresas** pueden quedar sujetas al IS en ciertos casos, aunque lo habitual es su tributación por el **ISD** si no hay actividad económica.
+
+Más información:  
+👉 [Ámbito de aplicación del IS – Agencia Tributaria](https://sede.agenciatributaria.gob.es/Sede/Ayuda/23Manual/200.shtml)
+
+---
+
+### 3.2 Estructura del impuesto y cálculo de la base imponible
+
+La **base imponible** del IS parte del **resultado contable** de la empresa (beneficio antes de impuestos) ajustado según los criterios fiscales.
+
+Pasos clave:
+
+1. **Resultado contable** (según PGC)
+2. **Ajustes extracontables**:
+   - Gastos contables **no deducibles fiscalmente** (ej.: multas, donaciones)
+   - Ingresos **exentos o no computables**
+3. **Compensación de bases imponibles negativas** de ejercicios anteriores (hasta el 70% de la base previa, con un mínimo de 1 M€ compensable).
+
+> ::: callout-tip
+> Para el asesor financiero, es clave saber que **las pérdidas contables no siempre generan bases negativas en IS**, y viceversa.
+:::
+
+Más información:  
+👉 [Determinación de la base imponible – Agencia Tributaria](https://sede.agenciatributaria.gob.es/Sede/Ayuda/23Manual/206.shtml)
+
+---
+
+### 3.3 Régimen general de tributación
+
+El **tipo general de gravamen** es del **25 %** (salvo excepciones):
+
+- **15 % para nuevas entidades** el primer año con base positiva y el siguiente.
+- **23 % para entidades con importe neto de cifra de negocios <1 M€** (desde 2023).
+
+La **cuota íntegra** se calcula aplicando el tipo de gravamen a la base imponible.
+
+Después se aplican:
+
+- **Deducciones y bonificaciones**
+- **Deducciones por doble imposición**
+- **Pagos fraccionados** a cuenta del impuesto
+
+---
+
+### 3.4 Incentivos fiscales y doble imposición
+
+El IS contempla diferentes incentivos:
+
+- **Deducciones en la cuota**:
+  - Por creación de empleo
+  - Por I+D+i
+  - Por inversión en producciones cinematográficas, entre otros
+
+- **Bonificaciones**:
+  - Para cooperativas fiscalmente protegidas (50 %)
+  - Rentas obtenidas en Ceuta y Melilla (50 %)
+
+- **Exenciones/Deducciones por doble imposición**:
+  - **Interna**: dividendos entre sociedades españolas
+  - **Internacional**: rentas generadas en el extranjero
+
+> ::: callout-note
+> La correcta aplicación de estos beneficios requiere revisar los requisitos legales específicos y su compatibilidad con otros incentivos.
+:::
+
+Más información:  
+👉 [Incentivos fiscales en el IS – Agencia Tributaria](https://sede.agenciatributaria.gob.es/Sede/Ayuda/23Manual/211.shtml)
+
+---
+
+### 3.5 Consideraciones para el asesor financiero
+
+> ::: callout-important
+> El conocimiento del IS es clave para:
+> - Valorar la **rentabilidad neta** de una empresa
+> - Diseñar estructuras societarias fiscalmente eficientes
+> - Asesorar operaciones de inversión y desinversión empresarial
+:::
+
+---
+
+::: callout-warning
+## ¿Este contenido es actualizable?
+
+**Sí.** Aunque la estructura del IS es estable, los **tipos de gravamen, deducciones y límites** pueden cambiar anualmente.  
+Se recomienda revisar el [Manual práctico del IS actualizado](https://sede.agenciatributaria.gob.es/Sede/Ayuda/23Manual/200.shtml) y la Ley 27/2014 del IS.
+:::
+
+
+## 4. Impuesto sobre Sucesiones y Donaciones (ISD)
+
+::: callout-note
+## Objetivos del apartado
+
+- Conocer el ámbito de aplicación del ISD, su relación con el IRPF, el IRNR y el IS.
+- Comprender la naturaleza del ISD como impuesto directo, subjetivo y cedido a las Comunidades Autónomas.
+- Entender y aplicar correctamente los distintos supuestos del hecho imponible: adquisiciones "mortis causa", "inter vivos" y seguros de vida.
+- Saber calcular la base imponible, aplicar las reducciones y determinar la cuota tributaria, identificando normativa estatal y autonómica aplicable.
+:::
+
+### 4.1 Ámbito de aplicación
+
+El Impuesto sobre Sucesiones y Donaciones (ISD) grava los incrementos patrimoniales obtenidos a título lucrativo por personas físicas, ya sea por herencia, donación o seguros de vida.
+
+Tiene un carácter:
+
+- **Directo y subjetivo**, ya que atiende a las circunstancias personales del sujeto pasivo.
+- **Cedido a las Comunidades Autónomas**, que pueden establecer reducciones, tarifas, bonificaciones y deducciones propias.
+
+Se aplica en todo el territorio español, con especialidades para:
+
+- **Navarra y el País Vasco**, con normativa propia.
+- **No residentes**, que tributan por bienes o derechos situados en España o por seguros contratados con entidades españolas.
+
+Más información oficial: [Manual ISD - Agencia Tributaria](https://sede.agenciatributaria.gob.es/Sede/Ayuda/23Manual/200.shtml)
+
+### 4.2 Hecho imponible
+
+::: callout-tip
+## ¿Cuándo se genera el ISD?
+
+Se devenga en el momento del fallecimiento, donación o formalización del seguro.
+:::
+
+Constituyen hecho imponible del ISD:
+
+- La **adquisición "mortis causa"** de bienes y derechos (herencias, legados).
+- La **adquisición "inter vivos"** mediante donación u otro negocio lucrativo.
+- La **percepción de seguros de vida**, cuando el contratante sea distinto del beneficiario (salvo que tributen como rendimiento en el IRPF).
+
+Los sujetos pasivos son:
+
+- Los **herederos o legatarios**, en caso de herencias.
+- Los **donatarios o favorecidos**, en donaciones.
+- Los **beneficiarios**, en contratos de seguro.
+
+> ⚠️ Las personas jurídicas no tributan por ISD, sino por Impuesto sobre Sociedades.
+
+Existe **incompatibilidad** con el IRPF: un mismo incremento de patrimonio no puede tributar por ambos impuestos.
+
+### 4.3 Valoración de bienes y derechos
+
+La base imponible se determina en función del **valor de mercado** de los bienes adquiridos, aplicando reglas específicas según el tipo de bien:
+
+- En **inmuebles**, se utiliza el **valor de referencia catastral** (desde 2021).
+- En otros casos, se permite aplicar criterios del Impuesto sobre el Patrimonio sin sanción en caso de comprobación posterior.
+
+En seguros de vida, se tributa por la **totalidad de la prestación recibida**.
+
+> 🗓️ **Plazos de autoliquidación**:
+> - 6 meses desde el fallecimiento (herencias).
+> - 30 días hábiles desde el acto (donaciones).
+
+Más info: [ISD - Documentación a aportar](https://sede.agenciatributaria.gob.es/Sede/no-residentes/impuesto-sobre-sucesiones-donaciones/adquisiciones-inter-vivos-modelo-651/documentacion-aportar.html)
+
+### 4.4 Cálculo de la cuota
+
+A la base imponible se le aplican:
+
+1. **Reducciones estatales** (en función del grado de parentesco, discapacidad, vivienda habitual, empresa familiar, seguros...).
+2. **Normativa autonómica**, si procede, que puede mejorar las reducciones o bonificaciones.
+
+Posteriormente, se calcula:
+
+- La **cuota íntegra**, aplicando la tarifa progresiva.
+- El **coeficiente multiplicador**, según patrimonio preexistente y grado de parentesco.
+- La **cuota líquida**, tras aplicar posibles deducciones por impuestos extranjeros o bonificaciones territoriales (Ceuta y Melilla).
+
+::: callout-warning
+## Novedades relevantes (Ley Antifraude 2021)
+
+Se modifica la fiscalidad de los pactos sucesorios. Si los bienes se transmiten en los 5 años posteriores al pacto o al fallecimiento del titular original, se debe tributar por la ganancia patrimonial generada desde la adquisición inicial.
+:::
+
+
+
+
+## 5. Imposición de no residentes
+
+::: callout-note
+## Objetivos del epígrafe
+
+- Conocer y entender la normativa aplicable a los no residentes, incluyendo el IRNR y los convenios de doble imposición.
+- Comprender el concepto de residencia fiscal y su impacto tributario.
+:::
+
+### 5.1 Marco normativo
+
+La imposición sobre los no residentes en España se regula a través de:
+
+- El **Impuesto sobre la Renta de no Residentes (IRNR)**.
+- Los **convenios de doble imposición** firmados por España.
+- La normativa de la **Ley del IRNR** (Real Decreto Legislativo 5/2004) y su Reglamento (Real Decreto 1776/2004).
+
+Además, se aplican normas comunes en materia de procedimiento, gestión y sanciones recogidas en la **Ley General Tributaria**.
+
+> 📚 Fuente: [Manual práctico de tributación de no residentes - Agencia Tributaria](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-tributacion-no-residentes.html)
+
+### 5.2 Concepto de residencia fiscal
+
+Un contribuyente será considerado **residente fiscal en España** cuando:
+
+- Permanezca más de 183 días durante el año natural en territorio español.
+- Tenga en España el núcleo principal de sus actividades económicas o intereses.
+- Residan en España su cónyuge e hijos menores, en caso de duda.
+
+Las personas que **no cumplan** estos criterios se considerarán **no residentes** y tributarán únicamente por las rentas obtenidas en España.
+
+> 💡 Nota: La residencia fiscal se determina de acuerdo con la normativa del IRPF y es clave para distinguir entre tributación por IRPF o IRNR.
+
+---
+
+### 5.3 El Impuesto sobre la Renta de no Residentes (IRNR)
+
+El IRNR es un tributo **directo** que grava la **renta obtenida en territorio español por personas físicas o entidades no residentes**, siempre que no actúen mediante establecimiento permanente (EP), salvo que se indique lo contrario.
+
+#### Modalidades del impuesto
+
+1. **Con establecimiento permanente (EP)**:
+   - Se asimila a la tributación por el Impuesto sobre Sociedades.
+   - Debe llevar contabilidad ajustada al Plan General Contable.
+   - Su período impositivo suele coincidir con el año natural.
+
+2. **Sin establecimiento permanente**:
+   - Gravan cada devengo de renta de forma **independiente**.
+   - No se permite deducir gastos (con algunas excepciones si se reside en la UE/EEE).
+   - Se aplica un **tipo fijo** sobre los ingresos brutos.
+
+#### Tipos impositivos (2023)
+
+- En general, **24 %**.
+- Para residentes en la UE o EEE: **19 %**.
+- Dividendos, intereses y ganancias patrimoniales: 19 % (con excepción de exenciones por convenio).
+
+> ℹ️ Los convenios para evitar la doble imposición pueden reducir o eliminar la tributación.
+
+---
+
+### 5.4 Rentas obtenidas en España
+
+Se consideran obtenidas en España, entre otras:
+
+- Rentas inmobiliarias de inmuebles situados en España.
+- Rendimientos del trabajo por actividad desarrollada en España.
+- Dividendos, intereses y cánones satisfechos por residentes en España.
+- Ganancias patrimoniales derivadas de bienes situados en España.
+
+> 📌 Consulta la lista completa en el [Manual de tributación de no residentes](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-tributacion-no-residentes.html).
+
+---
+
+### 5.5 Rentas exentas
+
+Algunas rentas están **exentas** de tributación por el IRNR, como por ejemplo:
+
+- Intereses de deuda pública española.
+- Ganancias patrimoniales por venta de acciones si no se posee participación significativa y se reside en la UE.
+- Rentas amparadas por convenios internacionales.
+
+---
+
+### 5.6 Obligados tributarios
+
+- Las **personas físicas o jurídicas no residentes** que obtienen rentas en España.
+- Los **pagadores** de rentas a no residentes (obligados a retener o ingresar a cuenta).
+
+#### Retenciones
+
+El pagador español debe practicar **retención en origen** aplicando los tipos previstos en la normativa o el convenio.
+
+> ❗ El incumplimiento de esta obligación puede derivar en sanciones tributarias.
+
+---
+
+::: callout-important
+## Conclusión
+
+El IRNR exige un conocimiento preciso de la residencia fiscal, las fuentes de renta y la normativa internacional. Es esencial para el asesor financiero dominar esta materia, en especial en clientes con inversiones internacionales o cambios de residencia.
+:::
+
+
+
+## 6. Impuesto sobre el Patrimonio (IP) e Impuesto Temporal de Solidaridad de las Grandes Fortunas (ITSGF)
+
+::: callout-note
+## Objetivos del epígrafe
+
+- Conocer el marco normativo, características, diferencias y sujetos pasivos de ambos impuestos.
+- Entender la relación entre obligación real y personal, así como el funcionamiento de las escalas, exenciones, mínimos y reglas de valoración.
+:::
+
+### 6.1 Marco normativo y situación actual
+
+El **Impuesto sobre el Patrimonio (IP)** es un tributo directo, personal y progresivo que grava el patrimonio neto de las personas físicas. Actualmente está regulado por la Ley 19/1991, de 6 de junio, y su gestión recae principalmente en las Comunidades Autónomas.
+
+Por su parte, el **Impuesto Temporal de Solidaridad de las Grandes Fortunas (ITSGF)** es un tributo complementario al IP, aprobado mediante la Ley 38/2022. Se aplica a los contribuyentes con patrimonios superiores a 3 millones de euros.
+
+> 📘 Consulta oficial: [Impuesto sobre el Patrimonio - AEAT](https://sede.agenciatributaria.gob.es/Sede/declaraciones-informativas-otros-impuestos-tasas/impuesto-sobre-patrimonio.html)
+
+> 📘 Consulta oficial: [Impuesto Temporal de Solidaridad de las Grandes Fortunas - AEAT](https://sede.agenciatributaria.gob.es/Sede/declaraciones-informativas-otros-impuestos-tasas/impuesto-temporal-solidaridad-grandes-fortunas.html)
+
+### 6.2 Sujetos pasivos y ámbito de aplicación
+
+- **IP**: Afecta a personas físicas con obligación personal (por su residencia en España) o real (por poseer bienes en España).
+- **ITSGF**: Se aplica también bajo obligación personal o real, pero solo a quienes posean un patrimonio neto superior a 3 millones de euros.
+
+> ::: callout-tip
+> Los contribuyentes del IP están exentos si su cuota, una vez aplicadas deducciones y bonificaciones, resulta nula. En el ITSGF no se aplica esa condición.
+> :::
+
+### 6.3 Base imponible y mínimos exentos
+
+- Se parte del **valor neto del patrimonio**, es decir, el total de bienes y derechos menos deudas.
+- En el **IP**, existe un **mínimo exento estatal** de 700.000 euros (aunque puede ser modificado por las CCAA).
+- En el **ITSGF**, el mínimo exento es de 3.000.000 euros.
+
+### 6.4 Escalas y tipos de gravamen
+
+#### Impuesto sobre el Patrimonio (Estatal, salvo regulación autonómica):
+
+| Base liquidable €     | Tipo aplicable (%) |
+|----------------------|-------------------|
+| Hasta 167.129,45     | 0,2               |
+| Hasta 334.252,88     | 0,3               |
+| Hasta 668.499,75     | 0,5               |
+| Hasta 1.336.999,51   | 0,9               |
+| Hasta 2.679.998,50   | 1,3               |
+| Hasta 5.359.997,99   | 1,7               |
+| Hasta 10.695.996,05  | 2,1               |
+| En adelante          | 3,5               |
+
+#### Impuesto Temporal de Solidaridad de las Grandes Fortunas:
+
+| Base liquidable €    | Tipo aplicable (%) |
+|----------------------|-------------------|
+| Hasta 3.000.000      | 0 % (mínimo exento)|
+| De 3.000.000 a 5.347.998,03 | 1,7         |
+| Hasta 10.695.996,06  | 2,1               |
+| En adelante          | 3,5               |
+
+> ::: callout-warning
+> Los patrimonios ya gravados por el IP pueden aplicar una deducción en la cuota del ITSGF para evitar la doble imposición.
+> :::
+
+### 6.5 Reglas de valoración
+
+Ambos tributos utilizan reglas similares para valorar los bienes:
+
+- Inmuebles: valor catastral, valor comprobado por la Administración o precio de adquisición (el mayor de los tres).
+- Valores mobiliarios, seguros, joyas, arte, vehículos…: valoración específica según normativa.
+- Actividades económicas: valor contable corregido.
+
+> ::: callout-note
+> Las **participaciones en entidades** y los **bienes afectos a actividades económicas** pueden beneficiarse de exenciones parciales o totales si se cumplen ciertos requisitos (participación significativa, funciones directivas, retribución, etc.).
+> :::
+
+### 6.6 Límite conjunto de cuota íntegra
+
+En el caso del IP, se aplica una regla que impide que la suma de las cuotas del IRPF y del IP supere el 60 % de la base imponible general y del ahorro del IRPF. Si lo supera, se reduce la cuota del IP hasta ese límite, con una reducción máxima del 80 %.
+
+El ITSGF **no contempla este límite**, reforzando su carácter complementario y temporal.
+
+------------------------------------------------------------------------
+
+
+
+
+
+
+## 7. Obligación de suministro de información de bienes y derechos situados en el extranjero (Modelo 720)
+
+::: callout-note
+## Objetivos del epígrafe
+
+- Conocer los sujetos obligados a declarar bienes y derechos en el extranjero.
+- Entender qué bienes deben incluirse en la declaración y qué excepciones existen.
+- Identificar los plazos, modelo aplicable y consecuencias jurídicas por incumplimiento.
+:::
+
+### 7.1 ¿Qué es el Modelo 720?
+
+El Modelo 720 es una **declaración informativa de carácter obligatorio** mediante la cual ciertos contribuyentes deben informar a la Agencia Tributaria sobre los bienes y derechos situados en el extranjero.
+
+> 📘 Fuente oficial: [Modelo 720 - AEAT](https://sede.agenciatributaria.gob.es/Sede/impuestos-tasas/declaraciones-informativas/modelo-720-declaracion-bienes-derechos-situacion-extranjero.html)
+
+### 7.2 Sujetos obligados
+
+Están obligadas a presentar el Modelo 720 las **personas físicas y jurídicas residentes en España**, así como los establecimientos permanentes en territorio español de personas o entidades no residentes, que sean titulares, representantes, autorizados, beneficiarios o tengan poderes de disposición sobre los siguientes activos en el extranjero:
+
+- Cuentas en entidades financieras.
+- Valores, seguros y rentas.
+- Bienes inmuebles y derechos sobre ellos.
+
+> ::: callout-warning
+> La obligación existe cuando el valor conjunto de cada bloque de bienes supera los **50.000 euros**. Una vez presentada, solo se deberá volver a presentar si el valor aumenta en más de 20.000 euros o se pierde la titularidad o condición declarada.
+> :::
+
+### 7.3 Información que debe suministrarse
+
+#### 1. Cuentas en entidades financieras situadas en el extranjero
+
+- Entidad bancaria, número de cuenta, titularidad, saldo a 31 de diciembre y saldo medio del último trimestre.
+
+#### 2. Valores, derechos, seguros y rentas
+
+- Acciones, participaciones, seguros de vida o invalidez, y rentas temporales o vitalicias. Se indica el valor de adquisición y características de cada activo.
+
+#### 3. Bienes inmuebles y derechos sobre inmuebles
+
+- Descripción, ubicación, fecha de adquisición y valor de compra.
+
+> ::: callout-note
+> Los datos se presentan agrupados en tres bloques: cuentas, valores y bienes inmuebles. Es necesario presentar uno, dos o los tres bloques según el tipo de bienes poseídos.
+> :::
+
+### 7.4 Excepciones
+
+No será necesario declarar si:
+
+- El valor total de cada grupo no supera los 50.000 €.
+- Los bienes están ya incluidos en los libros contables de una entidad residente, conforme al Código de Comercio.
+- Existen duplicidades por titularidades compartidas que ya han sido declaradas.
+
+### 7.5 Plazos y modelo
+
+- La presentación se realiza entre el **1 de enero y el 31 de marzo** del ejercicio siguiente a aquel al que corresponde la información.
+- El modelo es exclusivamente electrónico y se tramita a través de la Sede Electrónica de la AEAT.
+
+> 📘 Acceso directo: [Presentación Modelo 720](https://sede.agenciatributaria.gob.es/Sede/procedimientoini/GC27.shtml)
+
+### 7.6 Régimen sancionador
+
+El régimen sancionador del Modelo 720 ha sido muy estricto. Aunque parte de sus sanciones fueron cuestionadas por el TJUE, sigue vigente un **sistema sancionador específico**:
+
+- **5.000 € por dato omitido o incorrecto**, con mínimo de 10.000 € por bloque no declarado.
+- Para declaraciones fuera de plazo: **100 € por dato**, con mínimo de 1.500 € por bloque.
+
+> ::: callout-warning
+> Aunque algunas sanciones han sido anuladas parcialmente por el Tribunal de Justicia de la Unión Europea, la **obligación de presentar el Modelo 720 sigue plenamente en vigor**, y el incumplimiento sigue conllevando consecuencias fiscales.
+> :::
+
+------------------------------------------------------------------------
+
+
+# ANEXO IRPF: Esquemas y cuadros resúmenes
+
+## **Capítulo 1. Campaña de la declaración de renta 2024**
+
+-   **¿Quiénes están obligados a presentar declaración del IRPF 2024?**
+
+    [Cuadro-resumen: contribuyentes no obligados a declarar](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c01-campana-declaracion-renta/quienes-estan-obligados-presentar-declaracion-irpf/contribuyentes-no-obligados-declarar-cuadro-resumen.html)
+
+-   **Pago de la deuda tributaria del IRPF**
+
+    [Cuadro-resumen: modalidades de ingreso disponibles según la opción de pago elegida (fraccionado o no fraccionado)](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c01-campana-declaracion-renta/pago-deuda-tributaria-irpf.html)
+
+-   **Domiciliación bancaria del pago**
+
+    [Cuadro-resumen: plazos y condiciones para efectuar la domiciliación bancaria e ingresar la deuda según la opción de pago elegida, fraccionado o no fraccionado](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c01-campana-declaracion-renta/pago-deuda-tributaria-irpf/modalidades-ingreso-pago/domiciliacion-bancaria.html)
+
+## **Capítulo 2. Cuestiones generales**
+
+-   **Rentas exentas artículo 7 Ley de IRPF**
+
+    -   **Indemnizaciones por despido o cese del trabajador**
+
+        [Cuadro- resumen: exención de indemnizaciones por despido o cese del trabajador](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c02-irpf-cuestiones-generales/sujecion-irpf-aspectos-materiales/delimitacion-negativa-hecho-imponible-rentas-sujetas/rentas-exentas-articulo-7-ley-irpf/indemnizaciones-despido-cese-trabajador/cuadro-resumen.html)
+
+    -   **Becas**
+
+        [Cuadro-resumen: dotación económica máxima anual exenta de las becas](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c02-irpf-cuestiones-generales/sujecion-irpf-aspectos-materiales/delimitacion-negativa-hecho-imponible-rentas-sujetas/rentas-exentas-articulo-7-ley-irpf/becas/cuadro-resumen-dotacion-economica-maxima-becas.html)
+
+-   **Otras rentas exentas**
+
+    -   [Cuadro- resumen: medidas aprobadas **exclusivamente para contribuyentes titulares de actividades económicas** como consecuencia de la DANA que afectan al IRPF: Real Decreto-ley 6/2024, de 5 de noviembre, Real Decreto-ley 7/2024, de 11 de noviembre y Real Decreto 8/2024, de 28 de noviembre](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c02-irpf-cuestiones-generales/sujecion-irpf-aspectos-materiales/delimitacion-negativa-hecho-imponible-rentas-sujetas/otras-rentas-exentas/exenciones-rendimientos-actividades-economicas/cuadro-dana-actividades-eco.html)
+
+    -   [Cuadro- resumen: medidas aprobadas **para todos los contribuyentes afectados en general** como consecuencia de la DANA que afectan al IRPF: Real Decreto-ley 6/2024, de 5 de noviembre, Real Decreto-ley 7/2024, de 11 de noviembre y Real Decreto 8/2024, de 28 de noviembre](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c02-irpf-cuestiones-generales/sujecion-irpf-aspectos-materiales/delimitacion-negativa-hecho-imponible-rentas-sujetas/otras-rentas-exentas/exenciones-ganancias-patrimoniales/cuadro-dana-general.html)
+
+-   **Régimen fiscal especial aplicable a los trabajadores desplazados a territorio español y a su familia**
+
+    [Cuadro- resumen: ámbito de aplicación y contenido del régimen](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c02-irpf-cuestiones-generales/sujecion-irpf-aspectos-personales/regimen-fiscal-especial-aplicable-trabajadores-desplazados/cuadro-resumen.html)
+
+## **Capítulo 3. Rendimientos del trabajo**
+
+-   **Rendimientos de trabajo por expresa disposición legal**
+
+    [Cuadro: aportaciones a patrimonios protegidos de personas con discapacidad](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/concepto/rendimientos-trabajo-expresa-disposicion-legal/k-aportaciones-realizadas-patrimonio-protegido/cuadro-aportaciones-patrimonios-protegidos-personas-discapacidad.html)
+
+    Téngase en cuenta que este cuadro incluye contenido que también afecta a los siguientes capítulos:
+
+    -   **Capítulo 2:** rentas exentas del artículo 7 de la Ley del IRPF por "[Rendimientos del trabajo derivados de las prestaciones obtenidas en forma de renta por las personas con discapacidad correspondientes a las aportaciones a patrimonios protegidos](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c02-irpf-cuestiones-generales/sujecion-irpf-aspectos-materiales/delimitacion-negativa-hecho-imponible-rentas-sujetas/rentas-exentas-articulo-7-ley-irpf/rendimientos-trabajo-personas-discapacidad.html)".
+
+    -   **Capítulo 13**: "[Reducciones en la base imponible general por aportaciones a patrimonios protegidos de personas con discapacidad](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c13-determinacion-renta-contribuyente-sujeta-gravamen/reducciones-base-imponible-general/reducciones-aportaciones-patrimonios-protegidos.html)"
+
+-   **Reglas especiales de valoración de los rendimientos de trabajo en especie**
+
+    [Cuadro-resumen: utilización de vivienda por el empleado](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/rendimientos-trabajo-especie/computo-rendimientos-trabajo-especie/reglas-especiales/utilizacion-vivienda.html)
+
+    [Cuadro-resumen: entrega o utilización de vehículos automóviles](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/rendimientos-trabajo-especie/computo-rendimientos-trabajo-especie/reglas-especiales/entrega-utilizacion-vehiculos-automoviles.html)
+
+    [Cuadro: entrega de acciones de forma gratuita o por precio inferior al normal de mercado por la empresa a sus trabajadores](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/rendimientos-trabajo-especie/computo-rendimientos-trabajo-especie/reglas-especiales/otras-reglas-especiales/entrega-acciones-empresa-trabajadores.html)
+
+-   **Consideración fiscal de las dietas y asignaciones para gastos de viaje**
+
+    [Cuadro-resumen: asignaciones para gastos de manutención y estancia exceptuadas de gravamen](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/consideracion-fiscal-dietas-asignaciones-gastos-viaje/gastos-manutencion-estancia/reglas-generales/funcionarios-empleados-destino-espana.html)
+
+-   **Rendimiento neto del trabajo a integrar en la base imponible**
+
+    [Esquema general: determinación del rendimiento neto reducido del trabajo](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/rendimiento-neto-trabajo-integrar-base-imponible/esquema-general.html)
+
+    [Cuadro-resumen: reducción por rendimientos de trabajo con período de generación superior a dos años u obtenidos de forma notoriamente irregular](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/rendimiento-neto-trabajo-integrar-base-imponible/fase-1-determinacion-rendimiento-integro-trabajo/reducciones-aplicables-sobre-determinados-rendimientos-integros/cuadros-resumen-reducciones-sobre-determinados-integros/cuadro-resumen-reduccion-rendimientos-periodo-superior.html)
+
+    [Cuadro-resumen: régimen transitorio: reducciones aplicables sobre prestaciones percibidas en forma de capital derivadas de sistemas privados de previsión social](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/rendimiento-neto-trabajo-integrar-base-imponible/fase-1-determinacion-rendimiento-integro-trabajo/reducciones-aplicables-sobre-determinados-rendimientos-integros/cuadros-resumen-reducciones-sobre-determinados-integros/cuadro-resumen-regimen-transitorio.html)
+
+    [Cuadro-resumen: despidos colectivos: indemnización exenta, reducción por irregularidad del 30 por 100 del importe no exento y rescate anticipado](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/rendimiento-neto-trabajo-integrar-base-imponible/fase-1-determinacion-rendimiento-integro-trabajo/reducciones-aplicables-sobre-determinados-rendimientos-integros/cuadros-resumen-reducciones-sobre-determinados-integros/ere-indemnizacion-exenta-reduccion-irrregularidad-pp.html)
+
+    Téngase en cuenta que este cuadro incluye contenido que también afecta al **capítulo 2** de este Manual en el apartado de las rentas exentas del artículo 7 de la Ley del IRPF por “Indemnizaciones por despido o cese del trabajador” en caso de [despido colectivo](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c02-irpf-cuestiones-generales/sujecion-irpf-aspectos-materiales/delimitacion-negativa-hecho-imponible-rentas-sujetas/rentas-exentas-articulo-7-ley-irpf/indemnizaciones-despido-cese-trabajador/indemnizaciones-exentas-derivadas-despidos-colectivos.html).
+
+## **Capítulo 4. Rendimientos del capital inmobiliario** 
+
+-   [Esquema general: determinación del rendimiento neto del capital inmobiliario](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c04-rendimientos-capital-inmobiliario/rendimiento-neto.html)
+
+-   [Cuadro-resumen: tratamiento de la indemnización por resolución anticipada del contrato de arrendamiento](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c04-rendimientos-capital-inmobiliario/rendimientos-capital-inmobiliario/concepto-rendimientos-capital-inmobiliario.html)
+
+-   [Cuadro- resumen: reducciones por arrendamiento de viviendas del artículo 23.2 de la Ley del IRPF aplicables en 2024](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c04-rendimientos-capital-inmobiliario/reducciones-rendimiento-neto/arrendamiento-inmuebles-destinados-vivienda/cuadro-reducciones-arrendamiento.html)
+
+## **Capítulo 5. Rendimientos del capital mobiliario**
+
+-   **Cuestiones generales:**
+
+    -   [Esquema general: clasificación según su integración en la base imponible](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c05-rendimientos-capital-mobiliario/rendimientos-capital-mobiliario-cuestiones-generales/clasificacion-segun-integracion-base-imponible.html)
+
+    -   [Cuadro: clasificación de los rendimientos según su procedencia](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c05-rendimientos-capital-mobiliario/rendimientos-capital-mobiliario-cuestiones-generales/cuadro-clasificacion-rendimientos-segun-procedencia.html)
+
+-   **Rendimientos procedentes de la cesión a terceros de capitales propios**
+
+    -   Determinación del rendimiento íntegro: [esquema del Régimen fiscal de la Deuda Pública del Estado](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c05-rendimientos-capital-mobiliario/rendimientos-integrar-base-imponible-ahorro/rendimientos-procedentes-cesion-terceros-capitales-propios/determinacion-rendimiento-integro.html)
+
+    -   Determinación del rendimiento neto: [esquema general](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c05-rendimientos-capital-mobiliario/rendimientos-integrar-base-imponible-ahorro/rendimientos-procedentes-cesion-terceros-capitales-propios/determinacion-rendimiento-neto.html)
+
+-   **Fiscalidad de los contratos de seguros de vida o invalidez y operaciones de capitalización**
+
+    [Cuadro-resumen](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c05-rendimientos-capital-mobiliario/cuadros-resumen.html)
+
+## **Capítulo 6. Rendimientos de actividades económicas. Cuestiones generales**
+
+-   **Delimitación de los rendimientos de actividades económicas**
+
+    [Cuadro: calificación fiscal de los rendimientos obtenidos en el desarrollo de determinadas actividades](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c06-rendimientos-actividades-economicas-cuestiones-generales/delimitacion-rendimientos-actividades-economicas/calificacion-fiscal-rendimientos-obtenidos-determinadas-actividades.html)
+
+-   **Elementos patrimoniales afectos a una actividad económica**
+
+    [Cuadro- resumen: criterios de afectación a fines de la actividad económica](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c06-rendimientos-actividades-economicas-cuestiones-generales/elementos-patrimoniales-afectos-actividad-economica/criterios-afectacion-bienes-derechos-ejercicio.html)
+
+    Téngase en cuenta que este cuadro incluye contenido que también afecta al **capítulo 6** del Manual en el apartado "[Tratamiento de las ganancias o pérdidas patrimoniales derivadas de elementos afectos al ejercicio de actividades económicas](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c06-rendimientos-actividades-economicas-cuestiones-generales/elementos-patrimoniales-afectos-actividad-economica/transmisiones-elementos-patrimoniales-afectos.html)".
+
+-   **Método y modalidades de determinación del rendimiento neto de las actividades económicas**
+
+    -   [Cuadro-resumen: métodos y modalidades de determinación del rendimiento neto de actividades económicas: estimación directa](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c06-rendimientos-actividades-economicas-cuestiones-generales/metodo-modalidades-determinacion-rendimiento-neto/cuadros-metodos-modalidades-rendimiento-estimacion-directa.html)
+
+    -   [Cuadro-resumen: métodos y modalidades de determinación del rendimiento neto de actividades económicas: estimación objetiva](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c06-rendimientos-actividades-economicas-cuestiones-generales/metodo-modalidades-determinacion-rendimiento-neto/cuadros-metodos-modalidades-determinacion-estimacion-objetiva.html)
+
+-   **Obligaciones contables y registrales:**
+
+    [Cuadro-resumen](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c06-rendimientos-actividades-economicas-cuestiones-generales/obligaciones-contables-registrales-contribuyentes-titulares/cuadro-resumen-obligaciones-contables-registrales.html)
+
+## **Capítulo 7. Rendimientos de actividades económicas. Método de estimación directa**
+
+-   **Fase 1ª. Determinación del rendimiento neto**
+
+    [Cuadro-resumen: determinación del rendimiento neto (Ingresos - Gastos)](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c07-rendimientos-actividades-economicas-estimacion-directa/fase-1-determinacion-rendimiento-neto/cuadro-resumen-determinacion-rendimiento-neto.html)
+
+    [Amortizaciones: tabla coeficientes de amortización lineal](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c07-rendimientos-actividades-economicas-estimacion-directa/fase-1-determinacion-rendimiento-neto/amortizaciones-dotaciones-ejercicio-fiscalmente-deducibles/requisitos-generales/coeficientes-amortizacion-lineal.html)
+
+    [Amortizaciones: tabla de amortizaciones simplificada](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c07-rendimientos-actividades-economicas-estimacion-directa/fase-1-determinacion-rendimiento-neto/amortizaciones-dotaciones-ejercicio-fiscalmente-deducibles/especialidades-fiscales-amortizaciones-modalidad-simplificada.html)
+
+-   **Cuadro-resumen de todas las fases:**
+
+    [Cálculo del rendimiento neto a integrar en la base imponible en EDN y EDS](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c07-rendimientos-actividades-economicas-estimacion-directa/cuadro-resumen.html)
+
+## **Capítulo 8. Rendimientos de actividades económicas en estimación objetiva (I) (Actividades distintas de las agrícolas, ganaderas y forestales)**
+
+-   **Actividades incluidas en el ejercicio 2024 en el método de estimación objetiva**
+
+    [Relación de actividades con la indicación del Grupo o epígrafe del Impuesto sobre Actividades Económicas (IAE) que le corresponde y los signos o módulos previstos para cada actividad](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c08-rendimientos-actividades-economicas-eo-fores/concepto-ambito-aplicacion/actividades-incluidas-ejercicio-metodo-estimacion-objetiva/relacion-actividades-indicacion-grupo-epigrafe-modulos.html)
+
+-   **Determinación del rendimiento neto reducido**
+
+    [Esquema general: determinación del rendimiento neto reducido](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c08-rendimientos-actividades-economicas-eo-fores/determinacion-rendimiento-neto-reducido/introduccion-esquema.html)
+
+-   **Apéndice:** **Rendimientos anuales por unidad de módulo antes de amortización aplicables en el ejercicio 2024**
+
+    [Módulos aplicables a cada una de las actividades, incluidos en el Anexo II de la Orden HFP/1359/2023, con indicación de su correspondiente epígrafe en el Impuesto de Actividades Económicas (IAE)](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c08-rendimientos-actividades-economicas-eo-fores/apendice/modulos-actividad.html)
+
+## **Capítulo 9. Rendimientos de actividades económicas en estimación objetiva (II) (Actividades agrícolas, ganaderas y forestales)**
+
+-   **Actividades agrícolas, ganaderas, forestales y de transformación de productos naturales a las que resulta aplicable el método de estimación objetiva en 2024**
+
+    [Cuadro: relación de Actividades](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c09-rendimientos-actividades-economicas-eo-fores/concepto-ambito-aplicacion/actividades-agricolas-ganaderas-forestales-transformacion-eo/cuadro-relacion-actividades.html)
+
+-   **Determinación del rendimiento neto**
+
+    -   [Esquema general: determinación del rendimiento neto](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c09-rendimientos-actividades-economicas-eo-fores/determinacion-rendimiento-neto/introduccion-esquema.html)
+
+    -   Fase 1ª: Determinación del rendimiento neto previo:
+
+        [Índices de rendimiento neto aplicables](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c09-rendimientos-actividades-economicas-eo-fores/determinacion-rendimiento-neto/fase-1-determinacion-rendimiento-neto-previo/indices-rendimiento-neto-aplicables-productos-servicios.html)
+
+    -   Fase 2ª: Determinación del rendimiento neto minorado
+
+        [Tabla de amortización del inmovilizado material e inmaterial (excepto actividades forestales)](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c09-rendimientos-actividades-economicas-eo-fores/determinacion-rendimiento-neto/fase-2-determinacion-rendimiento-neto-minorado/amortizacion-inmovilizado-material-inmaterial/tabla-amortizacion.html)
+
+-   **Apéndice: Relación de productos naturales, servicios y actividades accesorios realizados por agricultores, ganaderos y titulares de actividades forestales e índices de rendimiento aplicables en el ejercicio 2024**
+
+    -   [Explotaciones agrícolas](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c09-rendimientos-actividades-economicas-eo-fores/apendice-actividades-agricolas-ganaderas-forestales/explotaciones-agricolas.html)
+
+    -   [Explotaciones ganaderas](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c09-rendimientos-actividades-economicas-eo-fores/apendice-actividades-agricolas-ganaderas-forestales/explotaciones-ganaderas.html)
+
+    -   [Explotaciones forestales](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c09-rendimientos-actividades-economicas-eo-fores/apendice-actividades-agricolas-ganaderas-forestales/explotaciones-forestales.html)
+
+## **Capítulo 11. Ganancias y pérdidas patrimoniales**
+
+-   **Determinación del importe de las ganancias o pérdidas patrimoniales: normas generales**
+
+    Derivadas de transmisiones onerosas o lucrativas:
+
+    -   Reglas generales de cálculo: [esquemas-resumen](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/determinacion-importe-ganancias-perdidas-patrimon-generales/derivadas-transmisiones-onerosas-lucrativas/reglas-generales-calculo.html)
+
+    -   Régimen transitorio (disposición transitoria novena Ley IRPF):
+
+        Cálculo de la ganancia generada: [regla especial en valores cotizados](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/determinacion-importe-ganancias-perdidas-patrimon-generales/derivadas-transmisiones-onerosas-lucrativas/regimen-transitorio-aplicable-ganancias-patrimoniales/calculo-parte-ganancia-patrimonial-generada/regla-especial.html)
+
+        Cálculo de la reducción aplicable:
+
+        -   [Cuadro-resumen: aplicación de los coeficientes de abatimiento](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/determinacion-importe-ganancias-perdidas-patrimon-generales/derivadas-transmisiones-onerosas-lucrativas/regimen-transitorio-aplicable-ganancias-patrimoniales/calculo-reduccion-aplicable/calculo-valor-transmision-elementos-01-2015.html)
+
+        -   [Cuadro: porcentajes reductores aplicables a la ganancia patrimonial reducible en función de la naturaleza del elemento patrimonial](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/determinacion-importe-ganancias-perdidas-patrimon-generales/derivadas-transmisiones-onerosas-lucrativas/regimen-transitorio-aplicable-ganancias-patrimoniales/calculo-reduccion-aplicable/aplicacion-coeficientes-reductores-abatimiento-que-correspondan.html)
+
+-   **Determinación del importe de las ganancias o pérdidas patrimoniales: normas específicas de valoración**
+
+    -   [Supuesto especial: pago de dividendos mediante la entrega de acciones totalmente liberadas](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/determinacion-importe-ganancias-perdidas-patrimon-especificas/transmisiones-onerosas-valores-admitidos-negociacion/supuesto-especial-pago-dividendos.html)
+
+    -   [Cuadro-resumen: reglas especificas de valoración](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/determinacion-importe-ganancias-perdidas-patrimon-especificas/cuadro-resumen-reglas-especiales.html)
+
+-   **Declaración y tributación de las ganancias y pérdidas patrimoniales**
+
+    [Especial referencia a las subvenciones y ayudas públicas](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/declaracion-tributacion-ganancias-perdidas-patrimoniales/especial-referencia-subvenciones-ayudas-publicas.html)
+
+-   **Excesos de adjudicación en la extinción del condominio**:
+
+    [Cuadro: excesos de adjudicación en la extinción del condominio. Resolución del TEAC de 7 de junio de 2018](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/cuadro-excesos-adjudicacion-extincion-condominio.html)
+
+-   **Cuadros: tributación del usufructo sobre bienes inmuebles**
+
+    -   [Usufructo y desmembramiento de la propiedad](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/cuadros-usufructo/usufructo-desmembramiento-propiedad-concepto-definiciones.html)
+
+    -   [Constitución del usufructo](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/cuadros-usufructo/constitucion-usufructo.html)
+
+    -   [Transmisión del usufructo](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/cuadros-usufructo/transmision-usufructo.html)
+
+    -   [Extinción del usufructo y consolidación del dominio](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/cuadros-usufructo/extincion-usufructo-consolidacion-dominio.html)
+
+    -   [Transmisión del bien inmueble posterior a la consolidación del dominio](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c11-ganancias-perdidas-patrimoniales/cuadros-usufructo/transmision-bien-inmueble-posterior-consolidacion-dominio.html)
+
+## **Capítulo 12. Integración y compensación de rentas**
+
+-   **Componentes de la renta general y de la renta del ahorro:**
+
+    [Cuadros-resumen](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c12-integracion-compensacion-rentas/introduccion/cuadros-resumen-componentes-renta-general-ahorro.html)
+
+-   **Integración y compensación de rentas en la base imponible general:**
+
+    [Cuadro- resumen](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c12-integracion-compensacion-rentas/reglas-integracion-compensacion-rentas/integracion-compensacion-rentas-base-imponible-general.html)
+
+-   **Integración y compensación de rentas en la base imponible del ahorro:**
+
+    [Cuadro- resumen](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c12-integracion-compensacion-rentas/reglas-integracion-compensacion-rentas/integracion-compensacion-rentas-base-imponible-ahorro.html)
+
+## **Capítulo 13. Determinación de la renta del contribuyente sujeta a gravamen: base liquidable**
+
+-   **Determinación de las bases liquidables general y del ahorro:** [esquema general](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c13-determinacion-renta-contribuyente-sujeta-gravamen/introduccion.html)
+
+-   **Reducciones de la base imponible general**
+
+    -   [Cuadro- resumen: reducciones de la base imponible general](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c13-determinacion-renta-contribuyente-sujeta-gravamen/reducciones-base-imponible-general/cuadro-resumen-reducciones-base-imponible-general.html)
+
+    -   [Cuadro-resumen: reducciones por aportaciones y contribuciones a sistemas de previsión social](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c13-determinacion-renta-contribuyente-sujeta-gravamen/reducciones-base-imponible-general/reducciones-aportaciones-contribuciones-sistemas-prevision-social/normas-comunes-aplicables-aportaciones-sistemas-social/cuadro-reducciones-aportaciones-contribuciones-sps.html)
+
+    -   [Cuadro-resumen: reducciones por pensiones compensatorias y anualidades por alimentos](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c13-determinacion-renta-contribuyente-sujeta-gravamen/reducciones-base-imponible-general/reducciones-pensiones-compensatorias.html)
+
+        Téngase en cuenta que este cuadro incluye contenido que también afecta a los siguientes capítulos:
+
+        -   **Capítulo 2**: rentas exentas del artículo 7 de la Ley del IRPF por “[Anualidades por alimentos a favor de los hijos](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c02-irpf-cuestiones-generales/sujecion-irpf-aspectos-materiales/delimitacion-negativa-hecho-imponible-rentas-sujetas/rentas-exentas-articulo-7-ley-irpf/anualidades-alimentos-favor-hijos.html)".
+
+        -   **Capítulo 3:** rendimientos de trabajo por expresa disposición legal por “[Pensiones compensatorias recibidas del cónyuge y anualidades por alimentos.](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c03-rendimientos-trabajo/concepto/rendimientos-trabajo-expresa-disposicion-legal/f-pensiones-compensatorias-recibidas-conyuge.html)”
+
+        -   **Capítulo 15**: especialidades en la determinación de la cuota íntegra estatal y autonómica por "[Anualidades por alimentos en favor de los hijos](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c15-calculo-impuesto-determinacion-cuotas-integras/especialidades-determinacion-cuota-integra-estatal-autonomica/anualidades-alimentos-favor-hijos.html)".
+
+    ## **Capítulo 14. Adecuación del impuesto a las circunstancias personales y familiares del contribuyente: mínimo personal y familiar**
+
+    -   [Cuadro-resumen del mínimo personal, por descendientes, por ascendientes y por discapacidad](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c14-adecuacion-impuesto-circunstancias-personales/cuadro-resumen-minimo-personal-familiar.html)
+
+    -   [Cuadro comparativo de los importes de los mínimos personales y familiares, estatal y autonómicos para 2024](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c14-adecuacion-impuesto-circunstancias-personales/minimo-autonomico-personal-familiar/cuadro-minimos-personales-familiares-estatal-autonomicos.html)
+
+    -   [Cuadro: separaciones judiciales, divorcios o nulidades (con hijos): Tributación conjunta y aplicación del mínimo por descendientes](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c14-adecuacion-impuesto-circunstancias-personales/cuadro-separaciones-judiciales-divorcios-nulidades.html)
+
+    ## **Capítulo 15. Cálculo del impuesto: determinación de las cuotas íntegras**
+
+    [Esquema gráfico: aplicación de mínimo personal y familiar y determinación de las cuotas íntegras](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c15-calculo-impuesto-determinacion-cuotas-integras/introduccion/esquema-grafico-aplicacion-minimo-personal-familiar.html)
+
+    ## **Capítulo 16. Deducciones generales de la cuota en el ejercicio 2024**
+
+    -   **Esquema deducciones aplicables**
+
+        [Esquema gráfico de la aplicación sobre el importe de las cuotas integras de las deducciones generales y autonómicas](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c16-deducciones-generales-cuota/introduccion/esquema-grafico.html)
+
+    -   **Deducciones por incentivos y estímulos a la inversión empresarial en actividades económicas en estimación directa**
+
+        -   Régimen general y regímenes especiales de deducciones por incentivos y estímulos a la inversión empresarial de la Ley del Impuesto sobre Sociedades
+
+            -   [Cuadro: régimen general de deducciones](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c16-deducciones-generales-cuota/deducciones-incentivos-estimulos-estimacion-directa/regimen-general-regimenes-especiales-deducciones/regimen-general-deducciones/cuadro-regimen-general-deduccion.html)
+
+            -   [Cuadro: regímenes especiales de deducciones (programas de apoyo a acontecimientos de excepcional interés público)](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c16-deducciones-generales-cuota/deducciones-incentivos-estimulos-estimacion-directa/regimen-general-regimenes-especiales-deducciones/regimenes-especiales-deducciones/gastos-realizados-ejercicio/cuadro-regimenes-especiales-deduccion.html)
+
+        -   Régimen especial de las inversiones empresariales en Canarias
+
+            -   [Cuadro-resumen: deducciones por inversiones en Canarias](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c16-deducciones-generales-cuota/deducciones-incentivos-estimulos-estimacion-directa/regimen-especial-inversiones-empresariales-canarias/deducciones-inversiones-canarias/cuadro-deduccion-inversiones-canarias.html)
+
+            -   [Cuadro de los porcentajes aplicables y la base deducción en cada una de las deducciones de los artículos 35 y 36 de la LIS](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c16-deducciones-generales-cuota/deducciones-incentivos-estimulos-estimacion-directa/regimen-especial-inversiones-empresariales-canarias/deducciones-inversiones-canarias/deducciones-lis-aplicables-canarias/deducciones-articulos-35-36-lis-canarias.html)
+
+        -   Régimen fiscal especial de las Illes Balears: [cuadro límites de las ayudas de *"minimis"*](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c16-deducciones-generales-cuota/deducciones-incentivos-estimulos-estimacion-directa/regimen-fiscal-especial-illes-balears/adecuacion-reib-establecido-derecho-union-europea.html)
+
+    -   **Deducciones por obras de mejora de eficiencia energética en viviendas:**
+
+        [Cuadro-resumen](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c16-deducciones-generales-cuota/deducciones-obras-mejora-eficiencia-energetica-viviendas/cuadro-resumen-deducciones-obras-eficiencia-viviendas.html)
+
+    -   **Deducciones por la adquisición de vehículos eléctricos "enchufables" y de pila de combustible y puntos de recarga:**
+
+        [Cuadro-resumen](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c16-deducciones-generales-cuota/deducciones-adquisicion-vehiculos-electricos-puntos-recarga/cuadro-resumen-deducciones-adquisicion-vehiculos-recarga.html)
+
+    ## **Capítulo 18. Cuota líquida, cuota resultante de la autoliquidación, cuota diferencial y resultado de la declaración**
+
+    -   **Determinación de la cuota líquida, cuota diferencial y cuota resultante de la declaración**
+
+        [Esquema gráfico operaciones para la determinación de la cuota liquida, cuota diferencial y del resultado de la declaración](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c18-cuota-liquida-resultante-autoliquidacion/introduccion.html)
+
+    -   **Incremento de las cuotas líquidas, estatal y autonómica, por pérdida del derecho a deducciones de ejercicios anteriores**
+
+        [Cuadro de fechas de vencimiento de los plazos de presentación y tipos de interés de demora vigentes](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c18-cuota-liquida-resultante-autoliquidacion/incremento-cuotas-liquidas-estatal-autonomica/calculo-intereses-demora/cuadro-fechas-vencimiento-plazos-presentacion.html)
+
+    -   **Resultado de la declaración**
+
+        [Esquema general: cálculo del resultado de la declaración](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c18-cuota-liquida-resultante-autoliquidacion/resultado-declaracion/introduccion.html)
+
+    -   **Regularización de situaciones tributarias: la autoliquidación rectificativa**
+
+        [Recargos aplicables](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2024/c18-cuota-liquida-resultante-autoliquidacion/regularizacion-situaciones-tributarias/recargos-aplicables.html)
+
