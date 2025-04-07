@@ -4,6 +4,499 @@ format: html
 sidebar: teoria
 ---
 
-# Módulo 1: Instrumentos y mercados financieros
 
-Contenido en preparación...
+# Recapitulación del mercado de renta variable
+
+## Activos cotizados
+
+Una **acción** representa una parte alícuota del capital social de una empresa. Entre los tipos de acciones se encuentran:
+
+- **Acciones ordinarias**: otorgan todos los derechos políticos y económicos.
+- **Acciones preferentes**: ofrecen prioridad en el cobro de dividendos.
+- **Acciones sin voto**: privilegios económicos a cambio de no tener derechos políticos.
+- **Acciones sindicadas**: con pacto de recompra previo entre accionistas.
+
+Los activos negociables en bolsa incluyen, además de las acciones, los **derechos preferentes de suscripción**.
+
+## Estructura del mercado bursátil español
+
+La bolsa es un mercado regulado. En España, está regulado por:
+
+- **CNMV**: organismo supervisor.
+- **BME (Bolsas y Mercados Españoles)**: gestiona el funcionamiento del mercado.
+
+El sistema electrónico de contratación es el **SIBE** (Sistema de Interconexión Bursátil Español), que permite la negociación simultánea en todas las bolsas nacionales.
+
+## Órdenes bursátiles
+
+Las órdenes más habituales en el SIBE son:
+
+- **Órdenes de mercado**: sin límite de precio, ejecutadas al mejor precio disponible.
+- **Órdenes limitadas**: con precio máximo para compras y mínimo para ventas.
+- **Órdenes por lo mejor**: como las de mercado, pero la parte no ejecutada queda como orden limitada.
+
+## Índices bursátiles
+
+Los **índices bursátiles** reflejan el comportamiento agregado de un conjunto de valores. Ejemplos tradicionales incluyen:
+
+- IBEX 35  
+- Eurostoxx 50  
+- S&P 500  
+
+Además de estos, han adquirido creciente relevancia los **índices ESG** (Environmental, Social and Governance) y los **índices climáticos**, utilizados para estrategias de inversión sostenible.
+
+### Índices ESG
+
+Un **índice ESG** es un benchmark que incluye empresas seleccionadas según criterios ambientales, sociales y de buen gobierno corporativo. Estos índices permiten a los inversores:
+
+- Evaluar el rendimiento de carteras sostenibles.
+- Replicar estrategias de inversión responsable.
+- Comparar fondos que aplican criterios ESG frente a un índice general o *parent index*.
+
+**Tipos de índices ESG según el enfoque inversor:**
+
+- **Best-in-class**: seleccionan las empresas con mejor puntuación ESG dentro de cada sector.
+- **Exclusión o screening negativo**: eliminan compañías que no cumplen ciertos estándares (por ejemplo, armamento o tabaco).
+- **Temáticos o de impacto**: se centran en temas como energías renovables, igualdad de género o acceso a la salud.
+
+**Ejemplo destacado:**
+
+La empresa **MSCI** es líder en este campo y ofrece una amplia gama de índices ESG que permiten replicar diferentes estrategias sostenibles (por ejemplo: MSCI ESG Leaders, MSCI ESG Universal, MSCI SRI, entre otros).
+
+**Benchmarking con índices ESG:**
+
+- Es clave seleccionar un benchmark ESG coherente con la estrategia de inversión del fondo o cartera.
+- El índice ESG debe reflejar el universo invertible y la política de sostenibilidad adoptada por el inversor institucional.
+
+### Índices climáticos y de bajo carbono
+
+Dentro del marco europeo, se han desarrollado índices específicos para afrontar el reto climático:
+
+- **CTB (Climate Transition Benchmark)**: índices de transición climática.
+- **PAB (Paris-Aligned Benchmark)**: índices alineados con los objetivos del Acuerdo de París.
+
+**Características clave:**
+
+- Reducción significativa de emisiones de carbono frente al índice principal.
+- Exclusión de empresas involucradas en actividades que perjudican el medioambiente.
+- Alineación progresiva con los objetivos de temperatura del Acuerdo de París.
+
+**Requisitos regulatorios de la UE:**
+
+- Ambos tipos de índices deben cumplir los requisitos establecidos por el **Reglamento (UE) 2019/2089**, que modifica el Reglamento Benchmark (UE) 2016/1011.
+- Exigen transparencia sobre metodología, criterios de exclusión y trayectoria de descarbonización.
+
+**Selección de índices climáticos:**
+
+- La elección del índice debe estar alineada con la **estrategia climática del inversor institucional**.
+- Un fondo con objetivo de descarbonización progresiva podría usar un **CTB**, mientras que uno con alineación total a París podría elegir un **PAB**.
+
+> Estos índices no solo sirven como referencia, sino que guían activamente las decisiones de construcción y evaluación de carteras sostenibles.
+
+## Operaciones bursátiles frecuentes
+
+- **OPV (Oferta Pública de Venta)**
+- **OPA (Oferta Pública de Adquisición)**
+- **Splits**
+- **Ampliaciones y reducciones de capital**
+- **Dividendos**: pago periódico a los accionistas.
+
+
+
+----
+
+## Análisis fundamental bursátil
+
+El análisis fundamental bursátil parte de la premisa de que el precio de una acción puede no reflejar su valor real a largo plazo. Su objetivo es estimar el valor intrínseco de una empresa a partir de variables económicas, financieras y contables. 
+
+A diferencia del análisis técnico, que se basa en patrones de precios y volúmenes de contratación, el análisis fundamental estudia los factores que afectan a la capacidad de una empresa para generar beneficios sostenibles en el tiempo.
+
+Los **rendimientos de una acción** pueden provenir de:
+
+- **Dividendos**: parte del beneficio distribuido a los accionistas.
+- **Plusvalías**: diferencia entre el precio de compra y el de venta.
+- **Otras formas de retribución**: devoluciones de capital, ampliaciones liberadas, etc.
+
+La **cotización de una acción** está influida por dos elementos clave:
+
+- Las **expectativas de beneficios futuros**: cuanto mayores sean, más valorada estará la acción.
+- La **rentabilidad exigida por el inversor**: mayor exigencia implica menor precio actual.
+
+De ahí que las dos grandes fuerzas que determinan el precio de una acción sean los beneficios empresariales esperados y los tipos de interés.
+
+La evaluación puede realizarse desde dos enfoques complementarios:
+
+### Análisis Top-Down
+
+Parte del contexto económico general para llegar a decisiones de inversión específicas. Estudia:
+
+- El ciclo económico y su impacto en los beneficios empresariales.
+- Variables macroeconómicas como el crecimiento del PIB, tipos de interés, inflación o déficit público.
+- La situación política, que también puede generar incertidumbre o confianza.
+
+Este enfoque permite seleccionar sectores con buenas perspectivas, y dentro de ellos, las empresas más prometedoras.
+
+### Análisis Bottom-Up
+
+Se centra directamente en la empresa, independientemente del entorno económico. Evalúa:
+
+- Estrategia y capacidad directiva.
+- Posicionamiento competitivo.
+- Solidez financiera y generación de beneficios.
+- Rentabilidad sobre activos y fondos propios.
+
+Busca identificar empresas con buena gestión, crecimiento sostenible y un precio de mercado por debajo de su valor teórico.
+
+> En ambos casos, la clave es identificar oportunidades de inversión a partir del estudio racional de los datos y las expectativas.
+
+
+## Ratios bursátiles
+
+Los ratios bursátiles permiten analizar si el precio de una acción está justificado con respecto a sus fundamentales. Se utilizan como referencias para comparar empresas entre sí, dentro de un mismo sector, o frente a la media del mercado. También ayudan a valorar una acción sin necesidad de proyecciones complejas.
+
+A continuación se presentan los principales indicadores utilizados:
+
+### PER – Price to Earnings Ratio
+
+Es uno de los ratios más utilizados. Relaciona el precio de la acción con el beneficio generado por la empresa:
+
+$$
+PER = \frac{P_0}{BPA}
+$$
+
+donde:
+
+- $P_0$: precio actual de la acción  
+- $BPA$: beneficio por acción
+
+Cuanto mayor es el PER, más se está pagando por cada unidad de beneficio. Un PER bajo puede indicar infravaloración, pero también puede reflejar expectativas negativas sobre la empresa.
+
+
+### Earning Yield Ratio (EYR) y Earning Yield Gap (EYG)
+
+El **Earning Yield Ratio (EYR)** es el inverso del PER y representa la rentabilidad que ofrece una acción respecto al beneficio generado:
+
+$$
+EYR = \frac{1}{PER} = \frac{BPA}{P_0}
+$$
+
+Es útil para comparar acciones con otros activos financieros, ya que expresa la rentabilidad esperada en forma porcentual.
+
+El **Earning Yield Gap (EYG)** compara esa rentabilidad con la rentabilidad de un activo sin riesgo (como un bono del Estado):
+
+$$
+EYG = EYR - R_f
+$$
+
+donde:
+
+- $EYR$: rentabilidad de la acción
+- $R_f$: tipo libre de riesgo
+
+**Interpretación**:
+
+- Si $EYG > 0$, la acción es más rentable que la renta fija, y por tanto atractiva.
+- Si $EYG < 0$, puede indicar que la acción está sobrevalorada o que el mercado espera un deterioro de sus resultados.
+
+**Ventajas**:
+
+- Permite decidir entre inversión en bolsa o en renta fija.
+- Integra el concepto de oportunidad de inversión relativa.
+
+> Este ratio se utiliza frecuentemente en el asesoramiento financiero como herramienta sencilla de comparación, especialmente en entornos de tipos de interés bajos.
+
+### DPA y Dividend Yield
+
+El **DPA (Dividendo por acción)** representa el beneficio distribuido entre los accionistas:
+
+$$
+DPA = \frac{\text{Beneficio neto}}{\text{Número de acciones}}
+$$
+
+La **rentabilidad por dividendo** o *dividend yield* es el cociente entre el dividendo y el precio de cotización:
+
+$$
+\text{Dividend Yield} = \frac{DPA}{P_0}
+$$
+
+Este ratio es especialmente valorado por los inversores que buscan ingresos periódicos, como los inversores institucionales o minoristas conservadores.
+
+
+
+
+### Pay-out
+
+Indica el porcentaje del beneficio que se reparte como dividendo:
+
+$$
+\text{Pay-out} = \frac{DPA}{BPA}
+$$
+
+Un *pay-out* elevado implica una política de distribución generosa, pero puede limitar la reinversión del beneficio para el crecimiento futuro.
+
+### ROE – Rentabilidad financiera
+
+Mide la rentabilidad obtenida sobre los fondos propios invertidos por los accionistas:
+
+$$
+ROE = \frac{\text{Beneficio neto}}{\text{Fondos propios}}
+$$
+
+Permite evaluar si la empresa está utilizando eficazmente su capital. Cuanto mayor sea el ROE, mejor será la rentabilidad para los accionistas.
+
+> Estos ratios no deben analizarse de forma aislada, sino siempre en contexto: comparando con otras empresas del sector, con los valores históricos de la propia empresa y con la situación económica general.
+
+## Valoración de empresas
+
+El análisis fundamental no solo estudia ratios, sino que también busca determinar el **valor intrínseco** de una acción. Para ello, existen diferentes métodos que pueden agruparse en tres grandes bloques:
+
+### Valor contable y valor de liquidación
+
+- **Valor contable**: es el valor de los fondos propios según balance. Se calcula como:
+
+$$
+VC = \text{Activo} - \text{Pasivo}
+$$
+
+Es un punto de partida, pero no refleja necesariamente el valor económico real, ya que no tiene en cuenta expectativas futuras ni intangibles.
+
+- **Valor de liquidación**: estima lo que recibirían los accionistas si la empresa se disolviera, vendiendo sus activos y pagando sus deudas. Es útil en situaciones de crisis o restructuración.
+
+### Valor de mercado (capitalización bursátil)
+
+Corresponde al valor total que el mercado atribuye a una empresa en un momento dado:
+
+$$
+\text{Valor de mercado} = P_0 \cdot \text{Número de acciones}
+$$
+
+Refleja la percepción agregada de los inversores, pero puede diferir del valor teórico si hay euforia, miedo o desinformación en el mercado.
+
+### Valoración por múltiplos
+
+Consiste en multiplicar un ratio de la empresa (como el BPA) por el múltiplo que aplica el mercado o el sector (por ejemplo, el PER medio):
+
+$$
+P_0 = PER \cdot BPA
+$$
+
+Este método es sencillo y útil para comparar empresas similares, aunque no tiene en cuenta la estructura financiera ni los flujos de caja.
+
+### Modelo de descuento de dividendos
+
+Cuando la empresa paga dividendos regulares, puede utilizarse el modelo de **Gordon-Shapiro**, que estima el precio teórico de la acción bajo el supuesto de un crecimiento constante:
+
+$$
+P_0 = \frac{D_1}{k - g}
+$$
+
+donde:
+
+- $D_1$: dividendo esperado el próximo año  
+- $k$: rentabilidad exigida por el inversor  
+- $g$: tasa de crecimiento del dividendo
+
+También puede expresarse con el dividendo actual:
+
+$$
+P_0 = \frac{D_0 \cdot (1 + g)}{k - g}
+$$
+
+Este modelo es especialmente útil para empresas maduras y estables, aunque poco adecuado para compañías en crecimiento que no reparten dividendos.
+
+### Estimación del crecimiento ($g$)
+
+La tasa de crecimiento del dividendo puede estimarse como:
+
+$$
+g = ROE \cdot (1 - \text{Pay-out})
+$$
+
+Esta fórmula asume que los beneficios no distribuidos se reinvierten con una rentabilidad igual al ROE.
+
+> La elección del modelo dependerá del tipo de empresa, su política de dividendos y la información disponible. En la práctica, se suelen combinar varios métodos para obtener una valoración más robusta.
+
+
+## Rentabilidad exigida, coste de capital y modelo CAPM
+
+Para valorar adecuadamente una empresa, no basta con estimar los beneficios futuros: es necesario **actualizarlos** a valor presente utilizando una tasa de descuento adecuada. Esa tasa representa la **rentabilidad mínima exigida** por los inversores, en función del riesgo asumido.
+
+### Rentabilidad exigida por el accionista
+
+Es la rentabilidad que un inversor espera obtener por invertir en una acción. A mayor riesgo percibido, mayor será la rentabilidad exigida.
+
+En muchas ocasiones, se estima mediante el **modelo de valoración de activos financieros** o **CAPM** (*Capital Asset Pricing Model*), que se expresa así:
+
+$$
+K_e = R_f + \beta \cdot (R_m - R_f)
+$$
+
+donde:
+
+- $K_e$: rentabilidad exigida al capital propio (coste del equity)  
+- $R_f$: tipo de interés libre de riesgo  
+- $R_m$: rentabilidad esperada del mercado  
+- $\beta$: medida del riesgo sistemático de la acción respecto al mercado
+
+> El coeficiente beta mide la sensibilidad del valor de la acción frente a las variaciones del mercado. Si $\beta > 1$, la acción es más volátil que el mercado; si $\beta < 1$, es más defensiva.
+
+### Coste medio ponderado del capital (WACC)
+
+Cuando una empresa se financia con una combinación de fondos propios y deuda, se utiliza el **WACC (Weighted Average Cost of Capital)** como tasa de descuento para valorar sus proyectos o flujos de caja futuros:
+
+$$
+WACC = K_e \cdot \left( \frac{E}{E + D} \right) + K_d \cdot (1 - T) \cdot \left( \frac{D}{E + D} \right)
+$$
+
+donde:
+
+- $K_e$: coste del capital propio  
+- $K_d$: coste de la deuda  
+- $T$: tipo impositivo (para reflejar el efecto fiscal de la deuda)  
+- $E$: fondos propios  
+- $D$: deuda financiera
+
+> El WACC representa el coste medio de financiación de la empresa, ponderado según la estructura de capital. Cuanto menor sea, más atractivos serán los proyectos de inversión.
+
+### Aplicaciones del WACC
+
+- Se utiliza como **tasa de descuento** en modelos de valoración por flujos de caja descontados (*Discounted Cash Flow – DCF*).
+- Permite evaluar si un proyecto creará o destruirá valor: si la rentabilidad esperada del proyecto es mayor que el WACC, el valor de la empresa aumentará.
+
+## Conclusiones del análisis fundamental bursátil
+
+El análisis fundamental permite valorar empresas a partir de su situación financiera, su capacidad de generar beneficios sostenibles y las condiciones del entorno económico. Es una herramienta imprescindible para tomar decisiones racionales de inversión, especialmente en el ámbito de la renta variable.
+
+::: callout-tip
+### Esquema-resumen 
+
+
+- **¿Qué analiza?**  
+  La **realidad económica y financiera** de la empresa.
+
+- **¿Con qué fin?**  
+  Determinar si el **precio de mercado** está justificado o existe una oportunidad de inversión.
+
+- **Enfoques de análisis**:
+  - *Top-Down*: macroeconomía → sectores → empresas.
+  - *Bottom-Up*: análisis directo de la empresa.
+
+- **Principales herramientas**:
+  - Ratios bursátiles (PER, BPA, DPA, ROE, etc.)
+  - Valoraciones por múltiplos (PER)
+  - Modelos teóricos (Gordon-Shapiro, DCF)
+  - Estimación de la rentabilidad exigida (CAPM)
+  - Cálculo del coste medio del capital (WACC)
+
+- **Variables clave**:
+  - Beneficio por acción (BPA)
+  - Dividendo esperado (DPA)
+  - Rentabilidad exigida ($k$)
+  - Tasa de crecimiento ($g$)
+  - Riesgo sistemático ($\beta$)
+
+> El análisis fundamental no predice el precio exacto de las acciones, pero ofrece un marco sólido para invertir con criterio y reducir el impacto de las emociones o el ruido del mercado.
+
+:::
+
+## Introducción a la gestión de carteras de renta variable
+
+La gestión de carteras de renta variable busca construir y administrar una combinación de activos que maximice la rentabilidad esperada ajustada al riesgo del inversor. Este proceso requiere una adecuada planificación estratégica, análisis del entorno económico y comprensión de los estilos y ciclos del mercado.
+
+### Elementos clave de la gestión
+
+Una cartera óptima no es solo cuestión de diversificar incluyendo muchos activos, sino de combinar aquellos con **correlaciones adecuadas**, que permitan **reducir el riesgo global** sin renunciar a la rentabilidad.
+
+El gestor toma decisiones según su estilo (activo o pasivo) y sus hipótesis de mercado, valorando para cada activo:
+
+- **Rentabilidad esperada** (dividendos, plusvalías, cupones, etc.)
+- **Riesgo asociado**, entendido como la desviación potencial respecto a esa rentabilidad esperada
+
+En general, cuanto mayor es el riesgo, mayor es la rentabilidad potencial (y la volatilidad), como ocurre con la bolsa frente a activos monetarios o deuda pública.
+
+### Gestión activa vs pasiva
+
+- **Gestión pasiva**: replica un índice de referencia (benchmark), con bajo coste y sin buscar superar al mercado.
+- **Gestión activa**: busca superar al benchmark mediante análisis, selección de valores y decisiones de *timing*. Supone un coste mayor, pero con potencial de generar rentabilidades superiores.
+
+### Pasos para construir una cartera
+
+1. **Perfil del inversor**: tolerancia al riesgo, horizonte temporal, objetivos y restricciones.
+2. **Definición de objetivos globales**: fijar metas de rentabilidad y riesgo para la cartera.
+3. **Estrategia de gestión**: elección de estilo activo/pasivo, top-down o bottom-up.
+4. **Análisis económico**: evaluación del entorno macroeconómico y de mercado.
+5. **Selección de activos**: análisis fundamental o técnico para elegir valores concretos.
+6. **Implementación**: compras y ventas.
+7. **Control y seguimiento**: evaluación periódica, atribución de resultados y rebalanceo.
+
+---
+
+## Ciclo económico y tipos de carteras
+
+La evolución del ciclo económico afecta al comportamiento de los activos y, por tanto, a la asignación de activos (*asset allocation*). Podemos adaptar la cartera en función de la fase del ciclo:
+
+| Fase del ciclo        | Estrategia general                                 |
+|-----------------------|-----------------------------------------------------|
+| **I. Recuperación**   | Aumentar peso en bolsa, reducir renta fija         |
+| **II. Expansión inicial** | Subida bursátil, cautela en renta fija de largo plazo |
+| **III. Expansión plena** | Posiciones en bolsa en máximos, reducir exposición |
+| **IV. Estancamiento** | Refugiarse en activos defensivos y liquidez        |
+| **V. Recesión**       | Priorizar bonos y renta fija, reducir bolsa        |
+
+Se pueden establecer estrategias distintas según el **perfil del inversor** (conservador o agresivo), adaptando el peso de cada activo en función del ciclo.
+
+---
+
+## Estilos de gestión en renta variable
+
+El **estilo de gestión** refleja las preferencias del gestor: selección por sectores, por ratios, por tendencias, etc. Estos estilos facilitan el análisis, la diversificación y la evaluación de resultados.
+
+### Tipologías comunes
+
+- **Pasiva**: replica un índice (por inclusión en el benchmark)
+- **Valor**: busca acciones infravaloradas con buenos fundamentales
+- **Crecimiento**: prioriza empresas con alto potencial de beneficios futuros
+- **Mixta (Blend)**: combina características de ambas
+
+También se puede clasificar por capitalización (grandes, medianas o pequeñas empresas) o por enfoque técnico, fundamental o cuantitativo.
+
+### ¿Por qué utilizar estilos de gestión?
+
+- Simplifican la selección en mercados con muchos valores
+- Permiten diversificar y medir riesgos sectoriales
+- Hacen más transparente la evaluación del gestor
+- Reflejan especialización analítica y permiten comparar carteras homogéneas
+
+> En la práctica, los fondos y carteras se agrupan por estilo, lo que también influye en los precios de los activos incluidos en ellos.
+
+---
+
+## Ineficiencias del mercado y anomalías bursátiles
+
+Aunque los mercados tienden a ser eficientes, existen **anomalías y comportamientos sistemáticos** que justifican la gestión activa:
+
+### Ineficiencias detectadas
+
+- Costes de transacción e impuestos
+- Barreras regulatorias o estratégicas
+- Retrasos o errores en la transmisión de información
+- Comportamiento irracional de algunos agentes
+
+### Anomalías temporales observadas
+
+- **Efecto sobrereacción**: acciones que caen bruscamente tienden a recuperar, y viceversa
+- **Efecto tamaño**: pequeñas empresas se comportan mejor tras subidas de grandes
+- **Efecto lunes o fin de semana**: diferencias sistemáticas según el día de la semana
+- **Efecto fin de mes**: rendimientos superiores en los últimos y primeros días del mes
+- **Efecto elecciones**: los años electorales tienden a ser positivos para la bolsa
+- **Efecto PER y dividendo**: empresas con buenos ratios tienden a tener mejor desempeño
+- **Efecto OPA**: compañías objeto de adquisiciones suelen experimentar subidas
+
+> Aunque estas anomalías son conocidas, no siempre desaparecen, lo que sugiere que pueden formar parte de estrategias de gestión activas razonadas.
+
+---
+
+## Conclusión
+
+La gestión de carteras de renta variable requiere una combinación de análisis técnico y fundamental, comprensión del entorno económico, y adaptación a los perfiles de riesgo de los clientes. La elección entre gestión activa y pasiva, así como la consideración de los estilos y anomalías de mercado, permitirá construir carteras mejor alineadas con los objetivos del inversor.
+

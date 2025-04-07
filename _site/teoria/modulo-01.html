@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -220,11 +249,531 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="módulo-1-instrumentos-y-mercados-financieros" class="level1">
-<h1>Módulo 1: Instrumentos y mercados financieros</h1>
-<p>Contenido en preparación…</p>
+<section id="recapitulación-del-mercado-de-renta-variable" class="level1">
+<h1>Recapitulación del mercado de renta variable</h1>
+<section id="activos-cotizados" class="level2">
+<h2 class="anchored" data-anchor-id="activos-cotizados">Activos cotizados</h2>
+<p>Una <strong>acción</strong> representa una parte alícuota del capital social de una empresa. Entre los tipos de acciones se encuentran:</p>
+<ul>
+<li><strong>Acciones ordinarias</strong>: otorgan todos los derechos políticos y económicos.</li>
+<li><strong>Acciones preferentes</strong>: ofrecen prioridad en el cobro de dividendos.</li>
+<li><strong>Acciones sin voto</strong>: privilegios económicos a cambio de no tener derechos políticos.</li>
+<li><strong>Acciones sindicadas</strong>: con pacto de recompra previo entre accionistas.</li>
+</ul>
+<p>Los activos negociables en bolsa incluyen, además de las acciones, los <strong>derechos preferentes de suscripción</strong>.</p>
+</section>
+<section id="estructura-del-mercado-bursátil-español" class="level2">
+<h2 class="anchored" data-anchor-id="estructura-del-mercado-bursátil-español">Estructura del mercado bursátil español</h2>
+<p>La bolsa es un mercado regulado. En España, está regulado por:</p>
+<ul>
+<li><strong>CNMV</strong>: organismo supervisor.</li>
+<li><strong>BME (Bolsas y Mercados Españoles)</strong>: gestiona el funcionamiento del mercado.</li>
+</ul>
+<p>El sistema electrónico de contratación es el <strong>SIBE</strong> (Sistema de Interconexión Bursátil Español), que permite la negociación simultánea en todas las bolsas nacionales.</p>
+</section>
+<section id="órdenes-bursátiles" class="level2">
+<h2 class="anchored" data-anchor-id="órdenes-bursátiles">Órdenes bursátiles</h2>
+<p>Las órdenes más habituales en el SIBE son:</p>
+<ul>
+<li><strong>Órdenes de mercado</strong>: sin límite de precio, ejecutadas al mejor precio disponible.</li>
+<li><strong>Órdenes limitadas</strong>: con precio máximo para compras y mínimo para ventas.</li>
+<li><strong>Órdenes por lo mejor</strong>: como las de mercado, pero la parte no ejecutada queda como orden limitada.</li>
+</ul>
+</section>
+<section id="índices-bursátiles" class="level2">
+<h2 class="anchored" data-anchor-id="índices-bursátiles">Índices bursátiles</h2>
+<p>Los <strong>índices bursátiles</strong> reflejan el comportamiento agregado de un conjunto de valores. Ejemplos tradicionales incluyen:</p>
+<ul>
+<li>IBEX 35<br>
+</li>
+<li>Eurostoxx 50<br>
+</li>
+<li>S&amp;P 500</li>
+</ul>
+<p>Además de estos, han adquirido creciente relevancia los <strong>índices ESG</strong> (Environmental, Social and Governance) y los <strong>índices climáticos</strong>, utilizados para estrategias de inversión sostenible.</p>
+<section id="índices-esg" class="level3">
+<h3 class="anchored" data-anchor-id="índices-esg">Índices ESG</h3>
+<p>Un <strong>índice ESG</strong> es un benchmark que incluye empresas seleccionadas según criterios ambientales, sociales y de buen gobierno corporativo. Estos índices permiten a los inversores:</p>
+<ul>
+<li>Evaluar el rendimiento de carteras sostenibles.</li>
+<li>Replicar estrategias de inversión responsable.</li>
+<li>Comparar fondos que aplican criterios ESG frente a un índice general o <em>parent index</em>.</li>
+</ul>
+<p><strong>Tipos de índices ESG según el enfoque inversor:</strong></p>
+<ul>
+<li><strong>Best-in-class</strong>: seleccionan las empresas con mejor puntuación ESG dentro de cada sector.</li>
+<li><strong>Exclusión o screening negativo</strong>: eliminan compañías que no cumplen ciertos estándares (por ejemplo, armamento o tabaco).</li>
+<li><strong>Temáticos o de impacto</strong>: se centran en temas como energías renovables, igualdad de género o acceso a la salud.</li>
+</ul>
+<p><strong>Ejemplo destacado:</strong></p>
+<p>La empresa <strong>MSCI</strong> es líder en este campo y ofrece una amplia gama de índices ESG que permiten replicar diferentes estrategias sostenibles (por ejemplo: MSCI ESG Leaders, MSCI ESG Universal, MSCI SRI, entre otros).</p>
+<p><strong>Benchmarking con índices ESG:</strong></p>
+<ul>
+<li>Es clave seleccionar un benchmark ESG coherente con la estrategia de inversión del fondo o cartera.</li>
+<li>El índice ESG debe reflejar el universo invertible y la política de sostenibilidad adoptada por el inversor institucional.</li>
+</ul>
+</section>
+<section id="índices-climáticos-y-de-bajo-carbono" class="level3">
+<h3 class="anchored" data-anchor-id="índices-climáticos-y-de-bajo-carbono">Índices climáticos y de bajo carbono</h3>
+<p>Dentro del marco europeo, se han desarrollado índices específicos para afrontar el reto climático:</p>
+<ul>
+<li><strong>CTB (Climate Transition Benchmark)</strong>: índices de transición climática.</li>
+<li><strong>PAB (Paris-Aligned Benchmark)</strong>: índices alineados con los objetivos del Acuerdo de París.</li>
+</ul>
+<p><strong>Características clave:</strong></p>
+<ul>
+<li>Reducción significativa de emisiones de carbono frente al índice principal.</li>
+<li>Exclusión de empresas involucradas en actividades que perjudican el medioambiente.</li>
+<li>Alineación progresiva con los objetivos de temperatura del Acuerdo de París.</li>
+</ul>
+<p><strong>Requisitos regulatorios de la UE:</strong></p>
+<ul>
+<li>Ambos tipos de índices deben cumplir los requisitos establecidos por el <strong>Reglamento (UE) 2019/2089</strong>, que modifica el Reglamento Benchmark (UE) 2016/1011.</li>
+<li>Exigen transparencia sobre metodología, criterios de exclusión y trayectoria de descarbonización.</li>
+</ul>
+<p><strong>Selección de índices climáticos:</strong></p>
+<ul>
+<li>La elección del índice debe estar alineada con la <strong>estrategia climática del inversor institucional</strong>.</li>
+<li>Un fondo con objetivo de descarbonización progresiva podría usar un <strong>CTB</strong>, mientras que uno con alineación total a París podría elegir un <strong>PAB</strong>.</li>
+</ul>
+<blockquote class="blockquote">
+<p>Estos índices no solo sirven como referencia, sino que guían activamente las decisiones de construcción y evaluación de carteras sostenibles.</p>
+</blockquote>
+</section>
+</section>
+<section id="operaciones-bursátiles-frecuentes" class="level2">
+<h2 class="anchored" data-anchor-id="operaciones-bursátiles-frecuentes">Operaciones bursátiles frecuentes</h2>
+<ul>
+<li><strong>OPV (Oferta Pública de Venta)</strong></li>
+<li><strong>OPA (Oferta Pública de Adquisición)</strong></li>
+<li><strong>Splits</strong></li>
+<li><strong>Ampliaciones y reducciones de capital</strong></li>
+<li><strong>Dividendos</strong>: pago periódico a los accionistas.</li>
+</ul>
+<hr>
+</section>
+<section id="análisis-fundamental-bursátil" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-fundamental-bursátil">Análisis fundamental bursátil</h2>
+<p>El análisis fundamental bursátil parte de la premisa de que el precio de una acción puede no reflejar su valor real a largo plazo. Su objetivo es estimar el valor intrínseco de una empresa a partir de variables económicas, financieras y contables.</p>
+<p>A diferencia del análisis técnico, que se basa en patrones de precios y volúmenes de contratación, el análisis fundamental estudia los factores que afectan a la capacidad de una empresa para generar beneficios sostenibles en el tiempo.</p>
+<p>Los <strong>rendimientos de una acción</strong> pueden provenir de:</p>
+<ul>
+<li><strong>Dividendos</strong>: parte del beneficio distribuido a los accionistas.</li>
+<li><strong>Plusvalías</strong>: diferencia entre el precio de compra y el de venta.</li>
+<li><strong>Otras formas de retribución</strong>: devoluciones de capital, ampliaciones liberadas, etc.</li>
+</ul>
+<p>La <strong>cotización de una acción</strong> está influida por dos elementos clave:</p>
+<ul>
+<li>Las <strong>expectativas de beneficios futuros</strong>: cuanto mayores sean, más valorada estará la acción.</li>
+<li>La <strong>rentabilidad exigida por el inversor</strong>: mayor exigencia implica menor precio actual.</li>
+</ul>
+<p>De ahí que las dos grandes fuerzas que determinan el precio de una acción sean los beneficios empresariales esperados y los tipos de interés.</p>
+<p>La evaluación puede realizarse desde dos enfoques complementarios:</p>
+<section id="análisis-top-down" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-top-down">Análisis Top-Down</h3>
+<p>Parte del contexto económico general para llegar a decisiones de inversión específicas. Estudia:</p>
+<ul>
+<li>El ciclo económico y su impacto en los beneficios empresariales.</li>
+<li>Variables macroeconómicas como el crecimiento del PIB, tipos de interés, inflación o déficit público.</li>
+<li>La situación política, que también puede generar incertidumbre o confianza.</li>
+</ul>
+<p>Este enfoque permite seleccionar sectores con buenas perspectivas, y dentro de ellos, las empresas más prometedoras.</p>
+</section>
+<section id="análisis-bottom-up" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-bottom-up">Análisis Bottom-Up</h3>
+<p>Se centra directamente en la empresa, independientemente del entorno económico. Evalúa:</p>
+<ul>
+<li>Estrategia y capacidad directiva.</li>
+<li>Posicionamiento competitivo.</li>
+<li>Solidez financiera y generación de beneficios.</li>
+<li>Rentabilidad sobre activos y fondos propios.</li>
+</ul>
+<p>Busca identificar empresas con buena gestión, crecimiento sostenible y un precio de mercado por debajo de su valor teórico.</p>
+<blockquote class="blockquote">
+<p>En ambos casos, la clave es identificar oportunidades de inversión a partir del estudio racional de los datos y las expectativas.</p>
+</blockquote>
+</section>
+</section>
+<section id="ratios-bursátiles" class="level2">
+<h2 class="anchored" data-anchor-id="ratios-bursátiles">Ratios bursátiles</h2>
+<p>Los ratios bursátiles permiten analizar si el precio de una acción está justificado con respecto a sus fundamentales. Se utilizan como referencias para comparar empresas entre sí, dentro de un mismo sector, o frente a la media del mercado. También ayudan a valorar una acción sin necesidad de proyecciones complejas.</p>
+<p>A continuación se presentan los principales indicadores utilizados:</p>
+<section id="per-price-to-earnings-ratio" class="level3">
+<h3 class="anchored" data-anchor-id="per-price-to-earnings-ratio">PER – Price to Earnings Ratio</h3>
+<p>Es uno de los ratios más utilizados. Relaciona el precio de la acción con el beneficio generado por la empresa:</p>
+<p><span class="math display">\[
+PER = \frac{P_0}{BPA}
+\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(P_0\)</span>: precio actual de la acción<br>
+</li>
+<li><span class="math inline">\(BPA\)</span>: beneficio por acción</li>
+</ul>
+<p>Cuanto mayor es el PER, más se está pagando por cada unidad de beneficio. Un PER bajo puede indicar infravaloración, pero también puede reflejar expectativas negativas sobre la empresa.</p>
+</section>
+<section id="earning-yield-ratio-eyr-y-earning-yield-gap-eyg" class="level3">
+<h3 class="anchored" data-anchor-id="earning-yield-ratio-eyr-y-earning-yield-gap-eyg">Earning Yield Ratio (EYR) y Earning Yield Gap (EYG)</h3>
+<p>El <strong>Earning Yield Ratio (EYR)</strong> es el inverso del PER y representa la rentabilidad que ofrece una acción respecto al beneficio generado:</p>
+<p><span class="math display">\[
+EYR = \frac{1}{PER} = \frac{BPA}{P_0}
+\]</span></p>
+<p>Es útil para comparar acciones con otros activos financieros, ya que expresa la rentabilidad esperada en forma porcentual.</p>
+<p>El <strong>Earning Yield Gap (EYG)</strong> compara esa rentabilidad con la rentabilidad de un activo sin riesgo (como un bono del Estado):</p>
+<p><span class="math display">\[
+EYG = EYR - R_f
+\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(EYR\)</span>: rentabilidad de la acción</li>
+<li><span class="math inline">\(R_f\)</span>: tipo libre de riesgo</li>
+</ul>
+<p><strong>Interpretación</strong>:</p>
+<ul>
+<li>Si <span class="math inline">\(EYG &gt; 0\)</span>, la acción es más rentable que la renta fija, y por tanto atractiva.</li>
+<li>Si <span class="math inline">\(EYG &lt; 0\)</span>, puede indicar que la acción está sobrevalorada o que el mercado espera un deterioro de sus resultados.</li>
+</ul>
+<p><strong>Ventajas</strong>:</p>
+<ul>
+<li>Permite decidir entre inversión en bolsa o en renta fija.</li>
+<li>Integra el concepto de oportunidad de inversión relativa.</li>
+</ul>
+<blockquote class="blockquote">
+<p>Este ratio se utiliza frecuentemente en el asesoramiento financiero como herramienta sencilla de comparación, especialmente en entornos de tipos de interés bajos.</p>
+</blockquote>
+</section>
+<section id="dpa-y-dividend-yield" class="level3">
+<h3 class="anchored" data-anchor-id="dpa-y-dividend-yield">DPA y Dividend Yield</h3>
+<p>El <strong>DPA (Dividendo por acción)</strong> representa el beneficio distribuido entre los accionistas:</p>
+<p><span class="math display">\[
+DPA = \frac{\text{Beneficio neto}}{\text{Número de acciones}}
+\]</span></p>
+<p>La <strong>rentabilidad por dividendo</strong> o <em>dividend yield</em> es el cociente entre el dividendo y el precio de cotización:</p>
+<p><span class="math display">\[
+\text{Dividend Yield} = \frac{DPA}{P_0}
+\]</span></p>
+<p>Este ratio es especialmente valorado por los inversores que buscan ingresos periódicos, como los inversores institucionales o minoristas conservadores.</p>
+</section>
+<section id="pay-out" class="level3">
+<h3 class="anchored" data-anchor-id="pay-out">Pay-out</h3>
+<p>Indica el porcentaje del beneficio que se reparte como dividendo:</p>
+<p><span class="math display">\[
+\text{Pay-out} = \frac{DPA}{BPA}
+\]</span></p>
+<p>Un <em>pay-out</em> elevado implica una política de distribución generosa, pero puede limitar la reinversión del beneficio para el crecimiento futuro.</p>
+</section>
+<section id="roe-rentabilidad-financiera" class="level3">
+<h3 class="anchored" data-anchor-id="roe-rentabilidad-financiera">ROE – Rentabilidad financiera</h3>
+<p>Mide la rentabilidad obtenida sobre los fondos propios invertidos por los accionistas:</p>
+<p><span class="math display">\[
+ROE = \frac{\text{Beneficio neto}}{\text{Fondos propios}}
+\]</span></p>
+<p>Permite evaluar si la empresa está utilizando eficazmente su capital. Cuanto mayor sea el ROE, mejor será la rentabilidad para los accionistas.</p>
+<blockquote class="blockquote">
+<p>Estos ratios no deben analizarse de forma aislada, sino siempre en contexto: comparando con otras empresas del sector, con los valores históricos de la propia empresa y con la situación económica general.</p>
+</blockquote>
+</section>
+</section>
+<section id="valoración-de-empresas" class="level2">
+<h2 class="anchored" data-anchor-id="valoración-de-empresas">Valoración de empresas</h2>
+<p>El análisis fundamental no solo estudia ratios, sino que también busca determinar el <strong>valor intrínseco</strong> de una acción. Para ello, existen diferentes métodos que pueden agruparse en tres grandes bloques:</p>
+<section id="valor-contable-y-valor-de-liquidación" class="level3">
+<h3 class="anchored" data-anchor-id="valor-contable-y-valor-de-liquidación">Valor contable y valor de liquidación</h3>
+<ul>
+<li><strong>Valor contable</strong>: es el valor de los fondos propios según balance. Se calcula como:</li>
+</ul>
+<p><span class="math display">\[
+VC = \text{Activo} - \text{Pasivo}
+\]</span></p>
+<p>Es un punto de partida, pero no refleja necesariamente el valor económico real, ya que no tiene en cuenta expectativas futuras ni intangibles.</p>
+<ul>
+<li><strong>Valor de liquidación</strong>: estima lo que recibirían los accionistas si la empresa se disolviera, vendiendo sus activos y pagando sus deudas. Es útil en situaciones de crisis o restructuración.</li>
+</ul>
+</section>
+<section id="valor-de-mercado-capitalización-bursátil" class="level3">
+<h3 class="anchored" data-anchor-id="valor-de-mercado-capitalización-bursátil">Valor de mercado (capitalización bursátil)</h3>
+<p>Corresponde al valor total que el mercado atribuye a una empresa en un momento dado:</p>
+<p><span class="math display">\[
+\text{Valor de mercado} = P_0 \cdot \text{Número de acciones}
+\]</span></p>
+<p>Refleja la percepción agregada de los inversores, pero puede diferir del valor teórico si hay euforia, miedo o desinformación en el mercado.</p>
+</section>
+<section id="valoración-por-múltiplos" class="level3">
+<h3 class="anchored" data-anchor-id="valoración-por-múltiplos">Valoración por múltiplos</h3>
+<p>Consiste en multiplicar un ratio de la empresa (como el BPA) por el múltiplo que aplica el mercado o el sector (por ejemplo, el PER medio):</p>
+<p><span class="math display">\[
+P_0 = PER \cdot BPA
+\]</span></p>
+<p>Este método es sencillo y útil para comparar empresas similares, aunque no tiene en cuenta la estructura financiera ni los flujos de caja.</p>
+</section>
+<section id="modelo-de-descuento-de-dividendos" class="level3">
+<h3 class="anchored" data-anchor-id="modelo-de-descuento-de-dividendos">Modelo de descuento de dividendos</h3>
+<p>Cuando la empresa paga dividendos regulares, puede utilizarse el modelo de <strong>Gordon-Shapiro</strong>, que estima el precio teórico de la acción bajo el supuesto de un crecimiento constante:</p>
+<p><span class="math display">\[
+P_0 = \frac{D_1}{k - g}
+\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(D_1\)</span>: dividendo esperado el próximo año<br>
+</li>
+<li><span class="math inline">\(k\)</span>: rentabilidad exigida por el inversor<br>
+</li>
+<li><span class="math inline">\(g\)</span>: tasa de crecimiento del dividendo</li>
+</ul>
+<p>También puede expresarse con el dividendo actual:</p>
+<p><span class="math display">\[
+P_0 = \frac{D_0 \cdot (1 + g)}{k - g}
+\]</span></p>
+<p>Este modelo es especialmente útil para empresas maduras y estables, aunque poco adecuado para compañías en crecimiento que no reparten dividendos.</p>
+</section>
+<section id="estimación-del-crecimiento-g" class="level3">
+<h3 class="anchored" data-anchor-id="estimación-del-crecimiento-g">Estimación del crecimiento (<span class="math inline">\(g\)</span>)</h3>
+<p>La tasa de crecimiento del dividendo puede estimarse como:</p>
+<p><span class="math display">\[
+g = ROE \cdot (1 - \text{Pay-out})
+\]</span></p>
+<p>Esta fórmula asume que los beneficios no distribuidos se reinvierten con una rentabilidad igual al ROE.</p>
+<blockquote class="blockquote">
+<p>La elección del modelo dependerá del tipo de empresa, su política de dividendos y la información disponible. En la práctica, se suelen combinar varios métodos para obtener una valoración más robusta.</p>
+</blockquote>
+</section>
+</section>
+<section id="rentabilidad-exigida-coste-de-capital-y-modelo-capm" class="level2">
+<h2 class="anchored" data-anchor-id="rentabilidad-exigida-coste-de-capital-y-modelo-capm">Rentabilidad exigida, coste de capital y modelo CAPM</h2>
+<p>Para valorar adecuadamente una empresa, no basta con estimar los beneficios futuros: es necesario <strong>actualizarlos</strong> a valor presente utilizando una tasa de descuento adecuada. Esa tasa representa la <strong>rentabilidad mínima exigida</strong> por los inversores, en función del riesgo asumido.</p>
+<section id="rentabilidad-exigida-por-el-accionista" class="level3">
+<h3 class="anchored" data-anchor-id="rentabilidad-exigida-por-el-accionista">Rentabilidad exigida por el accionista</h3>
+<p>Es la rentabilidad que un inversor espera obtener por invertir en una acción. A mayor riesgo percibido, mayor será la rentabilidad exigida.</p>
+<p>En muchas ocasiones, se estima mediante el <strong>modelo de valoración de activos financieros</strong> o <strong>CAPM</strong> (<em>Capital Asset Pricing Model</em>), que se expresa así:</p>
+<p><span class="math display">\[
+K_e = R_f + \beta \cdot (R_m - R_f)
+\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(K_e\)</span>: rentabilidad exigida al capital propio (coste del equity)<br>
+</li>
+<li><span class="math inline">\(R_f\)</span>: tipo de interés libre de riesgo<br>
+</li>
+<li><span class="math inline">\(R_m\)</span>: rentabilidad esperada del mercado<br>
+</li>
+<li><span class="math inline">\(\beta\)</span>: medida del riesgo sistemático de la acción respecto al mercado</li>
+</ul>
+<blockquote class="blockquote">
+<p>El coeficiente beta mide la sensibilidad del valor de la acción frente a las variaciones del mercado. Si <span class="math inline">\(\beta &gt; 1\)</span>, la acción es más volátil que el mercado; si <span class="math inline">\(\beta &lt; 1\)</span>, es más defensiva.</p>
+</blockquote>
+</section>
+<section id="coste-medio-ponderado-del-capital-wacc" class="level3">
+<h3 class="anchored" data-anchor-id="coste-medio-ponderado-del-capital-wacc">Coste medio ponderado del capital (WACC)</h3>
+<p>Cuando una empresa se financia con una combinación de fondos propios y deuda, se utiliza el <strong>WACC (Weighted Average Cost of Capital)</strong> como tasa de descuento para valorar sus proyectos o flujos de caja futuros:</p>
+<p><span class="math display">\[
+WACC = K_e \cdot \left( \frac{E}{E + D} \right) + K_d \cdot (1 - T) \cdot \left( \frac{D}{E + D} \right)
+\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(K_e\)</span>: coste del capital propio<br>
+</li>
+<li><span class="math inline">\(K_d\)</span>: coste de la deuda<br>
+</li>
+<li><span class="math inline">\(T\)</span>: tipo impositivo (para reflejar el efecto fiscal de la deuda)<br>
+</li>
+<li><span class="math inline">\(E\)</span>: fondos propios<br>
+</li>
+<li><span class="math inline">\(D\)</span>: deuda financiera</li>
+</ul>
+<blockquote class="blockquote">
+<p>El WACC representa el coste medio de financiación de la empresa, ponderado según la estructura de capital. Cuanto menor sea, más atractivos serán los proyectos de inversión.</p>
+</blockquote>
+</section>
+<section id="aplicaciones-del-wacc" class="level3">
+<h3 class="anchored" data-anchor-id="aplicaciones-del-wacc">Aplicaciones del WACC</h3>
+<ul>
+<li>Se utiliza como <strong>tasa de descuento</strong> en modelos de valoración por flujos de caja descontados (<em>Discounted Cash Flow – DCF</em>).</li>
+<li>Permite evaluar si un proyecto creará o destruirá valor: si la rentabilidad esperada del proyecto es mayor que el WACC, el valor de la empresa aumentará.</li>
+</ul>
+</section>
+</section>
+<section id="conclusiones-del-análisis-fundamental-bursátil" class="level2">
+<h2 class="anchored" data-anchor-id="conclusiones-del-análisis-fundamental-bursátil">Conclusiones del análisis fundamental bursátil</h2>
+<p>El análisis fundamental permite valorar empresas a partir de su situación financiera, su capacidad de generar beneficios sostenibles y las condiciones del entorno económico. Es una herramienta imprescindible para tomar decisiones racionales de inversión, especialmente en el ámbito de la renta variable.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Esquema-resumen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>¿Qué analiza?</strong><br>
+La <strong>realidad económica y financiera</strong> de la empresa.</p></li>
+<li><p><strong>¿Con qué fin?</strong><br>
+Determinar si el <strong>precio de mercado</strong> está justificado o existe una oportunidad de inversión.</p></li>
+<li><p><strong>Enfoques de análisis</strong>:</p>
+<ul>
+<li><em>Top-Down</em>: macroeconomía → sectores → empresas.</li>
+<li><em>Bottom-Up</em>: análisis directo de la empresa.</li>
+</ul></li>
+<li><p><strong>Principales herramientas</strong>:</p>
+<ul>
+<li>Ratios bursátiles (PER, BPA, DPA, ROE, etc.)</li>
+<li>Valoraciones por múltiplos (PER)</li>
+<li>Modelos teóricos (Gordon-Shapiro, DCF)</li>
+<li>Estimación de la rentabilidad exigida (CAPM)</li>
+<li>Cálculo del coste medio del capital (WACC)</li>
+</ul></li>
+<li><p><strong>Variables clave</strong>:</p>
+<ul>
+<li>Beneficio por acción (BPA)</li>
+<li>Dividendo esperado (DPA)</li>
+<li>Rentabilidad exigida (<span class="math inline">\(k\)</span>)</li>
+<li>Tasa de crecimiento (<span class="math inline">\(g\)</span>)</li>
+<li>Riesgo sistemático (<span class="math inline">\(\beta\)</span>)</li>
+</ul></li>
+</ul>
+<blockquote class="blockquote">
+<p>El análisis fundamental no predice el precio exacto de las acciones, pero ofrece un marco sólido para invertir con criterio y reducir el impacto de las emociones o el ruido del mercado.</p>
+</blockquote>
+</div>
+</div>
+</section>
+<section id="introducción-a-la-gestión-de-carteras-de-renta-variable" class="level2">
+<h2 class="anchored" data-anchor-id="introducción-a-la-gestión-de-carteras-de-renta-variable">Introducción a la gestión de carteras de renta variable</h2>
+<p>La gestión de carteras de renta variable busca construir y administrar una combinación de activos que maximice la rentabilidad esperada ajustada al riesgo del inversor. Este proceso requiere una adecuada planificación estratégica, análisis del entorno económico y comprensión de los estilos y ciclos del mercado.</p>
+<section id="elementos-clave-de-la-gestión" class="level3">
+<h3 class="anchored" data-anchor-id="elementos-clave-de-la-gestión">Elementos clave de la gestión</h3>
+<p>Una cartera óptima no es solo cuestión de diversificar incluyendo muchos activos, sino de combinar aquellos con <strong>correlaciones adecuadas</strong>, que permitan <strong>reducir el riesgo global</strong> sin renunciar a la rentabilidad.</p>
+<p>El gestor toma decisiones según su estilo (activo o pasivo) y sus hipótesis de mercado, valorando para cada activo:</p>
+<ul>
+<li><strong>Rentabilidad esperada</strong> (dividendos, plusvalías, cupones, etc.)</li>
+<li><strong>Riesgo asociado</strong>, entendido como la desviación potencial respecto a esa rentabilidad esperada</li>
+</ul>
+<p>En general, cuanto mayor es el riesgo, mayor es la rentabilidad potencial (y la volatilidad), como ocurre con la bolsa frente a activos monetarios o deuda pública.</p>
+</section>
+<section id="gestión-activa-vs-pasiva" class="level3">
+<h3 class="anchored" data-anchor-id="gestión-activa-vs-pasiva">Gestión activa vs pasiva</h3>
+<ul>
+<li><strong>Gestión pasiva</strong>: replica un índice de referencia (benchmark), con bajo coste y sin buscar superar al mercado.</li>
+<li><strong>Gestión activa</strong>: busca superar al benchmark mediante análisis, selección de valores y decisiones de <em>timing</em>. Supone un coste mayor, pero con potencial de generar rentabilidades superiores.</li>
+</ul>
+</section>
+<section id="pasos-para-construir-una-cartera" class="level3">
+<h3 class="anchored" data-anchor-id="pasos-para-construir-una-cartera">Pasos para construir una cartera</h3>
+<ol type="1">
+<li><strong>Perfil del inversor</strong>: tolerancia al riesgo, horizonte temporal, objetivos y restricciones.</li>
+<li><strong>Definición de objetivos globales</strong>: fijar metas de rentabilidad y riesgo para la cartera.</li>
+<li><strong>Estrategia de gestión</strong>: elección de estilo activo/pasivo, top-down o bottom-up.</li>
+<li><strong>Análisis económico</strong>: evaluación del entorno macroeconómico y de mercado.</li>
+<li><strong>Selección de activos</strong>: análisis fundamental o técnico para elegir valores concretos.</li>
+<li><strong>Implementación</strong>: compras y ventas.</li>
+<li><strong>Control y seguimiento</strong>: evaluación periódica, atribución de resultados y rebalanceo.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="ciclo-económico-y-tipos-de-carteras" class="level2">
+<h2 class="anchored" data-anchor-id="ciclo-económico-y-tipos-de-carteras">Ciclo económico y tipos de carteras</h2>
+<p>La evolución del ciclo económico afecta al comportamiento de los activos y, por tanto, a la asignación de activos (<em>asset allocation</em>). Podemos adaptar la cartera en función de la fase del ciclo:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 69%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fase del ciclo</th>
+<th>Estrategia general</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>I. Recuperación</strong></td>
+<td>Aumentar peso en bolsa, reducir renta fija</td>
+</tr>
+<tr class="even">
+<td><strong>II. Expansión inicial</strong></td>
+<td>Subida bursátil, cautela en renta fija de largo plazo</td>
+</tr>
+<tr class="odd">
+<td><strong>III. Expansión plena</strong></td>
+<td>Posiciones en bolsa en máximos, reducir exposición</td>
+</tr>
+<tr class="even">
+<td><strong>IV. Estancamiento</strong></td>
+<td>Refugiarse en activos defensivos y liquidez</td>
+</tr>
+<tr class="odd">
+<td><strong>V. Recesión</strong></td>
+<td>Priorizar bonos y renta fija, reducir bolsa</td>
+</tr>
+</tbody>
+</table>
+<p>Se pueden establecer estrategias distintas según el <strong>perfil del inversor</strong> (conservador o agresivo), adaptando el peso de cada activo en función del ciclo.</p>
+<hr>
+</section>
+<section id="estilos-de-gestión-en-renta-variable" class="level2">
+<h2 class="anchored" data-anchor-id="estilos-de-gestión-en-renta-variable">Estilos de gestión en renta variable</h2>
+<p>El <strong>estilo de gestión</strong> refleja las preferencias del gestor: selección por sectores, por ratios, por tendencias, etc. Estos estilos facilitan el análisis, la diversificación y la evaluación de resultados.</p>
+<section id="tipologías-comunes" class="level3">
+<h3 class="anchored" data-anchor-id="tipologías-comunes">Tipologías comunes</h3>
+<ul>
+<li><strong>Pasiva</strong>: replica un índice (por inclusión en el benchmark)</li>
+<li><strong>Valor</strong>: busca acciones infravaloradas con buenos fundamentales</li>
+<li><strong>Crecimiento</strong>: prioriza empresas con alto potencial de beneficios futuros</li>
+<li><strong>Mixta (Blend)</strong>: combina características de ambas</li>
+</ul>
+<p>También se puede clasificar por capitalización (grandes, medianas o pequeñas empresas) o por enfoque técnico, fundamental o cuantitativo.</p>
+</section>
+<section id="por-qué-utilizar-estilos-de-gestión" class="level3">
+<h3 class="anchored" data-anchor-id="por-qué-utilizar-estilos-de-gestión">¿Por qué utilizar estilos de gestión?</h3>
+<ul>
+<li>Simplifican la selección en mercados con muchos valores</li>
+<li>Permiten diversificar y medir riesgos sectoriales</li>
+<li>Hacen más transparente la evaluación del gestor</li>
+<li>Reflejan especialización analítica y permiten comparar carteras homogéneas</li>
+</ul>
+<blockquote class="blockquote">
+<p>En la práctica, los fondos y carteras se agrupan por estilo, lo que también influye en los precios de los activos incluidos en ellos.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="ineficiencias-del-mercado-y-anomalías-bursátiles" class="level2">
+<h2 class="anchored" data-anchor-id="ineficiencias-del-mercado-y-anomalías-bursátiles">Ineficiencias del mercado y anomalías bursátiles</h2>
+<p>Aunque los mercados tienden a ser eficientes, existen <strong>anomalías y comportamientos sistemáticos</strong> que justifican la gestión activa:</p>
+<section id="ineficiencias-detectadas" class="level3">
+<h3 class="anchored" data-anchor-id="ineficiencias-detectadas">Ineficiencias detectadas</h3>
+<ul>
+<li>Costes de transacción e impuestos</li>
+<li>Barreras regulatorias o estratégicas</li>
+<li>Retrasos o errores en la transmisión de información</li>
+<li>Comportamiento irracional de algunos agentes</li>
+</ul>
+</section>
+<section id="anomalías-temporales-observadas" class="level3">
+<h3 class="anchored" data-anchor-id="anomalías-temporales-observadas">Anomalías temporales observadas</h3>
+<ul>
+<li><strong>Efecto sobrereacción</strong>: acciones que caen bruscamente tienden a recuperar, y viceversa</li>
+<li><strong>Efecto tamaño</strong>: pequeñas empresas se comportan mejor tras subidas de grandes</li>
+<li><strong>Efecto lunes o fin de semana</strong>: diferencias sistemáticas según el día de la semana</li>
+<li><strong>Efecto fin de mes</strong>: rendimientos superiores en los últimos y primeros días del mes</li>
+<li><strong>Efecto elecciones</strong>: los años electorales tienden a ser positivos para la bolsa</li>
+<li><strong>Efecto PER y dividendo</strong>: empresas con buenos ratios tienden a tener mejor desempeño</li>
+<li><strong>Efecto OPA</strong>: compañías objeto de adquisiciones suelen experimentar subidas</li>
+</ul>
+<blockquote class="blockquote">
+<p>Aunque estas anomalías son conocidas, no siempre desaparecen, lo que sugiere que pueden formar parte de estrategias de gestión activas razonadas.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="conclusión" class="level2">
+<h2 class="anchored" data-anchor-id="conclusión">Conclusión</h2>
+<p>La gestión de carteras de renta variable requiere una combinación de análisis técnico y fundamental, comprensión del entorno económico, y adaptación a los perfiles de riesgo de los clientes. La elección entre gestión activa y pasiva, así como la consideración de los estilos y anomalías de mercado, permitirá construir carteras mejor alineadas con los objetivos del inversor.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
