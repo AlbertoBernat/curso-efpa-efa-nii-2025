@@ -5,10 +5,6 @@ sidebar: teoria
 toc: true
 ---
 
----
-title: ""
-toc: true
----
 
 # Tema 1. Marco tributario
 
@@ -1774,7 +1770,7 @@ Los dividendos y las participaciones en beneficios percibidos por el accionista 
 
 Se pueden deducir de estos rendimientos **los gastos de administración y depósito de valores**, si están directamente relacionados con su gestión.
 
-🔗 [Dividendos y rendimientos por participación – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/irpf-2024/7-cumplimentacion-irpf/7_2-rendimientos-capital-mobiliario/7_2_3_3-dividendos-demas-rendimientos.html)
+🔗 [Dividendos y rendimientos por participación – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/irpf-2024/7-cumplimentacion-irpf/7_2-rendimientos-capital-mobiliario/7_2_3-rendimientos-capital-mobiliario-integrar-imponible/7_2_3_3-dividendos-demas-rendimientos.html)
 
 ### 2. Tributación de dividendos y participaciones en beneficios
 
@@ -1832,7 +1828,7 @@ Las IIC tributan en el Impuesto sobre Sociedades (IS) bajo un régimen especial 
 
 No obstante, para que se pueda aplicar este régimen, deben cumplirse varios requisitos formales y materiales, especialmente en lo relativo a la **homogeneidad de los activos** y al cumplimiento de la normativa específica del sector financiero (CNMV).
 
-🔗 [Régimen especial IIC – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/is-2022/capitulo-11-regimenes-tributacion-especiales/regimen-tributacion-instituciones-inversion-colectiva.html)
+🔗 [Régimen especial IIC – AEAT](https://sede.agenciatributaria.gob.es/Sede/impuesto-sobre-sociedades/que-base-imponible-se-determina-sociedades/tipo-impositivo.html)
 
 ### 2. Tipología y fiscalidad de las rentas en el IRPF
 
@@ -1864,35 +1860,55 @@ Por otra parte, si el inversor vende participaciones de un fondo con pérdidas, 
 
 Dentro del asesoramiento financiero, los productos de inversión colectiva cerrada, como las Entidades de Capital-Riesgo (ECR), las Entidades de Inversión Colectiva Cerradas (EICC) o las Instituciones de Inversión Colectiva de Inversión Libre (IICIL), representan alternativas sofisticadas que exigen un conocimiento fiscal técnico y actualizado.
 
-### 1. Fiscalidad en el Impuesto sobre Sociedades (IS)
+### 1. Tributación especial de las Instituciones de Inversión Colectiva y Entidades de Capital-Riesgo
 
-Las ECR disfrutan de un régimen fiscal incentivado: pueden aplicar una **exención parcial del 99 %** sobre las rentas obtenidas por la transmisión de participaciones en sociedades de su cartera, siempre que estas cumplan ciertos requisitos (fundamentalmente, que no estén cotizadas y que se hayan mantenido durante un mínimo de tiempo).
+Las Instituciones de Inversión Colectiva (IIC) y las Entidades de Capital-Riesgo (ECR) se benefician de regímenes fiscales especiales regulados en la Ley 27/2014 del Impuesto sobre Sociedades (LIS).
 
-Este incentivo busca fomentar la inversión a largo plazo y el desarrollo empresarial a través del capital privado.
+#### Tipo de gravamen reducido del 1 % (artículo 29.4 LIS)
 
-🔗 [Régimen fiscal ECR – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/is-2022/capitulo-11-regimenes-tributacion-especiales/regimen-tributacion-entidades-capital-riesgo.html)
+Las siguientes entidades tributan al tipo impositivo del **1 %**:
 
-Las EICC e IICIL tributan como sociedades en el IS al tipo general, salvo que opten o reúnan los requisitos para el régimen especial de IIC. Su fiscalidad dependerá de su naturaleza jurídica y del tipo de activos gestionados.
+- Las **sociedades de inversión de capital variable (SICAV)** y los **fondos de inversión de carácter financiero**, regulados por la Ley 35/2003, siempre que cumplan los requisitos mínimos de número de accionistas o partícipes.
+- Las **sociedades y fondos de inversión inmobiliaria**, con objeto exclusivo de arrendamiento de inmuebles urbanos.
+- Entidades dedicadas a la promoción exclusiva de viviendas para arrendamiento.
+
+🔗 [Artículo 29.4 de la LIS – BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328#a29)
+
+#### Régimen fiscal de las Entidades de Capital-Riesgo (artículo 50 LIS)
+
+Las ECR disfrutan de una **exención del 99 %** sobre las rentas positivas obtenidas en la transmisión de participaciones en su cartera, siempre que:
+
+- Las participaciones transmitidas correspondan a entidades no cotizadas.
+- La tenencia se haya mantenido desde **al menos el inicio del segundo año** y hasta el **decimoquinto año** (ampliable a veinte).
+- Se cumplan las condiciones adicionales previstas en los párrafos 4º y 5º del artículo 50.
+
+🔗 [Artículo 50 de la LIS – BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328#a50)
+
+#### Manual del IS – Agencia Tributaria
+
+La Agencia Tributaria incluye este régimen en el **Manual práctico del Impuesto sobre Sociedades**.
+
+🔗 [Manual del IS – AEAT (última versión)](https://sede.agenciatributaria.gob.es/Sede/Ayuda/23Manual/200.shtml)
 
 ### 2. Fiscalidad para el inversor
 
 El inversor en este tipo de vehículos debe prestar atención tanto al momento de distribución de dividendos como al de transmisión de participaciones:
 
--   **Dividendos**: se consideran **rendimientos del capital mobiliario** y se integran en la base del ahorro del IRPF. Están sujetos a una retención a cuenta del 19 %.
+- **Dividendos**: se consideran **rendimientos del capital mobiliario** y se integran en la base del ahorro del IRPF. Están sujetos a una **retención a cuenta del 19 %**.
 
--   **Ganancias en la transmisión**: se califican como **ganancias patrimoniales** y se integran también en la base del ahorro, aplicándose los tipos progresivos vigentes (19 % a 28 %).
+- **Ganancias en la transmisión**: se califican como **ganancias patrimoniales** y se integran también en la base del ahorro, aplicándose los tipos progresivos vigentes (entre el **19 % y el 28 %** en función del importe total).
 
-Si el inversor es una entidad sujeta a IS o un no residente (IRNR), se aplicarán reglas específicas conforme a la residencia fiscal y a los convenios de doble imposición.
+En caso de que el inversor sea una **persona jurídica sujeta al Impuesto sobre Sociedades (IS)** o un **no residente (IRNR)**, se aplicarán reglas específicas conforme a su régimen fiscal y a los convenios de doble imposición.
 
-🔗 [Fiscalidad del inversor en IIC cerradas – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/irpf-2024/7-cumplimentacion-irpf.html)
 
-### 3. Recomendaciones para el asesor financiero
+###∫ 3. Recomendaciones para el asesor financiero
 
--   Evaluar cuidadosamente el perfil del cliente antes de recomendar este tipo de instrumentos, debido a su **menor liquidez** y mayor complejidad operativa.
--   Informar de los **beneficios fiscales diferenciales**, especialmente para clientes con alta tributación o patrimonios elevados.
--   Tener en cuenta los **plazos de permanencia** exigidos para aplicar exenciones o ventajas fiscales.
+- Evaluar cuidadosamente el perfil del cliente antes de recomendar este tipo de instrumentos, debido a su **menor liquidez** y mayor complejidad operativa.
+- Informar de los **beneficios fiscales diferenciales**, especialmente para clientes con alta tributación o patrimonios elevados.
+- Tener en cuenta los **plazos de permanencia** exigidos para aplicar exenciones o ventajas fiscales.
 
 Este tipo de productos puede jugar un papel clave en la diversificación y optimización fiscal de carteras complejas, siempre que se aborden con profesionalidad y visión estratégica.
+
 
 ## F. Instrumentos derivados e híbridos financieros
 
@@ -2026,7 +2042,7 @@ En general, cuando el **tomador y el beneficiario coinciden**, y se percibe la p
 -   **En forma de capital diferido (cobro único):** tributa por la diferencia entre el capital percibido y las primas satisfechas.
 -   **En forma de renta (temporal o vitalicia):** tributa parcialmente, aplicando un porcentaje de integración en función de la edad del asegurado al inicio de la renta.
 
-🔗 [Tributación seguros en IRPF – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/irpf-2024/7-cumplimentacion-irpf/7_2-rendimientos-capital-mobiliario/7_2_3_6-seguros-vida.html)
+🔗 [Tributación seguros en IRPF – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/irpf-2024/7-cumplimentacion-irpf/7_2-rendimientos-capital-mobiliario/7_2_3-rendimientos-capital-mobiliario-integrar-imponible/7_2_3_6-rendimientos-derivados-contratos-seguro-vida.html)
 
 ### 2. Unit Linked y seguros de ahorro a largo plazo
 
@@ -2035,7 +2051,7 @@ Dentro del universo de seguros de vida destacan dos productos:
 -   **Unit Linked:** seguros vinculados a fondos de inversión. El rendimiento tributa en el IRPF cuando el tomador ejerce el rescate, siguiendo la regla FIFO y considerando el rendimiento generado desde la contratación.
 -   **SIALP (Seguros Individuales de Ahorro a Largo Plazo):** disfrutan de exención en el IRPF si se mantienen **al menos 5 años** y no se superan los **5.000 € anuales** de aportación.
 
-🔗 [SIALP – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/irpf-2024/7-cumplimentacion-irpf/7_2-rendimientos-capital-mobiliario/7_2_3_9-rendimientos-procedentes-planes-ahorro-plazo.html)
+🔗 [SIALP – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2022/c05-rendimientos-capital-mobiliario/rendimientos-integrar-base-imponible-ahorro/rendimientos-operaciones-capitalizacion-seguros-vida-invalidez/planes-ahorro-largo-plazo/caracteristicas-requisitos.html)
 
 ### 3. Valoración en el Impuesto sobre el Patrimonio (IP) e ITSGF
 
@@ -2046,13 +2062,13 @@ La valoración de los seguros de vida en el **Impuesto sobre el Patrimonio (IP)*
 
 En el **ITSGF (Impuesto Temporal de Solidaridad de las Grandes Fortunas)** se sigue el mismo criterio de valoración.
 
-🔗 [Seguros en el IP – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/ip-2023/parte-primera/valoracion-bienes-derechos-ip/valoracion-seguros-vida-ip.html)
+🔗 [Seguros en el IP – AEAT](https://sede.agenciatributaria.gob.es/Sede/declaraciones-informativas-otros-impuestos-tasas/impuesto-temporal-solidaridad-grandes-fortunas.html)
 
 ### 4. Fiscalidad en el ISD
 
 Cuando el **beneficiario del seguro es una persona distinta al tomador** (por ejemplo, herederos designados), el capital percibido **tributa en el Impuesto sobre Sucesiones y Donaciones (ISD)**. En estos casos, pueden aplicarse **reducciones autonómicas**, así como la reducción general del **100 % con límite de 9.195,49 €** si se trata de seguros de vida contratados por los padres a favor de los hijos o viceversa.
 
-🔗 [Seguros en el ISD – AEAT](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-ayuda-presentacion/isd-2023/valoracion-bienes-seguros.html)
+🔗 [Seguros en el ISD – AEAT](https://sede.agenciatributaria.gob.es/Sede/impuestos-tasas/impuesto-sobre-sucesiones-donaciones.html)
 
 ::: callout-note
 El asesor financiero debe verificar la titularidad y la designación del beneficiario en los contratos, ya que esto determinará si tributa en el IRPF o en el ISD.
