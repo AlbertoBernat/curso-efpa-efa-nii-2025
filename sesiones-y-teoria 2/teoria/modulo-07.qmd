@@ -1,9 +1,0 @@
----
-title: "Módulo 7 – Crédito y financiación"
-format: html
-sidebar: teoria
----
-
-# Módulo 7: Crédito y financiación
-
-Contenido en preparación...

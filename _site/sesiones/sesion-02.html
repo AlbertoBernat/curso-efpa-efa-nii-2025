@@ -66,6 +66,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<meta name="mermaid-theme" content="forest">
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -231,11 +235,16 @@ window.Quarto = {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#rentas-financieras" id="toc-rentas-financieras" class="nav-link active" data-scroll-target="#rentas-financieras">Rentas financieras</a>
+  <li><a href="#vídeo" id="toc-vídeo" class="nav-link active" data-scroll-target="#vídeo">🎥 Vídeo</a></li>
+  <li><a href="#presentación" id="toc-presentación" class="nav-link" data-scroll-target="#presentación">Presentación</a></li>
+  <li><a href="#rentas-financieras" id="toc-rentas-financieras" class="nav-link" data-scroll-target="#rentas-financieras">Rentas financieras</a>
   <ul class="collapse">
   <li><a href="#concepto" id="toc-concepto" class="nav-link" data-scroll-target="#concepto">Concepto</a></li>
   </ul></li>
-  <li><a href="#renta-fija" id="toc-renta-fija" class="nav-link" data-scroll-target="#renta-fija">Renta Fija</a>
+  <li><a href="#renta-fija" id="toc-renta-fija" class="nav-link" data-scroll-target="#renta-fija">Renta Fija</a></li>
+  <li><a href="#esquema-del-mercado-de-renta-fija-privada" id="toc-esquema-del-mercado-de-renta-fija-privada" class="nav-link" data-scroll-target="#esquema-del-mercado-de-renta-fija-privada">Esquema del mercado de renta fija privada</a></li>
+  <li><a href="#esquema-valoración-y-relación-precio-tir" id="toc-esquema-valoración-y-relación-precio-tir" class="nav-link" data-scroll-target="#esquema-valoración-y-relación-precio-tir">Esquema: Valoración y relación precio-TIR</a></li>
+  <li><a href="#esquema-curva-de-tipos-y-gestión-del-riesgo" id="toc-esquema-curva-de-tipos-y-gestión-del-riesgo" class="nav-link" data-scroll-target="#esquema-curva-de-tipos-y-gestión-del-riesgo">Esquema: Curva de tipos y gestión del riesgo</a>
   <ul class="collapse">
   <li><a href="#concepto-1" id="toc-concepto-1" class="nav-link" data-scroll-target="#concepto-1">Concepto</a></li>
   <li><a href="#estructura-del-mercado-de-deuda-pública" id="toc-estructura-del-mercado-de-deuda-pública" class="nav-link" data-scroll-target="#estructura-del-mercado-de-deuda-pública">Estructura del mercado de deuda pública</a></li>
@@ -284,6 +293,21 @@ window.Quarto = {
 </header>
 
 
+<section id="vídeo" class="level3">
+<h3 class="anchored" data-anchor-id="vídeo">🎥 Vídeo</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+<iframe src="https://www.youtube.com/embed/cGcZYR6Lxww" frameborder="0" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+</iframe>
+</div>
+</section>
+<section id="presentación" class="level2">
+<h2 class="anchored" data-anchor-id="presentación">Presentación</h2>
+<iframe src="https://drive.google.com/file/d/1Q1yZKcbC16YCAAduk6zh66z5tJ1AcG2q/preview" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1.5rem;" allow="autoplay">
+</iframe>
+<div style="margin-bottom: 2rem;">
+<p><a href="https://drive.google.com/file/d/1Q1yZKcbC16YCAAduk6zh66z5tJ1AcG2q/view?usp=sharing" target="_blank" style="background-color: #003865; color: white; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-weight: bold;"> 📥 Descargar presentación en PDF </a></p>
+</div>
+</section>
 <section id="rentas-financieras" class="level2">
 <h2 class="anchored" data-anchor-id="rentas-financieras">Rentas financieras</h2>
 <section id="concepto" class="level3">
@@ -435,6 +459,83 @@ window.Quarto = {
 </section>
 <section id="renta-fija" class="level2">
 <h2 class="anchored" data-anchor-id="renta-fija">Renta Fija</h2>
+</section>
+<section id="esquema-del-mercado-de-renta-fija-privada" class="level2">
+<h2 class="anchored" data-anchor-id="esquema-del-mercado-de-renta-fija-privada">Esquema del mercado de renta fija privada</h2>
+<div class="cell" data-fig-width="8" data-fig-height="10" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+
+  C[Mercado de Renta Fija Privada] --&gt; C1[Estructura del mercado]
+  C --&gt; C2[Tipología de activos]
+  C --&gt; D[Rating]
+  C --&gt; E[Riesgos asociados]
+
+  C2 --&gt; C2a[Pagarés, bonos, obligaciones privadas]
+  C2 --&gt; C2b[Cédulas, bonos y participaciones hipotecarias]
+  C2 --&gt; C2c[Preferentes, titulizados, convertibles]
+  C2 --&gt; C2d[Bonos verdes, sociales, sostenibles]
+
+  E --&gt; E1[Interés]
+  E --&gt; E2[Crédito]
+  E --&gt; E3[Liquidez]
+  E --&gt; E4[Tipo de cambio]
+  E --&gt; E5[Amortización anticipada]
+</pre>
+</div>
+<p></p><figcaption> Estructura, tipología de activos y riesgos de la renta fija privada</figcaption> </figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="esquema-valoración-y-relación-precio-tir" class="level2">
+<h2 class="anchored" data-anchor-id="esquema-valoración-y-relación-precio-tir">Esquema: Valoración y relación precio-TIR</h2>
+<div class="cell" data-fig-width="8" data-fig-height="10" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+
+  F[Valoración de activos] --&gt; F1[Precio y rentabilidad a corto]
+  F --&gt; F2[Precio bonos con cupones]
+  F --&gt; F3[Precio entero, excupón, cupón corrido]
+  F --&gt; F4[Rentabilidad efectiva y reinversión]
+  F --&gt; F5[A la par, sobre la par, bajo la par]
+  F --&gt; F6[Precio bono cupón cero]
+
+  G[Relación Precio-TIR] --&gt; G1[Principios de Malkiel]
+</pre>
+</div>
+<p></p><figcaption> Valoración de activos de renta fija y Principios de Malkiel</figcaption> </figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="esquema-curva-de-tipos-y-gestión-del-riesgo" class="level2">
+<h2 class="anchored" data-anchor-id="esquema-curva-de-tipos-y-gestión-del-riesgo">Esquema: Curva de tipos y gestión del riesgo</h2>
+<div class="cell" data-fig-width="8" data-fig-height="10" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+
+  H[Curva de rentabilidades y ETTI] --&gt; H1["Curva e implícitos forward"]
+  H --&gt; H2["Teorías: expectativas, liquidez, segmentación"]
+
+  I[Medición y gestión del riesgo] --&gt; I1["Duración y duración modificada"]
+  I --&gt; I2[Sensibilidad]
+  I --&gt; I3[Inmunización de carteras]
+</pre>
+</div>
+<p></p><figcaption> ETTI y gestión del riesgo de tipo de interés</figcaption> </figure><p></p>
+</div>
+</div>
+</div>
 <section id="concepto-1" class="level3">
 <h3 class="anchored" data-anchor-id="concepto-1">Concepto</h3>
 <p>Un activo de renta fija es un valor que <strong>representa una deuda para el emisor</strong> y que tiene una retribución que se fija, generalmente, por adelantado.</p>

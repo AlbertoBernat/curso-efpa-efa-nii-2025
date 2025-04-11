@@ -1,0 +1,5 @@
+title: "Shortcodes"
+version: 1.0.0
+contributes:
+  shortcodes:
+    - pdfdrive

@@ -1,9 +1,0 @@
----
-title: "Módulo 4 – Seguros"
-format: html
-sidebar: teoria
----
-
-# Módulo 4: Seguros
-
-Contenido en preparación...

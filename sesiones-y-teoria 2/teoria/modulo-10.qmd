@@ -1,9 +1,0 @@
----
-title: "Módulo 10 – Repaso final y simulacro"
-format: html
-sidebar: teoria
----
-
-# Módulo 10: Repaso final y simulacro
-
-Contenido en preparación...

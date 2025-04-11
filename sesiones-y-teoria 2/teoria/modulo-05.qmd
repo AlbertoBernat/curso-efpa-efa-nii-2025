@@ -1,9 +1,0 @@
----
-title: "Módulo 5 – Pensiones y planificación"
-format: html
-sidebar: teoria
----
-
-# Módulo 5: Pensiones y planificación
-
-Contenido en preparación...

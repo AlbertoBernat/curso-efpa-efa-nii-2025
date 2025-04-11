@@ -1,9 +1,0 @@
----
-title: "Sesión 10"
-format: html
-sidebar: sesiones
----
-
-# Sesión 10
-
-Contenido en preparación...

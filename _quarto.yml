@@ -1,12 +1,15 @@
 project:
   type: website
 
+extensions:
+  - shortcodes
+
 website:
   title: "EFA Nivel II"
   navbar:
     background: primary
     search: true
-    logo: efpa_logo_web_resized.png # ✅ Debe ir AQUÍ, dentro de navbar
+    logo: efpa_logo_web_resized.png
     left:
       - text: "Inicio"
         href: index.qmd
@@ -55,3 +58,6 @@ format:
     theme: cosmo
     css: styles.css
     lang: es
+
+
+

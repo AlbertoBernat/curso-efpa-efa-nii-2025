@@ -1,9 +1,0 @@
----
-title: "Teoría"
-format: html
-sidebar: teoria
----
-
-# Módulos teóricos del curso
-
-Selecciona un módulo desde el menú lateral.

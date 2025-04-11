@@ -1,9 +1,0 @@
----
-title: "Módulo 2 – Fondos y sociedades de inversión"
-format: html
-sidebar: teoria
----
-
-# Módulo 2: Fondos y sociedades de inversión
-
-Contenido en preparación...

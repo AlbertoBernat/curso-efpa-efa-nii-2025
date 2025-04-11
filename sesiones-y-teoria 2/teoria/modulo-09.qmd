@@ -1,9 +1,0 @@
----
-title: "Módulo 9 – Marco regulatorio y planificación"
-format: html
-sidebar: teoria
----
-
-# Módulo 9: Marco regulatorio y planificación
-
-Contenido en preparación...
