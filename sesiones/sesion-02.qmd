@@ -40,6 +40,25 @@ toc: true
 :::
 
 
+
+## 📝 Test de autoevaluación de la sesión
+
+:::{.callout-important}
+
+
+Haz clic en el siguiente botón para acceder al formulario del test correspondiente a esta clase. Se abrirá en una nueva pestaña.
+
+:::{.text-center}
+[📝 Acceder al test](https://forms.gle/SHb1HUcvEkfEKjJaA){.btn .btn-primary .btn-lg .shadow-lg style="border-radius: 12px; padding: 0.75rem 1.5rem;" target="_blank"}
+:::
+
+:::
+
+
+
+
+
+
 ## Rentas financieras 
 
 
