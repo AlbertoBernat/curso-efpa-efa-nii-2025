@@ -4,6 +4,580 @@ format: html
 sidebar: teoria
 ---
 
-# Módulo 2: Fondos y sociedades de inversión
 
-Contenido en preparación...
+
+
+
+## Fondos temáticos y fondos de impacto
+
+*(Transición: Tras entender el valor estratégico de los vehículos cerrados, pasamos a su aplicación práctica en carteras de inversión.)*
+
+En este apartado conocerás las características propias de estos fondos, los tipos de activos que los componen y las temáticas más habituales (tecnología, salud, energías renovables, cambio climático, etc.). Además, al final de la sección encontrarás un breve ejercicio de autoevaluación.
+
+### Fondos temáticos
+
+Los fondos temáticos agrupan activos que se benefician de cambios estructurales o tendencias de largo plazo.
+
+-   **Características principales**
+    -   Enfoque en una o varias temáticas concretas.\
+    -   Horizonte de inversión orientado al crecimiento que aporte la tendencia.\
+    -   Diversificación focalizada para maximizar exposición al tema.
+-   **Tipos de activos**
+    -   **Renta variable**: acciones de empresas líderes o emergentes en la temática.\
+    -   **Renta fija**: bonos verdes[^sesion04_fondos_inversion-1] o sociales[^sesion04_fondos_inversion-2] vinculados a proyectos alineados con la tendencia.\
+    -   **ETFs**[^sesion04_fondos_inversion-3] y notas estructuradas: instrumentos que replican índices o estrategias temáticas.
+-   **Temáticas más habituales**
+    -   Tecnología y digitalización (IA[^sesion04_fondos_inversion-4], ciberseguridad, robótica)\
+    -   Salud (biotecnología, telemedicina, dispositivos médicos)\
+    -   Energías renovables y cambio climático (solar, eólica, eficiencia energética)\
+    -   Economía circular y gestión sostenible de recursos
+
+[^sesion04_fondos_inversion-1]: **Green bonds / bonos verdes**: deuda destinada a financiar proyectos ambientales.
+
+[^sesion04_fondos_inversion-2]: **Social bonds / bonos sociales**: deuda destinada a proyectos con impacto social.
+
+[^sesion04_fondos_inversion-3]: **ETFs (Exchange-Traded Funds)**: fondos cotizados que replican un índice.
+
+[^sesion04_fondos_inversion-4]: **IA (Inteligencia Artificial)**.
+
+#### Ejercicio práctico
+
+1.  Identifica 2 ETFs temáticos en IA y 2 en energías renovables.\
+2.  Compara su rentabilidad en los últimos 3 años y comenta diferencias de riesgo (volatilidad).
+
+------------------------------------------------------------------------
+
+### Fondos de impacto
+
+*(Transición: Al abordar el retorno económico, agregamos la dimensión social y medioambiental.)*
+
+Los fondos de impacto buscan generar un retorno financiero mientras miden y maximizan un impacto social o medioambiental concreto.
+
+-   **Características principales**
+    -   Intencionalidad: invierten con el objetivo explícito de generar impacto.\
+    -   Medición y reporte de indicadores (reducción de CO₂, mejora de acceso a servicios, etc.).\
+    -   Equilibrio entre rentabilidad y objetivos de impacto, adaptado al perfil del inversor.
+-   **Tipos de activos**
+    -   **Capital privado / venture capital**[^sesion04_fondos_inversion-5]: startups con misión social o medioambiental.\
+    -   **Deuda y bonos temáticos**: green bonds[^sesion04_fondos_inversion-6], social bonds[^sesion04_fondos_inversion-7], microcréditos para comunidades vulnerables.\
+    -   **Fondos cotizados y mutuos de impacto**: carteras diversificadas bajo criterios ESG[^sesion04_fondos_inversion-8] e impacto.
+-   **Áreas de enfoque más comunes**
+    -   Energía limpia y mitigación del cambio climático\
+    -   Acceso a servicios básicos (agua, vivienda, sanidad)\
+    -   Educación y capacitación\
+    -   Inclusión financiera y desarrollo económico local
+
+[^sesion04_fondos_inversion-5]: **Venture capital**: inversión de capital semilla o en fases tempranas.
+
+[^sesion04_fondos_inversion-6]: **Green bonds / bonos verdes**: deuda destinada a financiar proyectos ambientales.
+
+[^sesion04_fondos_inversion-7]: **Social bonds / bonos sociales**: deuda destinada a proyectos con impacto social.
+
+[^sesion04_fondos_inversion-8]: **ESG (Environmental, Social and Governance)**: criterios ambientales, sociales y de gobernanza.
+
+#### Ejercicio práctico
+
+1.  Selecciona un fondo de impacto que mida reducción de CO₂ y analiza su metodología de cálculo (fuente CNMV).\
+2.  Evalúa si su rendimiento financiero se ha visto correlacionado con los indicadores de impacto.
+
+------------------------------------------------------------------------
+
+## Instituciones de inversión colectiva cerradas
+
+### Concepto y características
+
+En este apartado entenderás qué son las instituciones de inversión colectiva cerradas (EICC)[^sesion04_fondos_inversion-9], cómo se regulan en España y qué rasgos las diferencian de otros vehículos de inversión.
+
+[^sesion04_fondos_inversion-9]: **EICC**: Instituciones de Inversión Colectiva de tipo cerrado.
+
+#### Definición
+
+La **entidad de inversión colectiva de tipo cerrado (EICC)** es un subtipo de entidad de inversión colectiva (EIC)[^sesion04_fondos_inversion-10] que, careciendo de un objetivo comercial o industrial, obtiene capital de varios inversores mediante una actividad de comercialización, para invertirlo en todo tipo de activos, financieros o no, con arreglo a una política de inversión definida.
+
+[^sesion04_fondos_inversion-10]: **EIC**: Entidad de Inversión Colectiva.
+
+Las EICC pueden adoptar dos formas jurídicas:\
+- **Sociedades de inversión colectiva de tipo cerrado (SICC)**[^sesion04_fondos_inversion-11]\
+- **Fondos de inversión colectiva de tipo cerrado (FICC)**[^sesion04_fondos_inversion-12]
+
+[^sesion04_fondos_inversion-11]: **SICC**: Sociedad de Inversión Colectiva de tipo cerrado.
+
+[^sesion04_fondos_inversion-12]: **FICC**: Fondo de Inversión Colectiva de tipo cerrado.
+
+El capital de la EICC se fija en el momento de su constitución y **no admite reembolsos individuales** bajo demanda; el partícipe solo puede liquidar su posición a través de la venta de participaciones en un mercado secundario o según lo previsto en los estatutos (art. 40, Ley 22/2014)[^sesion04_fondos_inversion-13].
+
+[^sesion04_fondos_inversion-13]: Art. 40, Ley 22/2014, de 12 de noviembre, por la que se regulan las entidades de capital‑riesgo y otras EICC.
+
+#### Características principales
+
+-   **Capital fijo y desinversiones colectivas**: las amortizaciones se realizan de forma agrupada o al vencimiento del fondo.\
+-   **Negociación en mercado secundario**: participaciones cotizadas en mercados regulados o sistemas multilaterales.\
+-   **Política de inversión estatutaria**: estrategia, límites y activos definidos en estatutos y folleto.\
+-   **Supervisión y depositario**: autorización CNMV[^sesion04_fondos_inversion-14] y depositario que custodia y supervisa (Circular 4/2016 CNMV)[^sesion04_fondos_inversion-15].
+
+[^sesion04_fondos_inversion-14]: **CNMV**: Comisión Nacional del Mercado de Valores.
+
+[^sesion04_fondos_inversion-15]: **Circular 4/2016 CNMV**: obligaciones de depositarios y reporting.
+
+#### Tabla de responsabilidades
+
+| Función | Responsable | Normativa asociada |
+|------------------------|------------------------|------------------------|
+| Gestión de activos | Sociedad Gestora | Ley 35/2003, RD 1082/2012 |
+| Custodia y control | Depositario | Circular 4/2016 CNMV |
+| Supervisión | CNMV | Ley 22/2014, AIFMD[^sesion04_fondos_inversion-16] |
+
+[^sesion04_fondos_inversion-16]: **AIFMD**: Alternative Investment Fund Managers Directive.
+
+#### Cronograma normativo
+
+-   **2012**: RD 1082/2012 desarrolla Ley 35/2003.\
+-   **2014**: Ley 22/2014 regula ECR[^sesion04_fondos_inversion-17] y EICC cerradas.\
+-   **2016**: Circular 4/2016 CNMV detalla depositarios.\
+-   **2024**: consulta pública de actualización de modelos de reporte.
+
+[^sesion04_fondos_inversion-17]: **ECR**: Entidad de Capital Riesgo.
+
+------------------------------------------------------------------------
+
+### Tipología: ECR, FILPE y FESE
+
+#### Entidades de capital‑riesgo (ECR)[^sesion04_fondos_inversion-18]
+
+[^sesion04_fondos_inversion-18]: **ECR**: Entidad de Capital Riesgo.
+
+Vehículos especializados en financiar empresas no cotizadas, con alto riesgo y horizonte medio‑largo plazo.
+
+-   **Marco jurídico**: Ley 22/2014 y normas CNMV.\
+-   **Objetivo**: fases de semilla, expansión o reestructuración de pymes.\
+-   **Gestión**: sociedades gestoras profesionales.\
+-   **Liquidez**: transferencia en sistemas multilaterales o privados.
+
+#### Fondos de Inversión a Largo Plazo Europeos (FILPE)[^sesion04_fondos_inversion-19]
+
+[^sesion04_fondos_inversion-19]: **Control de riesgos**: procesos para identificar y mitigar exposiciones adversas.
+
+Canalizan capital a infraestructuras, energías limpias e I+D con horizonte mínimo de 5 años.
+
+-   **Regulación**: Reglamento UE 2015/760 y transposición local.\
+-   **Política**: sectores clave, gobernanza y coeficientes de liquidez.\
+-   **Alineación**: Pacto Verde y ODS[^sesion04_fondos_inversion-20].
+
+[^sesion04_fondos_inversion-20]: **ODS**: Objetivos de Desarrollo Sostenible de la ONU.
+
+#### Fondos de Emprendimiento Social Europeo (FESE)[^sesion04_fondos_inversion-21]
+
+[^sesion04_fondos_inversion-21]: **FESE**: Fondos de Emprendimiento Social Europeo.
+
+Invierten en empresas con misión social, combinando retorno y medición de impacto.
+
+-   **Normativa**: Reglamento UE 346/2013; Ley 22/2014 (art. 40 bis).\
+-   **Intencionalidad**: objetivos sociales claros.\
+-   **Medición**: indicadores cuantitativos y reporting periódico.\
+-   **Rentabilidad–impacto**: adaptado al perfil inversor.
+
+------------------------------------------------------------------------
+
+## Impacto económico y rol estratégico
+
+### Diversificación de la financiación empresarial
+
+-   Complementan la banca tradicional con capital semilla y de crecimiento.\
+-   FILPE aseguran financiación estable para infraestructuras, reduciendo volatilidad regional.
+
+### Fomento de la innovación y sostenibilidad
+
+-   ECR y FESE movilizan recursos hacia tecnología, salud y proyectos sociales.\
+-   FILPE impulsan la transición energética y cumplen ODS[^sesion04_fondos_inversion-22].
+
+[^sesion04_fondos_inversion-22]: **ODS**: Objetivos de Desarrollo Sostenible de la ONU.
+
+### Estímulo al empleo y al crecimiento
+
+-   Capital‑riesgo mejora productividad y genera empleo cualificado.\
+-   Proyectos de largo plazo multiplican el impacto local.
+
+### Mejora del ecosistema financiero
+
+-   Aseguran continuidad en el ciclo desde semilla (ECR) hasta madurez (FILPE).\
+-   Estructura cerrada y supervisión CNMV garantizan estabilidad.
+
+------------------------------------------------------------------------
+
+## Política de inversión
+
+*(Transición: Finalmente, aplicamos mediciones cuantitativas y criterios de control.)*
+
+En este apartado vamos a evaluar la rentabilidad y los riesgos asociados a la inversión en estas instituciones, aplicando criterios de asignación de activos y control de riesgos[^sesion04_fondos_inversion-23].
+
+[^sesion04_fondos_inversion-23]: **Control de riesgos**: procesos para identificar y mitigar exposiciones adversas.
+
+#### 1. Objetivos y marco regulatorio
+
+-   **Rentabilidad objetivo**: definir benchmark[^sesion04_fondos_inversion-24] neto (Euribor + 5 p. p.) o índice sectorial.\
+-   **Horizonte temporal**: lock‑up[^sesion04_fondos_inversion-25] y vencimiento del fondo.\
+-   **Requisitos** MiFID II[^sesion04_fondos_inversion-26] & AIFMD[^sesion04_fondos_inversion-27]: idoneidad, conveniencia, gobernanza de producto y límites de apalancamiento.
+
+[^sesion04_fondos_inversion-24]: **Benchmark**: índice de referencia con el que se compara el rendimiento de un fondo.
+
+[^sesion04_fondos_inversion-25]: **Lock‑up**: periodo de iliquidez durante el cual los inversores no pueden solicitar reembolso.
+
+[^sesion04_fondos_inversion-26]: **MiFID II**: Markets in Financial Instruments Directive II.
+
+[^sesion04_fondos_inversion-27]: **AIFMD**: Alternative Investment Fund Managers Directive.
+
+#### 2. Asignación estratégica de activos (SAA)[^sesion04_fondos_inversion-28]
+
+[^sesion04_fondos_inversion-28]: **SAA (Strategic Asset Allocation)**: asignación estratégica de activos a largo plazo.
+
+-   **Clases de activos**: private equity[^sesion04_fondos_inversion-29], infraestructuras, renta fija sostenible, liquidez[^sesion04_fondos_inversion-30].\
+-   **Metodología**: Black–Litterman[^sesion04_fondos_inversion-31], media‑varianza[^sesion04_fondos_inversion-32], correlaciones y stress tests.\
+-   **Límites CNMV**: máx. 10 % por emisor, 20 % por gestor.
+
+[^sesion04_fondos_inversion-29]: **Private equity**: inversión en capital privado, generalmente en empresas no cotizadas.
+
+[^sesion04_fondos_inversion-30]: **Cash**: liquidez inmediata o equivalentes a dinero.
+
+[^sesion04_fondos_inversion-31]: **Black-Litterman**: modelo para estimar expectativas de retorno.
+
+[^sesion04_fondos_inversion-32]: **Media-varianza**: método de asignación de activos basado en media y varianza.
+
+#### 3. Asignación táctica de activos (TAA)[^sesion04_fondos_inversion-33]
+
+[^sesion04_fondos_inversion-33]: **TAA (Tactical Asset Allocation)**: asignación táctica de activos.
+
+-   **Desviación**: ± 5 p. p. sobre la SAA.\
+-   **Derivados**: swaps, futuros, forwards.\
+-   **Reequilibrio**: trimestral o umbrales de ± 3 %.
+
+#### 4. Medición y control de riesgos
+
+-   **Riesgo de mercado**: VaR[^sesion04_fondos_inversion-34] (99 %), CVaR[^sesion04_fondos_inversion-35].\
+-   **Riesgo de crédito**: límites por rating (solo IG o superior).\
+-   **Riesgo de liquidez**: mínimo 10 % cash[^sesion04_fondos_inversion-36].\
+-   **Riesgo operativo y legal**: auditorías periódicas y cobertura AIFMD[^sesion04_fondos_inversion-37].
+
+[^sesion04_fondos_inversion-34]: **VaR (Value at Risk)**: medida de la pérdida máxima esperada en un horizonte y nivel de confianza.
+
+[^sesion04_fondos_inversion-35]: **CVaR (Conditional Value at Risk)**: pérdida media condicionada al VaR.
+
+[^sesion04_fondos_inversion-36]: **Cash**: liquidez inmediata o equivalentes a dinero.
+
+[^sesion04_fondos_inversion-37]: **AIFMD**: Alternative Investment Fund Managers Directive.
+
+#### 5. Evaluación de rentabilidad ajustada al riesgo
+
+-   **Ratios clásicos**: Sharpe, Treynor, Información, Alfa de Jensen (CAPM[^sesion04_fondos_inversion-38]).\
+-   **Métricas private markets**: TIR[^sesion04_fondos_inversion-39], VAN[^sesion04_fondos_inversion-40], DPI[^sesion04_fondos_inversion-41], TVPI[^sesion04_fondos_inversion-42].
+
+[^sesion04_fondos_inversion-38]: **CAPM (Capital Asset Pricing Model)**: modelo que relaciona la rentabilidad esperada de un activo con su riesgo sistemático (beta).
+
+[^sesion04_fondos_inversion-39]: **TIR (Tasa Interna de Retorno)**: tasa de descuento que iguala el VAN a cero.
+
+[^sesion04_fondos_inversion-40]: **VAN (Valor Actual Neto)**: diferencia entre el valor presente de los flujos de caja esperados y la inversión inicial.
+
+[^sesion04_fondos_inversion-41]: **DPI (Distributed to Paid‑In)**: ratio que mide lo distribuido a los inversores respecto al capital aportado en fondos de capital riesgo.
+
+[^sesion04_fondos_inversion-42]: **TVPI (Total Value to Paid‑In)**: ratio que mide el valor total (distribuciones más valor residual).
+
+#### 6. Reporting y gobernanza de producto
+
+-   **Documentación**: Folleto y KID[^sesion04_fondos_inversion-43]/K‑IID[^sesion04_fondos_inversion-44] con escenarios de estrés.\
+-   **Informes periódicos**: memoria anual y estados reservados (Circular 4/2016 CNMV)[^sesion04_fondos_inversion-45].
+
+[^sesion04_fondos_inversion-43]: **KID (Key Information Document)**: documento clave de información bajo MiFID II.
+
+[^sesion04_fondos_inversion-44]: **K‑IID (Key Investor Information Document)**: documento de información para fondos alternativos según AIFMD.
+
+[^sesion04_fondos_inversion-45]: **Circular 4/2016 CNMV**: obligaciones de depositarios y reporting.
+
+#### 7. Caso práctico
+
+-   Diseña la política para un FILPE de 10 años: 40 % infraestructuras verdes, 30 % private equity, 20 % bonos verdes y 10 % cash.\
+-   Calcula VaR:
+
+## Fondos de inversión libre (HEDGE FUNDS)
+
+Se abordará el concepto de gestión alternativa, la distinción entre IIC de inversión libre y IIC de IIC de inversión libre, así como la normativa específica que rige estos fondos en España.
+
+### Definición y características generales
+
+Los fondos de inversión libre, conocidos como **hedge funds**, son instituciones de inversión colectiva que aplican estrategias de **gestión alternativa**[^sesion04_fondos_inversion-46] con el objetivo de generar rentabilidad absoluta independientemente de la dirección de los mercados. Se caracterizan por:
+
+[^sesion04_fondos_inversion-46]: **Gestión alternativa**: conjunto de técnicas de inversión no tradicionales (venta en corto, apalancamiento, derivados) orientadas a lograr rentabilidad absoluta.
+
+-   **Estructura y enfoque:**
+    -   **IIC de inversión libre (Hedge Funds):** vehículos que implementan internamente estrategias de retorno absoluto basadas en posiciones largas y cortas, apalancamiento y derivados.\
+    -   **IIC de IIC de inversión libre (Funds of Hedge Funds):** fondos de fondos que invierten en una cartera diversificada de distintos hedge funds para mitigar riesgos y acceder a múltiples estilos de gestión[^sesion04_fondos_inversion-47].
+-   **Normativa aplicable en España:**
+    -   Se encuadran dentro del alcance de la **AIFMD**[^sesion04_fondos_inversion-48], que efectivamente incluye a los gestores de hedge funds como AIF managers.\
+    -   Quedan sujetos también a la **Ley 22/2014, de 12 de noviembre, por la que se regulan las entidades de capital‑riesgo, otras entidades de inversión colectiva de tipo cerrado y las sociedades gestoras de IIC de tipo cerrado**[^sesion04_fondos_inversion-49].
+
+[^sesion04_fondos_inversion-47]: **Funds of Hedge Funds**: fondos que invierten en múltiples hedge funds para diversificar estilos y riesgos, añadiendo una capa de selección y filtrado profesional.
+
+[^sesion04_fondos_inversion-48]: **AIFMD**: Alternative Investment Fund Managers Directive.
+
+[^sesion04_fondos_inversion-49]: **Ley 22/2014, de 12 de noviembre**: transposición española de la AIFMD, regula entidades de capital‑riesgo y otras IIC de tipo cerrado.
+
+### Mitos vs. Realidad
+
+A continuación, los mitos más comunes sobre los hedge funds y su realidad:
+
+| Mito | Realidad |
+|-------------------------|----------------------------------------------|
+| La industria de hedge funds está muerta o cerca de su fin | Las inversiones en gestión alternativa siguen activas y no muestran signos de desaparición generalizada |
+| Los hedge funds solo están destinados a inversores de alta renta | Existen vehículos accesibles para inversores particulares en mercados organizados |
+| Los hedge funds son siempre arriesgados y generan altos rendimientos | Cada estrategia tiene su propio perfil de riesgo y rentabilidad; no garantizan beneficios constantes |
+| La quiebra de un solo hedge fund implica el fin de la industria | La diversificación entre múltiples gestores mitiga el impacto de fracasos aislados |
+| Todo apalancamiento es malo / siempre están cubiertos (“hedged”) | El apalancamiento es una herramienta y no todos los fondos están cubiertos permanentemente; algunos emplean cobertura, otros no |
+
+## Estrategias y estilos de inversión
+
+### Valor relativo
+
+Las estrategias de **valor relativo** buscan explotar ineficiencias en los precios de activos conectados, manteniendo posiciones largas y cortas para neutralizar el riesgo sistemático de mercado. Se agrupan en tres grandes familias:\
+- **Arbitraje de convertibles**: compra de bonos convertibles y venta simultánea de la acción subyacente, capturando la prima de volatilidad implícita y gestionando dinámicamente la delta[^sesion04_fondos_inversion-50].\
+- **Arbitraje de renta fija**: toma simultánea de posiciones largas y cortas en instrumentos de deuda (yield‑curve arbitrage, spreads de crédito, TED‑spreads) para beneficiarse de cambios relativos en las curvas de tipos[^sesion04_fondos_inversion-51].\
+- **Equity Market Neutral**: combinación de posiciones en renta variable ponderadas para lograr beta cero, obteniendo rentabilidad de la divergencia de precios entre valores cointegrados[^sesion04_fondos_inversion-52].
+
+[^sesion04_fondos_inversion-50]: **Arbitraje de convertibles**: estrategia que explota ineficiencias en el precio de bonos convertibles vendiendo o comprando simultáneamente acciones y bonos para capturar la diferencia de volatilidad.
+
+[^sesion04_fondos_inversion-51]: **Arbitraje de renta fija**: posición larga y corta en instrumentos de deuda para beneficiarse de discrepancias en los spreads, minimizando el riesgo de tipos de interés.
+
+[^sesion04_fondos_inversion-52]: **Equity Market Neutral**: toma de posiciones largas y cortas equilibradas en renta variable para neutralizar la exposición al mercado (beta cero) y capturar alfa relativa.
+
+### Eventos societarios
+
+Las estrategias de **Event Driven** se centran en hechos corporativos extraordinarios (fusiones, adquisiciones, reestructuraciones, quiebras), apostando por la convergencia de precios una vez cerrado el evento:\
+- **Risk Arbitrage (Merger Arbitrage)**: compra de acciones de la empresa objetivo y venta en corto de la empresa adquirente para capturar el spread de fusión[^sesion04_fondos_inversion-53].\
+- **Distressed Securities**: inversión en deuda y acciones de compañías en dificultades financieras, con posibilidades de actuación activa en procesos de reestructuración[^sesion04_fondos_inversion-54].
+
+[^sesion04_fondos_inversion-53]: **Merger Arbitrage**: compra de acciones de la empresa objetivo y venta corta de la empresa adquirente durante procesos de fusión o adquisición para beneficiarse de la convergencia de precios.
+
+[^sesion04_fondos_inversion-54]: **Distressed Securities**: inversión en activos de empresas en dificultades financieras o reestructuración para aprovechar descuentos significativos y potencial de recuperación.
+
+### De oportunidad
+
+Las estrategias **oportunistas** buscan alfa aprovechando desequilibrios de mercado y diseños direccionales:\
+- **Global Macro**: posición top‑down en divisas, tipos de interés o mercados de renta variable según análisis macroeconómico y de políticas fiscales y monetarias[^sesion04_fondos_inversion-55].\
+- **Long‑Short Equity**: apuestas direccionales en renta variable, manteniendo flexibilidad para ir largos o cortos según valoración relativa[^sesion04_fondos_inversion-56].\
+- **Mercados emergentes**: inversión en activos de economías emergentes, donde la menor eficiencia y liquidez ofrecen oportunidades de rentabilidad[^sesion04_fondos_inversion-57].
+
+[^sesion04_fondos_inversion-55]: **Global Macro**: estrategia direccional basada en análisis macroeconómico y previsiones de políticas monetarias y fiscales, con posiciones en divisas, tipos e índices globales.
+
+[^sesion04_fondos_inversion-56]: **Long‑Short Equity**: toma de posiciones largas en acciones infravaloradas y cortas en sobrevaloradas según análisis fundamental, ajustando exposición de mercado.
+
+[^sesion04_fondos_inversion-57]: **Mercados emergentes**: inversión en activos de economías en desarrollo para capturar primas de riesgo, enfrentando liquidez y restricciones de short selling.
+
+### CTA
+
+Los **Commodity Trading Advisers (CTA)** o “managed futures” se basan en la toma de posiciones en commodities, futuros y divisas, con dos grandes estilos[^sesion04_fondos_inversion-58]:\
+- **Sistemáticos**: algoritmos cuantitativos y modelos estadísticos (trend‑following) que automatizan entradas y salidas.\
+- **Discrecionales**: decisiones de trading basadas en el juicio y la experiencia del gestor, con carteras más concentradas.
+
+[^sesion04_fondos_inversion-58]: **CTA (Commodity Trading Adviser)**: fondos que aplican estrategias discrecionales o sistemáticas en commodities, futuros y divisas para capturar tendencias y arbitrajes.
+
+### Fondos de fondos
+
+Los **funds of hedge funds** invierten en múltiples hedge funds para diversificar estilos y riesgos, añadiendo una capa de selección profesional y due diligence[^sesion04_fondos_inversion-59]:\
+- Mejoran la diversificación al combinar estrategias de valor relativo, event driven, global macro, CTA, etc.\
+- Implican costes adicionales por la doble estructura de comisiones (gestor de fondo y gestores subyacentes).
+
+[^sesion04_fondos_inversion-59]: **Funds of Hedge Funds**: vehículos que invierten en una selección de hedge funds diversificando estilos y reduciendo riesgos idiosincráticos.
+
+
+
+
+### Esquema en tabla de “Estrategias y estilos de inversión”
+
+| Estrategia principal | Subestrategias |
+|-------------------------|:----------------------------------------------------:|
+| **Valor Relativo** | Arbitraje de Convertibles<br>Arbitraje de Renta Fija<br>Equity Market Neutral |
+| **Eventos Societarios** | Risk Arbitrage – Merger Arbitrage<br>Distressed Securities |
+| **De Oportunidad** | Global Macro<br>Long‑Short Equity<br>Mercados Emergentes |
+| **CTA – Managed Futures** | Sistemáticos<br>Discrecionales |
+| **Fondos de Fondos** | Valor Relativo<br>Eventos Societarios<br>Global Macro<br>CTA<br>De Oportunidad |
+
+
+
+```{mermaid}
+
+%%{init: {"flowchart": {"direction": "TB", "rankSpacing": 50}}}%%
+flowchart TB
+  A["Estrategias y estilos de inversión"]
+  A --> B["Valor Relativo"]
+  A --> C["Eventos Societarios"]
+  A --> D["De Oportunidad"]
+  A --> E["CTA – Managed Futures"]
+  A --> F["Fondos de Fondos"]
+
+  B --> G["Arbitraje de Convertibles"]
+  B --> H["Arbitraje de Renta Fija"]
+  B --> I["Equity Market Neutral"]
+
+  C --> J["Risk Arbitrage – Merger Arbitrage"]
+  C --> K["Distressed Securities"]
+
+  D --> L["Global Macro"]
+  D --> M["Long‑Short Equity"]
+  D --> N["Mercados Emergentes"]
+
+  E --> O["Sistemáticos"]
+  E --> P["Discrecionales"]
+
+  F --> Q["Valor Relativo"]
+  F --> R["Eventos Societarios"]
+  F --> S["Global Macro"]
+  F --> T["CTA"]
+  F --> U["De Oportunidad"]
+
+```
+
+
+#### Fondos hedge con política de inversiones sostenibles y criterios ESG
+
+Reconocerás las singularidades de los hedge funds que incorporan criterios ESG[^6] y su aproximación a la inversión responsable.
+
+- **Definición y contexto**  
+  Los **funds de hedge con enfoque sostenible** son aquellos que integran criterios ambientales, sociales y de gobernanza (ESG) en su proceso de inversión, alineándose con la legislación europea en finanzas sostenibles y la estrategia de la CNMV para fomentar la transparencia y la financiación de la transición a una economía baja en carbono :contentReference[oaicite:0]{index=0}.
+
+- **Marco normativo**  
+  - **SFDR (Reglamento (EU) 2019/2088)** obliga a clasificar los productos según el nivel de integración de criterios ESG (Artículos 6, 8 y 9) y exige divulgación pública de metodologías e indicadores en sitio web y prospecto[^52] :contentReference[oaicite:1]{index=1}.  
+  - **ESMA Guidelines on funds’ names using ESG** imponen umbrales mínimos (80 %) de inversión con características sostenibles para usar la denominación “ESG” o “sostenible” en el nombre del fondo[^53] :contentReference[oaicite:2]{index=2}.  
+  - La **CNMV**, como autoridad supervisora, aplica y supervisa estas directrices en España, vigilando posibles prácticas de greenwashing y promoviendo la convergencia con la normativa europea :contentReference[oaicite:3]{index=3}.
+
+- **Características específicas**  
+  - **Selección de activos**: exclusión de sectores carbon intensive, incorporación de bonos verdes y sociales, y análisis ESG sistemático en renta fija y renta variable.  
+  - **Estrategias adaptadas**: desde **Convertible Arbitrage** sostenible con exclusión de emisores no ESG compliant, hasta **Equity Market Neutral** con factores ESG integrados.  
+  - **Medición de impacto**: uso de indicadores clave (reducción de CO₂, métricas de diversidad, índices de gobernanza), alineados con los Objetivos de Desarrollo Sostenible (ODS)[^17].  
+  - **Transparencia y reporting**: cumplimiento de los requisitos de divulgación de la SFDR (Art. 10) en informes periódicos y en la web del gestor, así como de las recomendaciones CNMV para mayor precisión y claridad en la comunicación de las características ESG :contentReference[oaicite:4]{index=4}.
+
+- **Desafíos y buenas prácticas**  
+  - **Datos y métricas**: calidad y comparabilidad de la información ESG entre emisores.  
+  - **Greenwashing**: evitar comunicaciones engañosas; aplicar las **ESMA Guidelines** como safe harbour.  
+  - **Governance interna**: integridad y supervisión de la estrategia ESG por el equipo gestor y el depositario.
+
+
+
+## Estilos de gestión
+
+### Activa
+
+La **gestión activa** busca generar valor añadido (“alpha”) mediante la selección de valores y el market timing por encima de un índice de referencia.  
+- **Ventajas**:  
+  - Potencial de superar el benchmark.  
+  - Flexibilidad para adaptarse a cambios de mercado.  
+- **Desventajas**:  
+  - Comisiones y costes de transacción elevados.  
+  - Riesgo de desviación respecto al índice.
+
+### Pasiva
+
+La **gestión pasiva** replica la composición de un índice para capturar la rentabilidad de mercado (beta).  
+- **Filosofía**: seguimiento automático de índices (p.ej. S&P 500, MSCI World).  
+- **Ventajas**:  
+  - Comisiones muy bajas.  
+  - Transparencia y simplicidad.  
+- **Desventajas**:  
+  - No permite superar el índice.  
+  - Exposición intacta a las caídas de mercado.
+
+### Valor
+
+El estilo **value** se apoya en valorar fundamentales para identificar activos infravalorados (PER bajo, valor contable alto, flujo de caja atractivo).  
+- **Criterios**: margen de seguridad y solvencia.  
+- **Ventajas**:  
+  - Posible apreciación al corregirse valoraciones.  
+  - Históricamente, rentabilidades a largo plazo superiores.  
+- **Desventajas**:  
+  - Puede haber largos periodos de subrendimiento.  
+  - Riesgo de “value traps” si la infravaloración refleja problemas estructurales.
+
+---
+
+## Análisis y selección de fondos
+
+### Ranking
+
+Un **ranking de fondos** ordena productos comparables según métricas objetivas:  
+1. Definir el universo de fondos (categoría, tamaño, estilo).  
+2. Seleccionar métricas (rentabilidad en varios plazos, volatilidad, drawdowns).  
+3. Asignar pesos a cada métrica según prioridades.  
+4. Actualizar periódicamente para incorporar datos recientes.
+
+### Rating
+
+Un **rating de fondos** combina análisis cuantitativo y cualitativo para calificar la calidad de gestión:  
+- **Cuantitativo**: ratios rentabilidad/riesgo, consistencia de desempeño.  
+- **Cualitativo**: gobierno del equipo gestor, proceso de inversión, estructura de costes.  
+- **Escala**: típicamente 1–5 estrellas, con descriptores para cada nivel.
+
+### Medidas de rentabilidad ajustada al riesgo
+
+Para comparar fondos tomando en cuenta el riesgo, utilizamos:  
+- **Sharpe**[^54]: exceso de rentabilidad sobre la tasa libre de riesgo dividido por la desviación estándar del exceso.  
+- **Treynor**[^55]: exceso de rentabilidad dividido por la beta del fondo.  
+- **Ratio de Información**[^56]: exceso de rentabilidad sobre el benchmark dividido por el tracking error.  
+- **Alfa de Jensen**[^57]: rentabilidad adicional atribuible a la gestión activa, ajustada por el riesgo sistemático según CAPM.
+
+
+
+
+[^1]: **Green bonds / bonos verdes**: deuda destinada a financiar proyectos ambientales.  
+[^2]: **Social bonds / bonos sociales**: deuda destinada a proyectos con impacto social.  
+[^3]: **ETFs (Exchange-Traded Funds)**: fondos cotizados que replican un índice.  
+[^4]: **IA (Inteligencia Artificial)**.  
+[^5]: **Venture capital**: inversión de capital semilla o en fases tempranas.  
+[^6]: **ESG (Environmental, Social and Governance)**: criterios ambientales, sociales y de gobernanza.  
+[^7]: **EICC**: Instituciones de Inversión Colectiva de tipo cerrado.  
+[^8]: **EIC**: Entidad de Inversión Colectiva.  
+[^9]: **SICC**: Sociedad de Inversión Colectiva de tipo cerrado.  
+[^10]: **FICC**: Fondo de Inversión Colectiva de tipo cerrado.  
+[^11]: Art. 40, Ley 22/2014, de 12 de noviembre, por la que se regulan las entidades de capital‑riesgo y otras EICC.  
+[^12]: **CNMV**: Comisión Nacional del Mercado de Valores.  
+[^13]: **Circular 4/2016 CNMV**: obligaciones de depositarios y reporting.  
+[^14]: **ECR**: Entidad de Capital Riesgo.  
+[^15]: **Control de riesgos**: procesos para identificar y mitigar exposiciones adversas.  
+[^16]: **FESE**: Fondos de Emprendimiento Social Europeo.  
+[^17]: **ODS (Objetivos de Desarrollo Sostenible)**: metas globales de la ONU para erradicar la pobreza, proteger el planeta y asegurar la prosperidad.  
+[^18]: **MiFID II**: Markets in Financial Instruments Directive II.  
+[^19]: **AIFMD**: Alternative Investment Fund Managers Directive.  
+[^20]: **Benchmark**: índice de referencia con el que se compara el rendimiento de un fondo.  
+[^21]: **Lock‑up**: periodo de iliquidez durante el cual los inversores no pueden solicitar reembolso.  
+[^22]: **MiFID II**: Markets in Financial Instruments Directive II.  
+[^23]: **AIFMD**: Alternative Investment Fund Managers Directive.  
+[^24]: **SAA (Strategic Asset Allocation)**: asignación estratégica de activos a largo plazo.  
+[^25]: **Private equity**: inversión en capital privado, generalmente en empresas no cotizadas.  
+[^26]: **Cash**: liquidez inmediata o equivalentes a dinero.  
+[^27]: **Black‑Litterman**: modelo para estimar expectativas de retorno.  
+[^28]: **Media‑varianza**: método de asignación de activos basado en media y varianza.  
+[^29]: **TAA (Tactical Asset Allocation)**: asignación táctica de activos.  
+[^30]: **VaR (Value at Risk)**: medida de la pérdida máxima esperada en un horizonte y nivel de confianza.  
+[^31]: **CVaR (Conditional Value at Risk)**: pérdida media condicionada al VaR.  
+[^32]: **CAPM (Capital Asset Pricing Model)**: modelo que relaciona la rentabilidad esperada de un activo con su riesgo sistemático (beta).  
+[^33]: **TIR (Tasa Interna de Retorno)**: tasa de descuento que iguala el VAN a cero.  
+[^34]: **VAN (Valor Actual Neto)**: diferencia entre el valor presente de los flujos de caja esperados y la inversión inicial.  
+[^35]: **DPI (Distributed to Paid‑In)**: ratio que mide lo distribuido a los inversores respecto al capital aportado en fondos de capital riesgo.  
+[^36]: **TVPI (Total Value to Paid‑In)**: ratio que mide el valor total (distribuciones más valor residual).  
+[^37]: **KID (Key Information Document)**: documento obligatorio bajo MiFID II que resume las características y riesgos de un producto.  
+[^38]: **K‑IID (Key Investor Information Document)**: documento de información para fondos alternativos según AIFMD.  
+[^39]: **Gestión alternativa**: conjunto de técnicas de inversión no tradicionales (venta en corto, apalancamiento, derivados) orientadas a lograr rentabilidad absoluta.  
+[^40]: **Funds of Hedge Funds**: fondos que invierten en múltiples hedge funds para diversificar estilos y riesgos, añadiendo una capa de selección profesional.  
+[^41]: **Arbitraje de convertibles**: estrategia que explota ineficiencias en el precio de bonos convertibles vendiendo o comprando simultáneamente acciones y bonos para capturar la diferencia de volatilidad.  
+[^42]: **Arbitraje de renta fija**: posición larga y corta en instrumentos de deuda para beneficiarse de discrepancias en los spreads, minimizando el riesgo de tipos de interés.  
+[^43]: **Equity Market Neutral**: toma de posiciones largas y cortas equilibradas en renta variable para neutralizar la exposición al mercado (beta cero) y capturar alfa relativa.  
+[^44]: **Merger Arbitrage (Risk Arbitrage)**: compra de acciones de la empresa objetivo y venta corta de la empresa adquirente durante procesos de fusión o adquisición para beneficiarse de la convergencia de precios.  
+[^45]: **Distressed Securities**: inversión en activos de empresas en dificultades financieras o reestructuración para aprovechar descuentos significativos y potencial de recuperación.  
+[^46]: **Global Macro**: estrategia direccional basada en análisis macroeconómico y previsiones de políticas monetarias y fiscales, con posiciones en divisas, tipos e índices globales.  
+[^47]: **Long‑Short Equity**: toma de posiciones largas en acciones infravaloradas y cortas en sobrevaloradas según análisis fundamental, ajustando exposición de mercado.  
+[^48]: **Short Selling**: venta de activos prestados en expectativa de recomprarlos a menor precio, obteniendo beneficios de tendencias bajistas.  
+[^49]: **Mercados emergentes**: inversión en activos de economías en desarrollo para capturar primas de riesgo, enfrentando liquidez y restricciones de short selling.  
+[^50]: **CTA (Commodity Trading Adviser)**: fondos que aplican estrategias discrecionales o sistemáticas en commodities, futuros y divisas para capturar tendencias y arbitrajes.  
+[^51]: **Funds of Hedge Funds**: vehículos que invierten en una selección de hedge funds diversificando estilos y reduciendo riesgos idiosincráticos.  
+[^52]: **SFDR (Sustainable Finance Disclosure Regulation)**: Reglamento (UE) 2019/2088 sobre divulgaciones de información relativa a la sostenibilidad en el sector financiero.  
+[^53]: **ESMA Guidelines on funds’ names using ESG**: directrices de la Autoridad Europea de Valores y Mercados que establecen un mínimo del 80 % de activos sostenibles para usar “ESG” o “sostenible” en el nombre del fondo.  
+[^54]: **Ratio de Sharpe**: exceso de rentabilidad sobre la tasa libre de riesgo dividido por la desviación estándar del exceso.  
+[^55]: **Ratio de Treynor**: exceso de rentabilidad dividido por la beta del fondo.  
+[^56]: **Ratio de Información**: exceso de rentabilidad sobre el benchmark dividido por el tracking error.  
+[^57]: **Alfa de Jensen**: rentabilidad adicional atribuible a la gestión activa, ajustada por el riesgo sistemático según el modelo CAPM.  
+

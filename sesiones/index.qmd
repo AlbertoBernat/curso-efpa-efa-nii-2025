@@ -35,11 +35,11 @@ En nuestras sesiones semanales abordaremos de manera detallada los principales t
 A continuación puedes ver el cronograma completo de las sesiones. Cada sesión quedará grabada en este espacio (barra de contenidos a la izquierda) e irá enlazada a su correspondiente análisis o material complementario a medida que avance el curso. El objetivo es que puedas seguir el contenido de manera flexible y que tengas acceso al material siempre que lo necesites.
 
 | Sesión | Fecha | Tema | Enlace |
-|----|----|----|----|
-| 1 | 4 abril | Instrumentos y mercados financieros | [Ir a la sesión](sesion-01.qmd) |
-| 2 | 11 abril | Fondos y sociedades de inversión | [Ir a la sesión](sesion-02.qmd) |
-| 3 | 18 abril | Gestión de carteras | [Ir a la sesión](sesion-03.qmd) |
-| 4 | 25 abril | Seguros | [Ir a la sesión](sesion-04.qmd) |
+|------------------|------------------|------------------|------------------|
+| 1 | 4 abril | Inicio: prueba de nivel | [Ir a la sesión](sesion-01.qmd) |
+| 2 | 11 abril | Renta fija y rentas financieras | [Ir a la sesión](sesion-02.qmd) |
+| 3 | 25 abril | Renta variable | [Ir a la sesión](sesion-03.qmd) |
+| 4 | 2 mayo | Fondos de inversión libre (HEDGE FUNDS) | [Ir a la sesión](sesion-04.qmd) |
 | 5 | 2 mayo | Pensiones y planificación de la jubilación | [Ir a la sesión](sesion-05.qmd) |
 | 6 | 9 mayo | Inversión inmobiliaria | [Ir a la sesión](sesion-06.qmd) |
 | 7 | 16 mayo | Crédito y financiación | [Ir a la sesión](sesion-07.qmd) |
