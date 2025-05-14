@@ -850,7 +850,6 @@ Donde:
 -   $\beta_i$ es la beta del activo respecto al mercado
 -   $E(R_m)$ es la rentabilidad esperada del mercado
 
-
 ### Representación gráfica
 
 El siguiente gráfico muestra la **Security Market Line (SML)** según el modelo CAPM y la valoración relativa de los activos en función de su beta:
@@ -862,18 +861,177 @@ La línea azul representa la **SML**, que relaciona el **riesgo sistemático (be
 -   La **zona verde sombreada** está por encima de la SML: aquí se encuentran los **activos infravalorados**, que ofrecen más rentabilidad de la que deberían según su beta.
 -   La **zona roja sombreada**, por debajo de la SML, indica **activos sobrevalorados**, que ofrecen menos rentabilidad de la que se esperaría para su nivel de riesgo.
 
-::: {.callout-note}
+::: callout-note
 **Ejemplo didáctico:**
 
-- El **Activo A** tiene una beta de 1,2 y una rentabilidad esperada **mayor** que la que le corresponde según la SML → está **infravalorado**.  
-  
-  Esto significa que los inversores están obteniendo **más rentabilidad por unidad de riesgo** de la que marca el mercado. Esta situación atraerá **demanda de compra**, lo que hará que **su precio suba** y, por tanto, **su rentabilidad esperada baje** hasta situarse sobre la SML.
+-   El **Activo A** tiene una beta de 1,2 y una rentabilidad esperada **mayor** que la que le corresponde según la SML → está **infravalorado**.
 
-- El **Activo B** tiene una beta de 0,8 y una rentabilidad esperada **menor** que la que debería tener según la SML → está **sobrevalorado**.  
-  
-  Los inversores evitarán este activo, provocando **ventas**. Esto reducirá su precio y hará que **su rentabilidad esperada aumente**, ajustándose también hacia la SML.
+    Esto significa que los inversores están obteniendo **más rentabilidad por unidad de riesgo** de la que marca el mercado. Esta situación atraerá **demanda de compra**, lo que hará que **su precio suba** y, por tanto, **su rentabilidad esperada baje** hasta situarse sobre la SML.
 
- 
+-   El **Activo B** tiene una beta de 0,8 y una rentabilidad esperada **menor** que la que debería tener según la SML → está **sobrevalorado**.
+
+    Los inversores evitarán este activo, provocando **ventas**. Esto reducirá su precio y hará que **su rentabilidad esperada aumente**, ajustándose también hacia la SML.
+
 Según el modelo CAPM, estos **mecanismos de corrección a través de los precios** hacen que, en equilibrio, **todos los activos correctamente valorados se sitúen sobre la SML**, reflejando adecuadamente su nivel de riesgo sistemático.
 :::
 
+### Otros modelos teóricos: Graham y Dodd
+
+Antes del desarrollo formal de la Teoría de Carteras y el modelo CAPM, Benjamin **Graham** y David **Dodd** ya defendían la idea de que ciertos activos podían estar **infravalorados** o **sobrevalorados** en función de su análisis fundamental.
+
+Este enfoque, precursor del value investing, parte de la premisa de que:
+
+-   Los mercados **no son perfectamente eficientes**.
+-   El **valor intrínseco** de una acción puede estimarse mediante análisis contable y financiero.
+-   El inversor debe comprar activos cuyo precio de mercado sea **inferior a su valor intrínseco estimado**, y venderlos cuando el mercado los revalúe.
+
+::: callout-note
+**Principios clave del modelo Graham & Dodd:**
+
+-   Evaluar la acción en función de sus **fundamentales**: beneficios, dividendos, valor contable, etc.
+-   Exigir un **margen de seguridad**: diferencia entre el valor estimado y el precio de mercado.
+-   Buscar empresas sólidas, bien gestionadas y con perspectivas sostenibles a largo plazo.
+
+Este enfoque tiene una lógica opuesta al CAPM, que asume mercados eficientes. En cambio, Graham y Dodd parten de la idea de que la **paciencia, el análisis y el juicio del inversor pueden generar rentabilidades superiores** al promedio del mercado.
+:::
+
+### Representación gráfica
+
+El siguiente gráfico ilustra el concepto de **margen de seguridad**, uno de los pilares del enfoque de Graham y Dodd:
+
+![](images/clipboard-3754051386.png)
+
+-   La línea azul representa el **precio de mercado actual** del activo.
+-   La línea verde discontinua marca el **valor intrínseco estimado** según el análisis fundamental.
+-   La zona sombreada en naranja corresponde al **margen de seguridad**: es la diferencia entre el precio al que cotiza el activo y el valor que realmente se le atribuye.
+
+::: callout-note
+**Interpretación:** El inversor prudente, según Graham y Dodd, solo adquiere un activo si existe un **descuento suficiente sobre su valor intrínseco**, lo que le permite protegerse de errores de estimación o movimientos adversos del mercado.
+
+Este enfoque se basa en la idea de que el **mercado no siempre valora correctamente los activos**, y que el análisis racional y la paciencia permiten detectar oportunidades de inversión sólidas.
+:::
+
+
+## Tema 4: Proceso de asignación de activos
+
+La **asignación de activos** es el proceso mediante el cual se decide qué proporción del capital total se invertirá en las distintas clases de activos (monetario, renta fija, renta variable, etc.), en función de los objetivos del inversor, su perfil de riesgo y las condiciones del mercado.
+
+Este proceso es clave para:
+
+- Establecer una política de inversión coherente.
+- Controlar el riesgo asumido.
+- Optimizar la rentabilidad esperada.
+
+::: {.callout-note}
+**Tipos de asignación:**
+
+1. **Asignación estratégica:** define el reparto a largo plazo entre clases de activos.
+2. **Asignación táctica:** introduce ajustes temporales aprovechando oportunidades de mercado.
+3. **Asignación dinámica:** permite modificar continuamente las ponderaciones según la evolución del inversor o del entorno económico.
+:::
+
+
+### Distribución de activos: matriz de asset allocation
+
+Una vez definida la política de inversión, se realiza la **distribución concreta del capital** entre los distintos activos, sectores o áreas geográficas. Esta distribución se representa normalmente mediante una **matriz de asignación de activos**.
+
+La matriz ayuda a visualizar:
+
+- Qué tipos de activos se incluirán en la cartera (monetario, renta fija, renta variable, alternativos...).
+- Cómo se reparte el capital entre **zonas geográficas** (nacional, europea, global...).
+- Qué **sectores económicos** tienen mayor o menor peso en la cartera.
+
+::: {.callout-note}
+## **Ejemplo de matriz de asset allocation (simplificada):**
+
+| Clase de activo   | % asignado | Zona geográfica   | Sector dominante     |
+|-------------------|------------|-------------------|----------------------|
+| Renta fija        | 40 %       | Europa            | Deuda soberana       |
+| Renta variable    | 45 %       | Global            | Tecnología, salud    |
+| Mercado monetario | 10 %       | Nacional          | Corto plazo          |
+| Alternativos      | 5 %        | Diversificado     | Inmobiliario, oro    |
+
+:::
+
+Esta matriz debe estar alineada con el **perfil de riesgo del inversor** y ser **revisada periódicamente** para adaptarse a los cambios en los mercados o en los objetivos personales.
+
+### Elaboración de carteras modelo y uso del benchmark
+
+Una **cartera modelo** es una propuesta de distribución de activos diseñada como **referencia o punto de partida** para ajustarse a distintos perfiles de inversor. No es una cartera personalizada, pero sirve como guía para replicar o adaptar decisiones de inversión.
+
+Además, se suele comparar el rendimiento de una cartera con un **benchmark** o índice de referencia que refleje la evolución del mercado o segmento invertido.
+
+::: {.callout-note}
+**Elementos clave:**
+
+- Un benchmark debe ser:
+  - Representativo del universo de inversión.
+  - Transparente y replicable.
+  - Coherente con los objetivos de la cartera.
+
+- Ejemplos de benchmarks:
+  - **IBEX 35** para renta variable española.
+  - **MSCI World** para renta variable global.
+  - **Bloomberg Euro-Aggregate** para renta fija euro.
+
+- Las carteras modelo pueden tener **bandas de exposición** (por ejemplo, renta variable global entre 40 % y 60 %) para permitir ajustes sin salirse del perfil objetivo.
+:::
+
+El uso de carteras modelo ayuda a mantener una **disciplina de inversión** y facilita la medición del rendimiento del gestor respecto al índice de referencia.
+
+
+### Tipos de asignación de activos: estratégica y táctica
+
+Existen dos enfoques principales para gestionar la asignación de activos dentro de una cartera: la **asignación estratégica** y la **asignación táctica**.
+
+Ambas buscan equilibrar el binomio rentabilidad–riesgo, pero lo hacen con **horizontes temporales y criterios distintos**.
+
+::: {.callout-note}
+## Asignación estratégica:
+
+- Define una estructura de cartera **a largo plazo**, basada en el perfil de riesgo del inversor.
+
+- Parte del análisis de:
+  - Objetivos financieros.
+  - Horizonte temporal.
+  - Tolerancia al riesgo.
+- Supone mantener **ponderaciones estables** con revisiones periódicas.
+
+**Ejemplo**: mantener un 60 % en renta variable global y 40 % en renta fija euro.
+
+:::
+
+::: {.callout-note}
+## Asignación táctica:
+
+- Permite realizar **ajustes temporales** sobre la asignación estratégica para aprovechar oportunidades de mercado.
+
+- Está condicionada por factores como:
+  - Ciclo económico.
+  - Expectativas de tipos de interés.
+  - Valoraciones relativas de activos.
+
+**Ejemplo**: aumentar exposición a renta variable en momentos de corrección de precios, reduciendo temporalmente el peso de renta fija.
+
+:::
+
+En la práctica, muchos inversores combinan ambos enfoques: la **asignación estratégica proporciona estabilidad** y coherencia, mientras que la **táctica introduce flexibilidad** para adaptarse al entorno.
+
+## Tema 5: Medición y atribución de resultados
+
+Medir correctamente la rentabilidad y el riesgo de una cartera es esencial para evaluar la eficacia del gestor, justificar las decisiones de inversión y ofrecer transparencia al cliente.
+
+Este proceso incluye:
+
+- Cálculo de la **rentabilidad obtenida** (del inversor y del gestor).
+- Evaluación de la **rentabilidad ajustada al riesgo** mediante ratios como Sharpe o Treynor.
+- Comparación con un **benchmark o índice de referencia**.
+- **Atribución de resultados**, es decir, identificar qué parte del rendimiento se debe a decisiones específicas (selección de activos, distribución de activos, etc.).
+
+::: {.callout-note}
+**Objetivos principales de esta fase:**
+
+- Valorar el desempeño del gestor de forma objetiva.
+- Detectar puntos fuertes y áreas de mejora.
+- Comunicar resultados al cliente de forma clara y justificada.
+:::
