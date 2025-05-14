@@ -764,22 +764,66 @@ La pendiente de la CML es el **exceso de rentabilidad por unidad de riesgo total
 -   Un inversor agresivo puede “apalancarse” y situarse más allá de la cartera de mercado.
 
 ------------------------------------------------------------------------
+
 ### Representación gráfica
 
 El siguiente gráfico ilustra con claridad el modelo CAPM:
 
-![](images/clipboard-627552081.png)
+```{python}
+#| eval: false
+#| include: false
+import numpy as np
+import matplotlib.pyplot as plt
 
-- La **línea del mercado de capitales (CML)** parte del activo sin riesgo y es tangente a la **frontera eficiente**.
-- El **punto de tangencia** representa la **cartera de mercado**, común a todos los inversores bajo equilibrio.
-- A lo largo de la CML se sitúan todas las combinaciones posibles entre el activo sin riesgo y la cartera de mercado, tanto con apalancamiento como sin él.
+# Parámetros del CAPM
+Rf = 0.02       # Rentabilidad sin riesgo
+Rm = 0.08       # Rentabilidad de la cartera de mercado
+sigma_m = 0.15  # Volatilidad de la cartera de mercado
 
- 
-En equilibrio, los inversores racionales no eligen entre múltiples carteras eficientes con activos con riesgo, sino que combinan el activo sin riesgo con la **cartera de mercado**, única y común para todos.  
+# Capital Market Line (CML)
+sigma_cml = np.linspace(0, 0.3, 300)
+Rp_cml = Rf + ((Rm - Rf) / sigma_m) * sigma_cml
+
+# Frontera eficiente completa en forma de parábola (cóncava)
+sigma_fe = np.linspace(0.05, 0.3, 900)
+a = -0.9
+b = (Rm - a * sigma_m**2) / sigma_m
+mu_fe = a * sigma_fe**2 + b * sigma_fe
+
+# Gráfico
+plt.figure(figsize=(9, 5))
+plt.plot(sigma_fe, mu_fe, '--', label='Frontera eficiente (Markowitz)', color='gray')
+plt.plot(sigma_cml, Rp_cml, label='Capital Market Line (CML)', color='blue', linewidth=2)
+
+# Puntos clave
+plt.scatter(0, Rf, color='black', label='Activo sin riesgo ($R_f$)', zorder=5, marker='x', s=60)
+plt.scatter(sigma_m, Rm, color='red', label='Cartera de mercado ($R_m$)', zorder=5, marker='x', s=60)
+
+# Etiquetas
+plt.text(0.005, Rf + 0.005, '$R_f$', fontsize=15, ha='center')   
+plt.text(sigma_m, Rm - 0.01, '$R_m$', fontsize=15, ha='center')
+
+plt.xlabel('Volatilidad (riesgo)')
+plt.ylabel('Rentabilidad esperada')
+plt.title('Capital Market Line (CML) tangente a la frontera eficiente de Markowitz')
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
+```
+
+![](images/clipboard-293073885.png)
+
+-   La **línea del mercado de capitales (CML)** parte del activo sin riesgo y es tangente a la **frontera eficiente**.
+-   El **punto de tangencia** representa la **cartera de mercado**, común a todos los inversores bajo equilibrio.
+-   A lo largo de la CML se sitúan todas las combinaciones posibles entre el activo sin riesgo y la cartera de mercado, tanto con apalancamiento como sin él.
+
+En equilibrio, los inversores racionales no eligen entre múltiples carteras eficientes con activos con riesgo, sino que combinan el activo sin riesgo con la **cartera de mercado**, única y común para todos.
 
 La **CML ofrece la mejor relación rentabilidad-riesgo disponible en el mercado**.
 
-::: {.callout-note}
+::: callout-note
 **Cartera de mercado vs. benchmark**
 
 En el modelo CAPM, la **cartera de mercado** es una construcción teórica que incluye **todos los activos financieros disponibles**, ponderados por su valor de mercado. Sin embargo, esta cartera es **inobservable** en la práctica.
@@ -789,4 +833,47 @@ Por ello, en aplicaciones reales se utiliza un **índice de referencia o benchma
 Este enfoque permite estimar coeficientes beta, evaluar carteras y aplicar herramientas como la **Security Market Line (SML)** o el **alfa de Jensen** de forma operativa.
 :::
 
+### Security Market Line (SML)
+
+La **Security Market Line (SML)** representa la relación teórica entre el **riesgo sistemático** de un activo (medido por su **beta**) y su **rentabilidad esperada**, según el modelo CAPM.
+
+La fórmula que define la SML es:
+
+$$
+E(R_i) = R_f + \beta_i \cdot (E(R_m) - R_f)
+$$
+
+Donde:
+
+-   $E(R_i)$ es la rentabilidad esperada del activo
+-   $R_f$ es la rentabilidad del activo sin riesgo
+-   $\beta_i$ es la beta del activo respecto al mercado
+-   $E(R_m)$ es la rentabilidad esperada del mercado
+
+
+### Representación gráfica
+
+El siguiente gráfico muestra la **Security Market Line (SML)** según el modelo CAPM y la valoración relativa de los activos en función de su beta:
+
+![](images/clipboard-2934045223.png)
+
+La línea azul representa la **SML**, que relaciona el **riesgo sistemático (beta)** con la **rentabilidad esperada**.
+
+-   La **zona verde sombreada** está por encima de la SML: aquí se encuentran los **activos infravalorados**, que ofrecen más rentabilidad de la que deberían según su beta.
+-   La **zona roja sombreada**, por debajo de la SML, indica **activos sobrevalorados**, que ofrecen menos rentabilidad de la que se esperaría para su nivel de riesgo.
+
+::: {.callout-note}
+**Ejemplo didáctico:**
+
+- El **Activo A** tiene una beta de 1,2 y una rentabilidad esperada **mayor** que la que le corresponde según la SML → está **infravalorado**.  
+  
+  Esto significa que los inversores están obteniendo **más rentabilidad por unidad de riesgo** de la que marca el mercado. Esta situación atraerá **demanda de compra**, lo que hará que **su precio suba** y, por tanto, **su rentabilidad esperada baje** hasta situarse sobre la SML.
+
+- El **Activo B** tiene una beta de 0,8 y una rentabilidad esperada **menor** que la que debería tener según la SML → está **sobrevalorado**.  
+  
+  Los inversores evitarán este activo, provocando **ventas**. Esto reducirá su precio y hará que **su rentabilidad esperada aumente**, ajustándose también hacia la SML.
+
+ 
+Según el modelo CAPM, estos **mecanismos de corrección a través de los precios** hacen que, en equilibrio, **todos los activos correctamente valorados se sitúen sobre la SML**, reflejando adecuadamente su nivel de riesgo sistemático.
+:::
 
