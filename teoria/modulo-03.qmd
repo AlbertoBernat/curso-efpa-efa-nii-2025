@@ -4,84 +4,569 @@ format: html
 sidebar: teoria
 ---
 
+## Tema 1: Riesgo y marco de rendimiento
 
-# A. Eficiencia de los mercados
+### Rentabilidad de un activo
 
-## A.1 Concepto de mercado eficiente
+::: callout-note
+**Objetivo:** Conocer, entender y calcular la rentabilidad de un activo en distintos contextos: histórico, esperado, simple y anualizado.
+:::
 
-El concepto de mercado eficiente es el fundamento de toda la teoría financiera moderna, no sólo por su utilidad para comprender el comportamiento de los mercados, sino también para afrontar las dudas y anomalías que se dan en la práctica y que deben tenerse en cuenta ante cualquier estrategia financiera.
+#### Rentabilidad simple
 
-La eficiencia de los mercados puede entenderse desde dos perspectivas:
+La **rentabilidad simple** mide el rendimiento de un activo entre dos fechas sin considerar la reinversión de beneficios:
 
-### Perspectiva funcional u operacional
+$$
+R = \frac{P_f - P_i + D}{P_i}
+$$
 
-- **Flexibilidad**: No existen costes de gestión ni de transacción ni impuestos asociados a la posesión o transmisión de títulos.
-- **Libertad**: No hay restricciones de entrada ni salida para los participantes del mercado.
-- **Estabilidad**: No hay fluctuaciones bruscas en los tipos de interés ni en los precios.
-- **Homogeneidad**: Los activos financieros son totalmente homogéneos e infinitamente divisibles.
+Donde:\
+- $P_f$ es el precio final del activo\
+- $P_i$ es el precio inicial\
+- $D$ representa los dividendos o cupones percibidos durante el periodo
 
-### Perspectiva informativa
+::: callout-tip
+**Ejemplo:**\
+Juan invierte en una acción de la empresa X comprándola a 100 € el 1 de enero. El 31 de diciembre, la acción vale 110 € y ha recibido un dividendo de 2 € por acción.\
+La rentabilidad simple es:
 
-- **Transparencia**: Toda la información relevante es pública y conocida por todos los participantes, que reaccionan de forma inmediata ajustando los precios.
-- **Amplitud**: Existen numerosos inversores, sin que ninguno tenga suficiente peso como para alterar los precios por sí solo.
+$$
+R = \frac{110 - 100 + 2}{100} = \frac{12}{100} = 0{,}12 = 12\%
+$$
+:::
 
-📌 En estas condiciones ideales, el precio actual sería la mejor estimación del precio futuro, ya que incorpora toda la información relevante disponible. Como la nueva información es imprevisible, también lo serían los movimientos de los precios. Este comportamiento aleatorio de los precios es lo que se conoce como **camino aleatorio** (*random walk*).
+#### Rentabilidad media histórica
 
----
+Si Juan hubiera mantenido su inversión durante 3 años, con estas rentabilidades anuales: 8 %, 5 % y 12  %, la rentabilidad media sería:
 
-## A.2 Formas de eficiencia del mercado
+$$
+\bar{R} = \frac{8 + 5 + 12}{3} = \frac{25}{3} \approx 8{,}33\%
+$$
 
-Existen tres hipótesis o niveles de eficiencia del mercado, según el tipo de información que se considera ya reflejada en los precios:
+Esto refleja el rendimiento promedio anual obtenido a lo largo del periodo.
 
-- **Hipótesis débil**: Los precios recogen toda la información pasada (series históricas de precios).
-- **Hipótesis semifuerte**: Los precios recogen la información histórica y toda la información pública disponible (noticias, balances, etc.).
-- **Hipótesis fuerte**: Los precios recogen toda la información, incluyendo la pública y también la privada o privilegiada.
+#### Rentabilidad esperada
 
-### Consecuencias:
+Juan consulta con su asesor y le presenta los siguientes escenarios para la acción de la empresa X el próximo año:
 
-- En los tres niveles, el **análisis técnico no sería útil**, al estar basada en patrones históricos.
-- En la **eficiencia semifuerte**, el **análisis fundamental también dejaría de tener utilidad**, ya que la información pública ya estaría recogida en los precios.
-- En la **eficiencia fuerte**, ni siquiera el uso de información privilegiada (**insider trading**) generaría beneficios.
+-   Escenario 1 (probabilidad 50 %): rentabilidad del 10 %
+-   Escenario 2 (probabilidad 30 %): rentabilidad del 5 %
+-   Escenario 3 (probabilidad 20 %): rentabilidad del -2 %
 
----
+La rentabilidad esperada sería:
 
-### Cuadro 1. Niveles de eficiencia del mercado
+$$
+E(R) = (0{,}5 \cdot 0{,}10) + (0{,}3 \cdot 0{,}05) + (0{,}2 \cdot -0{,}02) = 0{,}05 + 0{,}015 - 0{,}004 = 0{,}061 = 6{,}1\%
+$$
 
-| **Nivel de eficiencia**     | **Los precios reflejan...**                                    | **Consecuencia**                                |
-|-----------------------------|------------------------------------------------------------------|--------------------------------------------------|
-| **Débil**                   | Toda la información del pasado                                  | ❌ El análisis técnico no sirve                  |
-| **Intermedio o semifuerte** | Información histórica + toda la información pública disponible  | ❌ El análisis fundamental no sirve              |
-| **Fuerte**                  | Información histórica, pública y también privada o privilegiada | ❌ El *insider trading* no genera beneficios     |
+#### Rentabilidad anualizada
 
-> 📌 **Importante**: Estos niveles son acumulativos. La hipótesis semifuerte incluye la débil, y la fuerte incluye a ambas. Por tanto, **no se debe interpretar que si no sirve un análisis, sí servirá el otro**.
+Juan compró la acción a 100 € y la vendió por 110 € al cabo de **6 meses**, cobrando además 2 € en dividendos. La rentabilidad simple ya sabemos que fue del 12 %. Para conocer la rentabilidad anualizada:
 
----
+$$
+R_{\text{anual}} = (1 + 0{,}12)^2 - 1 = 1{,}2544 - 1 = 0{,}2544 = 25{,}44\%
+$$
 
-## A.3 Consecuencias de la eficiencia del mercado
+::: callout-important
+**Interpretación:** Aunque la rentabilidad simple fue del 12 % en 6 meses, **si Juan pudiera repetir esta operación dos veces al año**, obtendría una rentabilidad anualizada del 25,44 %.
+:::
 
-Si el mercado es completamente eficiente, los precios ya reflejan toda la información disponible. En ese caso:
+### Rentabilidad de una cartera
 
-- La **mejor estrategia sería la gestión pasiva**, que consiste en replicar un índice representativo del mercado.
-- Esta gestión minimiza los **costes de rotación**, **análisis** y **comisiones**.
+::: callout-note
+**Objetivo:** Calcular la rentabilidad de una cartera compuesta por varios activos, teniendo en cuenta la ponderación de cada uno de ellos.
+:::
 
-Sin embargo, en la práctica, los mercados **no siempre son completamente eficientes** debido a:
+#### Concepto de peso o ponderación
 
-- Retrasos en la incorporación de la información a los precios.
-- Información incompleta o sesgada.
-- Comportamientos no racionales de algunos inversores.
-- Costes de gestión, transacción e impuestos.
-- Barreras legales u operativas que afectan a ciertos participantes.
+La **ponderación** de un activo dentro de una cartera indica qué proporción del capital total está invertida en él:
 
-➡️ En estos casos, puede tener sentido una **gestión activa**, que busque batir al mercado mediante análisis y selección de títulos. Pero esta estrategia solo será rentable **si los costes asociados no superan los beneficios obtenidos** —especialmente importante para el pequeño inversor.
+$$
+w_i = \frac{V_i}{V_{\text{total}}}
+$$
 
----
+Donde:\
+- $w_i$ es el peso del activo $i$\
+- $V_i$ es el valor invertido en el activo $i$\
+- $V_{\text{total}}$ es el valor total de la cartera
 
-## 🧠 Resumen
+#### Rentabilidad de una cartera
 
-- Un mercado eficiente es aquel en el que los precios se ajustan rápida y exactamente tras la aparición de nueva información.
-- Existen tres hipótesis de eficiencia:
-  - **Débil**: los precios reflejan la información histórica.
-  - **Semifuerte**: los precios reflejan la información histórica y pública.
-  - **Fuerte**: los precios reflejan toda la información, incluso la privilegiada.
-- Aunque los mercados tienden a ser eficientes, existen imperfecciones que pueden justificar la **gestión activa** en determinados contextos.
+La rentabilidad de una cartera es la media ponderada de las rentabilidades de los activos que la componen:
 
+$$
+R_c = \sum_{i=1}^{n} w_i \cdot R_i
+$$
+
+Donde:\
+- $R_c$ es la rentabilidad de la cartera\
+- $w_i$ es el peso del activo $i$\
+- $R_i$ es la rentabilidad del activo $i$
+
+#### Ejemplo con Juan
+
+Juan diversifica su inversión entre dos activos:
+
+-   60 % en la acción de la empresa X, que le da una rentabilidad del 12 %
+-   40 % en bonos del Estado, con rentabilidad del 3 %
+
+La rentabilidad de su cartera es:
+
+$$
+R_c = (0{,}6 \cdot 0{,}12) + (0{,}4 \cdot 0{,}03) = 0{,}072 + 0{,}012 = 0{,}084 = 8{,}4\%
+$$
+
+::: callout-tip
+**Interpretación:** Aunque Juan ha invertido en activos con rentabilidades muy distintas, el **peso relativo** de cada uno determina la rentabilidad global de su cartera.
+:::
+
+### Volatilidad de un activo
+
+::: callout-note
+**Objetivo:** Comprender y calcular la volatilidad como medida del riesgo de un activo, tanto histórica como esperada.
+:::
+
+#### ¿Qué es la volatilidad?
+
+La **volatilidad** mide la variabilidad de los rendimientos de un activo financiero. Cuanto mayor es la volatilidad, mayor es el **riesgo percibido**.
+
+Se calcula como la desviación típica de los rendimientos:
+
+$$
+\sigma = \sqrt{ \frac{1}{n - 1} \sum_{t=1}^{n} (R_t - \bar{R})^2 }
+$$
+
+Donde:\
+- $R_t$ es la rentabilidad en el periodo $t$\
+- $\bar{R}$ es la rentabilidad media\
+- $n$ es el número total de periodos
+
+::: callout-tip
+**Interpretación:** La volatilidad refleja **cuánto se alejan los rendimientos del promedio**. No indica si el activo gana o pierde, sino cuánto varía.
+:::
+
+#### Ejemplo con Juan
+
+Juan evalúa la acción de la empresa X durante 4 trimestres. Las rentabilidades fueron:
+
+-   5 %, -3 %, 8 %, 2 %
+
+Calculamos la media:
+
+$$
+\bar{R} = \frac{5 + (-3) + 8 + 2}{4} = \frac{12}{4} = 3\%
+$$
+
+Calculamos ahora la varianza y la desviación típica (volatilidad):
+
+$$
+\sigma = \sqrt{ \frac{(5 - 3)^2 + (-3 - 3)^2 + (8 - 3)^2 + (2 - 3)^2}{3} } = \sqrt{ \frac{4 + 36 + 25 + 1}{3} } = \sqrt{ \frac{66}{3} } = \sqrt{22} \approx 4{,}69\%
+$$
+
+#### Volatilidad anualizada
+
+Si la rentabilidad y la volatilidad se calculan en base mensual o trimestral, se puede **anualizar** la volatilidad:
+
+$$
+\sigma_{\text{anual}} = \sigma_{\text{periódica}} \cdot \sqrt{m}
+$$
+
+Donde $m$ es el número de periodos en un año (por ejemplo, 12 si es mensual, 4 si es trimestral).
+
+::: callout-important
+**Nota:** La volatilidad anualizada permite comparar activos con diferente frecuencia de datos.
+:::
+
+### Riesgo de una cartera
+
+::: callout-note
+**Objetivo:** Calcular y entender la volatilidad como medida de riesgo de una cartera compuesta por varios activos con diferente correlación.
+:::
+
+#### Volatilidad de una cartera de dos activos
+
+Cuando una cartera incluye dos activos con rentabilidad y riesgo propios, su **volatilidad** no es simplemente la media ponderada de sus riesgos. La correlación entre ambos activos influye de forma clave:
+
+$$
+\sigma_c = \sqrt{ w_1^2 \cdot \sigma_1^2 + w_2^2 \cdot \sigma_2^2 + 2 \cdot w_1 \cdot w_2 \cdot \sigma_1 \cdot \sigma_2 \cdot \rho_{1,2} }
+$$
+
+Donde:\
+- $w_i$ son los pesos de cada activo\
+- $\sigma_i$ sus volatilidades\
+- $\rho_{1,2}$ es el coeficiente de correlación entre ambos
+
+#### Ejemplo con Juan
+
+Juan construye una cartera con:
+
+-   60 % en la acción de la empresa X: $\sigma_1 = 10\%$
+-   40 % en bonos del Estado: $\sigma_2 = 3\%$
+-   Correlación entre ambos: $\rho = 0{,}2$
+
+Aplicamos la fórmula:
+
+$$
+\sigma_c = \sqrt{ (0{,}6)^2 \cdot (0{,}10)^2 + (0{,}4)^2 \cdot (0{,}03)^2 + 2 \cdot 0{,}6 \cdot 0{,}4 \cdot 0{,}10 \cdot 0{,}03 \cdot 0{,}2 }
+$$
+
+$$
+\sigma_c = \sqrt{ 0{,}0036 + 0{,}000144 + 0{,}000288 } = \sqrt{0{,}004032} \approx 6{,}35\%
+$$
+
+::: callout-tip
+**Interpretación:** Aunque uno de los activos es de bajo riesgo, la **combinación ponderada y la correlación** determinan el riesgo final de la cartera.
+:::
+
+#### Casos especiales según la correlación
+
+-   $\rho = +1$: no hay diversificación; la fórmula se convierte en una suma directa de riesgos ponderados.
+-   $\rho = 0$: hay diversificación efectiva; el riesgo combinado se reduce.
+-   $\rho = -1$: posibilidad de construir una cartera sin riesgo si los pesos están bien elegidos.
+
+#### Cartera con un activo sin riesgo
+
+Cuando uno de los activos tiene volatilidad cero, la fórmula se simplifica:
+
+$$
+\sigma_c = w_r \cdot \sigma_r
+$$
+
+Donde $w_r$ y $\sigma_r$ son el peso y la volatilidad del único activo con riesgo.
+
+::: callout-important
+**Nota:** La inclusión de activos sin riesgo permite construir carteras más eficientes si se combinan correctamente con activos volátiles.
+:::
+
+### El concepto de diversificación
+
+::: callout-note
+**Objetivo:** Comprender cómo la diversificación reduce el riesgo de una cartera sin necesidad de aumentar el número de activos de forma indiscriminada.
+:::
+
+#### ¿Qué es la diversificación?
+
+La diversificación consiste en combinar activos con **comportamientos distintos** (correlaciones bajas o negativas) para **reducir el riesgo total** de la cartera sin reducir necesariamente la rentabilidad esperada.
+
+El beneficio de la diversificación depende de la correlación entre activos:
+
+-   **Alta correlación positiva (**$\rho \approx +1$): escasa diversificación.
+-   **Correlación nula (**$\rho = 0$): diversificación efectiva.
+-   **Correlación negativa (**$\rho < 0$): diversificación máxima; posible eliminar el riesgo.
+
+![](images/clipboard-341913374.png)
+
+#### Ejemplo con Juan
+
+Juan decide comparar dos carteras:
+
+-   **Cartera A:** 2 acciones del mismo sector tecnológico con correlación alta ($\rho = 0{,}9$)
+-   **Cartera B:** una acción tecnológica y un bono público con correlación negativa ($\rho = -0{,}2$)
+
+Aunque ambas carteras pueden tener rentabilidades similares, **la cartera B tendrá menor riesgo**, gracias al efecto diversificador.
+
+::: callout-tip
+**Conclusión:** La clave no es invertir en muchos activos, sino en activos **cuya evolución no sea similar**. A veces, dos activos bien elegidos ofrecen más diversificación que diez mal combinados.
+:::
+
+#### Diversificación y carteras de pocos activos
+
+Es posible construir una cartera con bajo riesgo usando solo **dos activos** si:
+
+-   Ambos tienen **volatilidades positivas**
+-   Su **correlación es suficientemente baja o negativa**
+-   Se eligen los **pesos adecuados**
+
+En el caso extremo de correlación perfecta negativa ($\rho = -1$), se puede construir una cartera con **riesgo nulo**:
+
+$$
+w_1 \cdot \sigma_1 = w_2 \cdot \sigma_2
+$$
+
+Donde $w_2 = 1 - w_1$
+
+::: callout-important
+**Ejemplo aplicado:**\
+Juan combina dos activos con igual volatilidad (10 %) y correlación $-1$. Si invierte el 50 % en cada uno, logra **una cartera sin riesgo**.
+:::
+
+::: callout-note
+**¿Y si la correlación es cero?**\
+Cuando $\rho = 0$, los activos **no tienen una relación lineal**, pero **tampoco están sincronizados**. Esto significa que sus movimientos **no se anulan ni se refuerzan sistemáticamente**, lo que sí permite **reducir el riesgo total** gracias a la compensación parcial de las oscilaciones individuales.
+
+> ✔ Incluso sin relación directa, la falta de sincronía reduce la variabilidad de la cartera.\
+> Por tanto, **sí hay diversificación efectiva aunque** $\rho = 0$.
+:::
+
+### Supuestos de la hipótesis de normalidad
+
+::: callout-note
+**Objetivo:** Comprender el uso de la distribución normal como herramienta para estimar probabilidades de rentabilidad y riesgo.
+:::
+
+#### ¿Qué es la hipótesis de normalidad?
+
+Se asume que las rentabilidades de los activos siguen una **distribución normal** o de “campana de Gauss”, caracterizada por dos parámetros:
+
+-   **Media (**$\mu$): rentabilidad esperada
+-   **Desviación típica (**$\sigma$): riesgo o volatilidad
+
+Esta hipótesis permite **estimar probabilidades** de obtener ciertas rentabilidades.
+
+#### Intervalos de confianza
+
+Bajo la hipótesis de normalidad:
+
+-   Aproximadamente el **68 %** de las observaciones se encuentran entre $\mu - \sigma$ y $\mu + \sigma$
+-   Aproximadamente el **95 %** entre $\mu - 2\sigma$ y $\mu + 2\sigma$
+-   Las **colas** representan valores extremos (pérdidas o ganancias muy improbables)
+
+#### Ejemplo con Juan
+
+Juan espera una rentabilidad media anual del 6 % con una volatilidad del 10 %.\
+Con una distribución normal, estima:
+
+-   Un **68 %** de probabilidad de obtener una rentabilidad entre **−4 % y +16 %**
+-   Un **95 %** de probabilidad de estar entre **−14 % y +26 %**
+
+#### Horizonte temporal y reducción del riesgo
+
+A largo plazo, la **probabilidad de obtener pérdidas disminuye**, aunque la volatilidad absoluta pueda aumentar. Esto se debe a que los rendimientos se acumulan y **tienden a estabilizarse** en torno a la media si la distribución se mantiene.
+
+::: callout-tip
+**Interpretación clave:**\
+La hipótesis de normalidad no siempre se cumple en la realidad, pero **es útil para estimaciones básicas de probabilidad y gestión del riesgo**, sobre todo en carteras diversificadas.
+:::
+
+#### Representación gráfica
+
+A continuación, se muestra una distribución normal de rentabilidad esperada ($\mu = 6\%$) y volatilidad ($\sigma = 10\%$), con los intervalos del **68 %** y el **95 %** destacados para facilitar la interpretación visual de los riesgos.
+
+![](images/clipboard-4020241965.png)
+
+## Tema 2: Mercados de capital eficientes
+
+### El concepto de eficiencia en los mercados de capitales
+
+::: callout-note
+**Objetivo:** Comprender qué significa que un mercado sea eficiente y qué tipos de información se consideran en los distintos niveles de eficiencia.
+:::
+
+Un **mercado de capitales eficiente** es aquel en el que los precios de los activos **reflejan toda la información disponible** de forma rápida y completa. Esto implica que:
+
+-   Es difícil obtener beneficios extraordinarios de forma sistemática.
+-   Cualquier nueva información relevante ya está recogida en los precios.
+
+#### Tipos de información
+
+-   **Información histórica:** precios y volúmenes pasados
+-   **Información pública actual:** noticias, balances, informes económicos
+-   **Información privada:** datos no públicos conocidos solo por algunos agentes
+
+Un mercado es más eficiente cuanto **más información incorpora en los precios**.
+
+#### Características de un mercado eficiente
+
+-   Transparente: acceso igualitario a la información
+-   Amplitud: número elevado de participantes y activos
+-   Homogeneidad: productos comparables y con normas comunes
+-   Flexibilidad: capacidad de adaptarse a cambios
+-   Libertad: ausencia de barreras significativas a la negociación
+-   Estabilidad: precios no excesivamente volátiles por factores irracionales
+
+::: callout-tip
+**Ejemplo:** En un mercado eficiente, una noticia positiva sobre los beneficios de una empresa se **refleja instantáneamente** en el precio de su acción. No es posible anticiparse a los movimientos y beneficiarse de ellos si todos tienen acceso a la misma información al mismo tiempo.
+:::
+
+### Hipótesis de eficiencia del mercado
+
+::: callout-note
+**Objetivo:** Comprender los distintos grados o niveles de eficiencia y su impacto en la utilidad del análisis técnico, fundamental o del acceso a información privilegiada.
+:::
+
+Existen **tres niveles de eficiencia** según el tipo de información que se supone incorporada en los precios de los activos:
+
+#### Hipótesis débil
+
+-   Los precios reflejan **toda la información pasada**: precios históricos, volúmenes, tendencias.
+-   Implicación: el **análisis técnico no permite obtener rentabilidades superiores**, ya que la evolución pasada ya está reflejada en el precio actual.
+
+#### Hipótesis semifuerte
+
+-   Los precios reflejan la **información pasada y toda la información pública disponible** (noticias, informes, balances, decisiones macroeconómicas, etc.).
+-   Implicación: el **análisis fundamental tampoco es útil** para anticiparse al mercado.
+
+#### Hipótesis fuerte
+
+-   Los precios recogen **toda la información existente**, incluso la **privada o privilegiada**.
+-   Implicación: **ni siquiera el uso de información confidencial** (por ejemplo, en *insider trading*) permite obtener beneficios consistentes.
+
+::: callout-tip
+**Importante:** Estos niveles son **acumulativos**. La eficiencia fuerte incluye la semifuerte, y esta a su vez incluye la débil. No se debe asumir que si un análisis no funciona en un nivel, funcionará en otro inferior.
+:::
+
+#### Resumen en tabla
+
+| Nivel de eficiencia | Información incorporada | Consecuencia principal |
+|-------------------|-------------------------|-----------------------------|
+| **Débil** | Información histórica | ❌ Análisis técnico no útil |
+| **Semifuerte** | Histórica + pública actual | ❌ Análisis fundamental no útil |
+| **Fuerte** | Toda la información (incluida privada) | ❌ El *insider trading* no genera beneficios |
+
+### Consecuencias de la eficiencia del mercado y anomalías
+
+::: callout-note
+**Objetivo:** Identificar las implicaciones prácticas de operar en mercados eficientes y conocer situaciones que desafían la hipótesis de eficiencia.
+:::
+
+#### Consecuencias generales de la eficiencia
+
+Si el mercado es eficiente, los precios ya incorporan toda la información disponible. Por tanto:
+
+-   No es posible **batir al mercado de forma consistente** mediante análisis técnico ni fundamental.
+-   La mejor estrategia sería la **gestión pasiva**, que replica un índice representativo (por ejemplo, un ETF sobre el IBEX 35).
+-   La gestión pasiva reduce **costes de análisis, rotación y comisiones**, lo cual es especialmente ventajoso para el inversor particular.
+
+#### Justificación de la gestión activa
+
+En la práctica, **los mercados no son completamente eficientes**, por razones como:
+
+-   Retrasos en la difusión de información
+-   Acceso desigual a noticias o datos clave
+-   Comportamientos irracionales de los inversores (emocionalidad, sesgos)
+-   Existencia de costes de transacción, impuestos o barreras legales
+
+Cuando se detectan estas **ineficiencias temporales**, puede justificarse una estrategia de **gestión activa** orientada a:
+
+-   Seleccionar activos infravalorados (**stock picking**)
+-   Aprovechar momentos de entrada o salida (**market timing**)
+
+Pero esta estrategia solo es rentable si el **exceso de rentabilidad compensa los costes**.
+
+#### Comportamiento aleatorio de los precios
+
+En un mercado eficiente, los precios siguen un **camino aleatorio** (*random walk*):\
+\> La nueva información es imprevisible, y por tanto, los movimientos futuros del precio también lo son.
+
+::: callout-tip
+**Consecuencia clave:**\
+Si los precios siguen un camino aleatorio, la **rentabilidad esperada ajustada al riesgo es la misma para todos los activos** (bajo hipótesis de eficiencia), y la estrategia óptima será diversificar.
+:::
+
+#### Anomalías observadas
+
+Existen **patrones recurrentes** que contradicen, en ocasiones, la eficiencia:
+
+-   **Efecto enero**: subidas de precios en los primeros días del año
+-   **Efecto fin de semana**: rentabilidades negativas frecuentes los lunes
+-   **Efecto vacaciones**: menor volatilidad y liquidez en periodos estivales
+-   **Efecto fin de trimestre**: movimientos por ajustes contables o de carteras
+
+Estas anomalías han sido documentadas, aunque no siempre se repiten ni permiten obtener beneficios consistentes después de costes.
+
+::: callout-important
+**Conclusión:**\
+El mercado tiende a ser eficiente, pero **existen momentos y segmentos donde aparecen ineficiencias**. Detectarlas y aprovecharlas requiere análisis riguroso, rapidez de ejecución y costes bajos.
+:::
+
+## Tema 3: Teoría de carteras
+
+### Modelo media-varianza de Markowitz
+
+::: callout-note
+**Objetivo:** Comprender los fundamentos del modelo de Markowitz, incluyendo los conceptos de frontera eficiente, carteras factibles y diversificación óptima.
+:::
+
+#### ¿Qué propone Markowitz?
+
+Harry Markowitz (1952) formuló el primer modelo matemático para **optimizar carteras de inversión**, introduciendo la idea de que el inversor debe considerar simultáneamente:
+
+-   La **rentabilidad esperada** ($E(R)$)
+-   El **riesgo asumido**, medido por la **varianza o desviación típica** ($\sigma$)
+
+Cada combinación de activos produce una cartera con una rentabilidad y un riesgo asociados. Al representar todos los posibles portafolios, se obtiene el conjunto de **carteras factibles**.
+
+#### Frontera eficiente
+
+De entre todas las carteras posibles, la **frontera eficiente** es el subconjunto que:
+
+-   Maximiza la rentabilidad para un nivel dado de riesgo
+-   Minimiza el riesgo para una rentabilidad esperada
+
+Se representa como una **curva cóncava creciente** en el plano rentabilidad–riesgo.
+
+::: callout-tip
+**Interpretación:** Cualquier cartera fuera de la frontera es ineficiente: o bien asume más riesgo del necesario, o bien obtiene menor rentabilidad de la posible.
+:::
+
+#### Fórmulas clave
+
+Rentabilidad esperada de la cartera (dos activos):
+
+$$
+E(R_c) = w_1 \cdot E(R_1) + w_2 \cdot E(R_2)
+$$
+
+Volatilidad de la cartera (dos activos):
+
+$$
+\sigma_c = \sqrt{ w_1^2 \cdot \sigma_1^2 + w_2^2 \cdot \sigma_2^2 + 2 \cdot w_1 \cdot w_2 \cdot \sigma_1 \cdot \sigma_2 \cdot \rho }
+$$
+
+Donde:\
+- $w_1$, $w_2$ son los pesos de los activos (con $w_1 + w_2 = 1$)\
+- $\sigma_1$, $\sigma_2$ sus desviaciones típicas\
+- $\rho$ la correlación entre los activos
+
+------------------------------------------------------------------------
+
+### Representación gráfica
+
+A continuación se muestra un gráfico representativo de la **frontera eficiente** con dos activos (rentabilidades del 8 % y 12 %, correlación 0,2):
+
+![](images/clipboard-1389896675.png)
+
+### Selección de la cartera óptima
+
+::: callout-note
+**Objetivo:** Comprender cómo se elige una cartera eficiente en función del perfil de riesgo del inversor mediante curvas de indiferencia.
+:::
+
+#### Inversores y aversión al riesgo
+
+Cada inversor tiene un perfil distinto frente al riesgo. Según su **aversión**, preferirá combinaciones distintas de rentabilidad y volatilidad. Este comportamiento se representa mediante **curvas de indiferencia**: combinaciones de riesgo y rentabilidad que proporcionan la misma utilidad esperada.
+
+-   Cuanto más alejada esté la curva del origen, **mayor satisfacción proporciona**.
+-   Un inversor **más averso al riesgo** tendrá curvas más "cerradas".
+-   Uno **más tolerante al riesgo** aceptará carteras con mayor volatilidad.
+
+#### Utilidad esperada
+
+Una función de utilidad típica es:
+
+$$
+U = E(R) - \frac{1}{2} A \cdot \sigma^2
+$$
+
+Donde:\
+- $U$ es la utilidad del inversor\
+- $E(R)$ es la rentabilidad esperada\
+- $\sigma^2$ es la varianza de la cartera\
+- $A$ es el coeficiente de aversión al riesgo
+
+#### Cartera óptima
+
+La **cartera óptima** es aquella que maximiza la utilidad del inversor, es decir, **el punto de tangencia entre la frontera eficiente y la curva de indiferencia más alta**.
+
+::: callout-tip
+**Interpretación visual:**\
+La cartera óptima es la más rentable que un inversor está dispuesto a asumir, dado su perfil de riesgo. Todas las carteras por debajo de ese punto le resultan menos satisfactorias, y por encima ya no serían alcanzables.
+:::
+
+#### Representación gráfica
+
+El siguiente gráfico ilustra el proceso de **elección de la cartera óptima**, mostrando cómo el inversor determina su mejor combinación riesgo-rentabilidad a partir del punto de tangencia entre su curva de indiferencia y la frontera eficiente.
+
+
+
+![](images/clipboard-2505323707.png)

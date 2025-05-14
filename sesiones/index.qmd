@@ -40,7 +40,7 @@ A continuación puedes ver el cronograma completo de las sesiones. Cada sesión 
 | 2 | 11 abril | Renta fija y rentas financieras | [Ir a la sesión](sesion-02.qmd) |
 | 3 | 25 abril | Renta variable | [Ir a la sesión](sesion-03.qmd) |
 | 4 | 2 mayo | Fondos de inversión libre (HEDGE FUNDS) | [Ir a la sesión](sesion-04.qmd) |
-| 5 | 2 mayo | Pensiones y planificación de la jubilación | [Ir a la sesión](sesion-05.qmd) |
+| 5 | 13 de mayo | Gestión de carteras | [Ir a la sesión](sesion-05.qmd) |
 | 6 | 9 mayo | Inversión inmobiliaria | [Ir a la sesión](sesion-06.qmd) |
 | 7 | 16 mayo | Crédito y financiación | [Ir a la sesión](sesion-07.qmd) |
 | 8 | 23 mayo | Fiscalidad de las inversiones | [Ir a la sesión](sesion-08.qmd) |
