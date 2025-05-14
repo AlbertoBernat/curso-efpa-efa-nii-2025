@@ -408,7 +408,7 @@ Existen **tres niveles de eficiencia** según el tipo de información que se sup
 #### Resumen en tabla
 
 | Nivel de eficiencia | Información incorporada | Consecuencia principal |
-|-------------------|-------------------------|-----------------------------|
+|-------------------|-------------------------|----------------------------|
 | **Débil** | Información histórica | ❌ Análisis técnico no útil |
 | **Semifuerte** | Histórica + pública actual | ❌ Análisis fundamental no útil |
 | **Fuerte** | Toda la información (incluida privada) | ❌ El *insider trading* no genera beneficios |
@@ -567,6 +567,166 @@ La cartera óptima es la más rentable que un inversor está dispuesto a asumir,
 
 El siguiente gráfico ilustra el proceso de **elección de la cartera óptima**, mostrando cómo el inversor determina su mejor combinación riesgo-rentabilidad a partir del punto de tangencia entre su curva de indiferencia y la frontera eficiente.
 
-
-
 ![](images/clipboard-2505323707.png)
+
+### Modelo de mercado de Sharpe: línea característica y beta
+
+::: callout-note
+**Objetivo:** Comprender cómo se explica el comportamiento de un activo en función del mercado mediante la línea característica, y cómo se interpreta el coeficiente beta.
+:::
+
+#### ¿Qué es el modelo de Sharpe?
+
+El modelo de Sharpe o **modelo de mercado** simplifica el análisis de carteras considerando que la rentabilidad de cada activo depende de un único factor: la rentabilidad del mercado.
+
+Este modelo permite descomponer el riesgo de un activo en:
+
+-   **Riesgo sistemático**: dependiente del mercado
+-   **Riesgo no sistemático**: propio del activo, diversificable
+
+#### Línea característica de un activo
+
+La **línea característica** muestra la relación lineal entre la rentabilidad de un activo y la del mercado:
+
+$$
+R_i = \alpha_i + \beta_i \cdot R_m + \varepsilon
+$$
+
+Donde:\
+- $R_i$ es la rentabilidad del activo\
+- $R_m$ es la rentabilidad del mercado\
+- $\beta_i$ mide la **sensibilidad del activo al mercado**\
+- $\alpha_i$ es el rendimiento adicional no explicado por el mercado\
+- $\varepsilon$ es un término de error aleatorio (riesgo no sistemático)
+
+#### Interpretación del coeficiente beta
+
+-   Si $\beta = 1$: el activo replica el mercado
+-   Si $\beta > 1$: el activo es **más volátil** que el mercado
+-   Si $\beta < 1$: el activo es **más defensivo** o menos sensible
+-   Si $\beta < 0$: el activo se comporta en sentido contrario al mercado
+
+::: callout-tip
+**Ejemplo didáctico:**\
+Un activo con $\beta = 1{,}2$ tiende a subir un 12 % cuando el mercado sube un 10 %. Si $\alpha = 0{,}01$, además obtiene una rentabilidad adicional del 1 %.
+:::
+
+------------------------------------------------------------------------
+
+### Representación gráfica
+
+El siguiente gráfico muestra una simulación de la **línea característica de un activo**, donde:
+
+-   La pendiente corresponde al **coeficiente beta**
+-   El eje vertical corta en $\alpha$
+-   Las dispersiones en torno a la recta reflejan el **riesgo no sistemático**
+
+![](images/clipboard-1986959510.png)
+
+### Riesgo sistemático y no sistemático. Beta de una cartera
+
+::: callout-note
+**Objetivo:** Distinguir entre riesgo sistemático y no sistemático, y calcular la beta de una cartera como medida del riesgo de mercado agregado.
+:::
+
+#### Descomposición del riesgo
+
+En el modelo de Sharpe, el **riesgo total** de un activo ($\sigma^2$) puede descomponerse en:
+
+-   **Riesgo sistemático:** depende del mercado, no se puede eliminar
+-   **Riesgo no sistemático:** es propio del activo y puede diversificarse
+
+La varianza total se expresa como:
+
+$$
+\sigma_i^2 = \beta_i^2 \cdot \sigma_m^2 + \sigma^2_{\varepsilon}
+$$
+
+Donde:\
+- $\beta_i$ es la beta del activo\
+- $\sigma_m^2$ es la varianza del mercado\
+- $\sigma^2_{\varepsilon}$ es la varianza del componente aleatorio (no sistemático)
+
+::: callout-tip
+**Interpretación:** Al construir una cartera diversificada, el riesgo no sistemático tiende a desaparecer, quedando solo el riesgo sistemático como relevante.
+:::
+
+
+### Representación gráfica
+
+El siguiente gráfico muestra cómo evoluciona el **riesgo total de una cartera** a medida que aumenta el número de activos, según un **enfoque empírico de diversificación** ampliamente aceptado en gestión de carteras.
+
+
+
+![](images/clipboard-3450901750.png)
+
+
+- El **riesgo diversificable** disminuye conforme se añaden más activos.
+- El **riesgo no diversificable** (sistemático) permanece constante: es el **mínimo riesgo posible**.
+- La **curva del riesgo total** muestra un comportamiento asintótico: al principio el riesgo disminuye con rapidez, pero **la ganancia marginal de diversificación se reduce progresivamente** a medida que se añaden más activos.
+
+
+
+::: {.callout-tip}
+
+**Importante:**  
+Este comportamiento refleja la lógica de los **rendimientos decrecientes en la diversificación**. Con unos 20–30 activos bien combinados, ya se consigue eliminar prácticamente todo el riesgo diversificable.
+
+:::
+
+#### Diversificación ingenua o *naive diversification*
+
+Una práctica común entre inversores minoristas es la llamada **diversificación ingenua**, que consiste en repartir la inversión **a partes iguales entre varios activos**, sin considerar correlaciones, sectores, ni perfiles de riesgo.
+
+Aunque no es óptima, esta técnica:
+
+- Puede ser efectiva para reducir el riesgo no sistemático
+- Resulta mejor que invertir todo en un solo activo
+- Se aproxima al mínimo de riesgo diversificable si el número de activos supera cierto umbral (15 o más)
+
+::: {.callout-note}
+
+**Conclusión:**  
+La diversificación —incluso *naive*— permite **eliminar gran parte del riesgo total**. Pero siempre quedará un componente **no eliminable**: el **riesgo sistemático**, inherente al mercado.
+
+:::
+
+
+------------------------------------------------------------------------
+
+#### Beta de una cartera
+
+La **beta de una cartera** es la media ponderada de las betas de los activos que la componen:
+
+$$
+\beta_c = \sum_{i=1}^{n} w_i \cdot \beta_i
+$$
+
+Donde:\
+- $w_i$ es el peso del activo $i$ en la cartera\
+- $\beta_i$ es la beta individual de cada activo
+
+Esta beta resume cómo responde la **cartera completa ante movimientos del mercado**.
+
+::: callout-note
+**Ejemplo con Juan:**\
+Juan tiene una cartera con:
+
+-   60 % en una acción con $\beta = 1{,}3$\
+-   40 % en bonos con $\beta = 0{,}2$
+
+Entonces, la beta de la cartera será:
+
+$$
+\beta_c = 0{,}6 \cdot 1{,}3 + 0{,}4 \cdot 0{,}2 = 0{,}78 + 0{,}08 = 0{,}86
+$$
+
+La cartera de Juan es **menos volátil que el mercado**, aunque mantiene exposición al riesgo sistemático.
+:::
+
+#### Conclusión
+
+-   Una cartera bien diversificada **minimiza el riesgo no sistemático**
+-   La **beta** se convierte en la referencia principal para medir el riesgo relevante a largo plazo
+
+

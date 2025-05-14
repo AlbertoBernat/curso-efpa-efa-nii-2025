@@ -837,7 +837,7 @@ Tip
 <colgroup>
 <col style="width: 26%">
 <col style="width: 34%">
-<col style="width: 39%">
+<col style="width: 38%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1080,6 +1080,214 @@ La cartera óptima es la más rentable que un inversor está dispuesto a asumir,
 <h4 class="anchored" data-anchor-id="representación-gráfica-2">Representación gráfica</h4>
 <p>El siguiente gráfico ilustra el proceso de <strong>elección de la cartera óptima</strong>, mostrando cómo el inversor determina su mejor combinación riesgo-rentabilidad a partir del punto de tangencia entre su curva de indiferencia y la frontera eficiente.</p>
 <p><img src="images/clipboard-2505323707.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="modelo-de-mercado-de-sharpe-línea-característica-y-beta" class="level3">
+<h3 class="anchored" data-anchor-id="modelo-de-mercado-de-sharpe-línea-característica-y-beta">Modelo de mercado de Sharpe: línea característica y beta</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Objetivo:</strong> Comprender cómo se explica el comportamiento de un activo en función del mercado mediante la línea característica, y cómo se interpreta el coeficiente beta.</p>
+</div>
+</div>
+<section id="qué-es-el-modelo-de-sharpe" class="level4">
+<h4 class="anchored" data-anchor-id="qué-es-el-modelo-de-sharpe">¿Qué es el modelo de Sharpe?</h4>
+<p>El modelo de Sharpe o <strong>modelo de mercado</strong> simplifica el análisis de carteras considerando que la rentabilidad de cada activo depende de un único factor: la rentabilidad del mercado.</p>
+<p>Este modelo permite descomponer el riesgo de un activo en:</p>
+<ul>
+<li><strong>Riesgo sistemático</strong>: dependiente del mercado</li>
+<li><strong>Riesgo no sistemático</strong>: propio del activo, diversificable</li>
+</ul>
+</section>
+<section id="línea-característica-de-un-activo" class="level4">
+<h4 class="anchored" data-anchor-id="línea-característica-de-un-activo">Línea característica de un activo</h4>
+<p>La <strong>línea característica</strong> muestra la relación lineal entre la rentabilidad de un activo y la del mercado:</p>
+<p><span class="math display">\[
+R_i = \alpha_i + \beta_i \cdot R_m + \varepsilon
+\]</span></p>
+<p>Donde:<br>
+- <span class="math inline">\(R_i\)</span> es la rentabilidad del activo<br>
+- <span class="math inline">\(R_m\)</span> es la rentabilidad del mercado<br>
+- <span class="math inline">\(\beta_i\)</span> mide la <strong>sensibilidad del activo al mercado</strong><br>
+- <span class="math inline">\(\alpha_i\)</span> es el rendimiento adicional no explicado por el mercado<br>
+- <span class="math inline">\(\varepsilon\)</span> es un término de error aleatorio (riesgo no sistemático)</p>
+</section>
+<section id="interpretación-del-coeficiente-beta" class="level4">
+<h4 class="anchored" data-anchor-id="interpretación-del-coeficiente-beta">Interpretación del coeficiente beta</h4>
+<ul>
+<li>Si <span class="math inline">\(\beta = 1\)</span>: el activo replica el mercado</li>
+<li>Si <span class="math inline">\(\beta &gt; 1\)</span>: el activo es <strong>más volátil</strong> que el mercado</li>
+<li>Si <span class="math inline">\(\beta &lt; 1\)</span>: el activo es <strong>más defensivo</strong> o menos sensible</li>
+<li>Si <span class="math inline">\(\beta &lt; 0\)</span>: el activo se comporta en sentido contrario al mercado</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Ejemplo didáctico:</strong><br>
+Un activo con <span class="math inline">\(\beta = 1{,}2\)</span> tiende a subir un 12 % cuando el mercado sube un 10 %. Si <span class="math inline">\(\alpha = 0{,}01\)</span>, además obtiene una rentabilidad adicional del 1 %.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="representación-gráfica-3" class="level3">
+<h3 class="anchored" data-anchor-id="representación-gráfica-3">Representación gráfica</h3>
+<p>El siguiente gráfico muestra una simulación de la <strong>línea característica de un activo</strong>, donde:</p>
+<ul>
+<li>La pendiente corresponde al <strong>coeficiente beta</strong></li>
+<li>El eje vertical corta en <span class="math inline">\(\alpha\)</span></li>
+<li>Las dispersiones en torno a la recta reflejan el <strong>riesgo no sistemático</strong></li>
+</ul>
+<p><img src="images/clipboard-1986959510.png" class="img-fluid"></p>
+</section>
+<section id="riesgo-sistemático-y-no-sistemático.-beta-de-una-cartera" class="level3">
+<h3 class="anchored" data-anchor-id="riesgo-sistemático-y-no-sistemático.-beta-de-una-cartera">Riesgo sistemático y no sistemático. Beta de una cartera</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Objetivo:</strong> Distinguir entre riesgo sistemático y no sistemático, y calcular la beta de una cartera como medida del riesgo de mercado agregado.</p>
+</div>
+</div>
+<section id="descomposición-del-riesgo" class="level4">
+<h4 class="anchored" data-anchor-id="descomposición-del-riesgo">Descomposición del riesgo</h4>
+<p>En el modelo de Sharpe, el <strong>riesgo total</strong> de un activo (<span class="math inline">\(\sigma^2\)</span>) puede descomponerse en:</p>
+<ul>
+<li><strong>Riesgo sistemático:</strong> depende del mercado, no se puede eliminar</li>
+<li><strong>Riesgo no sistemático:</strong> es propio del activo y puede diversificarse</li>
+</ul>
+<p>La varianza total se expresa como:</p>
+<p><span class="math display">\[
+\sigma_i^2 = \beta_i^2 \cdot \sigma_m^2 + \sigma^2_{\varepsilon}
+\]</span></p>
+<p>Donde:<br>
+- <span class="math inline">\(\beta_i\)</span> es la beta del activo<br>
+- <span class="math inline">\(\sigma_m^2\)</span> es la varianza del mercado<br>
+- <span class="math inline">\(\sigma^2_{\varepsilon}\)</span> es la varianza del componente aleatorio (no sistemático)</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Interpretación:</strong> Al construir una cartera diversificada, el riesgo no sistemático tiende a desaparecer, quedando solo el riesgo sistemático como relevante.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="representación-gráfica-4" class="level3">
+<h3 class="anchored" data-anchor-id="representación-gráfica-4">Representación gráfica</h3>
+<p>El siguiente gráfico muestra cómo evoluciona el <strong>riesgo total de una cartera</strong> a medida que aumenta el número de activos, según un <strong>enfoque empírico de diversificación</strong> ampliamente aceptado en gestión de carteras.</p>
+<p><img src="images/clipboard-3450901750.png" class="img-fluid"></p>
+<ul>
+<li>El <strong>riesgo diversificable</strong> disminuye conforme se añaden más activos.</li>
+<li>El <strong>riesgo no diversificable</strong> (sistemático) permanece constante: es el <strong>mínimo riesgo posible</strong>.</li>
+<li>La <strong>curva del riesgo total</strong> muestra un comportamiento asintótico: al principio el riesgo disminuye con rapidez, pero <strong>la ganancia marginal de diversificación se reduce progresivamente</strong> a medida que se añaden más activos.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Importante:</strong><br>
+Este comportamiento refleja la lógica de los <strong>rendimientos decrecientes en la diversificación</strong>. Con unos 20–30 activos bien combinados, ya se consigue eliminar prácticamente todo el riesgo diversificable.</p>
+</div>
+</div>
+<section id="diversificación-ingenua-o-naive-diversification" class="level4">
+<h4 class="anchored" data-anchor-id="diversificación-ingenua-o-naive-diversification">Diversificación ingenua o <em>naive diversification</em></h4>
+<p>Una práctica común entre inversores minoristas es la llamada <strong>diversificación ingenua</strong>, que consiste en repartir la inversión <strong>a partes iguales entre varios activos</strong>, sin considerar correlaciones, sectores, ni perfiles de riesgo.</p>
+<p>Aunque no es óptima, esta técnica:</p>
+<ul>
+<li>Puede ser efectiva para reducir el riesgo no sistemático</li>
+<li>Resulta mejor que invertir todo en un solo activo</li>
+<li>Se aproxima al mínimo de riesgo diversificable si el número de activos supera cierto umbral (15 o más)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Conclusión:</strong><br>
+La diversificación —incluso <em>naive</em>— permite <strong>eliminar gran parte del riesgo total</strong>. Pero siempre quedará un componente <strong>no eliminable</strong>: el <strong>riesgo sistemático</strong>, inherente al mercado.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="beta-de-una-cartera" class="level4">
+<h4 class="anchored" data-anchor-id="beta-de-una-cartera">Beta de una cartera</h4>
+<p>La <strong>beta de una cartera</strong> es la media ponderada de las betas de los activos que la componen:</p>
+<p><span class="math display">\[
+\beta_c = \sum_{i=1}^{n} w_i \cdot \beta_i
+\]</span></p>
+<p>Donde:<br>
+- <span class="math inline">\(w_i\)</span> es el peso del activo <span class="math inline">\(i\)</span> en la cartera<br>
+- <span class="math inline">\(\beta_i\)</span> es la beta individual de cada activo</p>
+<p>Esta beta resume cómo responde la <strong>cartera completa ante movimientos del mercado</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Ejemplo con Juan:</strong><br>
+Juan tiene una cartera con:</p>
+<ul>
+<li>60 % en una acción con <span class="math inline">\(\beta = 1{,}3\)</span><br>
+</li>
+<li>40 % en bonos con <span class="math inline">\(\beta = 0{,}2\)</span></li>
+</ul>
+<p>Entonces, la beta de la cartera será:</p>
+<p><span class="math display">\[
+\beta_c = 0{,}6 \cdot 1{,}3 + 0{,}4 \cdot 0{,}2 = 0{,}78 + 0{,}08 = 0{,}86
+\]</span></p>
+<p>La cartera de Juan es <strong>menos volátil que el mercado</strong>, aunque mantiene exposición al riesgo sistemático.</p>
+</div>
+</div>
+</section>
+<section id="conclusión" class="level4">
+<h4 class="anchored" data-anchor-id="conclusión">Conclusión</h4>
+<ul>
+<li>Una cartera bien diversificada <strong>minimiza el riesgo no sistemático</strong></li>
+<li>La <strong>beta</strong> se convierte en la referencia principal para medir el riesgo relevante a largo plazo</li>
+</ul>
 
 
 </section>
