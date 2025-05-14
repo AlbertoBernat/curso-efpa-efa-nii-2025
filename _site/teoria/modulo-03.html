@@ -1288,9 +1288,107 @@ Juan tiene una cartera con:</p>
 <li>Una cartera bien diversificada <strong>minimiza el riesgo no sistemático</strong></li>
 <li>La <strong>beta</strong> se convierte en la referencia principal para medir el riesgo relevante a largo plazo</li>
 </ul>
-
-
 </section>
+</section>
+<section id="modelo-de-equilibrio-de-activos-capm-capital-market-line-cml" class="level3">
+<h3 class="anchored" data-anchor-id="modelo-de-equilibrio-de-activos-capm-capital-market-line-cml">Modelo de equilibrio de activos (CAPM): Capital Market Line (CML)</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Objetivo:</strong> Comprender el modelo CAPM, su interpretación gráfica a través de la CML y su utilidad para evaluar carteras eficientes.</p>
+</div>
+</div>
+<section id="fundamentos-del-capm" class="level4">
+<h4 class="anchored" data-anchor-id="fundamentos-del-capm">Fundamentos del CAPM</h4>
+<p>El <strong>Capital Asset Pricing Model (CAPM)</strong> es un modelo de equilibrio que parte del modelo de Sharpe y añade un supuesto clave:</p>
+<ul>
+<li><strong>Existe un activo sin riesgo disponible para todos los inversores</strong></li>
+</ul>
+<p>Bajo esta premisa, todos los inversores racionales combinan:</p>
+<ul>
+<li>El <strong>activo sin riesgo</strong></li>
+<li>La <strong>cartera de mercado óptima</strong>, que se convierte en el único portafolio eficiente con activos con riesgo</li>
+</ul>
+</section>
+<section id="capital-market-line-cml" class="level4">
+<h4 class="anchored" data-anchor-id="capital-market-line-cml">Capital Market Line (CML)</h4>
+<p>La <strong>CML</strong> representa todas las combinaciones posibles entre el activo sin riesgo y la cartera de mercado. Es la nueva <strong>frontera eficiente</strong> bajo el CAPM.</p>
+<p>Su ecuación es:</p>
+<p><span class="math display">\[
+E(R_p) = R_f + \left( \frac{E(R_m) - R_f}{\sigma_m} \right) \cdot \sigma_p
+\]</span></p>
+<p>Donde:</p>
+<ul>
+<li><span class="math inline">\(E(R_p)\)</span>: rentabilidad esperada de la cartera<br>
+</li>
+<li><span class="math inline">\(R_f\)</span>: rentabilidad del activo sin riesgo<br>
+</li>
+<li><span class="math inline">\(E(R_m)\)</span>: rentabilidad esperada de la cartera de mercado<br>
+</li>
+<li><span class="math inline">\(\sigma_p\)</span>: riesgo (volatilidad) de la cartera<br>
+</li>
+<li><span class="math inline">\(\sigma_m\)</span>: riesgo de la cartera de mercado</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Interpretación:</strong><br>
+La pendiente de la CML es el <strong>exceso de rentabilidad por unidad de riesgo total</strong>. Representa el mejor intercambio posible entre riesgo y rentabilidad en el mercado.</p>
+</div>
+</div>
+</section>
+<section id="inversores-con-distinto-perfil" class="level4">
+<h4 class="anchored" data-anchor-id="inversores-con-distinto-perfil">Inversores con distinto perfil</h4>
+<ul>
+<li>Un inversor conservador se situará entre <span class="math inline">\(R_f\)</span> y la cartera de mercado.</li>
+<li>Un inversor agresivo puede “apalancarse” y situarse más allá de la cartera de mercado.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="representación-gráfica-5" class="level3">
+<h3 class="anchored" data-anchor-id="representación-gráfica-5">Representación gráfica</h3>
+<p>El siguiente gráfico ilustra con claridad el modelo CAPM:</p>
+<p><img src="images/clipboard-627552081.png" class="img-fluid"></p>
+<ul>
+<li>La <strong>línea del mercado de capitales (CML)</strong> parte del activo sin riesgo y es tangente a la <strong>frontera eficiente</strong>.</li>
+<li>El <strong>punto de tangencia</strong> representa la <strong>cartera de mercado</strong>, común a todos los inversores bajo equilibrio.</li>
+<li>A lo largo de la CML se sitúan todas las combinaciones posibles entre el activo sin riesgo y la cartera de mercado, tanto con apalancamiento como sin él.</li>
+</ul>
+<p>En equilibrio, los inversores racionales no eligen entre múltiples carteras eficientes con activos con riesgo, sino que combinan el activo sin riesgo con la <strong>cartera de mercado</strong>, única y común para todos.</p>
+<p>La <strong>CML ofrece la mejor relación rentabilidad-riesgo disponible en el mercado</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Cartera de mercado vs.&nbsp;benchmark</strong></p>
+<p>En el modelo CAPM, la <strong>cartera de mercado</strong> es una construcción teórica que incluye <strong>todos los activos financieros disponibles</strong>, ponderados por su valor de mercado. Sin embargo, esta cartera es <strong>inobservable</strong> en la práctica.</p>
+<p>Por ello, en aplicaciones reales se utiliza un <strong>índice de referencia o benchmark</strong> amplio y diversificado (como el <strong>S&amp;P 500</strong>, el <strong>MSCI World</strong> o el <strong>IBEX 35</strong>) como <strong>aproximación razonable</strong> de la cartera de mercado.</p>
+<p>Este enfoque permite estimar coeficientes beta, evaluar carteras y aplicar herramientas como la <strong>Security Market Line (SML)</strong> o el <strong>alfa de Jensen</strong> de forma operativa.</p>
+</div>
+</div>
+
+
 </section>
 </section>
 

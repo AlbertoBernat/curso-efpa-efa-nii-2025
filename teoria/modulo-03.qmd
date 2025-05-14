@@ -651,27 +651,19 @@ Donde:\
 **Interpretación:** Al construir una cartera diversificada, el riesgo no sistemático tiende a desaparecer, quedando solo el riesgo sistemático como relevante.
 :::
 
-
 ### Representación gráfica
 
 El siguiente gráfico muestra cómo evoluciona el **riesgo total de una cartera** a medida que aumenta el número de activos, según un **enfoque empírico de diversificación** ampliamente aceptado en gestión de carteras.
 
-
-
 ![](images/clipboard-3450901750.png)
 
+-   El **riesgo diversificable** disminuye conforme se añaden más activos.
+-   El **riesgo no diversificable** (sistemático) permanece constante: es el **mínimo riesgo posible**.
+-   La **curva del riesgo total** muestra un comportamiento asintótico: al principio el riesgo disminuye con rapidez, pero **la ganancia marginal de diversificación se reduce progresivamente** a medida que se añaden más activos.
 
-- El **riesgo diversificable** disminuye conforme se añaden más activos.
-- El **riesgo no diversificable** (sistemático) permanece constante: es el **mínimo riesgo posible**.
-- La **curva del riesgo total** muestra un comportamiento asintótico: al principio el riesgo disminuye con rapidez, pero **la ganancia marginal de diversificación se reduce progresivamente** a medida que se añaden más activos.
-
-
-
-::: {.callout-tip}
-
-**Importante:**  
+::: callout-tip
+**Importante:**\
 Este comportamiento refleja la lógica de los **rendimientos decrecientes en la diversificación**. Con unos 20–30 activos bien combinados, ya se consigue eliminar prácticamente todo el riesgo diversificable.
-
 :::
 
 #### Diversificación ingenua o *naive diversification*
@@ -680,17 +672,14 @@ Una práctica común entre inversores minoristas es la llamada **diversificació
 
 Aunque no es óptima, esta técnica:
 
-- Puede ser efectiva para reducir el riesgo no sistemático
-- Resulta mejor que invertir todo en un solo activo
-- Se aproxima al mínimo de riesgo diversificable si el número de activos supera cierto umbral (15 o más)
+-   Puede ser efectiva para reducir el riesgo no sistemático
+-   Resulta mejor que invertir todo en un solo activo
+-   Se aproxima al mínimo de riesgo diversificable si el número de activos supera cierto umbral (15 o más)
 
-::: {.callout-note}
-
-**Conclusión:**  
+::: callout-note
+**Conclusión:**\
 La diversificación —incluso *naive*— permite **eliminar gran parte del riesgo total**. Pero siempre quedará un componente **no eliminable**: el **riesgo sistemático**, inherente al mercado.
-
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -728,5 +717,76 @@ La cartera de Juan es **menos volátil que el mercado**, aunque mantiene exposic
 
 -   Una cartera bien diversificada **minimiza el riesgo no sistemático**
 -   La **beta** se convierte en la referencia principal para medir el riesgo relevante a largo plazo
+
+### Modelo de equilibrio de activos (CAPM): Capital Market Line (CML)
+
+::: callout-note
+**Objetivo:** Comprender el modelo CAPM, su interpretación gráfica a través de la CML y su utilidad para evaluar carteras eficientes.
+:::
+
+#### Fundamentos del CAPM
+
+El **Capital Asset Pricing Model (CAPM)** es un modelo de equilibrio que parte del modelo de Sharpe y añade un supuesto clave:
+
+-   **Existe un activo sin riesgo disponible para todos los inversores**
+
+Bajo esta premisa, todos los inversores racionales combinan:
+
+-   El **activo sin riesgo**
+-   La **cartera de mercado óptima**, que se convierte en el único portafolio eficiente con activos con riesgo
+
+#### Capital Market Line (CML)
+
+La **CML** representa todas las combinaciones posibles entre el activo sin riesgo y la cartera de mercado. Es la nueva **frontera eficiente** bajo el CAPM.
+
+Su ecuación es:
+
+$$
+E(R_p) = R_f + \left( \frac{E(R_m) - R_f}{\sigma_m} \right) \cdot \sigma_p
+$$
+
+Donde:
+
+-   $E(R_p)$: rentabilidad esperada de la cartera\
+-   $R_f$: rentabilidad del activo sin riesgo\
+-   $E(R_m)$: rentabilidad esperada de la cartera de mercado\
+-   $\sigma_p$: riesgo (volatilidad) de la cartera\
+-   $\sigma_m$: riesgo de la cartera de mercado
+
+::: callout-tip
+**Interpretación:**\
+La pendiente de la CML es el **exceso de rentabilidad por unidad de riesgo total**. Representa el mejor intercambio posible entre riesgo y rentabilidad en el mercado.
+:::
+
+#### Inversores con distinto perfil
+
+-   Un inversor conservador se situará entre $R_f$ y la cartera de mercado.
+-   Un inversor agresivo puede “apalancarse” y situarse más allá de la cartera de mercado.
+
+------------------------------------------------------------------------
+### Representación gráfica
+
+El siguiente gráfico ilustra con claridad el modelo CAPM:
+
+![](images/clipboard-627552081.png)
+
+- La **línea del mercado de capitales (CML)** parte del activo sin riesgo y es tangente a la **frontera eficiente**.
+- El **punto de tangencia** representa la **cartera de mercado**, común a todos los inversores bajo equilibrio.
+- A lo largo de la CML se sitúan todas las combinaciones posibles entre el activo sin riesgo y la cartera de mercado, tanto con apalancamiento como sin él.
+
+ 
+En equilibrio, los inversores racionales no eligen entre múltiples carteras eficientes con activos con riesgo, sino que combinan el activo sin riesgo con la **cartera de mercado**, única y común para todos.  
+
+La **CML ofrece la mejor relación rentabilidad-riesgo disponible en el mercado**.
+
+::: {.callout-note}
+**Cartera de mercado vs. benchmark**
+
+En el modelo CAPM, la **cartera de mercado** es una construcción teórica que incluye **todos los activos financieros disponibles**, ponderados por su valor de mercado. Sin embargo, esta cartera es **inobservable** en la práctica.
+
+Por ello, en aplicaciones reales se utiliza un **índice de referencia o benchmark** amplio y diversificado (como el **S&P 500**, el **MSCI World** o el **IBEX 35**) como **aproximación razonable** de la cartera de mercado.
+
+Este enfoque permite estimar coeficientes beta, evaluar carteras y aplicar herramientas como la **Security Market Line (SML)** o el **alfa de Jensen** de forma operativa.
+:::
 
 
