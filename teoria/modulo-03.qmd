@@ -68,7 +68,7 @@ R_{\text{anual}} = (1 + 0{,}12)^2 - 1 = 1{,}2544 - 1 = 0{,}2544 = 25{,}44\%
 $$
 
 ::: callout-important
-**Interpretación:** Aunque la rentabilidad simple fue del 12 % en 6 meses, **si Juan pudiera repetir esta operación dos veces al año**, obtendría una rentabilidad anualizada del 25,44 %.
+##  **Interpretación:** Aunque la rentabilidad simple fue del 12 % en 6 meses, **si Juan pudiera repetir esta operación dos veces al año**, obtendría una rentabilidad anualizada del 25,44 %.
 :::
 
 ### Rentabilidad de una cartera
@@ -117,7 +117,7 @@ R_c = (0{,}6 \cdot 0{,}12) + (0{,}4 \cdot 0{,}03) = 0{,}072 + 0{,}012 = 0{,}084 
 $$
 
 ::: callout-tip
-**Interpretación:** Aunque Juan ha invertido en activos con rentabilidades muy distintas, el **peso relativo** de cada uno determina la rentabilidad global de su cartera.
+##  **Interpretación:** Aunque Juan ha invertido en activos con rentabilidades muy distintas, el **peso relativo** de cada uno determina la rentabilidad global de su cartera.
 :::
 
 ### Volatilidad de un activo
@@ -142,7 +142,7 @@ Donde:\
 - $n$ es el número total de periodos
 
 ::: callout-tip
-**Interpretación:** La volatilidad refleja **cuánto se alejan los rendimientos del promedio**. No indica si el activo gana o pierde, sino cuánto varía.
+##  **Interpretación:** La volatilidad refleja **cuánto se alejan los rendimientos del promedio**. No indica si el activo gana o pierde, sino cuánto varía.
 :::
 
 #### Ejemplo con Juan
@@ -215,7 +215,7 @@ $$
 $$
 
 ::: callout-tip
-**Interpretación:** Aunque uno de los activos es de bajo riesgo, la **combinación ponderada y la correlación** determinan el riesgo final de la cartera.
+##  **Interpretación:** Aunque uno de los activos es de bajo riesgo, la **combinación ponderada y la correlación** determinan el riesgo final de la cartera.
 :::
 
 #### Casos especiales según la correlación
@@ -496,7 +496,7 @@ De entre todas las carteras posibles, la **frontera eficiente** es el subconjunt
 Se representa como una **curva cóncava creciente** en el plano rentabilidad–riesgo.
 
 ::: callout-tip
-**Interpretación:** Cualquier cartera fuera de la frontera es ineficiente: o bien asume más riesgo del necesario, o bien obtiene menor rentabilidad de la posible.
+##  **Interpretación:** Cualquier cartera fuera de la frontera es ineficiente: o bien asume más riesgo del necesario, o bien obtiene menor rentabilidad de la posible.
 :::
 
 #### Fórmulas clave
@@ -648,7 +648,7 @@ Donde:\
 - $\sigma^2_{\varepsilon}$ es la varianza del componente aleatorio (no sistemático)
 
 ::: callout-tip
-**Interpretación:** Al construir una cartera diversificada, el riesgo no sistemático tiende a desaparecer, quedando solo el riesgo sistemático como relevante.
+##  **Interpretación:** Al construir una cartera diversificada, el riesgo no sistemático tiende a desaparecer, quedando solo el riesgo sistemático como relevante.
 :::
 
 ### Representación gráfica
@@ -906,11 +906,10 @@ El siguiente gráfico ilustra el concepto de **margen de seguridad**, uno de los
 -   La zona sombreada en naranja corresponde al **margen de seguridad**: es la diferencia entre el precio al que cotiza el activo y el valor que realmente se le atribuye.
 
 ::: callout-note
-**Interpretación:** El inversor prudente, según Graham y Dodd, solo adquiere un activo si existe un **descuento suficiente sobre su valor intrínseco**, lo que le permite protegerse de errores de estimación o movimientos adversos del mercado.
+##  **Interpretación:** El inversor prudente, según Graham y Dodd, solo adquiere un activo si existe un **descuento suficiente sobre su valor intrínseco**, lo que le permite protegerse de errores de estimación o movimientos adversos del mercado.
 
 Este enfoque se basa en la idea de que el **mercado no siempre valora correctamente los activos**, y que el análisis racional y la paciencia permiten detectar oportunidades de inversión sólidas.
 :::
-
 
 ## Tema 4: Proceso de asignación de activos
 
@@ -918,18 +917,17 @@ La **asignación de activos** es el proceso mediante el cual se decide qué prop
 
 Este proceso es clave para:
 
-- Establecer una política de inversión coherente.
-- Controlar el riesgo asumido.
-- Optimizar la rentabilidad esperada.
+-   Establecer una política de inversión coherente.
+-   Controlar el riesgo asumido.
+-   Optimizar la rentabilidad esperada.
 
-::: {.callout-note}
+::: callout-note
 **Tipos de asignación:**
 
-1. **Asignación estratégica:** define el reparto a largo plazo entre clases de activos.
-2. **Asignación táctica:** introduce ajustes temporales aprovechando oportunidades de mercado.
-3. **Asignación dinámica:** permite modificar continuamente las ponderaciones según la evolución del inversor o del entorno económico.
+1.  **Asignación estratégica:** define el reparto a largo plazo entre clases de activos.
+2.  **Asignación táctica:** introduce ajustes temporales aprovechando oportunidades de mercado.
+3.  **Asignación dinámica:** permite modificar continuamente las ponderaciones según la evolución del inversor o del entorno económico.
 :::
-
 
 ### Distribución de activos: matriz de asset allocation
 
@@ -937,20 +935,19 @@ Una vez definida la política de inversión, se realiza la **distribución concr
 
 La matriz ayuda a visualizar:
 
-- Qué tipos de activos se incluirán en la cartera (monetario, renta fija, renta variable, alternativos...).
-- Cómo se reparte el capital entre **zonas geográficas** (nacional, europea, global...).
-- Qué **sectores económicos** tienen mayor o menor peso en la cartera.
+-   Qué tipos de activos se incluirán en la cartera (monetario, renta fija, renta variable, alternativos...).
+-   Cómo se reparte el capital entre **zonas geográficas** (nacional, europea, global...).
+-   Qué **sectores económicos** tienen mayor o menor peso en la cartera.
 
-::: {.callout-note}
+::: callout-note
 ## **Ejemplo de matriz de asset allocation (simplificada):**
 
-| Clase de activo   | % asignado | Zona geográfica   | Sector dominante     |
-|-------------------|------------|-------------------|----------------------|
-| Renta fija        | 40 %       | Europa            | Deuda soberana       |
-| Renta variable    | 45 %       | Global            | Tecnología, salud    |
-| Mercado monetario | 10 %       | Nacional          | Corto plazo          |
-| Alternativos      | 5 %        | Diversificado     | Inmobiliario, oro    |
-
+| Clase de activo   | \% asignado | Zona geográfica | Sector dominante  |
+|-------------------|-------------|-----------------|-------------------|
+| Renta fija        | 40 %        | Europa          | Deuda soberana    |
+| Renta variable    | 45 %        | Global          | Tecnología, salud |
+| Mercado monetario | 10 %        | Nacional        | Corto plazo       |
+| Alternativos      | 5 %         | Diversificado   | Inmobiliario, oro |
 :::
 
 Esta matriz debe estar alineada con el **perfil de riesgo del inversor** y ser **revisada periódicamente** para adaptarse a los cambios en los mercados o en los objetivos personales.
@@ -961,24 +958,21 @@ Una **cartera modelo** es una propuesta de distribución de activos diseñada co
 
 Además, se suele comparar el rendimiento de una cartera con un **benchmark** o índice de referencia que refleje la evolución del mercado o segmento invertido.
 
-::: {.callout-note}
+::: callout-note
 **Elementos clave:**
 
-- Un benchmark debe ser:
-  - Representativo del universo de inversión.
-  - Transparente y replicable.
-  - Coherente con los objetivos de la cartera.
-
-- Ejemplos de benchmarks:
-  - **IBEX 35** para renta variable española.
-  - **MSCI World** para renta variable global.
-  - **Bloomberg Euro-Aggregate** para renta fija euro.
-
-- Las carteras modelo pueden tener **bandas de exposición** (por ejemplo, renta variable global entre 40 % y 60 %) para permitir ajustes sin salirse del perfil objetivo.
+-   Un benchmark debe ser:
+    -   Representativo del universo de inversión.
+    -   Transparente y replicable.
+    -   Coherente con los objetivos de la cartera.
+-   Ejemplos de benchmarks:
+    -   **IBEX 35** para renta variable española.
+    -   **MSCI World** para renta variable global.
+    -   **Bloomberg Euro-Aggregate** para renta fija euro.
+-   Las carteras modelo pueden tener **bandas de exposición** (por ejemplo, renta variable global entre 40 % y 60 %) para permitir ajustes sin salirse del perfil objetivo.
 :::
 
 El uso de carteras modelo ayuda a mantener una **disciplina de inversión** y facilita la medición del rendimiento del gestor respecto al índice de referencia.
-
 
 ### Tipos de asignación de activos: estratégica y táctica
 
@@ -986,33 +980,34 @@ Existen dos enfoques principales para gestionar la asignación de activos dentro
 
 Ambas buscan equilibrar el binomio rentabilidad–riesgo, pero lo hacen con **horizontes temporales y criterios distintos**.
 
-::: {.callout-note}
+::: callout-note
 ## Asignación estratégica:
 
-- Define una estructura de cartera **a largo plazo**, basada en el perfil de riesgo del inversor.
+-   Define una estructura de cartera **a largo plazo**, basada en el perfil de riesgo del inversor.
 
-- Parte del análisis de:
-  - Objetivos financieros.
-  - Horizonte temporal.
-  - Tolerancia al riesgo.
-- Supone mantener **ponderaciones estables** con revisiones periódicas.
+-   Parte del análisis de:
+
+    -   Objetivos financieros.
+    -   Horizonte temporal.
+    -   Tolerancia al riesgo.
+
+-   Supone mantener **ponderaciones estables** con revisiones periódicas.
 
 **Ejemplo**: mantener un 60 % en renta variable global y 40 % en renta fija euro.
-
 :::
 
-::: {.callout-note}
+::: callout-note
 ## Asignación táctica:
 
-- Permite realizar **ajustes temporales** sobre la asignación estratégica para aprovechar oportunidades de mercado.
+-   Permite realizar **ajustes temporales** sobre la asignación estratégica para aprovechar oportunidades de mercado.
 
-- Está condicionada por factores como:
-  - Ciclo económico.
-  - Expectativas de tipos de interés.
-  - Valoraciones relativas de activos.
+-   Está condicionada por factores como:
+
+    -   Ciclo económico.
+    -   Expectativas de tipos de interés.
+    -   Valoraciones relativas de activos.
 
 **Ejemplo**: aumentar exposición a renta variable en momentos de corrección de precios, reduciendo temporalmente el peso de renta fija.
-
 :::
 
 En la práctica, muchos inversores combinan ambos enfoques: la **asignación estratégica proporciona estabilidad** y coherencia, mientras que la **táctica introduce flexibilidad** para adaptarse al entorno.
@@ -1023,15 +1018,513 @@ Medir correctamente la rentabilidad y el riesgo de una cartera es esencial para 
 
 Este proceso incluye:
 
-- Cálculo de la **rentabilidad obtenida** (del inversor y del gestor).
-- Evaluación de la **rentabilidad ajustada al riesgo** mediante ratios como Sharpe o Treynor.
-- Comparación con un **benchmark o índice de referencia**.
-- **Atribución de resultados**, es decir, identificar qué parte del rendimiento se debe a decisiones específicas (selección de activos, distribución de activos, etc.).
+-   Cálculo de la **rentabilidad obtenida** (del inversor y del gestor).
+-   Evaluación de la **rentabilidad ajustada al riesgo** mediante ratios como Sharpe o Treynor.
+-   Comparación con un **benchmark o índice de referencia**.
+-   **Atribución de resultados**, es decir, identificar qué parte del rendimiento se debe a decisiones específicas (selección de activos, distribución de activos, etc.).
 
-::: {.callout-note}
+::: callout-note
 **Objetivos principales de esta fase:**
 
-- Valorar el desempeño del gestor de forma objetiva.
-- Detectar puntos fuertes y áreas de mejora.
-- Comunicar resultados al cliente de forma clara y justificada.
+-   Valorar el desempeño del gestor de forma objetiva.
+-   Detectar puntos fuertes y áreas de mejora.
+-   Comunicar resultados al cliente de forma clara y justificada.
 :::
+
+### Medidas de rentabilidad
+
+Para evaluar una cartera de inversión, es necesario distinguir entre tres tipos de rentabilidad:
+
+1.  **Rentabilidad simple:** mide el crecimiento de valor de una inversión en un periodo.
+2.  **Rentabilidad del inversor (TIR):** considera los flujos de entrada y salida atribuibles al cliente.
+3.  **Rentabilidad del gestor (TGR):** mide el rendimiento generado por la estrategia, sin tener en cuenta las decisiones de aportación o reembolso del inversor.
+
+------------------------------------------------------------------------
+
+#### Rentabilidad simple
+
+$$
+R = \frac{V_f - V_i}{V_i}
+$$
+
+Donde:
+
+-   $V_f$ es el valor final de la inversión.
+-   $V_i$ es el valor inicial.
+
+Es una medida directa y útil para comparar periodos cortos, aunque **no tiene en cuenta los flujos intermedios**.
+
+------------------------------------------------------------------------
+
+#### Rentabilidad del inversor: TIR (Tasa Interna de Retorno)
+
+Es la tasa que iguala el valor actual neto de los flujos de caja del inversor a su inversión inicial. Considera todas las aportaciones y retiradas realizadas por el cliente.
+
+Se calcula resolviendo:
+
+$$
+0 = \sum_{t=0}^{n} \frac{F_t}{(1 + \text{TIR})^t}
+$$
+
+Donde $F_t$ son los flujos netos del inversor en cada periodo $t$.
+
+------------------------------------------------------------------------
+
+#### Rentabilidad del gestor: TGR (Tasa Geométrica de Rentabilidad)
+
+Mide la rentabilidad generada exclusivamente por la gestión de la cartera, sin que los flujos del cliente distorsionen el resultado. Se basa en el valor liquidativo de la cartera.
+
+Se calcula como:
+
+$$
+\text{TGR} = \left( \frac{V_f}{V_i} \right)^{1/n} - 1
+$$
+
+::: callout-note
+**Interpretación conjunta:**
+
+-   Si la **TIR \> TGR**, el inversor ha acertado con el “timing” de sus aportaciones.
+-   Si la **TIR \< TGR**, el cliente ha entrado o salido en momentos menos favorables.
+:::
+
+### Ejemplo comparativo: TGR del gestor vs. TIR de los inversores
+
+El siguiente gráfico ilustra cómo la **Tasa Interna de Retorno (TIR)** de distintos inversores puede diferir de la **Tasa Geométrica de Rentabilidad (TGR)** generada por la gestión profesional:
+
+![](images/clipboard-1462180897.png)
+
+::: callout-note
+## **Interpretación:**
+
+-   La **TGR** (7 %) refleja la rentabilidad generada por la cartera independientemente de los flujos del cliente.
+-   El **inversor A** obtuvo una **TIR superior (9 %)** al invertir en momentos favorables: supo aprovechar las caídas o entrar en fases de crecimiento.
+-   El **inversor B** obtuvo una **TIR inferior (5 %)** al realizar aportaciones o reembolsos en momentos desfavorables.
+
+Este ejemplo demuestra que incluso con una misma estrategia de gestión, el **comportamiento del cliente puede influir significativamente** en su resultado final.
+:::
+
+#### Tabla comparativa:
+
+| Concepto | Rentabilidad | Interpretación |
+|------------------|------------------|------------------------------------|
+| TGR (gestor) | 7,00 % | Rentabilidad generada por la gestión profesional |
+| TIR (inversor A) | 9,00 % | El inversor aportó capital en momentos favorables |
+| TIR (inversor B) | 5,00 % | El inversor entró o salió en momentos desfavorables |
+
+### Medidas de rentabilidad ajustadas al riesgo
+
+No basta con conocer la rentabilidad obtenida por una cartera: es esencial evaluar si dicha rentabilidad **justifica el nivel de riesgo asumido**. Para ello se utilizan distintos indicadores que combinan rentabilidad y riesgo.
+
+Los tres ratios más utilizados son:
+
+------------------------------------------------------------------------
+
+#### Ratio de Sharpe
+
+$$
+\text{Sharpe} = \frac{R_p - R_f}{\sigma_p}
+$$
+
+-   $R_p$: rentabilidad de la cartera\
+-   $R_f$: rentabilidad del activo sin riesgo\
+-   $\sigma_p$: desviación típica de la cartera (riesgo total)
+
+::: callout-note
+##  **Interpretación:**
+
+Mide la rentabilidad **por cada unidad de riesgo total**. Cuanto mayor sea el ratio, mejor ha sido la relación rentabilidad–riesgo.
+:::
+
+------------------------------------------------------------------------
+
+#### Ratio de Treynor
+
+$$
+\text{Treynor} = \frac{R_p - R_f}{\beta_p}
+$$
+
+-   $\beta_p$: beta de la cartera respecto al mercado
+
+::: callout-note
+##  **Interpretación:**
+
+Mide la rentabilidad obtenida **por unidad de riesgo sistemático**. Se centra en el riesgo que no se puede eliminar mediante diversificación.
+:::
+
+------------------------------------------------------------------------
+
+#### Alfa de Jensen
+
+$$
+\alpha = R_p - \left[ R_f + \beta_p \cdot (R_m - R_f) \right]
+$$
+
+-   $R_m$: rentabilidad del mercado
+
+::: callout-note
+##  **Interpretación:**
+
+Mide si la cartera ha **superado o no las expectativas** del modelo CAPM.\
+Un alfa positivo indica **valor añadido por el gestor** respecto a lo que dicta la teoría.
+:::
+
+### Comparativa entre carteras: ratios ajustados al riesgo
+
+El siguiente gráfico muestra una comparativa entre tres carteras distintas en función de su:
+
+-   **Ratio de Sharpe** (rentabilidad por unidad de riesgo total)
+-   **Ratio de Treynor** (rentabilidad por unidad de riesgo sistemático)
+-   **Alfa de Jensen** (valor añadido respecto al CAPM)
+
+![](images/clipboard-2214359653.png)
+
+::: callout-note
+**Interpretación:**
+
+-   La **Cartera C** presenta los mejores resultados en los tres indicadores: combina alta rentabilidad, eficiencia frente al riesgo sistemático y valor añadido frente al mercado.
+-   La **Cartera A** muestra un comportamiento razonable, especialmente en Sharpe y Treynor.
+-   La **Cartera B**, en cambio, obtiene peores resultados y presenta un **alfa negativo**, lo que sugiere una gestión que no ha aportado valor respecto al rendimiento esperado por su beta.
+
+Estos indicadores permiten evaluar objetivamente la calidad de la gestión de carteras desde diferentes ángulos de riesgo.
+:::
+
+#### Tabla resumen:
+
+| Cartera   | Sharpe | Treynor | Alfa de Jensen |
+|-----------|--------|---------|----------------|
+| Cartera A | 0,45   | 0,10    | +0,010         |
+| Cartera B | 0,30   | 0,07    | −0,005         |
+| Cartera C | 0,60   | 0,12    | +0,020         |
+
+### Tracking error y ratio de información
+
+Además de los ratios clásicos como Sharpe o Treynor, existen indicadores diseñados específicamente para evaluar la **calidad de la gestión respecto a un índice de referencia (benchmark)**. Los dos más utilizados son:
+
+------------------------------------------------------------------------
+
+#### Tracking Error (TE)
+
+El **tracking error** mide la **volatilidad de la diferencia entre la rentabilidad realizada de la cartera y la del benchmark**:
+
+$$
+TE = \text{desviación típica}(R_{p,t} - R_{b,t})
+$$
+
+-   $R_{p,t}$: rentabilidad observada de la cartera en el periodo $t$\
+-   $R_{b,t}$: rentabilidad observada del benchmark en el periodo $t$
+
+::: callout-note
+**Interpretación:**\
+- Un **TE bajo** indica una gestión muy similar al índice de referencia (gestión pasiva).\
+- Un **TE alto** sugiere una gestión activa, con decisiones alejadas del benchmark.
+:::
+
+También puede estimarse a partir de la varianza total de la cartera y su componente sistemático:
+
+$$
+\sigma_{\alpha,p} = \sqrt{\sigma_p^2 - \beta_p^2 \cdot \sigma_m^2}
+$$
+
+Donde $\sigma_{\alpha,p}$ representa el **riesgo activo** o **no sistemático**, es decir, la parte del riesgo no explicada por el mercado.
+
+------------------------------------------------------------------------
+
+#### Ratio de Información (IR)
+
+El **ratio de información** mide **cuánta rentabilidad adicional** obtiene una cartera respecto a su benchmark por cada unidad de **riesgo activo** asumido:
+
+$$
+IR = \frac{R_p - R_b}{TE}
+$$
+
+Donde:
+
+-   $R_p$: rentabilidad media observada de la cartera\
+-   $R_b$: rentabilidad media observada del benchmark
+
+También puede expresarse en términos esperados, vinculando directamente con el modelo CAPM:
+
+$$
+IR = \frac{\alpha_p}{\sigma_{\alpha,p}} = \frac{E(R_p) - \beta_p \cdot E(R_m)}{\sqrt{\sigma_p^2 - \beta_p^2 \cdot \sigma_m^2}}
+$$
+
+Donde:
+
+-   $E(R_p)$: rentabilidad esperada de la cartera\
+-   $E(R_m)$: rentabilidad esperada del mercado\
+-   $\beta_p$: beta de la cartera respecto al mercado\
+-   $\alpha_p$: alfa esperado de la cartera\
+-   $\sigma_p$, $\sigma_m$: volatilidades totales de cartera y mercado\
+-   $\sigma_{\alpha,p}$: desviación del alfa (tracking error teórico)
+
+::: callout-note
+## **Interpretación:**
+
+El **Information Ratio** refleja **cuánta rentabilidad adicional esperada obtiene una cartera frente a su benchmark por unidad de riesgo activo asumido**.\
+Cuanto mayor sea este ratio, **mejor es la eficiencia de la gestión activa**.
+:::
+
+------------------------------------------------------------------------
+
+::: callout-note
+**Importante: uso combinado en el análisis profesional de fondos**
+
+En la evaluación institucional (Morningstar, S&P, etc.), no se utilizan estos indicadores de forma aislada. Es habitual combinarlos en **índices compuestos de valoración** (como el rating de información o el information coefficient) que integran:
+
+-   El **alfa de Jensen** como medida de valor añadido esperado.
+-   El **tracking error** como medida del riesgo activo.
+-   Ajustes por **beta**, que ponderan el grado de exposición al mercado.
+
+El objetivo es determinar si la **rentabilidad adicional justifica el riesgo adicional** asumido respecto al índice de referencia.
+:::
+
+### Comparación con el benchmark y aplicación al análisis de fondos
+
+Una vez calculadas las medidas de rentabilidad y riesgo, es fundamental **comparar la cartera con un índice de referencia (benchmark)**. Esta comparación permite evaluar si la gestión ha aportado valor añadido respecto a una alternativa pasiva.
+
+Los principales enfoques son:
+
+-   **Comparar la rentabilidad absoluta de la cartera con la del benchmark**.
+-   **Evaluar los ratios ajustados al riesgo** (Sharpe, Treynor, Alfa de Jensen, Information Ratio) en relación con el benchmark.
+-   **Analizar la consistencia del comportamiento del fondo a lo largo del tiempo**.
+
+------------------------------------------------------------------------
+
+#### ¿Qué significa “batir al benchmark”?
+
+Una cartera se considera que ha batido al benchmark cuando obtiene:
+
+-   Una **rentabilidad superior** ($R_p > R_b$),
+-   O bien un **ratio Sharpe o Treynor superior**,
+-   O un **alfa positivo** en el marco del CAPM.
+
+::: callout-note
+**Ejemplo de interpretación:**
+
+-   Si $R_p > R_b$ pero el **ratio de Sharpe es menor**, puede que la rentabilidad haya venido acompañada de un riesgo excesivo.
+-   Si el **Information Ratio es positivo y elevado**, el fondo ha superado de forma consistente al benchmark, justificando el riesgo activo asumido.
+:::
+
+------------------------------------------------------------------------
+
+#### Aplicación práctica: análisis y selección de fondos
+
+Al seleccionar fondos de inversión o evaluar gestores, se debe:
+
+-   Identificar el benchmark adecuado para cada fondo según su política de inversión.
+-   Comparar sus métricas clave con las del índice de referencia.
+-   Analizar la evolución del alfa, del tracking error y de los ratios ajustados al riesgo.
+-   Considerar también criterios cualitativos (gestora, filosofía, consistencia, costes).
+
+Estos análisis permiten distinguir entre la **gestión activa con valor añadido** y aquella que **no justifica sus costes ni el riesgo asumido**.
+
+### Ejemplo comparativo: fondos frente a benchmark
+
+El siguiente gráfico muestra la rentabilidad anual de tres fondos de inversión comparada con la de su benchmark de referencia:
+
+![](images/clipboard-3128623581.png)
+
+::: callout-note
+**Interpretación:**
+
+-   **Fondo A** ha batido al benchmark tanto en rentabilidad como en todos los indicadores: presenta un **Sharpe superior (0,45)**, un **alfa positivo (+0,015)** y un **ratio de información elevado (0,60)**. Es un ejemplo de gestión activa eficaz.
+-   **Fondo B** supera ligeramente al benchmark en rentabilidad, pero con ratios más ajustados. Su alfa es apenas positivo y su Sharpe es inferior al del índice: la **eficiencia ajustada al riesgo es limitada**.
+-   **Fondo C** obtiene peor rentabilidad que el benchmark y presenta **alfa negativo y ratio de información negativo**, lo que sugiere una **gestión activa sin valor añadido**.
+
+Este análisis permite valorar no solo el resultado absoluto, sino también la **relación entre rentabilidad y riesgo asumido** respecto al mercado.
+:::
+
+#### Tabla resumen:
+
+| Fondo   | Rentabilidad | Sharpe | Alfa de Jensen | Information Ratio |
+|---------|--------------|--------|----------------|-------------------|
+| Fondo A | 7,50 %       | 0,45   | +0,015         | 0,60              |
+| Fondo B | 6,50 %       | 0,35   | +0,005         | 0,30              |
+| Fondo C | 5,50 %       | 0,25   | −0,010         | −0,05             |
+
+### Atribución de resultados: proceso y cálculos
+
+La **atribución de resultados** permite descomponer la rentabilidad obtenida por un fondo o cartera y **asignar las causas que la han generado**. Es una herramienta esencial para:
+
+-   Evaluar la calidad de la gestión.
+-   Justificar el rendimiento ante el cliente.
+-   Identificar aciertos o errores en la toma de decisiones.
+
+El proceso distingue entre tres componentes principales:
+
+------------------------------------------------------------------------
+
+#### 1. Rentabilidad total añadida
+
+Es la diferencia entre la rentabilidad de la cartera y la del benchmark:
+
+$$
+\text{Rentabilidad añadida} = R_p - R_b
+$$
+
+------------------------------------------------------------------------
+
+#### 2. Efecto asset allocation
+
+Mide cuánto ha contribuido la **distribución entre clases de activos** a esa rentabilidad:
+
+$$
+\text{Efecto asset allocation} = \sum_i (w_{p,i} - w_{b,i}) \cdot R_{b,i}
+$$
+
+-   $w_{p,i}$ y $w_{b,i}$: ponderación del activo $i$ en la cartera y el benchmark.\
+-   $R_{b,i}$: rentabilidad del activo $i$ en el benchmark.
+
+------------------------------------------------------------------------
+
+#### 3. Efecto selección (security selection)
+
+Mide cuánto ha contribuido la **selección de activos dentro de cada clase**:
+
+$$
+\text{Efecto selección} = \sum_i w_{p,i} \cdot (R_{p,i} - R_{b,i})
+$$
+
+-   $R_{p,i}$: rentabilidad del activo $i$ en la cartera.\
+-   $R_{b,i}$: rentabilidad del mismo activo en el benchmark.
+
+------------------------------------------------------------------------
+
+::: callout-note
+## **Interpretación:**
+
+-   Si el **efecto de asignación** es positivo, el gestor acertó en el reparto entre clases de activos.
+-   Si el **efecto de selección** es positivo, el gestor eligió activos con mejor comportamiento que los del índice.
+-   Una **rentabilidad añadida positiva** requiere que al menos uno de estos efectos haya sido favorable.
+:::
+
+
+### Ejemplo práctico de atribución de resultados
+
+A continuación se presenta un ejemplo con tres clases de activos (renta fija, renta variable y liquidez), comparando una cartera con su benchmark en términos de:
+
+- **Ponderaciones por clase de activo**  
+- **Rentabilidad obtenida por clase**  
+- **Cálculo de rentabilidad total y descomposición en efectos**
+
+---
+
+#### Tabla 1: Datos por clase
+
+| Clase de activo | Ponderación cartera | Ponderación benchmark | Rentabilidad cartera | Rentabilidad benchmark |
+|-----------------|---------------------|------------------------|----------------------|-------------------------|
+| Renta fija       | 40 %                | 30 %                   | 3,00 %               | 2,50 %                  |
+| Renta variable   | 50 %                | 60 %                   | 10,00 %              | 8,00 %                  |
+| Liquidez         | 10 %                | 10 %                   | 1,00 %               | 1,00 %                  |
+
+---
+
+#### Desarrollo de los cálculos
+
+A partir de los datos de la **Tabla 1**, se calculan los siguientes componentes:
+
+---
+
+#### 1. Rentabilidad total de la cartera
+
+Se obtiene como suma ponderada de las rentabilidades por clase:
+
+$$
+R_p = 0{,}40 \cdot 0{,}030 + 0{,}50 \cdot 0{,}100 + 0{,}10 \cdot 0{,}010 = 0{,}012 + 0{,}050 + 0{,}001 = 0{,}063 \Rightarrow 6{,}30\,\%
+$$
+
+---
+
+#### 2. Rentabilidad total del benchmark
+
+Se calcula del mismo modo para el índice:
+
+$$
+R_b = 0{,}30 \cdot 0{,}025 + 0{,}60 \cdot 0{,}080 + 0{,}10 \cdot 0{,}010 = 0{,}0075 + 0{,}048 + 0{,}001 = 0{,}0565 \Rightarrow 5{,}65\,\%
+$$
+
+---
+
+#### 3. Rentabilidad añadida
+
+Es la diferencia directa entre ambas rentabilidades:
+
+$$
+\text{Rentabilidad añadida} = R_p - R_b = 6{,}30\,\% - 5{,}65\,\% = \mathbf{0{,}65\,\%}
+$$
+
+---
+
+#### 4. Efecto asset allocation
+
+Evalúa cómo ha influido la distribución de pesos frente al benchmark:
+
+$$
+\text{AA} = \sum_i (w_{p,i} - w_{b,i}) \cdot R_{b,i}
+$$
+
+Por clases:
+
+- Renta fija: $(0{,}40 - 0{,}30) \cdot 0{,}025 = 0{,}01 \cdot 0{,}025 = 0{,}0025$  
+- Renta variable: $(0{,}50 - 0{,}60) \cdot 0{,}080 = -0{,}10 \cdot 0{,}080 = -0{,}008$  
+- Liquidez: $(0{,}10 - 0{,}10) \cdot 0{,}010 = 0$
+
+$$
+\text{Efecto AA total} = 0{,}0025 - 0{,}008 = \mathbf{-0{,}0055} \Rightarrow -0{,}55\,\%
+$$
+
+---
+
+#### 5. Efecto selección
+
+Mide el valor añadido por elegir activos con mejor rendimiento:
+
+$$
+\text{Selección} = \sum_i w_{p,i} \cdot (R_{p,i} - R_{b,i})
+$$
+
+Por clases:
+
+- Renta fija: $0{,}40 \cdot (0{,}030 - 0{,}025) = 0{,}002$  
+- Renta variable: $0{,}50 \cdot (0{,}100 - 0{,}080) = 0{,}010$  
+- Liquidez: $0{,}10 \cdot (0{,}010 - 0{,}010) = 0$
+
+$$
+\text{Efecto selección total} = 0{,}002 + 0{,}010 = \mathbf{0{,}012} \Rightarrow 1{,}20\,\%
+$$
+
+---
+
+#### Comprobación
+
+$$
+\text{Rentabilidad añadida} = \text{AA} + \text{Selección} = -0{,}55\,\% + 1{,}20\,\% = \mathbf{0{,}65\,\%}
+$$
+
+![](images/clipboard-1962209718.png)
+
+---
+
+#### Tabla 2: Resultados agregados
+
+| Indicador               | Valor    |
+|-------------------------|----------|
+| Rentabilidad cartera    | 6,30 %   |
+| Rentabilidad benchmark  | 5,65 %   |
+| Rentabilidad añadida    | 0,65 %   |
+| Efecto asset allocation | −0,55 %  |
+| Efecto selección        | +1,20 %  |
+
+---
+
+::: {.callout-note}
+## **Interpretación**
+
+- La **rentabilidad total añadida** frente al benchmark es del **0,65 %**.
+- El **efecto selección** es positivo: el gestor ha escogido activos más rentables dentro de cada clase.
+- El **efecto asset allocation** es negativo: la distribución entre clases fue menos eficiente que la del índice.
+
+Este análisis permite atribuir el resultado final a decisiones de selección o asignación de activos.
+:::
+
+
