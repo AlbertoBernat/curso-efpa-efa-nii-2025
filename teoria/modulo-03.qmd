@@ -1106,7 +1106,7 @@ Este ejemplo demuestra que incluso con una misma estrategia de gestión, el **co
 #### Tabla comparativa:
 
 | Concepto | Rentabilidad | Interpretación |
-|------------------|------------------|------------------------------------|
+|------------------|------------------|-----------------------------------|
 | TGR (gestor) | 7,00 % | Rentabilidad generada por la gestión profesional |
 | TIR (inversor A) | 9,00 % | El inversor aportó capital en momentos favorables |
 | TIR (inversor B) | 5,00 % | El inversor entró o salió en momentos desfavorables |
@@ -1398,32 +1398,31 @@ $$
 -   Una **rentabilidad añadida positiva** requiere que al menos uno de estos efectos haya sido favorable.
 :::
 
-
 ### Ejemplo práctico de atribución de resultados
 
 A continuación se presenta un ejemplo con tres clases de activos (renta fija, renta variable y liquidez), comparando una cartera con su benchmark en términos de:
 
-- **Ponderaciones por clase de activo**  
-- **Rentabilidad obtenida por clase**  
-- **Cálculo de rentabilidad total y descomposición en efectos**
+-   **Ponderaciones por clase de activo**\
+-   **Rentabilidad obtenida por clase**\
+-   **Cálculo de rentabilidad total y descomposición en efectos**
 
----
+------------------------------------------------------------------------
 
 #### Tabla 1: Datos por clase
 
 | Clase de activo | Ponderación cartera | Ponderación benchmark | Rentabilidad cartera | Rentabilidad benchmark |
-|-----------------|---------------------|------------------------|----------------------|-------------------------|
-| Renta fija       | 40 %                | 30 %                   | 3,00 %               | 2,50 %                  |
-| Renta variable   | 50 %                | 60 %                   | 10,00 %              | 8,00 %                  |
-| Liquidez         | 10 %                | 10 %                   | 1,00 %               | 1,00 %                  |
+|---------------|---------------|---------------|---------------|---------------|
+| Renta fija | 40 % | 30 % | 3,00 % | 2,50 % |
+| Renta variable | 50 % | 60 % | 10,00 % | 8,00 % |
+| Liquidez | 10 % | 10 % | 1,00 % | 1,00 % |
 
----
+------------------------------------------------------------------------
 
 #### Desarrollo de los cálculos
 
 A partir de los datos de la **Tabla 1**, se calculan los siguientes componentes:
 
----
+------------------------------------------------------------------------
 
 #### 1. Rentabilidad total de la cartera
 
@@ -1433,7 +1432,7 @@ $$
 R_p = 0{,}40 \cdot 0{,}030 + 0{,}50 \cdot 0{,}100 + 0{,}10 \cdot 0{,}010 = 0{,}012 + 0{,}050 + 0{,}001 = 0{,}063 \Rightarrow 6{,}30\,\%
 $$
 
----
+------------------------------------------------------------------------
 
 #### 2. Rentabilidad total del benchmark
 
@@ -1443,7 +1442,7 @@ $$
 R_b = 0{,}30 \cdot 0{,}025 + 0{,}60 \cdot 0{,}080 + 0{,}10 \cdot 0{,}010 = 0{,}0075 + 0{,}048 + 0{,}001 = 0{,}0565 \Rightarrow 5{,}65\,\%
 $$
 
----
+------------------------------------------------------------------------
 
 #### 3. Rentabilidad añadida
 
@@ -1453,7 +1452,7 @@ $$
 \text{Rentabilidad añadida} = R_p - R_b = 6{,}30\,\% - 5{,}65\,\% = \mathbf{0{,}65\,\%}
 $$
 
----
+------------------------------------------------------------------------
 
 #### 4. Efecto asset allocation
 
@@ -1465,15 +1464,15 @@ $$
 
 Por clases:
 
-- Renta fija: $(0{,}40 - 0{,}30) \cdot 0{,}025 = 0{,}01 \cdot 0{,}025 = 0{,}0025$  
-- Renta variable: $(0{,}50 - 0{,}60) \cdot 0{,}080 = -0{,}10 \cdot 0{,}080 = -0{,}008$  
-- Liquidez: $(0{,}10 - 0{,}10) \cdot 0{,}010 = 0$
+-   Renta fija: $(0{,}40 - 0{,}30) \cdot 0{,}025 = 0{,}01 \cdot 0{,}025 = 0{,}0025$\
+-   Renta variable: $(0{,}50 - 0{,}60) \cdot 0{,}080 = -0{,}10 \cdot 0{,}080 = -0{,}008$\
+-   Liquidez: $(0{,}10 - 0{,}10) \cdot 0{,}010 = 0$
 
 $$
 \text{Efecto AA total} = 0{,}0025 - 0{,}008 = \mathbf{-0{,}0055} \Rightarrow -0{,}55\,\%
 $$
 
----
+------------------------------------------------------------------------
 
 #### 5. Efecto selección
 
@@ -1485,15 +1484,15 @@ $$
 
 Por clases:
 
-- Renta fija: $0{,}40 \cdot (0{,}030 - 0{,}025) = 0{,}002$  
-- Renta variable: $0{,}50 \cdot (0{,}100 - 0{,}080) = 0{,}010$  
-- Liquidez: $0{,}10 \cdot (0{,}010 - 0{,}010) = 0$
+-   Renta fija: $0{,}40 \cdot (0{,}030 - 0{,}025) = 0{,}002$\
+-   Renta variable: $0{,}50 \cdot (0{,}100 - 0{,}080) = 0{,}010$\
+-   Liquidez: $0{,}10 \cdot (0{,}010 - 0{,}010) = 0$
 
 $$
 \text{Efecto selección total} = 0{,}002 + 0{,}010 = \mathbf{0{,}012} \Rightarrow 1{,}20\,\%
 $$
 
----
+------------------------------------------------------------------------
 
 #### Comprobación
 
@@ -1503,28 +1502,107 @@ $$
 
 ![](images/clipboard-1962209718.png)
 
----
+------------------------------------------------------------------------
 
 #### Tabla 2: Resultados agregados
 
-| Indicador               | Valor    |
-|-------------------------|----------|
-| Rentabilidad cartera    | 6,30 %   |
-| Rentabilidad benchmark  | 5,65 %   |
-| Rentabilidad añadida    | 0,65 %   |
-| Efecto asset allocation | −0,55 %  |
-| Efecto selección        | +1,20 %  |
+| Indicador               | Valor   |
+|-------------------------|---------|
+| Rentabilidad cartera    | 6,30 %  |
+| Rentabilidad benchmark  | 5,65 %  |
+| Rentabilidad añadida    | 0,65 %  |
+| Efecto asset allocation | −0,55 % |
+| Efecto selección        | +1,20 % |
 
----
+------------------------------------------------------------------------
 
-::: {.callout-note}
+::: callout-note
 ## **Interpretación**
 
-- La **rentabilidad total añadida** frente al benchmark es del **0,65 %**.
-- El **efecto selección** es positivo: el gestor ha escogido activos más rentables dentro de cada clase.
-- El **efecto asset allocation** es negativo: la distribución entre clases fue menos eficiente que la del índice.
+-   La **rentabilidad total añadida** frente al benchmark es del **0,65 %**.
+-   El **efecto selección** es positivo: el gestor ha escogido activos más rentables dentro de cada clase.
+-   El **efecto asset allocation** es negativo: la distribución entre clases fue menos eficiente que la del índice.
 
 Este análisis permite atribuir el resultado final a decisiones de selección o asignación de activos.
 :::
 
 
+
+
+## Tema 6: Información del rendimiento a los clientes
+
+### Atribución de resultados a corto y largo plazo
+
+Una forma habitual de evaluar el comportamiento de una cartera frente a sus comparables es **situarla dentro de un ranking**, usando medidas como **cuartiles** y **percentiles**. Estas métricas permiten presentar los resultados de forma comprensible y relativa para el cliente.
+
+Se aplican tanto a:
+
+- **Rentabilidades simples** (a 1, 3, 5 años...)
+- Como a medidas de riesgo: **volatilidad**, **beta** o **coeficiente $R^2$**
+
+#### ¿Qué indican estas medidas?
+
+| Medida         | Significado                                                |
+|----------------|------------------------------------------------------------|
+| Cuartil 1 (Q1) | El fondo está entre el 25 % con mejores resultados         |
+| Cuartil 4 (Q4) | El fondo está entre el 25 % con peores resultados          |
+| Percentil 10   | El fondo supera al 90 % de su universo comparable          |
+
+Estas clasificaciones son especialmente útiles para evaluar la **consistencia del rendimiento** en el tiempo.
+
+#### Representación gráfica
+
+![](images/clipboard-800546292.png)
+
+::: {.callout-note}
+**Interpretación:**
+- El fondo se sitúa en el **cuartil 1 y percentil 15** → rendimiento superior al 85 % de sus comparables.
+- Esto puede reforzar la percepción de **gestión eficaz y competitiva**, especialmente si se mantiene en el tiempo y en varias métricas (Sharpe, alfa, etc.).
+:::
+
+---
+
+### Normas internacionales de presentación de resultados: GIPS
+
+Las **GIPS (Global Investment Performance Standards)** son un conjunto de normas internacionales desarrolladas por el **CFA Institute**. Su objetivo es garantizar que la **presentación del rendimiento histórico de carteras gestionadas** sea:
+
+- Clara
+- Transparente
+- Homogénea
+- Comparable a nivel global
+
+#### ¿Qué entidades aplican GIPS?
+
+- Gestoras de fondos de inversión
+- Sociedades de gestión discrecional de carteras
+- Firmas de banca privada
+- Cualquier entidad que quiera presentar resultados consolidados a clientes o terceros
+
+---
+
+### Contenidos esenciales GIPS
+
+| Concepto                         | Requisito según GIPS                                               |
+|----------------------------------|---------------------------------------------------------------------|
+| **Primera publicación**          | Debe incluir al menos **5 años de datos** completos (o desde inicio si <5 años) |
+| **Ampliación posterior**         | Se deben ir añadiendo **1 año más por ejercicio** hasta alcanzar **10 años mínimos** |
+| **Universo de carteras**         | Deben incluirse **todas las carteras gestionadas con objetivos similares** |
+| **Criterios de inclusión**       | Por **estrategia de inversión**, no por resultados                  |
+| **Benchmark de referencia**      | Obligatorio. Debe ser **adecuado, objetivo y coherente** con la política de inversión |
+| **Comisiones y gastos**          | La rentabilidad debe reflejar **todos los costes reales incurridos** (neto de comisiones) |
+| **Moneda y horizonte temporal**  | Todas las carteras deben presentarse en **la misma moneda y periodo** |
+| **Frecuencia mínima de informe** | Al menos **anual**                                                  |
+| **Verificación externa**         | **Opcional**, pero altamente recomendable para aportar credibilidad |
+
+---
+::: {.callout-note}
+ 
+Aunque las normas GIPS son de **adhesión voluntaria**, una entidad que se declare conforme debe aplicarlas **íntegramente y sin excepciones** a todas las carteras gestionadas bajo la misma estrategia.  
+La verificación externa no es obligatoria, pero **refuerza la transparencia y credibilidad ante clientes institucionales**.
+:::
+
+::: {.callout-tip}
+## **Pregunta típica de examen:**  
+Una firma que comienza a reportar conforme a las normas GIPS debe presentar **al menos 5 años de historial de rendimiento** (o todos los disponibles si tiene menos antigüedad).  
+Posteriormente, debe **añadir un año adicional por ejercicio** hasta completar **10 años como mínimo**.
+:::
